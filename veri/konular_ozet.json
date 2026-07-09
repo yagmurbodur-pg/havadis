@@ -1,6 +1,33 @@
 {
  "konular": [
   {
+   "ad": "genel",
+   "slug": "genel",
+   "adet": 4,
+   "son": [
+    {
+     "id": "e799563c",
+     "baslik": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+     "tarih": "2026-07-10"
+    },
+    {
+     "id": "c829f7bd",
+     "baslik": "Your Prompts and Skills need a system of record.",
+     "tarih": "2026-07-10"
+    },
+    {
+     "id": "5941cef1",
+     "baslik": "ChatGPT is now a partner for your most ambitious work",
+     "tarih": "2026-07-10"
+    },
+    {
+     "id": "8fd74bd3",
+     "baslik": "GPT-5.5 Bio Bug Bounty",
+     "tarih": "2026-07-10"
+    }
+   ]
+  },
+  {
    "ad": "OpenAI",
    "slug": "openai",
    "adet": 3,
