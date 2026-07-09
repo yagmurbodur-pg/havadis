@@ -1,0 +1,19 @@
+# Havadis ilgi profili — editoryal seçimde bonus/malus olarak kullanılır.
+# Serbestçe düzenle; ertesi sabahki sayıdan itibaren etkili olur.
+
+cok_ilgili:   # önem puanına bonus
+  - ajanlar / agentic AI (kendi başına iş yapan YZ sistemleri)
+  - kurumsal YZ dönüşümü, şirketlerde YZ'nin gerçek kullanımı
+  - büyük model sürümleri (GPT, Claude, Gemini, Llama, açık kaynak modeller)
+  - Türkçe modeller ve Türkiye YZ ekosistemi
+  - YZ ile yazılım geliştirme (kod asistanları, geliştirici araçları)
+
+ilgili:
+  - YZ güvenliği ve regülasyonun pratik etkileri
+  - ödeme sistemleri / fintech alanında YZ
+  - donanım (çipler, veri merkezleri) — büyük gelişmeler
+
+az_ilgili:    # önem puanına malus
+  - ünlü/magazin boyutlu YZ tartışmaları
+  - hisse ve kripto fiyat spekülasyonları
+  - şirket içi dedikodu ve kişisel polemikler

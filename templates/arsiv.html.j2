@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Havadis — Arşiv</title>
+</head>
+<body>
+<header><h1>HAVADİS</h1><p>Arşiv — geçmiş sayılar</p></header>
+<ul>
+{% for s in sayilar %}
+  <li><a href="{{ s }}.html">{{ s }}</a></li>
+{% endfor %}
+</ul>
+<p><a href="{{ kok }}/index.html">← Bugünkü sayı</a></p>
+</body>
+</html>

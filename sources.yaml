@@ -1,0 +1,142 @@
+# Havadis kaynak listesi — uçlar 9 Temmuz 2026'da canlı doğrulandı.
+# tip: rss | hf_api | hn_api
+# bolum: gundem | arastirma | turkiye | arac_cantasi   (ipucu; kesin karar editörün)
+# oncelik: 3=kurumsal birincil kaynak, 2=medya, 1=topluluk/küratör (küme birincili seçiminde)
+# bayat_gun: bu kadar gün yeni öğe gelmezse kaynak "bayat" işaretlenir (footer sayacına düşer)
+
+pencere_saat: 36
+
+kaynaklar:
+  - ad: OpenAI
+    url: https://openai.com/news/rss.xml
+    tip: rss
+    bolum: gundem
+    oncelik: 3
+    bayat_gun: 14
+
+  - ad: Anthropic
+    url: https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml
+    tip: rss
+    bolum: gundem
+    oncelik: 3
+    bayat_gun: 14
+    # Resmi feed yok; topluluk feed'i (Olshansk/rss-feeds). Yedek: anthropic.com/news scrape.
+
+  - ad: Google AI
+    url: https://blog.google/technology/ai/rss/
+    tip: rss
+    bolum: gundem
+    oncelik: 3
+    bayat_gun: 14
+
+  - ad: Google DeepMind
+    url: https://deepmind.google/blog/rss.xml
+    tip: rss
+    bolum: gundem
+    oncelik: 3
+    bayat_gun: 21
+
+  - ad: Meta AI
+    url: https://engineering.fb.com/category/ai-research/feed/
+    tip: rss
+    bolum: gundem
+    oncelik: 3
+    bayat_gun: 30
+    # ai.meta.com/blog/rss/ öldü (HTTP 400); engineering feed'i düşük frekanslı.
+
+  - ad: Mistral
+    url: https://mistral.ai/rss.xml
+    tip: rss
+    bolum: gundem
+    oncelik: 3
+    bayat_gun: 21
+
+  - ad: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    tip: rss
+    bolum: gundem
+    oncelik: 2
+    bayat_gun: 3
+
+  - ad: The Verge AI
+    url: https://www.theverge.com/rss/ai-artificial-intelligence/index.xml
+    tip: rss
+    bolum: gundem
+    oncelik: 2
+    bayat_gun: 3
+
+  - ad: Ars Technica AI
+    url: https://arstechnica.com/ai/feed/
+    tip: rss
+    bolum: gundem
+    oncelik: 2
+    bayat_gun: 4
+
+  - ad: MIT Tech Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    tip: rss
+    bolum: gundem
+    oncelik: 2
+    bayat_gun: 7
+
+  - ad: Hacker News
+    tip: hn_api
+    bolum: gundem
+    oncelik: 1
+    min_puan: 80
+    sorgular: [AI, LLM, OpenAI, Anthropic, Claude, GPT, Gemini, "open model"]
+
+  - ad: HF Daily Papers
+    url: https://huggingface.co/api/daily_papers?limit=30
+    tip: hf_api
+    bolum: arastirma
+    oncelik: 2
+    bayat_gun: 4
+
+  - ad: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    tip: rss
+    bolum: arac_cantasi
+    oncelik: 1
+    bayat_gun: 5
+
+  - ad: Ben's Bites
+    url: https://www.bensbites.com/feed
+    tip: rss
+    bolum: arac_cantasi
+    oncelik: 1
+    bayat_gun: 5
+
+  - ad: Webrazzi YZ
+    url: https://webrazzi.com/kategori/yapay-zeka/feed/
+    tip: rss
+    bolum: turkiye
+    oncelik: 2
+    bayat_gun: 7
+
+  - ad: ShiftDelete YZ
+    url: https://shiftdelete.net/yapay-zeka/feed
+    tip: rss
+    bolum: turkiye
+    oncelik: 2
+    bayat_gun: 3
+
+  - ad: eGirişim
+    url: https://egirisim.com/feed/
+    tip: rss
+    bolum: turkiye
+    oncelik: 2
+    bayat_gun: 7
+    anahtar_filtre: ["yapay zek", "ai", "gpt", "llm", "robotik", "openai", "anthropic"]
+
+# Başlıkta/özette geçerse aday elenir (küçük harfle karşılaştırılır)
+karaliste:
+  - webinar
+  - sponsorlu
+  - sponsored
+  - indirim
+  - discount
+  - giveaway
+  - black friday
+  - iş ilanı
+  - hiring

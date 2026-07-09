@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+candidates.json
+issue.json
+.pytest_cache/

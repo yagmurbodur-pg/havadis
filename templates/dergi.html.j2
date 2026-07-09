@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Havadis — Sayı {{ sayi_no }} · {{ tarih }}</title>
+<link rel="manifest" href="{{ kok }}/manifest.webmanifest">
+</head>
+<body>
+<header>
+  <h1>HAVADİS</h1>
+  <p>Yapay zekâdan taze havadisler</p>
+  <p>Sayı {{ sayi_no }} — {{ tarih }} — ☕ {{ okuma }} dk okuma</p>
+</header>
+
+{% if sayi.mini %}<p><strong>⚠ Mini sayı:</strong> bu sabah tam editoryal üretim yapılamadı.</p>{% endif %}
+
+{% set k = aday.get(sayi.kapak.id) %}
+<article class="kapak">
+  <p class="kicker">{{ sayi.kapak.kicker }}</p>
+  <h2>{{ sayi.kapak.baslik }}</h2>
+  <p>{{ sayi.kapak.ozet }}</p>
+  <p><em>Neden önemli? {{ sayi.kapak.neden_onemli }}</em></p>
+  {% if k %}<p><a href="{{ k.url }}">↗ {{ k.kaynak }}</a>
+    {% for e in k.ek_kaynaklar %} · <a href="{{ e.url }}">{{ e.kaynak }}</a>{% endfor %}</p>{% endif %}
+</article>
+
+{% for b in sayi.bolumler %}
+<section>
+  <h3>{{ b.ad }}</h3>
+  {% for h in b.haberler %}{% set a = aday.get(h.id) %}
+  <article>
+    <h4>{{ h.baslik }}</h4>
+    <p>{{ h.ozet }}</p>
+    <p><em>Neden önemli? {{ h.neden_onemli }}</em></p>
+    {% if a %}<p><a href="{{ a.url }}">↗ {{ a.kaynak }}</a>
+      {% for e in a.ek_kaynaklar %} · <a href="{{ e.url }}">{{ e.kaynak }}</a>{% endfor %}</p>{% endif %}
+  </article>
+  {% endfor %}
+</section>
+{% endfor %}
+
+<section>
+  <h3>Radar</h3>
+  <ul>
+  {% for r in sayi.radar %}{% set a = aday.get(r.id) %}
+    <li>{{ r.cumle }}{% if a %} <a href="{{ a.url }}">↗</a>{% endif %}</li>
+  {% endfor %}
+  </ul>
+</section>
+
+{% if sayi.editor_notu %}<p class="editor-notu">{{ sayi.editor_notu }}</p>{% endif %}
+
+<footer>
+  <p>Bugün {{ meta.kaynak_ok }}/{{ meta.kaynak_toplam }} kaynak tarandı.
+     <a href="{{ kok }}/arsiv/index.html">Arşiv</a></p>
+</footer>
+</body>
+</html>
