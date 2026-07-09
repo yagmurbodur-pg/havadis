@@ -3,15 +3,36 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var t=localStorage.getItem("havadis-tema");if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
 <title>Havadis — Arşiv</title>
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F1E5">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#16120C">
+<link rel="stylesheet" href="{{ kok }}/varliklar/fontlar/fontlar.css">
+<link rel="stylesheet" href="{{ kok }}/varliklar/stil.css">
+<link rel="icon" type="image/svg+xml" href="{{ kok }}/ikon.svg">
 </head>
 <body>
-<header><h1>HAVADİS</h1><p>Arşiv — geçmiş sayılar</p></header>
-<ul>
-{% for s in sayilar %}
-  <li><a href="{{ s }}.html">{{ s }}</a></li>
-{% endfor %}
-</ul>
-<p><a href="{{ kok }}/index.html">← Bugünkü sayı</a></p>
+
+<header class="masthead">
+  <h1><a href="{{ kok }}/index.html">HAVADİS</a></h1>
+  <p class="slogan">Yapay zekâdan taze havadisler</p>
+</header>
+
+<main>
+  <h2 class="liste-baslik">Arşiv</h2>
+  <p class="alt-aciklama">Geçmiş sayılar — en yenisi üstte.</p>
+  <ul class="sayi-listesi">
+  {% for s in sayilar %}
+    <li><a href="{{ s.iso }}.html"><span>{{ s.etiket }}</span><span class="no">Sayı {{ s.no }}</span></a></li>
+  {% endfor %}
+  </ul>
+</main>
+
+<footer class="kuyruk">
+  <div class="buyuk-baglar">
+    <a href="{{ kok }}/index.html">Bugünkü sayı</a>
+    <a href="{{ kok }}/kulliyat/index.html">Külliyat'ta ara</a>
+  </div>
+</footer>
 </body>
 </html>

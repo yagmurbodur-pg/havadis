@@ -33,6 +33,7 @@ def mini_sayi(havuz):
             "ozet": _kisalt(a.get("ozet") or a.get("baslik") or "", 55)
             or "Ayrıntı için kaynağa göz at.",
             "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+            "konular": ["genel"],
         }
 
     kapak = adaylar[0]

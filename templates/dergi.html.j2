@@ -3,57 +3,110 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var t=localStorage.getItem("havadis-tema");if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
 <title>Havadis — Sayı {{ sayi_no }} · {{ tarih }}</title>
+<meta name="description" content="Yapay zekâdan taze havadisler — {{ tarih }} sayısı.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F1E5">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#16120C">
+<link rel="stylesheet" href="{{ kok }}/varliklar/fontlar/fontlar.css">
+<link rel="stylesheet" href="{{ kok }}/varliklar/stil.css">
 <link rel="manifest" href="{{ kok }}/manifest.webmanifest">
+<link rel="icon" type="image/svg+xml" href="{{ kok }}/ikon.svg">
+<link rel="apple-touch-icon" href="{{ kok }}/apple-touch-icon.png">
 </head>
 <body>
-<header>
-  <h1>HAVADİS</h1>
-  <p>Yapay zekâdan taze havadisler</p>
-  <p>Sayı {{ sayi_no }} — {{ tarih }} — ☕ {{ okuma }} dk okuma</p>
+
+<header class="masthead">
+  <button class="tema-dugme" type="button" aria-label="Açık/koyu tema değiştir">☾</button>
+  <h1><a href="{{ kok }}/index.html">HAVADİS</a></h1>
+  <p class="slogan">Yapay zekâdan taze havadisler</p>
+  <div class="tarih-satiri">
+    <strong>Sayı {{ sayi_no }}</strong> <span>·</span> <span>{{ tarih }}</span> <span>·</span> <span>☕ {{ okuma }} dk'lık okuma</span>
+  </div>
+  <div class="damga-hiza">
+    <span class="damga">Sabah Baskısı<small>{{ saat }} · YZ dizgisi</small></span>
+  </div>
 </header>
 
-{% if sayi.mini %}<p><strong>⚠ Mini sayı:</strong> bu sabah tam editoryal üretim yapılamadı.</p>{% endif %}
+<main>
+{% if sayi.mini %}
+<p class="mini-uyari">Mini sayı: bu sabah tam editoryal üretim yapılamadı; başlıklar kaynaklarından aynen aktarıldı.</p>
+{% endif %}
 
 {% set k = aday.get(sayi.kapak.id) %}
 <article class="kapak">
   <p class="kicker">{{ sayi.kapak.kicker }}</p>
   <h2>{{ sayi.kapak.baslik }}</h2>
-  <p>{{ sayi.kapak.ozet }}</p>
-  <p><em>Neden önemli? {{ sayi.kapak.neden_onemli }}</em></p>
-  {% if k %}<p><a href="{{ k.url }}">↗ {{ k.kaynak }}</a>
-    {% for e in k.ek_kaynaklar %} · <a href="{{ e.url }}">{{ e.kaynak }}</a>{% endfor %}</p>{% endif %}
+  <p class="ozet">{{ sayi.kapak.ozet }}</p>
+  <p class="neden">Neden önemli? {{ sayi.kapak.neden_onemli }}</p>
+  <div class="kunye">
+    {% if k %}<a class="kaynak-link" href="{{ k.url }}" rel="noopener">{{ k.kaynak }} ↗</a>
+    {% for e in k.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
+    {% for konu in sayi.kapak.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
+  </div>
 </article>
 
 {% for b in sayi.bolumler %}
 <section>
-  <h3>{{ b.ad }}</h3>
+  <h3 class="bolum-baslik">{{ b.ad }}</h3>
   {% for h in b.haberler %}{% set a = aday.get(h.id) %}
-  <article>
+  <article class="haber">
     <h4>{{ h.baslik }}</h4>
     <p>{{ h.ozet }}</p>
-    <p><em>Neden önemli? {{ h.neden_onemli }}</em></p>
-    {% if a %}<p><a href="{{ a.url }}">↗ {{ a.kaynak }}</a>
-      {% for e in a.ek_kaynaklar %} · <a href="{{ e.url }}">{{ e.kaynak }}</a>{% endfor %}</p>{% endif %}
+    <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
+    <div class="kunye">
+      {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
+      {% for e in a.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
+      {% for konu in h.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
+    </div>
   </article>
   {% endfor %}
 </section>
 {% endfor %}
 
 <section>
-  <h3>Radar</h3>
-  <ul>
+  <h3 class="bolum-baslik">Radar</h3>
+  <ul class="radar">
   {% for r in sayi.radar %}{% set a = aday.get(r.id) %}
-    <li>{{ r.cumle }}{% if a %} <a href="{{ a.url }}">↗</a>{% endif %}</li>
+    <li>{{ r.cumle }}{% if a %} <a href="{{ a.url }}" rel="noopener" aria-label="Kaynağa git">↗</a>{% endif %}</li>
   {% endfor %}
   </ul>
 </section>
 
 {% if sayi.editor_notu %}<p class="editor-notu">{{ sayi.editor_notu }}</p>{% endif %}
+</main>
 
-<footer>
-  <p>Bugün {{ meta.kaynak_ok }}/{{ meta.kaynak_toplam }} kaynak tarandı.
-     <a href="{{ kok }}/arsiv/index.html">Arşiv</a></p>
+<footer class="kuyruk">
+  <div class="buyuk-baglar">
+    <a href="{{ kok }}/kulliyat/index.html">Külliyat'ta ara</a>
+    <a href="{{ kok }}/arsiv/index.html">Arşiv</a>
+    {% if onceki %}<a href="{{ kok }}/arsiv/{{ onceki.iso }}.html">← Önceki sayı</a>{% endif %}
+  </div>
+  <p>Bugün {{ meta.kaynak_ok }}/{{ meta.kaynak_toplam }} kaynak tarandı.</p>
+  <p class="kucuk">Havadis her sabah yapay zekâ tarafından dizilir. Önemli bir havadisi paylaşmadan önce kaynağından teyit edin.</p>
 </footer>
+
+<script>
+(function () {
+  var d = document.querySelector(".tema-dugme");
+  function simge() {
+    var koyu = document.documentElement.dataset.tema === "koyu" ||
+      (!document.documentElement.dataset.tema && matchMedia("(prefers-color-scheme: dark)").matches);
+    d.textContent = koyu ? "☀" : "☾";
+  }
+  d.addEventListener("click", function () {
+    var koyu = document.documentElement.dataset.tema === "koyu" ||
+      (!document.documentElement.dataset.tema && matchMedia("(prefers-color-scheme: dark)").matches);
+    var yeni = koyu ? "acik" : "koyu";
+    document.documentElement.dataset.tema = yeni;
+    try { localStorage.setItem("havadis-tema", yeni); } catch (e) {}
+    simge();
+  });
+  simge();
+  if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
+    navigator.serviceWorker.register("{{ kok }}/sw.js");
+  }
+})();
+</script>
 </body>
 </html>

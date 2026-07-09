@@ -22,6 +22,10 @@ LIMITLER = {
     "toplam_max": 14,
     "bolum_max": 7,
     "notu_kelime": 60,
+    "konu_min": 1,
+    "konu_max": 4,
+    "konu_karakter": 32,
+    "iliskili_max": 3,
 }
 
 
@@ -29,10 +33,15 @@ def _kelime(metin):
     return len(str(metin or "").split())
 
 
-def dogrula(sayi, havuz):
-    """Sayıyı havuza karşı doğrular; hata listesi döner (boş liste = geçerli)."""
+def dogrula(sayi, havuz, eski_idler=None):
+    """Sayıyı havuza karşı doğrular; hata listesi döner (boş liste = geçerli).
+
+    eski_idler: Külliyat'taki (veri/haberler.jsonl) geçmiş haber id'leri —
+    'iliskili' bağları yalnızca bu kümeye işaret edebilir.
+    """
     hatalar = []
     gecerli_idler = {a["id"] for a in havuz.get("adaylar", [])}
+    gecmis_idler = set(eski_idler or ())
     kullanilan_idler = set()
 
     def id_kontrol(cid, yer):
@@ -62,6 +71,34 @@ def dogrula(sayi, havuz):
             )
         if obj.get("id"):
             id_kontrol(obj["id"], yer)
+
+        konular = obj.get("konular")
+        if not isinstance(konular, list) or not (
+            LIMITLER["konu_min"] <= len(konular) <= LIMITLER["konu_max"]
+        ):
+            hatalar.append(
+                f"{yer}: 'konular' {LIMITLER['konu_min']}-{LIMITLER['konu_max']} "
+                "etiketlik liste olmalı (Külliyat endeksi için)."
+            )
+        else:
+            for konu in konular:
+                if not konu or len(str(konu)) > LIMITLER["konu_karakter"]:
+                    hatalar.append(
+                        f"{yer}: konu etiketi boş ya da çok uzun "
+                        f"(≤{LIMITLER['konu_karakter']} karakter)."
+                    )
+
+        iliskili = obj.get("iliskili") or []
+        if len(iliskili) > LIMITLER["iliskili_max"]:
+            hatalar.append(
+                f"{yer}: 'iliskili' en fazla {LIMITLER['iliskili_max']} bağ içerebilir."
+            )
+        for eski_id in iliskili:
+            if eski_id not in gecmis_idler:
+                hatalar.append(
+                    f"{yer}: iliskili '{eski_id}' Külliyat geçmişinde yok — "
+                    "yalnızca konular_ozet.json'da gördüğün id'ler kullanılabilir."
+                )
 
     # Kapak
     kapak = sayi.get("kapak")
@@ -138,7 +175,14 @@ def main():
         sys.exit(1)
     havuz = json.loads((kok / "candidates.json").read_text(encoding="utf-8"))
 
-    hatalar = dogrula(sayi, havuz)
+    eski_idler = set()
+    jsonl = kok / "veri" / "haberler.jsonl"
+    if jsonl.exists():
+        for satir in jsonl.read_text(encoding="utf-8").splitlines():
+            if satir.strip():
+                eski_idler.add(json.loads(satir)["id"])
+
+    hatalar = dogrula(sayi, havuz, eski_idler)
     if hatalar:
         print("issue.json GEÇERSİZ:")
         for h in hatalar:

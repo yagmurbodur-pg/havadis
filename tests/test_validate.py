@@ -33,6 +33,7 @@ def gecerli_sayi():
             "baslik": "Net ve kısa bir başlık",
             "ozet": "İki cümlelik kısa özet. Ne olduğu burada anlatılıyor.",
             "neden_onemli": "Okurun işine dokunan tek cümle.",
+            "konular": ["Modeller"],
         }
 
     return {
@@ -42,6 +43,7 @@ def gecerli_sayi():
             "baslik": "Günün en önemli haberi",
             "ozet": "Kapak özeti burada. Birkaç cümleden oluşuyor. Yeterince kısa.",
             "neden_onemli": "Çok kişiyi etkileyecek somut bir gelişme.",
+            "konular": ["OpenAI", "Modeller"],
         },
         "bolumler": [
             {"ad": "Gündem", "haberler": [haber(f"c{i}") for i in range(2, 7)]},
@@ -145,3 +147,43 @@ def test_uzun_editor_notu_reddedilir():
     s = gecerli_sayi()
     s["editor_notu"] = "kelime " * 61
     assert dogrula(s, havuz()) != []
+
+
+# ————— Külliyat alanları: konular + iliskili —————
+
+def test_konular_eksik_reddedilir():
+    s = gecerli_sayi()
+    del s["bolumler"][0]["haberler"][0]["konular"]
+    assert dogrula(s, havuz()) != []
+
+
+def test_konular_fazla_reddedilir():
+    s = gecerli_sayi()
+    s["kapak"]["konular"] = ["a", "b", "c", "d", "e"]
+    assert dogrula(s, havuz()) != []
+
+
+def test_konu_cok_uzunsa_reddedilir():
+    s = gecerli_sayi()
+    s["kapak"]["konular"] = ["ç" * 33]
+    assert dogrula(s, havuz()) != []
+
+
+def test_iliskili_gecmiste_yoksa_reddedilir():
+    s = gecerli_sayi()
+    s["bolumler"][0]["haberler"][0]["iliskili"] = ["eski1"]
+    hatalar = dogrula(s, havuz(), eski_idler=set())
+    assert any("eski1" in h for h in hatalar)
+
+
+def test_iliskili_gecmisteyse_gecer():
+    s = gecerli_sayi()
+    s["bolumler"][0]["haberler"][0]["iliskili"] = ["eski1"]
+    assert dogrula(s, havuz(), eski_idler={"eski1"}) == []
+
+
+def test_iliskili_fazlaysa_reddedilir():
+    s = gecerli_sayi()
+    s["bolumler"][0]["haberler"][0]["iliskili"] = ["e1", "e2", "e3", "e4"]
+    hatalar = dogrula(s, havuz(), eski_idler={"e1", "e2", "e3", "e4"})
+    assert hatalar != []

@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var t=localStorage.getItem("havadis-tema");if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
+<title>Külliyat — Havadis</title>
+<meta name="description" content="Havadis'in kümülatif yapay zekâ araştırma tabanı: tüm geçmiş haberler, konu dosyaları ve ilişkiler.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F1E5">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#16120C">
+<link rel="stylesheet" href="../varliklar/fontlar/fontlar.css">
+<link rel="stylesheet" href="../varliklar/stil.css">
+<link rel="icon" type="image/svg+xml" href="../ikon.svg">
+</head>
+<body>
+
+<header class="masthead">
+  <button class="tema-dugme" type="button" aria-label="Açık/koyu tema değiştir">☾</button>
+  <h1><a href="../index.html">HAVADİS</a></h1>
+  <p class="slogan">Külliyat — kümülatif araştırma tabanı</p>
+</header>
+
+<main>
+  <h2 class="liste-baslik">Külliyat</h2>
+  <p class="alt-aciklama" id="istatistik">Yükleniyor…</p>
+  <input class="arama-kutusu" id="arama" type="search"
+         placeholder="Ara: konu, model, şirket… (ör. ajanlar, açık kaynak)"
+         autocomplete="off" aria-label="Külliyat'ta ara">
+  <div class="cip-bulutu" id="konular" role="group" aria-label="Konu dosyaları"></div>
+  <div id="sonuclar" aria-live="polite"></div>
+</main>
+
+<footer class="kuyruk">
+  <div class="buyuk-baglar">
+    <a href="../index.html">Bugünkü sayı</a>
+    <a href="../arsiv/index.html">Arşiv</a>
+  </div>
+  <p class="kucuk">Külliyat, Havadis'in her sabah işlediği haberlerden kendiliğinden birikir; her kayıt kaynağına ve ilişkili geçmişine bağlıdır.</p>
+</footer>
+
+<script src="minisearch.min.js"></script>
+<script src="kulliyat.js"></script>
+</body>
+</html>

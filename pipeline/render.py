@@ -6,6 +6,8 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from pipeline.metin import slugla
+
 try:
     from zoneinfo import ZoneInfo
     IST = ZoneInfo("Europe/Istanbul")
@@ -61,13 +63,22 @@ def uret(sayi, havuz, site_dizini, simdi):
         loader=FileSystemLoader(str(KOK / "templates")),
         autoescape=select_autoescape(["html", "j2"]),
     )
+    env.filters["slugla"] = slugla
+
+    onceki_stemler = sorted(
+        p.stem for p in (site / "arsiv").glob("????-??-??.html") if p.stem < bugun
+    )
+    onceki = {"iso": onceki_stemler[-1]} if onceki_stemler else None
+
     baglam = {
         "sayi": sayi,
         "aday": adaylar,
         "sayi_no": no,
         "tarih": tr_tarih(yerel),
         "tarih_iso": bugun,
+        "saat": yerel.strftime("%H:%M"),
         "okuma": okuma_suresi(sayi),
+        "onceki": onceki,
         "meta": havuz.get("meta", {}),
     }
     dergi = env.get_template("dergi.html.j2")
@@ -77,9 +88,15 @@ def uret(sayi, havuz, site_dizini, simdi):
     )
 
     arsiv_tpl = env.get_template("arsiv.html.j2")
-    sayilar = sorted(
-        (p.stem for p in (site / "arsiv").glob("????-??-??.html")), reverse=True
-    )
+    kronolojik = sorted(p.stem for p in (site / "arsiv").glob("????-??-??.html"))
+    sayilar = [
+        {
+            "iso": stem,
+            "no": i + 1,
+            "etiket": tr_tarih(datetime.strptime(stem, "%Y-%m-%d")),
+        }
+        for i, stem in enumerate(kronolojik)
+    ][::-1]
     (site / "arsiv" / "index.html").write_text(
         arsiv_tpl.render(sayilar=sayilar, kok=".."), encoding="utf-8"
     )

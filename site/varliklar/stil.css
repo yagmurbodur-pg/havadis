@@ -1,0 +1,340 @@
+/* ————————————————————————————————————————————————
+   HAVADİS tasarım sistemi
+   Eski Babıali baskısı × şafakta çalışan YZ dizgicisi.
+   Display: Fraunces · Metin: Newsreader · Etiket: sistem grotesk
+   ———————————————————————————————————————————————— */
+
+:root {
+  --kagit: #F6F1E5;
+  --kagit-koyu: #ECE4D0;
+  --murekkep: #221B12;
+  --murekkep-soluk: #6D6353;
+  --damga: #A83226;
+  --cizgi: #D9CDB2;
+  --cizgi-koyu: #221B12;
+  --doku-opaklik: .035;
+}
+
+:root[data-tema="koyu"] {
+  --kagit: #16120C;
+  --kagit-koyu: #241D12;
+  --murekkep: #EAE0CA;
+  --murekkep-soluk: #A2957D;
+  --damga: #DB6E55;
+  --cizgi: #3B3322;
+  --cizgi-koyu: #EAE0CA;
+  --doku-opaklik: .05;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-tema="acik"]) {
+    --kagit: #16120C;
+    --kagit-koyu: #241D12;
+    --murekkep: #EAE0CA;
+    --murekkep-soluk: #A2957D;
+    --damga: #DB6E55;
+    --cizgi: #3B3322;
+    --cizgi-koyu: #EAE0CA;
+    --doku-opaklik: .05;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0 auto;
+  padding: 0 1.25rem 4.5rem;
+  max-width: 41rem;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font: 400 1.02rem/1.62 "Newsreader", Georgia, "Times New Roman", serif;
+  font-feature-settings: "onum" 1; /* eski usul rakamlar */
+}
+
+/* gazete kâğıdı dokusu */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: 2;
+  pointer-events: none;
+  opacity: var(--doku-opaklik);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+a { color: inherit; text-decoration-color: var(--cizgi); text-underline-offset: 3px; }
+a:hover { color: var(--damga); text-decoration-color: var(--damga); }
+:focus-visible { outline: 2px solid var(--damga); outline-offset: 3px; border-radius: 2px; }
+
+/* ————— masthead ————— */
+
+.masthead {
+  position: relative;
+  padding-top: 1.9rem;
+  margin-top: .9rem;
+  text-align: center;
+  border-top: 4px solid var(--cizgi-koyu);
+}
+.masthead::before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0; right: 0;
+  border-top: 1px solid var(--cizgi-koyu);
+}
+
+.masthead h1 {
+  margin: 0;
+  font: 900 clamp(2.7rem, 11vw, 4.1rem)/1 "Fraunces", Georgia, serif;
+  letter-spacing: .045em;
+}
+.masthead h1 a { text-decoration: none; color: inherit; }
+.masthead h1 a:hover { color: inherit; }
+
+.slogan {
+  margin: .35rem 0 1.05rem;
+  font-style: italic;
+  color: var(--murekkep-soluk);
+  font-size: .98rem;
+}
+
+.tarih-satiri {
+  display: flex;
+  justify-content: center;
+  gap: .65rem;
+  flex-wrap: wrap;
+  padding: .5rem 0;
+  border-top: 1px solid var(--cizgi);
+  border-bottom: 1px solid var(--cizgi);
+  font: 600 .72rem/1.5 system-ui, -apple-system, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--murekkep-soluk);
+}
+.tarih-satiri strong { color: var(--murekkep); font-weight: 700; }
+
+.tema-dugme {
+  position: absolute;
+  top: .55rem;
+  right: 0;
+  border: 0;
+  background: none;
+  color: var(--murekkep-soluk);
+  font-size: 1.05rem;
+  line-height: 1;
+  padding: .3rem .4rem;
+  cursor: pointer;
+}
+.tema-dugme:hover { color: var(--damga); }
+
+/* ————— sabah baskısı damgası ————— */
+
+.damga {
+  display: inline-block;
+  margin: 1.1rem 0 -.4rem;
+  padding: .42rem .7rem .5rem;
+  border: 2px solid var(--damga);
+  border-radius: 4px;
+  color: var(--damga);
+  font: 700 .6rem/1.5 system-ui, -apple-system, sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  transform: rotate(-5.5deg);
+  opacity: .88;
+  animation: basil .5s cubic-bezier(.2, 1.6, .4, 1) .25s backwards;
+}
+.damga small { display: block; font-weight: 600; letter-spacing: .1em; opacity: .8; }
+.damga-hiza { text-align: right; }
+
+@keyframes basil {
+  from { transform: rotate(-5.5deg) scale(1.7); opacity: 0; }
+  70%  { opacity: .95; }
+  to   { transform: rotate(-5.5deg) scale(1); opacity: .88; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .damga { animation: none; }
+}
+
+/* ————— kapak ————— */
+
+.kapak { margin-top: .4rem; padding-bottom: 1.8rem; border-bottom: 4px double var(--cizgi-koyu); }
+
+.kicker {
+  margin: 0 0 .5rem;
+  font: 700 .72rem/1.4 system-ui, -apple-system, sans-serif;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--damga);
+}
+
+.kapak h2 {
+  margin: 0 0 .75rem;
+  font: 900 clamp(1.8rem, 6.6vw, 2.7rem)/1.08 "Fraunces", Georgia, serif;
+  letter-spacing: -.005em;
+}
+
+.kapak .ozet { font-size: 1.12rem; line-height: 1.6; margin: 0 0 .6rem; }
+
+/* ————— bölümler & haberler ————— */
+
+.bolum-baslik {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin: 2.7rem 0 .3rem;
+  font: 600 .84rem/1 "Fraunces", Georgia, serif;
+  letter-spacing: .24em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.bolum-baslik::before, .bolum-baslik::after {
+  content: "";
+  flex: 1;
+  border-top: 1px solid var(--cizgi);
+}
+
+.haber { padding: 1.35rem 0 1.15rem; }
+.haber + .haber { border-top: 1px solid var(--cizgi); }
+
+.haber h4 {
+  margin: 0 0 .45rem;
+  font: 600 1.3rem/1.22 "Fraunces", Georgia, serif;
+}
+.haber p { margin: 0 0 .55rem; }
+
+.neden {
+  font-style: italic;
+  color: var(--damga);
+}
+.neden::before { content: "— "; }
+
+.kunye {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .45rem .7rem;
+  margin-top: .65rem;
+  font: 600 .7rem/1.6 system-ui, -apple-system, sans-serif;
+  letter-spacing: .07em;
+  text-transform: uppercase;
+  color: var(--murekkep-soluk);
+}
+.kunye a { text-decoration: none; }
+.kunye a:hover { text-decoration: underline; }
+.kaynak-link { color: var(--murekkep); font-weight: 700; }
+
+.cip {
+  padding: .12rem .55rem .16rem;
+  border-radius: 99px;
+  background: var(--kagit-koyu);
+  color: var(--murekkep-soluk);
+  letter-spacing: .05em;
+}
+.cip:hover { color: var(--kagit); background: var(--damga); }
+
+/* ————— radar ————— */
+
+.radar { list-style: none; margin: .6rem 0 0; padding: 0; }
+.radar li { padding: .5rem 0 .5rem 1.2rem; position: relative; }
+.radar li + li { border-top: 1px dotted var(--cizgi); }
+.radar li::before {
+  content: "•";
+  position: absolute;
+  left: .1rem;
+  color: var(--damga);
+  font-weight: 700;
+}
+
+/* ————— editör notu, mini uyarı, footer ————— */
+
+.editor-notu {
+  margin: 2.4rem auto 0;
+  max-width: 30rem;
+  text-align: center;
+  font-style: italic;
+  color: var(--murekkep-soluk);
+}
+.editor-notu::before { content: "❧"; display: block; color: var(--damga); font-size: 1.25rem; font-style: normal; margin-bottom: .3rem; }
+
+.mini-uyari {
+  margin: 1.2rem 0 0;
+  padding: .6rem .85rem;
+  border: 2px dashed var(--damga);
+  border-radius: 4px;
+  color: var(--damga);
+  font: 600 .82rem/1.5 system-ui, -apple-system, sans-serif;
+}
+
+footer.kuyruk {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 4px double var(--cizgi-koyu);
+  text-align: center;
+  font-size: .86rem;
+  color: var(--murekkep-soluk);
+}
+footer.kuyruk .buyuk-baglar {
+  display: flex;
+  justify-content: center;
+  gap: 1.4rem;
+  margin: .4rem 0 .9rem;
+  font: 700 .78rem/1.6 system-ui, -apple-system, sans-serif;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+footer.kuyruk .buyuk-baglar a { text-decoration: none; color: var(--murekkep); }
+footer.kuyruk .buyuk-baglar a:hover { color: var(--damga); }
+footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
+
+/* ————— arşiv & külliyat listeleri ————— */
+
+.liste-baslik {
+  margin: 2.2rem 0 .4rem;
+  font: 900 1.9rem/1.15 "Fraunces", Georgia, serif;
+}
+.alt-aciklama { margin: 0 0 1.4rem; color: var(--murekkep-soluk); font-style: italic; }
+
+.sayi-listesi { list-style: none; margin: 0; padding: 0; }
+.sayi-listesi li { border-top: 1px solid var(--cizgi); }
+.sayi-listesi a {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .8rem .1rem;
+  text-decoration: none;
+}
+.sayi-listesi .no { color: var(--murekkep-soluk); font: 600 .72rem/1.8 system-ui, sans-serif; letter-spacing: .1em; text-transform: uppercase; }
+
+/* külliyat arama */
+.arama-kutusu {
+  width: 100%;
+  padding: .7rem .9rem;
+  border: 2px solid var(--cizgi-koyu);
+  border-radius: 4px;
+  background: var(--kagit);
+  color: var(--murekkep);
+  font: 400 1.05rem/1.4 "Newsreader", Georgia, serif;
+}
+.arama-kutusu:focus { outline: 2px solid var(--damga); outline-offset: 2px; }
+
+.cip-bulutu { display: flex; flex-wrap: wrap; gap: .45rem; margin: 1rem 0 1.6rem; }
+.cip-bulutu .cip { cursor: pointer; border: 0; font: 600 .74rem/1.6 system-ui, sans-serif; letter-spacing: .05em; text-transform: uppercase; }
+.cip-bulutu .cip[aria-pressed="true"] { background: var(--damga); color: var(--kagit); }
+
+.sonuc { padding: 1.1rem 0; }
+.sonuc + .sonuc { border-top: 1px solid var(--cizgi); }
+.sonuc .ust-not { font: 600 .68rem/1.6 system-ui, sans-serif; letter-spacing: .12em; text-transform: uppercase; color: var(--murekkep-soluk); }
+.sonuc h4 { margin: .15rem 0 .35rem; font: 600 1.16rem/1.25 "Fraunces", Georgia, serif; }
+.sonuc p { margin: 0 0 .45rem; font-size: .95rem; }
+.iliskili-kutu { margin-top: .5rem; font-size: .85rem; color: var(--murekkep-soluk); }
+.iliskili-kutu a { text-decoration-style: dotted; }
+.bos-durum { margin: 2.5rem 0; text-align: center; font-style: italic; color: var(--murekkep-soluk); }
+
+@media print {
+  .tema-dugme, .buyuk-baglar { display: none; }
+  body::before { display: none; }
+  body { max-width: none; }
+}
