@@ -44,16 +44,17 @@ jobs:
       - name: Doğrula (geçemezse mini sayı)
         run: python -m pipeline.validate || python -m pipeline.fallback
 
-      - name: Dergiyi bas + Külliyat'a işle
+      - name: Dergiyi bas + Külliyat'a ve kasaya işle
         run: |
           python -m pipeline.render
           python -m pipeline.kulliyat
+          python -m pipeline.kasa
 
       - name: Arşivi commit'le # günlük commit, 60 gün hareketsizlik kuralını da savuşturur
         run: |
           git config user.name "havadis-bot"
           git config user.email "havadis-bot@users.noreply.github.com"
-          git add site veri
+          git add site veri kasa
           git commit -m "Sayı: $(date -u +%F)" || echo "değişiklik yok"
           git push
 

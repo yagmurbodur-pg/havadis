@@ -115,7 +115,7 @@ a:hover { color: var(--damga); text-decoration-color: var(--damga); }
 }
 .tarih-satiri strong { color: var(--murekkep); font-weight: 700; }
 
-.tema-dugme {
+.masthead .tema-dugme {
   position: absolute;
   top: .55rem;
   right: 0;
@@ -127,7 +127,7 @@ a:hover { color: var(--damga); text-decoration-color: var(--damga); }
   padding: .3rem .4rem;
   cursor: pointer;
 }
-.tema-dugme:hover { color: var(--damga); }
+.masthead .tema-dugme:hover { color: var(--damga); }
 
 /* ————— sabah baskısı damgası ————— */
 
@@ -333,8 +333,198 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
 .iliskili-kutu a { text-decoration-style: dotted; }
 .bos-durum { margin: 2.5rem 0; text-align: center; font-style: italic; color: var(--murekkep-soluk); }
 
+/* ————————————————————————————————————————————————
+   DERGİ MODU — çevrilebilir sayfalar (page-flip)
+   Varsayılan CSS = akış görünümü; [data-gorunum="dergi"] kitabı açar.
+   ———————————————————————————————————————————————— */
+
+.arac-cubugu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .6rem 0 .1rem;
+}
+.marka {
+  font: 900 1.05rem/1 "Fraunces", Georgia, serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  visibility: hidden;
+}
+[data-gorunum="dergi"] .marka { visibility: visible; }
+.dugmeler { display: flex; gap: .4rem; }
+.dugmeler button {
+  border: 1px solid var(--cizgi);
+  background: transparent;
+  color: var(--murekkep-soluk);
+  border-radius: 4px;
+  padding: .28rem .6rem;
+  font: 600 .72rem/1.4 system-ui, -apple-system, sans-serif;
+  letter-spacing: .06em;
+  cursor: pointer;
+}
+.dugmeler button:hover { color: var(--damga); border-color: var(--damga); }
+[data-gorunum="akis"] .ses-dugme { display: none; }
+
+/* — akış görünümü (varsayılan): sayfalar alt alta — */
+#kitap .sayfa {
+  max-width: 41rem;
+  margin: 0 auto;
+  padding: 1.5rem 0 1.2rem;
+  border-bottom: 1px solid var(--cizgi);
+  position: relative;
+}
+#kitap .sayfa-arka { border-bottom: 0; }
+.sayfa-alt, .cevir-ipucu, .sayfa-gosterge { display: none; }
+
+.kapak-masthead {
+  position: relative;
+  text-align: center;
+  border-top: 4px solid var(--cizgi-koyu);
+  padding-top: 1.6rem;
+}
+.kapak-masthead::before {
+  content: "";
+  position: absolute;
+  top: 3px; left: 0; right: 0;
+  border-top: 1px solid var(--cizgi-koyu);
+}
+.kapak-masthead h1 {
+  margin: 0;
+  font: 900 clamp(2.3rem, 8.5vw, 3.3rem)/1 "Fraunces", Georgia, serif;
+  letter-spacing: .045em;
+}
+.kapak-masthead .slogan { margin: .3rem 0 .9rem; }
+.kapak-manset { text-align: center; margin-top: 1.5rem; }
+.kapak-manset h2 {
+  margin: .45rem 0 0;
+  font: 900 clamp(1.65rem, 6vw, 2.3rem)/1.12 "Fraunces", Georgia, serif;
+}
+.kapak-icindekiler {
+  margin: 1.4rem 0 0;
+  padding-top: .7rem;
+  border-top: 1px solid var(--cizgi);
+  text-align: center;
+  font: 600 .66rem/1.9 system-ui, -apple-system, sans-serif;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+  color: var(--murekkep-soluk);
+}
+.sus { display: none; }
+
+.sayfa-bolum {
+  margin: 0 0 .85rem;
+  padding-bottom: .45rem;
+  border-bottom: 1px solid var(--cizgi);
+  font: 700 .68rem/1.4 system-ui, -apple-system, sans-serif;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  color: var(--damga);
+}
+#kitap .sayfa h4 {
+  margin: 0 0 .5rem;
+  font: 600 1.24rem/1.22 "Fraunces", Georgia, serif;
+}
+.govde { margin: 0 0 .55rem; }
+.buyukce { font-size: 1.06rem; }
+
+.arka-kapak { text-align: center; display: flex; flex-direction: column; justify-content: center; gap: .95rem; }
+.buyuk-baglar {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.3rem;
+  font: 700 .76rem/1.6 system-ui, -apple-system, sans-serif;
+  letter-spacing: .13em;
+  text-transform: uppercase;
+}
+.buyuk-baglar a { text-decoration: none; color: var(--murekkep); }
+.buyuk-baglar a:hover { color: var(--damga); }
+.kaynak-satiri { margin: 0; color: var(--murekkep-soluk); font-size: .9rem; }
+.yarin { margin: 0; font-style: italic; color: var(--murekkep-soluk); }
+.kucuk { font-size: .78rem; font-style: italic; color: var(--murekkep-soluk); }
+
+/* — dergi görünümü: kitap — */
+[data-gorunum="dergi"] body { max-width: 66rem; }
+[data-gorunum="dergi"] .kitap-sahne { padding: .5rem 0 .3rem; }
+[data-gorunum="dergi"] #kitap .sayfa {
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  overflow: hidden;
+}
+[data-gorunum="dergi"] .sayfa-ic {
+  height: 100%;
+  padding: 1.3rem 1.3rem 2.1rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+[data-gorunum="dergi"] .sus {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: var(--cizgi);
+  font-size: 1.15rem;
+}
+[data-gorunum="dergi"] .kapak-manset { margin: auto 0; }
+[data-gorunum="dergi"] .sayfa .kunye { padding-top: .65rem; }
+[data-gorunum="dergi"] .sayfa .govde { font-size: .95rem; line-height: 1.55; }
+[data-gorunum="dergi"] .sayfa h4 { font-size: 1.16rem; }
+[data-gorunum="dergi"] .radar li { font-size: .92rem; }
+[data-gorunum="dergi"] .kapak-masthead h1 { font-size: 2.5rem; }
+[data-gorunum="dergi"] .kapak-manset h2 { font-size: 1.75rem; }
+[data-gorunum="dergi"] .sayfa-alt {
+  display: block;
+  position: absolute;
+  bottom: .55rem; left: 0; right: 0;
+  margin: 0;
+  text-align: center;
+  font: 600 .58rem/1.4 system-ui, -apple-system, sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--murekkep-soluk);
+}
+[data-gorunum="dergi"] .cevir-ipucu {
+  display: block;
+  margin: auto 0 0;
+  text-align: center;
+  font-style: italic;
+  font-size: .85rem;
+  color: var(--murekkep-soluk);
+}
+[data-gorunum="dergi"] .sayfa-gosterge {
+  display: block;
+  margin: .65rem 0 0;
+  text-align: center;
+  font: 600 .68rem/1.4 system-ui, -apple-system, sans-serif;
+  letter-spacing: .14em;
+  color: var(--murekkep-soluk);
+}
+
+@media (max-width: 520px) {
+  [data-gorunum="dergi"] .sayfa-ic { padding: 1rem 1rem 1.85rem; }
+  [data-gorunum="dergi"] .sayfa .govde { font-size: .9rem; line-height: 1.5; }
+  [data-gorunum="dergi"] .buyukce { font-size: .95rem; }
+  [data-gorunum="dergi"] .neden { font-size: .92rem; }
+  [data-gorunum="dergi"] .sayfa-bolum { margin-bottom: .6rem; }
+  [data-gorunum="dergi"] .kunye { gap: .3rem .5rem; }
+  [data-gorunum="dergi"] .kapak-masthead h1 { font-size: 2.1rem; }
+  [data-gorunum="dergi"] .kapak-manset h2 { font-size: 1.5rem; }
+}
+
 @media print {
-  .tema-dugme, .buyuk-baglar { display: none; }
+  .tema-dugme, .buyuk-baglar, .arac-cubugu, .sayfa-gosterge, .cevir-ipucu, .sayfa-alt { display: none !important; }
   body::before { display: none; }
   body { max-width: none; }
+  #kitap, #kitap * {
+    position: static !important;
+    transform: none !important;
+    width: auto !important;
+    height: auto !important;
+  }
+  #kitap .sayfa { display: block; page-break-inside: avoid; }
 }

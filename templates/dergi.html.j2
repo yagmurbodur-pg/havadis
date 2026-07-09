@@ -3,7 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script>try{var t=localStorage.getItem("havadis-tema");if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
+<script>
+try {
+  var g = localStorage.getItem("havadis-gorunum") ||
+    (matchMedia("(prefers-reduced-motion: reduce)").matches ? "akis" : "dergi");
+  document.documentElement.dataset.gorunum = g;
+  var t = localStorage.getItem("havadis-tema");
+  if (t) document.documentElement.dataset.tema = t;
+} catch (e) { document.documentElement.dataset.gorunum = "dergi"; }
+</script>
 <title>Havadis — Sayı {{ sayi_no }} · {{ tarih }}</title>
 <meta name="description" content="Yapay zekâdan taze havadisler — {{ tarih }} sayısı.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F1E5">
@@ -16,93 +24,206 @@
 </head>
 <body>
 
-<header class="masthead">
-  <button class="tema-dugme" type="button" aria-label="Açık/koyu tema değiştir">☾</button>
-  <h1><a href="{{ kok }}/index.html">HAVADİS</a></h1>
-  <p class="slogan">Yapay zekâdan taze havadisler</p>
-  <div class="tarih-satiri">
-    <strong>Sayı {{ sayi_no }}</strong> <span>·</span> <span>{{ tarih }}</span> <span>·</span> <span>☕ {{ okuma }} dk'lık okuma</span>
+<div class="arac-cubugu">
+  <a class="marka" href="{{ kok }}/index.html">HAVADİS</a>
+  <div class="dugmeler">
+    <button class="ses-dugme" type="button" aria-label="Sayfa sesini aç/kapat">🔊</button>
+    <button class="gorunum-dugme" type="button" aria-label="Dergi/akış görünümü değiştir">Akış</button>
+    <button class="tema-dugme" type="button" aria-label="Açık/koyu tema değiştir">☾</button>
   </div>
-  <div class="damga-hiza">
-    <span class="damga">Sabah Baskısı<small>{{ saat }} · YZ dizgisi</small></span>
-  </div>
-</header>
+</div>
 
-<main>
-{% if sayi.mini %}
-<p class="mini-uyari">Mini sayı: bu sabah tam editoryal üretim yapılamadı; başlıklar kaynaklarından aynen aktarıldı.</p>
-{% endif %}
+<div class="kitap-sahne">
+  <div id="kitap">
 
-{% set k = aday.get(sayi.kapak.id) %}
-<article class="kapak">
-  <p class="kicker">{{ sayi.kapak.kicker }}</p>
-  <h2>{{ sayi.kapak.baslik }}</h2>
-  <p class="ozet">{{ sayi.kapak.ozet }}</p>
-  <p class="neden">Neden önemli? {{ sayi.kapak.neden_onemli }}</p>
-  <div class="kunye">
-    {% if k %}<a class="kaynak-link" href="{{ k.url }}" rel="noopener">{{ k.kaynak }} ↗</a>
-    {% for e in k.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
-    {% for konu in sayi.kapak.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
-  </div>
-</article>
-
-{% for b in sayi.bolumler %}
-<section>
-  <h3 class="bolum-baslik">{{ b.ad }}</h3>
-  {% for h in b.haberler %}{% set a = aday.get(h.id) %}
-  <article class="haber">
-    <h4>{{ h.baslik }}</h4>
-    <p>{{ h.ozet }}</p>
-    <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
-    <div class="kunye">
-      {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
-      {% for e in a.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
-      {% for konu in h.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
+    {# ————— 1. sayfa: KAPAK ————— #}
+    <div class="sayfa sayfa-kapak" data-density="hard">
+      <div class="sayfa-ic kapak-sayfasi">
+        <div class="kapak-masthead">
+          <h1>HAVADİS</h1>
+          <p class="slogan">Yapay zekâdan taze havadisler</p>
+          <div class="tarih-satiri">
+            <strong>Sayı {{ sayi_no }}</strong> <span>·</span> <span>{{ tarih }}</span> <span>·</span> <span>☕ {{ okuma }} dk</span>
+          </div>
+        </div>
+        <div class="damga-hiza">
+          <span class="damga">Sabah Baskısı<small>{{ saat }} · YZ dizgisi</small></span>
+        </div>
+        <div class="kapak-manset">
+          <p class="kicker">{{ sayi.kapak.kicker }}</p>
+          <h2>{{ sayi.kapak.baslik }}</h2>
+        </div>
+        <p class="kapak-icindekiler">Bu sayıda:
+          {%- for b in sayi.bolumler %} {{ b.ad }} {{ b.haberler|length }} ·{% endfor %} Radar {{ sayi.radar|length }}
+        </p>
+        <p class="cevir-ipucu">sayfayı çevir →</p>
+      </div>
     </div>
-  </article>
-  {% endfor %}
-</section>
-{% endfor %}
 
-<section>
-  <h3 class="bolum-baslik">Radar</h3>
-  <ul class="radar">
-  {% for r in sayi.radar %}{% set a = aday.get(r.id) %}
-    <li>{{ r.cumle }}{% if a %} <a href="{{ a.url }}" rel="noopener" aria-label="Kaynağa git">↗</a>{% endif %}</li>
-  {% endfor %}
-  </ul>
-</section>
+    {# ————— 2. sayfa: KAPAK YAZISI ————— #}
+    {% set k = aday.get(sayi.kapak.id) %}
+    <div class="sayfa">
+      <div class="sayfa-ic">
+        <p class="sayfa-bolum">Kapak Yazısı</p>
+        {% if sayi.mini %}<p class="mini-uyari">Mini sayı: bu sabah tam editoryal üretim yapılamadı; başlıklar kaynaklarından aynen aktarıldı.</p>{% endif %}
+        <p class="govde buyukce">{{ sayi.kapak.ozet }}</p>
+        <p class="neden">Neden önemli? {{ sayi.kapak.neden_onemli }}</p>
+        <div class="sus" aria-hidden="true">❦</div>
+        <div class="kunye">
+          {% if k %}<a class="kaynak-link" href="{{ k.url }}" rel="noopener">{{ k.kaynak }} ↗</a>
+          {% for e in k.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
+          {% for konu in sayi.kapak.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
+        </div>
+      </div>
+      <p class="sayfa-alt">HAVADİS · SAYI {{ sayi_no }}</p>
+    </div>
 
-{% if sayi.editor_notu %}<p class="editor-notu">{{ sayi.editor_notu }}</p>{% endif %}
-</main>
+    {# ————— haber sayfaları: sayfa başına bir haber ————— #}
+    {% for b in sayi.bolumler %}
+    {% set bolum_boy = b.haberler|length %}
+    {% for h in b.haberler %}{% set a = aday.get(h.id) %}
+    <div class="sayfa">
+      <div class="sayfa-ic">
+        <p class="sayfa-bolum">{{ b.ad }}{% if bolum_boy > 1 %} · {{ loop.index }}/{{ bolum_boy }}{% endif %}</p>
+        <h4>{{ h.baslik }}</h4>
+        <p class="govde">{{ h.ozet }}</p>
+        <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
+        <div class="sus" aria-hidden="true">❦</div>
+        <div class="kunye">
+          {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
+          {% for e in a.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
+          {% for konu in h.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
+        </div>
+      </div>
+      <p class="sayfa-alt">HAVADİS · SAYI {{ sayi_no }}</p>
+    </div>
+    {% endfor %}
+    {% endfor %}
 
-<footer class="kuyruk">
-  <div class="buyuk-baglar">
-    <a href="{{ kok }}/kulliyat/index.html">Külliyat'ta ara</a>
-    <a href="{{ kok }}/arsiv/index.html">Arşiv</a>
-    {% if onceki %}<a href="{{ kok }}/arsiv/{{ onceki.iso }}.html">← Önceki sayı</a>{% endif %}
+    {# ————— Radar sayfası ————— #}
+    <div class="sayfa">
+      <div class="sayfa-ic">
+        <p class="sayfa-bolum">Radar — kısa kısa</p>
+        <ul class="radar">
+        {% for r in sayi.radar %}{% set a = aday.get(r.id) %}
+          <li>{{ r.cumle }}{% if a %} <a href="{{ a.url }}" rel="noopener" aria-label="Kaynağa git">↗</a>{% endif %}</li>
+        {% endfor %}
+        </ul>
+      </div>
+      <p class="sayfa-alt">HAVADİS · SAYI {{ sayi_no }}</p>
+    </div>
+
+    {# ————— arka kapak ————— #}
+    <div class="sayfa sayfa-arka" data-density="hard">
+      <div class="sayfa-ic arka-kapak">
+        {% if sayi.editor_notu %}<p class="editor-notu">{{ sayi.editor_notu }}</p>{% endif %}
+        <p class="kaynak-satiri">Bugün {{ meta.kaynak_ok }}/{{ meta.kaynak_toplam }} kaynak tarandı.</p>
+        <div class="buyuk-baglar">
+          <a href="{{ kok }}/kulliyat/index.html">Külliyat'ta ara</a>
+          <a href="{{ kok }}/arsiv/index.html">Arşiv</a>
+          {% if onceki %}<a href="{{ kok }}/arsiv/{{ onceki.iso }}.html">← Önceki sayı</a>{% endif %}
+        </div>
+        <p class="kucuk">Havadis her sabah yapay zekâ tarafından dizilir. Önemli bir havadisi paylaşmadan önce kaynağından teyit edin.</p>
+        <p class="yarin">Yarın sabah yeni sayıyla. ☕</p>
+      </div>
+    </div>
+
   </div>
-  <p>Bugün {{ meta.kaynak_ok }}/{{ meta.kaynak_toplam }} kaynak tarandı.</p>
-  <p class="kucuk">Havadis her sabah yapay zekâ tarafından dizilir. Önemli bir havadisi paylaşmadan önce kaynağından teyit edin.</p>
-</footer>
+  <p class="sayfa-gosterge"><span id="sayfa-no">1</span> / <span id="sayfa-toplam">–</span></p>
+</div>
 
+<script src="{{ kok }}/varliklar/page-flip.js"></script>
 <script>
 (function () {
-  var d = document.querySelector(".tema-dugme");
-  function simge() {
+  "use strict";
+  var sessiz = false;
+  try { sessiz = localStorage.getItem("havadis-ses") === "kapali"; } catch (e) {}
+
+  /* ————— kâğıt hışırtısı: WebAudio ile sentez (dosya yok) ————— */
+  var baglam = null;
+  document.addEventListener("pointerdown", function () {
+    if (!baglam) { try { baglam = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} }
+  }, { once: true });
+
+  function sesCal() {
+    if (sessiz || !baglam) return;
+    if (baglam.state === "suspended") baglam.resume();
+    var sr = baglam.sampleRate, n = Math.floor(sr * 0.3);
+    var buf = baglam.createBuffer(1, n, sr), d = buf.getChannelData(0);
+    for (var i = 0; i < n; i++) {
+      var t = i / n;
+      var zarf = Math.pow(1 - t, 2.4) * Math.min(1, t / 0.06) +
+                 0.4 * Math.exp(-Math.pow((t - 0.72) / 0.07, 2)); // kaldır + bırak
+      d[i] = (Math.random() * 2 - 1) * zarf * 0.55;
+    }
+    var src = baglam.createBufferSource(); src.buffer = buf;
+    var hp = baglam.createBiquadFilter(); hp.type = "highpass"; hp.frequency.value = 600;
+    var bp = baglam.createBiquadFilter(); bp.type = "bandpass";
+    bp.frequency.value = 1500 + Math.random() * 900; bp.Q.value = 0.7;
+    var kazanc = baglam.createGain(); kazanc.gain.value = 0.5;
+    src.connect(hp); hp.connect(bp); bp.connect(kazanc); kazanc.connect(baglam.destination);
+    src.start();
+  }
+
+  /* ————— kitap ————— */
+  var kitap = null;
+  var eleman = document.getElementById("kitap");
+  if (document.documentElement.dataset.gorunum === "dergi" && window.St && eleman) {
+    kitap = new St.PageFlip(eleman, {
+      width: 400, height: 600, size: "stretch",
+      minWidth: 280, maxWidth: 500, minHeight: 480, maxHeight: 760,
+      showCover: true, usePortrait: true,
+      maxShadowOpacity: 0.35, flippingTime: 700, mobileScrollSupport: true
+    });
+    kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
+    document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
+    kitap.on("changeState", function (e) { if (e.data === "flipping") sesCal(); });
+    kitap.on("flip", function (e) {
+      document.getElementById("sayfa-no").textContent = e.data + 1;
+    });
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "ArrowRight") kitap.flipNext();
+      if (e.key === "ArrowLeft") kitap.flipPrev();
+    });
+  } else if (document.documentElement.dataset.gorunum === "dergi") {
+    document.documentElement.dataset.gorunum = "akis"; // kütüphane yüklenemediyse akışa düş
+  }
+
+  /* ————— düğmeler ————— */
+  var sesD = document.querySelector(".ses-dugme");
+  var gorD = document.querySelector(".gorunum-dugme");
+  var temaD = document.querySelector(".tema-dugme");
+
+  function sesEtiket() { sesD.textContent = sessiz ? "🔇" : "🔊"; }
+  sesD.addEventListener("click", function () {
+    sessiz = !sessiz;
+    try { localStorage.setItem("havadis-ses", sessiz ? "kapali" : "acik"); } catch (e) {}
+    sesEtiket();
+  });
+  sesEtiket();
+
+  gorD.textContent = document.documentElement.dataset.gorunum === "dergi" ? "Akış" : "Dergi";
+  gorD.addEventListener("click", function () {
+    var yeni = document.documentElement.dataset.gorunum === "dergi" ? "akis" : "dergi";
+    try { localStorage.setItem("havadis-gorunum", yeni); } catch (e) {}
+    location.reload();
+  });
+
+  function temaSimge() {
     var koyu = document.documentElement.dataset.tema === "koyu" ||
       (!document.documentElement.dataset.tema && matchMedia("(prefers-color-scheme: dark)").matches);
-    d.textContent = koyu ? "☀" : "☾";
+    temaD.textContent = koyu ? "☀" : "☾";
   }
-  d.addEventListener("click", function () {
+  temaD.addEventListener("click", function () {
     var koyu = document.documentElement.dataset.tema === "koyu" ||
       (!document.documentElement.dataset.tema && matchMedia("(prefers-color-scheme: dark)").matches);
     var yeni = koyu ? "acik" : "koyu";
     document.documentElement.dataset.tema = yeni;
     try { localStorage.setItem("havadis-tema", yeni); } catch (e) {}
-    simge();
+    temaSimge();
   });
-  simge();
+  temaSimge();
+
   if ("serviceWorker" in navigator && location.protocol.indexOf("http") === 0) {
     navigator.serviceWorker.register("{{ kok }}/sw.js");
   }

@@ -9,11 +9,16 @@ ve ntfy üzerinden telefona bildirim (+e-posta kopyası) gider.
 ## Mimari
 
 ```
-fetch.py → candidates.json → Claude (EDITORIAL.md) → issue.json → validate.py → render.py → site/ → Pages
-                                                                                    └→ notify.py → ntfy + e-posta
+fetch.py → candidates.json → Claude (EDITORIAL.md) → issue.json → validate.py → render.py  → site/  → Pages
+                                                                     ├→ kulliyat.py → veri/haberler.jsonl + arama dizini
+                                                                     ├→ kasa.py     → kasa/ (Obsidian vault, wikilink'li)
+                                                                     └→ notify.py   → ntfy push + e-posta
 ```
 
-- **Halüsinasyon engeli:** Editör link yazamaz, aday havuzundan `id` seçer; `validate.py` havuz dışını reddeder.
+- **Dergi modu:** sayfalar gerçek dergi gibi çevrilir (sürükle/kaydır/ok tuşları), WebAudio ile sentezlenen kâğıt sesi eşlik eder; ≡ düğmesiyle klasik akış görünümü.
+- **Külliyat:** her haber konu etiketleri ve `iliskili` bağlarıyla kümülatif bilgi tabanında birikir; `site/kulliyat/` sayfasında Türkçe-toleranslı arama + konu dosyaları.
+- **Obsidian kasası:** `kasa/` klasörünü Obsidian'da vault olarak aç — Haberler ↔ Konular wikilink grafiği kendiliğinden oluşur.
+- **Halüsinasyon engeli:** Editör link yazamaz, aday havuzundan `id` seçer; `validate.py` havuz dışını reddeder (ilişki bağları dahil).
 - **Sessiz ölüm engeli:** İş başarısız olursa ntfy'ye yüksek öncelikli uyarı düşer.
 - Kaynaklar: `sources.yaml` · İlgi profili: `ilgi.yaml` · Editoryal kurallar: `EDITORIAL.md`
 
