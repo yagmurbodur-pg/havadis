@@ -1,0 +1,81 @@
+name: havadis
+
+on:
+  schedule:
+    - cron: "47 3 * * *" # 06:47 İstanbul (UTC+3); GitHub'ın yoğun tepe dakikalarından uzak
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: havadis-sayi
+  cancel-in-progress: false
+
+jobs:
+  sayi:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.yayin.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Haberleri topla
+        run: python -m pipeline.fetch
+
+      - name: Editör — sayıyı yaz (Claude, abonelik OAuth)
+        uses: anthropics/claude-code-action@v1
+        continue-on-error: true # editör düşerse mini sayı devreye girer
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: "EDITORIAL.md'yi oku ve aynen uygula: candidates.json'dan bugünün sayısını seç, issue.json'ı depo köküne yaz, 'python3 -m pipeline.validate' yeşil olana dek düzelt. Başka dosyaya dokunma; commit/push yapma."
+          claude_args: "--allowedTools 'Read,Write,Edit,Bash(python3 -m pipeline.validate)' --max-turns 30"
+
+      - name: Doğrula (geçemezse mini sayı)
+        run: python -m pipeline.validate || python -m pipeline.fallback
+
+      - name: Dergiyi bas + Külliyat'a işle
+        run: |
+          python -m pipeline.render
+          python -m pipeline.kulliyat
+
+      - name: Arşivi commit'le # günlük commit, 60 gün hareketsizlik kuralını da savuşturur
+        run: |
+          git config user.name "havadis-bot"
+          git config user.email "havadis-bot@users.noreply.github.com"
+          git add site veri
+          git commit -m "Sayı: $(date -u +%F)" || echo "değişiklik yok"
+          git push
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+      - id: yayin
+        uses: actions/deploy-pages@v5
+
+      - name: Bildir (ntfy push + e-posta kopyası)
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
+          SITE_URL: ${{ steps.yayin.outputs.page_url }}
+        run: python -m pipeline.notify
+
+      - name: Hata alarmı # sessiz ölüm engeli
+        if: failure()
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          curl -sf -H "Priority: high" -H "Tags: rotating_light" \
+            -d "Havadis bu sabah üretilemedi — Actions loguna bak." \
+            "https://ntfy.sh/${NTFY_TOPIC}" || true

@@ -1,0 +1,214 @@
+{
+ "konular": [
+  {
+   "ad": "OpenAI",
+   "slug": "openai",
+   "adet": 3,
+   "son": [
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "16830069",
+     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "963a6870",
+     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "Meta",
+   "slug": "meta",
+   "adet": 3,
+   "son": [
+    {
+     "id": "8c91b0e5",
+     "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "78820279",
+     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "fbe93ef8",
+     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "modeller",
+   "slug": "modeller",
+   "adet": 2,
+   "son": [
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "67b034bb",
+     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "ajanlar",
+   "slug": "ajanlar",
+   "adet": 2,
+   "son": [
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "c1c7fcde",
+     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "çipler",
+   "slug": "cipler",
+   "adet": 1,
+   "son": [
+    {
+     "id": "8c91b0e5",
+     "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "kod asistanları",
+   "slug": "kod-asistanlari",
+   "adet": 1,
+   "son": [
+    {
+     "id": "78820279",
+     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "xAI",
+   "slug": "xai",
+   "adet": 1,
+   "son": [
+    {
+     "id": "67b034bb",
+     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "telif davaları",
+   "slug": "telif-davalari",
+   "adet": 1,
+   "son": [
+    {
+     "id": "16830069",
+     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "ses modelleri",
+   "slug": "ses-modelleri",
+   "adet": 1,
+   "son": [
+    {
+     "id": "963a6870",
+     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "eğitim",
+   "slug": "egitim",
+   "adet": 1,
+   "son": [
+    {
+     "id": "89886d70",
+     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "araştırma",
+   "slug": "arastirma",
+   "adet": 1,
+   "son": [
+    {
+     "id": "89886d70",
+     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "Türkiye",
+   "slug": "turkiye",
+   "adet": 1,
+   "son": [
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "yatırımlar",
+   "slug": "yatirimlar",
+   "adet": 1,
+   "son": [
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "araçlar",
+   "slug": "araclar",
+   "adet": 1,
+   "son": [
+    {
+     "id": "c1c7fcde",
+     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "gizlilik",
+   "slug": "gizlilik",
+   "adet": 1,
+   "son": [
+    {
+     "id": "fbe93ef8",
+     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
+     "tarih": "2026-07-09"
+    }
+   ]
+  }
+ ]
+}
