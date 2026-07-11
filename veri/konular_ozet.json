@@ -3,27 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 4,
+   "adet": 10,
    "son": [
     {
-     "id": "e799563c",
-     "baslik": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
-     "tarih": "2026-07-10"
+     "id": "027b05f9",
+     "baslik": "How Deutsche Telekom is rewiring telecommunications with AI",
+     "tarih": "2026-07-11"
     },
     {
-     "id": "c829f7bd",
-     "baslik": "Your Prompts and Skills need a system of record.",
-     "tarih": "2026-07-10"
+     "id": "98d85122",
+     "baslik": "Meta removes controversial AI feature on Instagram after backlash",
+     "tarih": "2026-07-11"
     },
     {
-     "id": "5941cef1",
-     "baslik": "ChatGPT is now a partner for your most ambitious work",
-     "tarih": "2026-07-10"
+     "id": "6c4a6e19",
+     "baslik": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
+     "tarih": "2026-07-11"
     },
     {
-     "id": "8fd74bd3",
-     "baslik": "GPT-5.5 Bio Bug Bounty",
-     "tarih": "2026-07-10"
+     "id": "4f68ab05",
+     "baslik": "Apple sues OpenAI for allegedly stealing hardware secrets",
+     "tarih": "2026-07-11"
+    },
+    {
+     "id": "a4ad4731",
+     "baslik": "Apple sues OpenAI over alleged trade secret theft",
+     "tarih": "2026-07-11"
     }
    ]
   },

@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-4 haber
+10 haber
 
+- [[2026-07-11 How Deutsche Telekom is rewiring telecommunications with AI]] — 2026-07-11, Kapak
+- [[2026-07-11 Meta removes controversial AI feature on Instagram after bac]] — 2026-07-11, Gündem
+- [[2026-07-11 Meta turns off the Instagram feature that let users make AI]] — 2026-07-11, Gündem
+- [[2026-07-11 Apple sues OpenAI for allegedly stealing hardware secrets]] — 2026-07-11, Gündem
+- [[2026-07-11 Apple sues OpenAI over alleged trade secret theft]] — 2026-07-11, Gündem
+- [[2026-07-11 Open source AI matters more than ever, according to Hugging]] — 2026-07-11, Gündem
 - [[2026-07-10 GPT-5.6 is now the preferred model in Microsoft 365 Copilot]] — 2026-07-10, Kapak
 - [[2026-07-10 Your Prompts and Skills need a system of record.]] — 2026-07-10, Gündem
 - [[2026-07-10 ChatGPT is now a partner for your most ambitious work]] — 2026-07-10, Gündem
