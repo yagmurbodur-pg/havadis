@@ -3,8 +3,18 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 10,
+   "adet": 12,
    "son": [
+    {
+     "id": "31985037",
+     "baslik": "Meta’dan Geri Adım: Muse Image Kapatıldı",
+     "tarih": "2026-07-12"
+    },
+    {
+     "id": "d46d49eb",
+     "baslik": "ChatGPT’nin Yeni Hedefi: Aileler ve Yaşlılar",
+     "tarih": "2026-07-12"
+    },
     {
      "id": "027b05f9",
      "baslik": "How Deutsche Telekom is rewiring telecommunications with AI",
@@ -18,16 +28,6 @@
     {
      "id": "6c4a6e19",
      "baslik": "Meta turns off the Instagram feature that let users make AI deepfakes of public accounts",
-     "tarih": "2026-07-11"
-    },
-    {
-     "id": "4f68ab05",
-     "baslik": "Apple sues OpenAI for allegedly stealing hardware secrets",
-     "tarih": "2026-07-11"
-    },
-    {
-     "id": "a4ad4731",
-     "baslik": "Apple sues OpenAI over alleged trade secret theft",
      "tarih": "2026-07-11"
     }
    ]

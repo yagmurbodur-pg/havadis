@@ -4,8 +4,10 @@ tur: konu
 
 # genel
 
-10 haber
+12 haber
 
+- [[2026-07-12 Meta’dan Geri Adım Muse Image Kapatıldı]] — 2026-07-12, Kapak
+- [[2026-07-12 ChatGPT’nin Yeni Hedefi Aileler ve Yaşlılar]] — 2026-07-12, Gündem
 - [[2026-07-11 How Deutsche Telekom is rewiring telecommunications with AI]] — 2026-07-11, Kapak
 - [[2026-07-11 Meta removes controversial AI feature on Instagram after bac]] — 2026-07-11, Gündem
 - [[2026-07-11 Meta turns off the Instagram feature that let users make AI]] — 2026-07-11, Gündem
