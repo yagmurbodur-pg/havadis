@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-17 haber
+23 haber
 
+- [[2026-07-14 Already rich, already successful, why the last wave of tech]] — 2026-07-14, Kapak
+- [[2026-07-14 Uber’s product chief on hotels, robotaxis, and why the compa]] — 2026-07-14, Gündem
+- [[2026-07-14 Video-generation startup PixVerse raises $439M, valuation so]] — 2026-07-14, Gündem
+- [[2026-07-14 Hermes agent maker Nous Research in talks for new funding at]] — 2026-07-14, Gündem
+- [[2026-07-14 Satya Nadella has issued a shocking warning to companies usi]] — 2026-07-14, Gündem
+- [[2026-07-14 Siri AI is already changing how I use my iPhone]] — 2026-07-14, Gündem
 - [[2026-07-13 Lorde says Ray-Ban Meta AI glasses are ‘not sexy’]] — 2026-07-13, Kapak
 - [[2026-07-13 Apple’s failed self-driving car program left a legacy of pow]] — 2026-07-13, Gündem
 - [[2026-07-13 The fight against AI data centers is just beginning]] — 2026-07-13, Gündem
