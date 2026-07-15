@@ -15,15 +15,19 @@ açıp `.sabah.env`'e `NTFY_TOKEN` eklemek yeterli (kod hazır) — yoksa yalnı
 ## Mimari
 
 ```
-fetch.py → candidates.json → Claude (EDITORIAL.md) → issue.json → validate.py → render.py  → site/  → Pages
-                                                                     ├→ kulliyat.py → veri/haberler.jsonl + arama dizini
-                                                                     ├→ kasa.py     → kasa/ (Obsidian vault, wikilink'li)
-                                                                     └→ notify.py   → ntfy push + e-posta
+fetch.py → candidates.json → Claude (EDITORIAL.md) → issue.json → validate.py → render.py → site/ → Pages
+                                                                     ├→ kulliyat.py       → veri/haberler.jsonl + arama dizini + veri/bugun.json
+                                                                     ├→ Claude (LUGAT.md) → lugat/ maddeleri → lugat_dogrula.py → lugat_render.py
+                                                                     ├→ kasa.py           → kasa/ (Obsidian vault: Haberler + Lugat)
+                                                                     └→ notify.py         → ntfy push
+sor "soru?"  → Külliyat+Lugat'tan bağlam seç → yerel Claude → kaynak numaralı Türkçe yanıt
 ```
 
-- **Dergi modu:** sayfalar gerçek dergi gibi çevrilir (sürükle/kaydır/ok tuşları), WebAudio ile sentezlenen kâğıt sesi eşlik eder; ≡ düğmesiyle klasik akış görünümü.
+- **Dergi modu:** sayfalar gerçek dergi gibi çevrilir (sürükle/kaydır/ok tuşları), gerçek kâğıt sesi eşlik eder; ≡ düğmesiyle klasik akış görünümü.
 - **Külliyat:** her haber konu etiketleri ve `iliskili` bağlarıyla kümülatif bilgi tabanında birikir; `site/kulliyat/` sayfasında Türkçe-toleranslı arama + konu dosyaları.
-- **Obsidian kasası:** `kasa/` klasörünü Obsidian'da vault olarak aç — Haberler ↔ Konular wikilink grafiği kendiliğinden oluşur.
+- **Lugat (LLM wiki):** her sabah ikinci bir editör geçişi, günün haberlerinin dokunduğu kavram/varlık maddelerini günceller — tanım (≤140 kr), ilişkiler, `(haber: id)` çivili gelişme zinciri. Bütünlük `lugat_dogrula.py`'de sert kontroldür: yetim madde, kırık bağ, uydurma id yayına giremez (dictionary-of-ai-coding deseninden).
+- **Chatbot:** `./sor "GPT-5.6'da ne oldu?"` — Külliyat+Lugat'tan bağlam seçer, yerel Claude ile kaynak numaralı yanıt verir (token'sız).
+- **Obsidian kasası:** `kasa/` klasörünü Obsidian'da vault olarak aç — Haberler ↔ Lugat wikilink grafiği kendiliğinden oluşur.
 - **Halüsinasyon engeli:** Editör link yazamaz, aday havuzundan `id` seçer; `validate.py` havuz dışını reddeder (ilişki bağları dahil).
 - **Sessiz ölüm engeli:** İş başarısız olursa ntfy'ye yüksek öncelikli uyarı düşer.
 - Kaynaklar: `sources.yaml` · İlgi profili: `ilgi.yaml` · Editoryal kurallar: `EDITORIAL.md`

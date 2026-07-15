@@ -39,6 +39,21 @@ def test_kasa_konu_hublari(tmp_path):
     assert hub.count("[[2026-07-09") >= 7  # kapak + 7 haber "Modeller" etiketli
 
 
+def test_kasa_lugat_kopyalanir_ve_ayni_adli_hub_atlanir(tmp_path):
+    butun = birlestir([], gecerli_sayi(), havuz(), "2026-07-09", 1)
+    lugat = tmp_path / "lugat-kaynak"
+    lugat.mkdir()
+    (lugat / "Modeller.md").write_text("---\nbaslik: Modeller\n---\nMadde.", encoding="utf-8")
+    (lugat / "fihrist.md").write_text("- [[Modeller]]", encoding="utf-8")
+
+    hedef = tmp_path / "kasa"
+    kasa_yaz(hedef, butun, lugat_kaynagi=lugat)
+
+    assert (hedef / "Lugat" / "Modeller.md").exists()
+    assert not (hedef / "Konular" / "Modeller.md").exists()  # Lugat maddesi hub'ı gölgeler
+    assert (hedef / "Konular" / "OpenAI.md").exists()  # maddesi olmayan konu hub olarak kalır
+
+
 def test_kasa_iliskili_wikilink(tmp_path):
     butun = birlestir([], gecerli_sayi(), havuz(), "2026-07-09", 1)
     eski, yeni = butun[5], butun[1]

@@ -122,7 +122,13 @@ def main():
     (veri / "konular_ozet.json").write_text(
         json.dumps(konu_ozeti(tumu), ensure_ascii=False, indent=1), encoding="utf-8"
     )
-    print(f"Külliyat: +{len(yeni)} haber → toplam {len(tumu)}")
+    # Lugat (ansiklopedi) editörünün girdisi: bugünün haberleri — yeniden koşuşta da doğru
+    bugun = [k for k in tumu if k.get("tarih") == son["tarih"]]
+    (veri / "bugun.json").write_text(
+        json.dumps({"tarih": son["tarih"], "haberler": bugun}, ensure_ascii=False, indent=1),
+        encoding="utf-8",
+    )
+    print(f"Külliyat: +{len(yeni)} haber → toplam {len(tumu)} · bugün {len(bugun)}")
 
 
 if __name__ == "__main__":

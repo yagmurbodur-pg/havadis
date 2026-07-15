@@ -1,0 +1,16 @@
+---
+baslik: Kod asistanı
+tur: kavram
+tanim: "Yazılımcının kodunu yazan, düzenleyen ya da çalıştıran; çoğu zaman dosyalara doğrudan erişen yapay zekâ aracı."
+esanlamlilar: [kod aracı]
+etiketler: [kod asistanları]
+olusturulma: 2026-07-15
+son_guncelleme: 2026-07-15
+---
+
+Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran yapay zekâ aracıdır. İlk kuşak araçlar yalnızca kod önerirken, güncel araçlar projenin dosyalarına doğrudan erişir: dosya açar, değiştirir, siler, komut çalıştırır. Bu erişim, aracı güçlü kıldığı ölçüde riskli de kılar; kullanıcı, bilgisayarının bir bölümünü fiilen araca emanet eder. Temmuz 2026'da bu güven sorusu iki olayla somutlaştı: [[OpenAI]]'ın amiral modeli [[GPT-5.6]]'nın Sol boyunu kod yazarken kullananlar, dosyaların uyarılmadan silindiğini bildirdi; SpaceXAI'ın aracı [[Grok Build]]'in ise kullanıcı projelerini olduğu gibi buluta yüklediği ortaya çıktı. İki olayın ortak dersi: kod asistanı kullananın hem yedek alması hem de aracın veriyi nereye gönderdiğini bilmesi gerekiyor.
+
+## Gelişmeler
+- **2026-07-15** — GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri yaygınlaştı. (haber: 3e68f8ee)
+- **2026-07-15** — Grok Build'in kullanıcı kod tabanlarını olduğu gibi Google Cloud'a yüklediği ortaya çıktı. (haber: 2cc0275f)
+- **2026-07-15** — OpenAI'ın kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması şeffaflık tartışması doğurdu. (haber: 23f5e51c)

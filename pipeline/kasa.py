@@ -48,7 +48,7 @@ def _on_yazi(kayit):
     )
 
 
-def kasa_yaz(hedef, butun):
+def kasa_yaz(hedef, butun, lugat_kaynagi=None):
     hedef = Path(hedef)
     haberler_dizini = hedef / "Haberler"
     konular_dizini = hedef / "Konular"
@@ -86,7 +86,21 @@ def kasa_yaz(hedef, butun):
         for ad in kayit.get("konular", []):
             konu_defteri.setdefault(ad, []).append(kayit)
 
+    # Lugat (editör-bakımlı ansiklopedi) kopyası: [[konu]] bağları gerçek maddelere çözülsün
+    lugat_adlari = set()
+    if lugat_kaynagi and Path(lugat_kaynagi).exists():
+        lugat_dizini = hedef / "Lugat"
+        if lugat_dizini.exists():
+            shutil.rmtree(lugat_dizini)
+        lugat_dizini.mkdir(parents=True, exist_ok=True)
+        for kaynak_dosya in sorted(Path(lugat_kaynagi).glob("*.md")):
+            shutil.copy2(kaynak_dosya, lugat_dizini / kaynak_dosya.name)
+            if kaynak_dosya.stem != "fihrist":
+                lugat_adlari.add(kaynak_dosya.stem)
+
     for ad, kayitlar in konu_defteri.items():
+        if ad in lugat_adlari:
+            continue  # Lugat maddesi varsa otomatik hub'ı gölgeler (Obsidian'da tek isim)
         kayitlar = sorted(kayitlar, key=lambda x: x.get("tarih", ""), reverse=True)
         govde = ["---\ntur: konu\n---\n", f"# {ad}\n", f"{len(kayitlar)} haber\n"]
         govde += [f"- [[{adlar[x['id']]}]] — {x.get('tarih', '')}, {x.get('bolum', '')}" for x in kayitlar]
@@ -107,7 +121,7 @@ def main():
     from pipeline.kulliyat import jsonl_oku
 
     butun = jsonl_oku(KOK / "veri" / "haberler.jsonl")
-    kasa_yaz(KOK / "kasa", butun)
+    kasa_yaz(KOK / "kasa", butun, lugat_kaynagi=KOK / "lugat")
     print(f"Kasa: {len(butun)} not yazıldı → kasa/")
 
 

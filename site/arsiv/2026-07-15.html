@@ -47,7 +47,7 @@ try {
           </div>
         </div>
         <div class="damga-hiza">
-          <span class="damga">Sabah Baskısı<small>12:46 · YZ dizgisi</small></span>
+          <span class="damga">Sabah Baskısı<small>13:46 · YZ dizgisi</small></span>
         </div>
         <div class="kapak-manset">
           <p class="kicker">GÜVEN SORUNU</p>
@@ -295,9 +295,10 @@ try {
     <div class="sayfa sayfa-arka" data-density="hard">
       <div class="sayfa-ic arka-kapak">
         <p class="editor-notu">Günün ortak teması güven: GPT-5.6&#39;nın dosya sildiği iddiaları, Grok&#39;un kod yükleme skandalı ve Claude&#39;un hafıza açığı aynı soruyu sorduruyor — bu araçlara ne kadar teslim olmalı?</p>
-        <p class="kaynak-satiri">Bugün 17/17 kaynak tarandı.</p>
+        <p class="kaynak-satiri">Bugün 20/20 kaynak tarandı.</p>
         <div class="buyuk-baglar">
           <a href="../kulliyat/index.html">Külliyat'ta ara</a>
+          <a href="../lugat/index.html">Lugat</a>
           <a href="../arsiv/index.html">Arşiv</a>
           <a href="../arsiv/2026-07-14.html">← Önceki sayı</a>
         </div>
@@ -317,29 +318,29 @@ try {
   var sessiz = false;
   try { sessiz = localStorage.getItem("havadis-ses") === "kapali"; } catch (e) {}
 
-  /* ————— kâğıt hışırtısı: WebAudio ile sentez (dosya yok) ————— */
-  var baglam = null;
+  /* ————— sayfa çevirme sesi: gerçek kayıt (varliklar/sayfa-sesi.mp3) ————— */
+  var baglam = null, sesVerisi = null;
   document.addEventListener("pointerdown", function () {
-    if (!baglam) { try { baglam = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) {} }
+    if (baglam) return;
+    try {
+      baglam = new (window.AudioContext || window.webkitAudioContext)();
+      fetch("../varliklar/sayfa-sesi.mp3")
+        .then(function (r) { return r.arrayBuffer(); })
+        .then(function (b) { return baglam.decodeAudioData(b); })
+        .then(function (d) { sesVerisi = d; })
+        .catch(function () {});
+    } catch (e) {}
   }, { once: true });
 
   function sesCal() {
-    if (sessiz || !baglam) return;
+    if (sessiz || !baglam || !sesVerisi) return;
     if (baglam.state === "suspended") baglam.resume();
-    var sr = baglam.sampleRate, n = Math.floor(sr * 0.3);
-    var buf = baglam.createBuffer(1, n, sr), d = buf.getChannelData(0);
-    for (var i = 0; i < n; i++) {
-      var t = i / n;
-      var zarf = Math.pow(1 - t, 2.4) * Math.min(1, t / 0.06) +
-                 0.4 * Math.exp(-Math.pow((t - 0.72) / 0.07, 2)); // kaldır + bırak
-      d[i] = (Math.random() * 2 - 1) * zarf * 0.55;
-    }
-    var src = baglam.createBufferSource(); src.buffer = buf;
-    var hp = baglam.createBiquadFilter(); hp.type = "highpass"; hp.frequency.value = 600;
-    var bp = baglam.createBiquadFilter(); bp.type = "bandpass";
-    bp.frequency.value = 1500 + Math.random() * 900; bp.Q.value = 0.7;
-    var kazanc = baglam.createGain(); kazanc.gain.value = 0.5;
-    src.connect(hp); hp.connect(bp); bp.connect(kazanc); kazanc.connect(baglam.destination);
+    var src = baglam.createBufferSource();
+    src.buffer = sesVerisi;
+    src.playbackRate.value = 0.96 + Math.random() * 0.08; // her çeviriş bir tık farklı
+    var kazanc = baglam.createGain();
+    kazanc.gain.value = 0.9;
+    src.connect(kazanc); kazanc.connect(baglam.destination);
     src.start();
   }
 

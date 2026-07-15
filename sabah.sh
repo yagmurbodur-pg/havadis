@@ -41,9 +41,24 @@ kill "$BEKCI_PID" 2>/dev/null || true
 "$PY" -m pipeline.validate || "$PY" -m pipeline.fallback
 "$PY" -m pipeline.render
 "$PY" -m pipeline.kulliyat
+
+# Ansiklopedi: Lugat güncellemesi (başarısız olursa dergi etkilenmez; dünkü lugat kalır)
+claude -p "LUGAT.md'yi oku ve aynen uygula: veri/bugun.json'daki haberlerin dokunduğu lugat maddelerini güncelle ya da aç, 'python3 -m pipeline.lugat_dogrula' yeşil olana dek düzelt. Başka dosyaya dokunma; commit/push yapma." \
+  --allowedTools "Read,Write,Edit,Bash(python3 -m pipeline.lugat_dogrula)" \
+  --max-turns 30 &
+LUGAT_PID=$!
+( sleep 600; kill "$LUGAT_PID" 2>/dev/null && echo "uyarı: lugat editörü 10 dk'da bitmedi, durduruldu" ) &
+LUGAT_BEKCI=$!
+wait "$LUGAT_PID" || echo "uyarı: lugat editörü hata verdi"
+kill "$LUGAT_BEKCI" 2>/dev/null || true
+if ! "$PY" -m pipeline.lugat_dogrula; then
+  echo "uyarı: lugat doğrulaması geçmedi — bugünkü wiki değişiklikleri geri alınıyor"
+  git checkout -- lugat/ 2>/dev/null || true
+fi
+"$PY" -m pipeline.lugat_render
 "$PY" -m pipeline.kasa
 
-git add site veri kasa
+git add site veri kasa lugat
 git commit -m "Sayı: $(date '+%F')" || echo "değişiklik yok"
 git push origin main   # push → GitHub Actions yalnızca Pages yayını yapar
 
