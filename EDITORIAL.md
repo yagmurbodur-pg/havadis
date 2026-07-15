@@ -29,6 +29,11 @@ Her aday kümesine zihninde 1-5 önem puanı ver:
 
 Aynı olayın farklı kaynaklardaki tekrarları TEK haberdir — fetch çoğunu kümeler, gözünden kaçanı sen birleştir (en iyi adayın `id`'sini kullan). Bir şirketin kendi duyurusu varken medya aktarımını seçme.
 
+Özel kaynak kuralları:
+- **HN Ana Sayfa** adayları genel teknoloji içerir: yalnızca YZ ile ilgili olanları değerlendir.
+- **GitHub Trending** adayları Araç Çantası içindir: okura bugün gerçekten faydalı olabilecek YZ depolarını seç; alakasızları ele. Başlığı depo adıyla bırakma — ne işe yaradığını söyleyen Türkçe bir başlık yaz.
+- **AI News (Latent.Space)** bir toplu dijesttir: onu haber diye verme; büyük bir gelişmeyi kaçırmadığını kontrol etmek için tara. İstersen Radar'da "günün dijesti" olarak tek satır verebilirsin.
+
 ## Sayı düzeni ve kotalar
 
 | Bölüm | Adet | İçerik |

@@ -1,5 +1,5 @@
-# Havadis kaynak listesi — uçlar 9 Temmuz 2026'da canlı doğrulandı.
-# tip: rss | hf_api | hn_api
+# Havadis kaynak listesi — uçlar 9/15 Temmuz 2026'da canlı doğrulandı.
+# tip: rss | hf_api | hn_api | gh_trending
 # bolum: gundem | arastirma | turkiye | arac_cantasi   (ipucu; kesin karar editörün)
 # oncelik: 3=kurumsal birincil kaynak, 2=medya, 1=topluluk/küratör (küme birincili seçiminde)
 # bayat_gun: bu kadar gün yeni öğe gelmezse kaynak "bayat" işaretlenir (footer sayacına düşer)
@@ -85,6 +85,31 @@ kaynaklar:
     oncelik: 1
     min_puan: 80
     sorgular: [AI, LLM, OpenAI, Anthropic, Claude, GPT, Gemini, "open model"]
+
+  - ad: HN Ana Sayfa
+    tip: hn_api
+    mod: front_page
+    bolum: gundem
+    oncelik: 2
+    min_puan: 100
+    # Kullanıcı isteği (15 Tem): HN manşetlerinin kesin takibi; YZ dışını editör eler.
+
+  - ad: AI News (Latent.Space)
+    url: https://www.latent.space/feed
+    tip: rss
+    bolum: gundem
+    oncelik: 2
+    bayat_gun: 4
+    baslik_filtre: ["ainews", "ai news"]
+    # Kullanıcı isteği (15 Tem): smol.ai günlük dijesti; /s/ainews'un ayrı feed'i yok,
+    # tüm yayın feed'inden başlıkla süzülür.
+
+  - ad: GitHub Trending
+    url: "https://github.com/trending?since=daily"
+    tip: gh_trending
+    bolum: arac_cantasi
+    oncelik: 1
+    # Kullanıcı isteği (15 Tem): günün yükselen depoları (HTML kazıma; API yok).
 
   - ad: HF Daily Papers
     url: https://huggingface.co/api/daily_papers?limit=30

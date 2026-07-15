@@ -150,6 +150,9 @@ def _rss_oku(kaynak, istemci, simdi, pencere, karaliste):
         ozet = temizle_ozet(entry.get("summary") or entry.get("description") or "")
         if karaliste_mi(baslik + " " + ozet, karaliste):
             continue
+        baslik_filtre = kaynak.get("baslik_filtre")
+        if baslik_filtre and not anahtar_gecer_mi(baslik, baslik_filtre):
+            continue  # yalnız belirli seri/bölüm (ör. Latent.Space içinden AI News)
         filtre = kaynak.get("anahtar_filtre")
         if filtre and not anahtar_gecer_mi(baslik + " " + ozet, filtre):
             continue
@@ -208,24 +211,83 @@ def _hf_oku(kaynak, istemci, simdi, pencere):
 
 
 def _hn_oku(kaynak, istemci, simdi, pencere):
-    esik_ts = int((simdi - timedelta(hours=pencere)).timestamp())
-    gorulen, hits = set(), []
-    for sorgu in kaynak.get("sorgular", ["AI"]):
+    if kaynak.get("mod") == "front_page":
+        # HN manşet sayfasının kendisi (kesin takip); pencere filtresi yok — manşetteyse günceldir
         r = istemci.get(
-            "https://hn.algolia.com/api/v1/search_by_date",
-            params={
-                "query": sorgu,
-                "tags": "story",
-                "numericFilters": f"created_at_i>{esik_ts}",
-                "hitsPerPage": 30,
-            },
+            "https://hn.algolia.com/api/v1/search",
+            params={"tags": "front_page", "hitsPerPage": 30},
         )
         r.raise_for_status()
-        for h in r.json().get("hits", []):
-            if h.get("objectID") not in gorulen:
-                gorulen.add(h.get("objectID"))
-                hits.append(h)
-    return hn_filtrele(hits, kaynak.get("min_puan", 80)), None
+        hits = r.json().get("hits", [])
+    else:
+        esik_ts = int((simdi - timedelta(hours=pencere)).timestamp())
+        gorulen, hits = set(), []
+        for sorgu in kaynak.get("sorgular", ["AI"]):
+            r = istemci.get(
+                "https://hn.algolia.com/api/v1/search_by_date",
+                params={
+                    "query": sorgu,
+                    "tags": "story",
+                    "numericFilters": f"created_at_i>{esik_ts}",
+                    "hitsPerPage": 30,
+                },
+            )
+            r.raise_for_status()
+            for h in r.json().get("hits", []):
+                if h.get("objectID") not in gorulen:
+                    gorulen.add(h.get("objectID"))
+                    hits.append(h)
+    adaylar = hn_filtrele(hits, kaynak.get("min_puan", 80))
+    for aday in adaylar:  # etiket ve öncelik yapılandırmadan gelsin
+        aday["kaynak"] = kaynak["ad"]
+        aday["oncelik"] = kaynak.get("oncelik", 1)
+    return adaylar, None
+
+
+def gh_trending_ayristir(html, simdi, kaynak_adi="GitHub Trending", oncelik=1, en_cok=15):
+    """github.com/trending HTML'inden aday listesi çıkarır (resmî API/RSS yok)."""
+    corba = BeautifulSoup(html or "", "html.parser")
+    adaylar = []
+    for satir in corba.select("article.Box-row")[:en_cok]:
+        h2 = satir.find("h2")
+        baglanti = h2.find("a") if h2 else None
+        if not baglanti or not baglanti.get("href"):
+            continue
+        depo = baglanti["href"].strip("/")
+        url = f"https://github.com/{depo}"
+        p = satir.find("p")
+        aciklama = temizle_ozet(p.get_text(" ", strip=True) if p else "", 300)
+        yildiz_dugum = satir.find(string=re.compile(r"stars today"))
+        yildiz = " ".join(str(yildiz_dugum).split()) if yildiz_dugum else ""
+        ozet = aciklama
+        if yildiz:
+            ozet = (ozet + " — " if ozet else "") + f"⭐ {yildiz}"
+        adaylar.append(
+            {
+                "id": kimlik(url),
+                "kaynak": kaynak_adi,
+                "oncelik": oncelik,
+                "bolum_ipucu": "arac_cantasi",
+                "baslik": f"{depo}: GitHub'da bugün yükselen depo",
+                "url": url,
+                "tarih": simdi.isoformat(),
+                "ozet": ozet,
+                "ek_kaynaklar": [],
+            }
+        )
+    return adaylar
+
+
+def _gh_trending_oku(kaynak, istemci, simdi):
+    r = istemci.get(
+        kaynak.get("url", "https://github.com/trending?since=daily"),
+        headers={"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"},
+    )
+    r.raise_for_status()
+    adaylar = gh_trending_ayristir(
+        r.text, simdi, kaynak.get("ad", "GitHub Trending"), kaynak.get("oncelik", 1)
+    )
+    return adaylar, None
 
 
 def topla(ayar, simdi=None):
@@ -241,6 +303,8 @@ def topla(ayar, simdi=None):
                     adaylar, en_yeni = _hf_oku(kaynak, istemci, simdi, pencere)
                 elif kaynak.get("tip") == "hn_api":
                     adaylar, en_yeni = _hn_oku(kaynak, istemci, simdi, pencere)
+                elif kaynak.get("tip") == "gh_trending":
+                    adaylar, en_yeni = _gh_trending_oku(kaynak, istemci, simdi)
                 else:
                     adaylar, en_yeni = _rss_oku(kaynak, istemci, simdi, pencere, karaliste)
                 durum = "ok"

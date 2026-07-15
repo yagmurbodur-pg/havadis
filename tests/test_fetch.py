@@ -3,6 +3,7 @@ from datetime import datetime, timedelta, timezone
 
 from pipeline.fetch import (
     anahtar_gecer_mi,
+    gh_trending_ayristir,
     hn_filtrele,
     karaliste_mi,
     kimlik,
@@ -11,6 +12,24 @@ from pipeline.fetch import (
     temizle_ozet,
     url_normalize,
 )
+
+
+def test_gh_trending_ayristir():
+    html = """
+    <article class="Box-row"><h2 class="h3"><a href="/acme/super-ai">acme / super-ai</a></h2>
+    <p class="col-9">Yapay zekâ ajanları için süper araç</p>
+    <span class="d-inline-block float-sm-right">1,234 stars today</span></article>
+    <article class="Box-row"><h2 class="h3"><a href="/foo/bar">foo / bar</a></h2></article>
+    """
+    simdi = datetime(2026, 7, 15, 4, 0, tzinfo=timezone.utc)
+    sonuc = gh_trending_ayristir(html, simdi)
+    assert len(sonuc) == 2
+    assert sonuc[0]["url"] == "https://github.com/acme/super-ai"
+    assert "acme/super-ai" in sonuc[0]["baslik"]
+    assert "süper araç" in sonuc[0]["ozet"]
+    assert "1,234" in sonuc[0]["ozet"]
+    assert sonuc[0]["bolum_ipucu"] == "arac_cantasi"
+    assert sonuc[1]["ozet"] == ""
 
 
 def test_url_normalize_utm_temizler():
