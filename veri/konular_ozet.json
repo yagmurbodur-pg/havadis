@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 23,
+   "adet": 29,
    "son": [
     {
-     "id": "78847ab0",
-     "baslik": "Already rich, already successful, why the last wave of tech winners is grinding again",
-     "tarih": "2026-07-14"
+     "id": "dc9597f1",
+     "baslik": "Celebrating 25 years of visual search innovation",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "b33e95b4",
-     "baslik": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-     "tarih": "2026-07-14"
+     "id": "92ab1f77",
+     "baslik": "How to manage AI investments in the agentic era",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "dc42d63d",
-     "baslik": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-     "tarih": "2026-07-14"
+     "id": "cca00ce6",
+     "baslik": "How data science teams use ChatGPT Work",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "4cba1dee",
-     "baslik": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-     "tarih": "2026-07-14"
+     "id": "42ba56cb",
+     "baslik": "Anthropic commits $10 million to Canadian AI research",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "6b47c606",
-     "baslik": "Satya Nadella has issued a shocking warning to companies using AI",
-     "tarih": "2026-07-14"
+     "id": "d37ce11f",
+     "baslik": "Introducing Claude for Teachers",
+     "tarih": "2026-07-15"
     }
    ]
   },
