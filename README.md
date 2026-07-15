@@ -2,10 +2,15 @@
 
 > Yapay zekâdan taze havadisler — her sabah otomatik üretilen günlük Türkçe dergi.
 
-Her sabah 06:47'de (İstanbul) **Mac'te launchd** `sabah.sh`'ı çalıştırır: 17 kaynaktan son 36 saatin
-haberleri toplanır, **yerel Claude** (mevcut abonelik oturumu — ek anahtar/token gerekmez) 10-14 haberlik
-kompakt bir Türkçe sayı yazar, sonuç push'lanır; GitHub Actions yalnızca Pages yayını yapar ve ntfy
-üzerinden telefona bildirim (+e-posta kopyası) gider. Mac uykudaysa görev uyanınca telafi edilir.
+Her sabah 06:47'de (İstanbul) **launchd, kısa bir Terminal penceresinde** `sabah.command`'ı açar
+(Keychain'deki abonelik kimliğine erişim için — ek anahtar/token gerekmez): 17 kaynaktan son 36 saatin
+haberleri toplanır, **yerel Claude** 10-14 haberlik kompakt bir Türkçe sayı yazar, sonuç push'lanır;
+GitHub Actions yalnızca Pages yayını yapar ve ntfy telefona push bildirimi gönderir. Pencere iş bitince
+kendini kapatır; Mac uykudaysa görev uyanınca telafi edilir. Editör 15 dakikada bitmezse bekçi onu durdurur
+ve güvenlik ağı olarak "mini sayı" yayınlanır — sabah asla boş geçmez.
+
+Not: ntfy.sh anonim e-posta iletimini artık desteklemiyor; e-posta kopyası için ücretsiz bir ntfy hesabı
+açıp `.sabah.env`'e `NTFY_TOKEN` eklemek yeterli (kod hazır) — yoksa yalnızca push gider.
 
 ## Mimari
 
