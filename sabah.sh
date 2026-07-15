@@ -3,7 +3,7 @@
 # launchd her sabah 06:47'de çalıştırır; Mac uykudaysa uyanınca telafi eder.
 set -euo pipefail
 
-KOK="/Users/yagmur/Desktop/havadis"
+KOK="/Users/yagmur/havadis"
 cd "$KOK"
 mkdir -p "$HOME/Library/Logs"
 LOG="$HOME/Library/Logs/havadis-sabah.log"
@@ -26,10 +26,17 @@ PY="$KOK/.venv/bin/python"
 
 "$PY" -m pipeline.fetch
 
-# Editörlük: yerel Claude — mevcut abonelik oturumu, yeni anahtar gerekmez.
+# Editörlük: yerel Claude, headless. Bu script Terminal penceresinde koşar (launchd → open -a Terminal),
+# böylece Keychain'deki abonelik kimliği erişilebilir olur — token üretmeye gerek kalmaz.
+# Bekçi: editör 15 dakikada bitmezse durdurulur → mini sayı devreye girer; sabah asla bloke olmaz.
 claude -p "EDITORIAL.md'yi oku ve aynen uygula: candidates.json'dan bugünün sayısını seç, issue.json'ı depo köküne yaz, 'python3 -m pipeline.validate' yeşil olana dek düzelt. Başka dosyaya dokunma; commit/push yapma." \
   --allowedTools "Read,Write,Edit,Bash(python3 -m pipeline.validate)" \
-  --max-turns 40 || echo "uyarı: editör hata verdi; doğrulama/fallback devrede"
+  --max-turns 40 &
+CLAUDE_PID=$!
+( sleep 900; kill "$CLAUDE_PID" 2>/dev/null && echo "uyarı: editör 15 dk'da bitmedi, durduruldu" ) &
+BEKCI_PID=$!
+wait "$CLAUDE_PID" || echo "uyarı: editör hata verdi; doğrulama/fallback devrede"
+kill "$BEKCI_PID" 2>/dev/null || true
 
 "$PY" -m pipeline.validate || "$PY" -m pipeline.fallback
 "$PY" -m pipeline.render

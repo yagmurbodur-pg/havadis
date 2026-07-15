@@ -6,6 +6,7 @@ Her sabah veri/haberler.jsonl'den kasa/ klasörünü TAM yeniden üretir:
 Klasör Obsidian'da vault olarak açıldığında bağ grafiği kendiliğinden oluşur.
 """
 import re
+import shutil
 from pathlib import Path
 
 KOK = Path(__file__).resolve().parent.parent
@@ -51,6 +52,9 @@ def kasa_yaz(hedef, butun):
     hedef = Path(hedef)
     haberler_dizini = hedef / "Haberler"
     konular_dizini = hedef / "Konular"
+    for dizin in (haberler_dizini, konular_dizini):  # tam yeniden üretim: bayat not kalmasın
+        if dizin.exists():
+            shutil.rmtree(dizin)
     haberler_dizini.mkdir(parents=True, exist_ok=True)
     konular_dizini.mkdir(parents=True, exist_ok=True)
 

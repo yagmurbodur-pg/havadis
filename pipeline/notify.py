@@ -39,7 +39,17 @@ def main():
         baslik = f"Havadis — Sayı {son['sayi_no']} (mini) çıktı"
     yuk = bildirim_yuku(baslik, son.get("kapak", ""), site_url, topic, email)
 
-    r = httpx.post("https://ntfy.sh", json=yuk, timeout=20)
+    basliklar = {}
+    ntfy_token = os.environ.get("NTFY_TOKEN")  # e-posta kopyası için ntfy hesabı (isteğe bağlı)
+    if ntfy_token:
+        basliklar["Authorization"] = f"Bearer {ntfy_token}"
+
+    r = httpx.post("https://ntfy.sh", json=yuk, headers=basliklar, timeout=20)
+    if r.status_code == 400 and "email" in yuk and "email" in r.text.lower():
+        # ntfy.sh anonim e-posta iletimini reddediyor → push'u e-postasız kurtar
+        yuk.pop("email", None)
+        print("uyarı: ntfy e-posta kopyasını reddetti (hesap gerekli); yalnızca push gönderiliyor.")
+        r = httpx.post("https://ntfy.sh", json=yuk, headers=basliklar, timeout=20)
     r.raise_for_status()
     print("Bildirim gönderildi ✓")
 

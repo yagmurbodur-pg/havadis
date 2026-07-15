@@ -2,9 +2,10 @@
 
 > Yapay zekâdan taze havadisler — her sabah otomatik üretilen günlük Türkçe dergi.
 
-Her sabah ~06:47'de (İstanbul) GitHub Actions çalışır: 17 kaynaktan son 36 saatin haberlerini toplar,
-Claude editörlüğünde 10-14 haberlik kompakt bir Türkçe sayı yazılır, dergi GitHub Pages'ta yayınlanır
-ve ntfy üzerinden telefona bildirim (+e-posta kopyası) gider.
+Her sabah 06:47'de (İstanbul) **Mac'te launchd** `sabah.sh`'ı çalıştırır: 17 kaynaktan son 36 saatin
+haberleri toplanır, **yerel Claude** (mevcut abonelik oturumu — ek anahtar/token gerekmez) 10-14 haberlik
+kompakt bir Türkçe sayı yazar, sonuç push'lanır; GitHub Actions yalnızca Pages yayını yapar ve ntfy
+üzerinden telefona bildirim (+e-posta kopyası) gider. Mac uykudaysa görev uyanınca telafi edilir.
 
 ## Mimari
 
@@ -34,12 +35,14 @@ python3 -m pipeline.render       # → site/
 open site/index.html
 ```
 
-## CI kurulumu (Actions secrets)
+## Sabah otomasyonu (yerel)
 
-| Secret | Ne |
-|---|---|
-| `CLAUDE_CODE_OAUTH_TOKEN` | `claude setup-token` çıktısı (Claude aboneliğiyle editörlük) |
-| `NTFY_TOPIC` | ntfy kanal adı (uzun ve rastgele — topic şifre gibidir) |
-| `NOTIFY_EMAIL` | Bildirimin e-posta kopyasının gideceği adres |
+- `sabah.sh` — tüm hattı koşan betik (fetch → yerel `claude -p` editörlüğü → validate/fallback → render/kulliyat/kasa → push → notify). Log: `~/Library/Logs/havadis-sabah.log`.
+- `~/Library/LaunchAgents/com.havadis.sabah.plist` — her sabah 06:47; elle tetikleme: `launchctl kickstart gui/$(id -u)/com.havadis.sabah`.
+- Yerel ayarlar `.sabah.env` dosyasında (git'e girmez): `NTFY_TOPIC`, `NOTIFY_EMAIL`, `SITE_URL`.
+
+## CI (Actions) — yalnızca yayın
+
+Push geldiğinde `site/` Pages'e yayınlanır; başarısız olursa `NTFY_TOPIC` secret'ıyla alarm bildirimi atılır. Bulutta LLM çağrısı yoktur.
 
 Fontlar SIL OFL lisanslıdır. Haber özetleri kaynaklarına linklidir; içerik hakları kaynaklara aittir.
