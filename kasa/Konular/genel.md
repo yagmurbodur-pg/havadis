@@ -4,14 +4,8 @@ tur: konu
 
 # genel
 
-29 haber
+23 haber
 
-- [[2026-07-15 Celebrating 25 years of visual search innovation]] — 2026-07-15, Kapak
-- [[2026-07-15 How to manage AI investments in the agentic era]] — 2026-07-15, Gündem
-- [[2026-07-15 How data science teams use ChatGPT Work]] — 2026-07-15, Gündem
-- [[2026-07-15 Anthropic commits $10 million to Canadian AI research]] — 2026-07-15, Gündem
-- [[2026-07-15 Introducing Claude for Teachers]] — 2026-07-15, Gündem
-- [[2026-07-15 OpenAI researcher Miles Wang in talks to launch AI drug disc]] — 2026-07-15, Gündem
 - [[2026-07-14 Already rich, already successful, why the last wave of tech]] — 2026-07-14, Kapak
 - [[2026-07-14 Uber’s product chief on hotels, robotaxis, and why the compa]] — 2026-07-14, Gündem
 - [[2026-07-14 Video-generation startup PixVerse raises $439M, valuation so]] — 2026-07-14, Gündem

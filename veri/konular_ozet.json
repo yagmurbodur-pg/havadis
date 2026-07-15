@@ -3,40 +3,55 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 29,
+   "adet": 23,
    "son": [
     {
-     "id": "dc9597f1",
-     "baslik": "Celebrating 25 years of visual search innovation",
-     "tarih": "2026-07-15"
+     "id": "78847ab0",
+     "baslik": "Already rich, already successful, why the last wave of tech winners is grinding again",
+     "tarih": "2026-07-14"
     },
     {
-     "id": "92ab1f77",
-     "baslik": "How to manage AI investments in the agentic era",
-     "tarih": "2026-07-15"
+     "id": "b33e95b4",
+     "baslik": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
+     "tarih": "2026-07-14"
     },
     {
-     "id": "cca00ce6",
-     "baslik": "How data science teams use ChatGPT Work",
-     "tarih": "2026-07-15"
+     "id": "dc42d63d",
+     "baslik": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
+     "tarih": "2026-07-14"
     },
     {
-     "id": "42ba56cb",
-     "baslik": "Anthropic commits $10 million to Canadian AI research",
-     "tarih": "2026-07-15"
+     "id": "4cba1dee",
+     "baslik": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
+     "tarih": "2026-07-14"
     },
     {
-     "id": "d37ce11f",
-     "baslik": "Introducing Claude for Teachers",
-     "tarih": "2026-07-15"
+     "id": "6b47c606",
+     "baslik": "Satya Nadella has issued a shocking warning to companies using AI",
+     "tarih": "2026-07-14"
     }
    ]
   },
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 3,
+   "adet": 6,
    "son": [
+    {
+     "id": "3e68f8ee",
+     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "dc52ec30",
+     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "0069d7c4",
+     "baslik": "Rehber: GPT-5.6'dan en iyi verimi almanın yolları",
+     "tarih": "2026-07-15"
+    },
     {
      "id": "54ee76ae",
      "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
@@ -46,10 +61,98 @@
      "id": "16830069",
      "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "araçlar",
+   "slug": "araclar",
+   "adet": 4,
+   "son": [
+    {
+     "id": "10fd57ef",
+     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "963a6870",
-     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
+     "id": "b8295173",
+     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "0069d7c4",
+     "baslik": "Rehber: GPT-5.6'dan en iyi verimi almanın yolları",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "c1c7fcde",
+     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "modeller",
+   "slug": "modeller",
+   "adet": 3,
+   "son": [
+    {
+     "id": "3e68f8ee",
+     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "67b034bb",
+     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "kod asistanları",
+   "slug": "kod-asistanlari",
+   "adet": 3,
+   "son": [
+    {
+     "id": "3e68f8ee",
+     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "2cc0275f",
+     "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "78820279",
+     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "araştırma",
+   "slug": "arastirma",
+   "adet": 3,
+   "son": [
+    {
+     "id": "77128801",
+     "baslik": "Yapay zekâ kendi düşünmesini izleyebilir mi? Kapsamlı bir derleme",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "b84f0061",
+     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "89886d70",
+     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
      "tarih": "2026-07-09"
     }
    ]
@@ -77,18 +180,103 @@
    ]
   },
   {
-   "ad": "modeller",
-   "slug": "modeller",
+   "ad": "xAI",
+   "slug": "xai",
    "adet": 2,
    "son": [
     {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
+     "id": "2cc0275f",
+     "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
+     "tarih": "2026-07-15"
     },
     {
      "id": "67b034bb",
      "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "gizlilik",
+   "slug": "gizlilik",
+   "adet": 2,
+   "son": [
+    {
+     "id": "2cc0275f",
+     "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "fbe93ef8",
+     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "regülasyon",
+   "slug": "regulasyon",
+   "adet": 2,
+   "son": [
+    {
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "cb9db543",
+     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Google",
+   "slug": "google",
+   "adet": 2,
+   "son": [
+    {
+     "id": "cb9db543",
+     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "b98c65f8",
+     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "telif davaları",
+   "slug": "telif-davalari",
+   "adet": 2,
+   "son": [
+    {
+     "id": "b98c65f8",
+     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "16830069",
+     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "Türkiye",
+   "slug": "turkiye",
+   "adet": 2,
+   "son": [
+    {
+     "id": "10fd57ef",
+     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
      "tarih": "2026-07-09"
     }
    ]
@@ -111,6 +299,78 @@
    ]
   },
   {
+   "ad": "donanım",
+   "slug": "donanim",
+   "adet": 1,
+   "son": [
+    {
+     "id": "dc52ec30",
+     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Apple",
+   "slug": "apple",
+   "adet": 1,
+   "son": [
+    {
+     "id": "f6d4f1f6",
+     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "asistanlar",
+   "slug": "asistanlar",
+   "adet": 1,
+   "son": [
+    {
+     "id": "f6d4f1f6",
+     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "veri merkezleri",
+   "slug": "veri-merkezleri",
+   "adet": 1,
+   "son": [
+    {
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Anthropic",
+   "slug": "anthropic",
+   "adet": 1,
+   "son": [
+    {
+     "id": "b84f0061",
+     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "güvenlik",
+   "slug": "guvenlik",
+   "adet": 1,
+   "son": [
+    {
+     "id": "b8295173",
+     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
    "ad": "çipler",
    "slug": "cipler",
    "adet": 1,
@@ -118,42 +378,6 @@
     {
      "id": "8c91b0e5",
      "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "kod asistanları",
-   "slug": "kod-asistanlari",
-   "adet": 1,
-   "son": [
-    {
-     "id": "78820279",
-     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "xAI",
-   "slug": "xai",
-   "adet": 1,
-   "son": [
-    {
-     "id": "67b034bb",
-     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "telif davaları",
-   "slug": "telif-davalari",
-   "adet": 1,
-   "son": [
-    {
-     "id": "16830069",
-     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
      "tarih": "2026-07-09"
     }
    ]
@@ -183,30 +407,6 @@
    ]
   },
   {
-   "ad": "araştırma",
-   "slug": "arastirma",
-   "adet": 1,
-   "son": [
-    {
-     "id": "89886d70",
-     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "Türkiye",
-   "slug": "turkiye",
-   "adet": 1,
-   "son": [
-    {
-     "id": "86e5b702",
-     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
    "ad": "yatırımlar",
    "slug": "yatirimlar",
    "adet": 1,
@@ -214,30 +414,6 @@
     {
      "id": "86e5b702",
      "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "araçlar",
-   "slug": "araclar",
-   "adet": 1,
-   "son": [
-    {
-     "id": "c1c7fcde",
-     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "gizlilik",
-   "slug": "gizlilik",
-   "adet": 1,
-   "son": [
-    {
-     "id": "fbe93ef8",
-     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
      "tarih": "2026-07-09"
     }
    ]
