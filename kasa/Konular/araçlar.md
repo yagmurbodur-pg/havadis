@@ -4,8 +4,11 @@ tur: konu
 
 # araçlar
 
-4 haber
+7 haber
 
+- [[2026-07-16 YZ'nin bayat tasarımlarına panzehir Claude Code için 'hallma]] — 2026-07-16, Araç Çantası
+- [[2026-07-16 Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması aweso]] — 2026-07-16, Araç Çantası
+- [[2026-07-16 Ajanların tehlikeli komutlarına fren dcg, silici komutları ç]] — 2026-07-16, Araç Çantası
 - [[2026-07-15 Marka tescilini hızlandıran yerli platform tmark.ai yayında]] — 2026-07-15, Türkiye'den
 - [[2026-07-15 Dependabot artık yeni paket sürümleri için üç gün bekliyor]] — 2026-07-15, Araç Çantası
 - [[2026-07-15 Rehber GPT-5.6'dan en iyi verimi almanın yolları]] — 2026-07-15, Araç Çantası

@@ -7,13 +7,19 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Anthropic]]
 - [[Apple]]
 - [[Google]]
+- [[Meta]]
+- [[Ode]]
 - [[OpenAI]]
 - [[SpaceXAI]]
+- [[Suno]]
+- [[Thinking Machines]]
 
 ## Modeller
 
 - [[Claude]]
 - [[GPT-5.6]]
+- [[GPT-Red]]
+- [[Inkling]]
 
 ## Ürünler
 

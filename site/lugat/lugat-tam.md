@@ -9,8 +9,10 @@ Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir;
 
 ## İlişkiler
 - [[Claude]] — geliştirdiği model ailesi (haber: b84f0061)
+- [[Ode]] — desteklediği kurumsal yapay zekâ girişimi (haber: 83d5a153)
 
 ## Gelişmeler
+- **2026-07-16** — Blackstone ve Goldman Sachs ile birlikte, şirketlere yapay zekâ kuran Ode girişiminin destekçileri arasında yer aldı. (haber: 83d5a153)
 - **2026-07-15** — Claude'un iletişiminin seçilen modele ve kullanılan dile göre değiştiğini doğrulayan bir araştırma yayımladı. (haber: b84f0061)
 
 
@@ -24,6 +26,7 @@ Apple, iPhone'u ve iOS işletim sistemini geliştiren ABD'li teknoloji şirketid
 - [[Siri]] — sesli asistanı (haber: f6d4f1f6)
 
 ## Gelişmeler
+- **2026-07-16** — Yapay zekâ paketi Apple Intelligence, Alibaba'nın Qwen modeliyle çalışacak biçimde Çin'de düzenleyici onay aldı. (haber: fe6ab2ef)
 - **2026-07-15** — Yenilenen Siri'yi içeren iOS 27 genel betasını yayımladı. (haber: f6d4f1f6)
 
 
@@ -103,9 +106,24 @@ GPT-5.6, [[OpenAI]]'ın amiral gemisi büyük dil modelidir. İki haftalık devl
 - [[OpenAI]] — geliştiricisi (haber: 54ee76ae)
 
 ## Gelişmeler
+- **2026-07-16** — OpenAI, modelin GPT-Red ile yapılan eğitim sayesinde kandırmaya karşı en dayanıklı sürüm olduğunu açıkladı. (haber: ee230258)
 - **2026-07-15** — Sol boyunun dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri yaygınlaştı. (haber: 3e68f8ee)
 - **2026-07-15** — Ben's Bites, modelden en iyi verimi almak için pratik bir rehber yayımladı. (haber: 0069d7c4)
 - **2026-07-09** — Üç boyuyla herkesin kullanımına açıldı; aynı gün Microsoft 365 Copilot'ta tercih edilen model oldu. (haber: 54ee76ae)
+
+
+## GPT-Red
+
+_OpenAI'ın kendi modellerini denemek için geliştirdiği, siber saldırı yollarını otomatik deneyen yapay zekâ._
+
+GPT-Red, [[OpenAI]]'ın kendi modellerini denemek için geliştirdiği, siber saldırı yollarını otomatik deneyen bir yapay zekâdır. Sistem, kendi kendine oynayarak (self-play: modelin kendisiyle karşılaşıp sonuçlardan öğrenmesi) yeni saldırı ve savunma yolları buluyor; OpenAI onu modellerine karşı antrenman rakibi olarak kullanıyor. Şirkete göre [[GPT-5.6]], bu eğitim sayesinde kandırmaya karşı en dayanıklı sürümü oldu. Yaklaşım, sohbet botlarının kandırılmaya karşı direncinin artık başka bir yapay zekâ tarafından test edildiği anlamına geliyor.
+
+## İlişkiler
+- [[OpenAI]] — geliştiricisi (haber: ee230258)
+- [[GPT-5.6]] — antrenman rakibi olarak dayanıklılığını artırdığı model (haber: ee230258)
+
+## Gelişmeler
+- **2026-07-16** — OpenAI, sistemi ve GPT-5.6'nın bu eğitimle kandırmaya karşı en dayanıklı sürüm olduğunu açıkladı. (haber: ee230258)
 
 
 ## Grok Build
@@ -118,7 +136,21 @@ Grok Build, [[SpaceXAI]]'ın yazılımcılara yönelik kod aracıdır; şirketin
 - [[SpaceXAI]] — geliştiricisi (haber: 2cc0275f)
 
 ## Gelişmeler
+- **2026-07-16** — SpaceXAI, veri skandalının ardından aracın kaynak kodunu GitHub'da herkese açtı. (haber: f42bd958)
 - **2026-07-15** — Cereblab, aracın kullanıcı projelerini açmaması söylenen dosyalar dahil Google Cloud'a yüklediğini ortaya çıkardı; özellik kapatıldı. (haber: 2cc0275f)
+
+
+## Inkling
+
+_Thinking Machines'in 975 milyar parametreli, açık ağırlıklı ilk yapay zekâ modeli._
+
+Inkling, [[Thinking Machines]]'in ilk yapay zekâ modelidir; Temmuz 2026'da yayımlandı. 975 milyar parametrelidir ve açık ağırlıklıdır: modelin ağırlıkları (öğrenme sonucu oluşan sayısal değerler) herkesin indirip kullanabileceği biçimde paylaşılır. Model, şirketin "herkese tek tip model" yaklaşımına karşı savunduğu, ihtiyaca göre uyarlanabilen modeller çizgisinin ilk ürünü. Bu boyutta bir modelin açık ağırlıkla yayımlanması, dev modellerin çoğunlukla kapalı servisler üzerinden sunulduğu tabloda dikkat çekti; duyuru, teknoloji gündeminde günün en çok konuşulan başlığı oldu.
+
+## İlişkiler
+- [[Thinking Machines]] — geliştiricisi (haber: f26aefe7)
+
+## Gelişmeler
+- **2026-07-16** — 975 milyar parametreli, açık ağırlıklı model olarak yayımlandı. (haber: f26aefe7)
 
 
 ## Kod asistanı
@@ -128,22 +160,51 @@ _Yazılımcının kodunu yazan, düzenleyen ya da çalıştıran; çoğu zaman d
 Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran yapay zekâ aracıdır. İlk kuşak araçlar yalnızca kod önerirken, güncel araçlar projenin dosyalarına doğrudan erişir: dosya açar, değiştirir, siler, komut çalıştırır. Bu erişim, aracı güçlü kıldığı ölçüde riskli de kılar; kullanıcı, bilgisayarının bir bölümünü fiilen araca emanet eder. Temmuz 2026'da bu güven sorusu iki olayla somutlaştı: [[OpenAI]]'ın amiral modeli [[GPT-5.6]]'nın Sol boyunu kod yazarken kullananlar, dosyaların uyarılmadan silindiğini bildirdi; SpaceXAI'ın aracı [[Grok Build]]'in ise kullanıcı projelerini olduğu gibi buluta yüklediği ortaya çıktı. İki olayın ortak dersi: kod asistanı kullananın hem yedek alması hem de aracın veriyi nereye gönderdiğini bilmesi gerekiyor.
 
 ## Gelişmeler
+- **2026-07-16** — Ajanların dosya silen ve geri dönüşü olmayan komutlarını çalışmadan durduran dcg aracı yayımlandı. (haber: 3f7f2e44)
+- **2026-07-16** — SpaceXAI, veri skandalının ardından Grok Build'in kaynak kodunu herkese açtı. (haber: f42bd958)
 - **2026-07-15** — GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri yaygınlaştı. (haber: 3e68f8ee)
 - **2026-07-15** — Grok Build'in kullanıcı kod tabanlarını olduğu gibi Google Cloud'a yüklediği ortaya çıktı. (haber: 2cc0275f)
 - **2026-07-15** — OpenAI'ın kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması şeffaflık tartışması doğurdu. (haber: 23f5e51c)
+
+
+## Meta
+
+_Facebook, Instagram ve WhatsApp'ı işleten ABD'li teknoloji şirketi._
+
+Meta, Facebook, Instagram ve WhatsApp'ı işleten ABD'li teknoloji şirketidir. Yapay zekâyı hem ürünlerinde hem de şirket içi süreçlerinde yaygın biçimde kullanır; kendi modellerini ve yapay zekâ çiplerini geliştirir. Temmuz 2026'da bu iç kullanım hukuki bir sınava dönüştü: 26 eski çalışan, kimin işten çıkarılacağına şirket içi yapay zekâ araçlarının topladığı performans verileriyle karar verildiği iddiasıyla dava açtı. Dava, özellikle izindeki çalışanların haksız yere hedef alındığını öne sürüyor; Meta, engelli ve sağlık sorunu olan çalışanları yapay zekâyla işten çıkardığı iddiasını reddediyor. Dava, işe alma ve işten çıkarma kararlarında yapay zekâ kullanımının ilk büyük hukuk sınavlarından biri olarak izleniyor.
+
+## Gelişmeler
+- **2026-07-16** — 26 eski çalışan, işten çıkarmalara şirket içi yapay zekâ araçlarının karar verdiği iddiasıyla dava açtı. (haber: a9b65061)
+
+
+## Ode
+
+_Mühendisleri büyük şirketlere yerleştirerek yapay zekâ dönüşümü yapan, Anthropic destekli girişim._
+
+Ode, mühendisleri büyük şirketlerin içine yerleştirerek yapay zekâ dönüşümünü hızlandırmayı hedefleyen bir girişimdir; Temmuz 2026'da yola çıktı. Arkasında [[Anthropic]]'in yanı sıra Blackstone ve Goldman Sachs gibi yatırımcılar var. Şirketin iddiası, yapay zekâdaki sıradaki büyük işin modelin kendisi değil, modellerin şirketlerde uygulanması olduğu; kurucular bunu "sıradaki trilyon dolarlık iş" olarak tanımlıyor. Yaklaşım, kalabalık danışman kadroları yerine az sayıda mühendisin doğrudan müşterinin ekiplerine katılmasına dayanıyor.
+
+## İlişkiler
+- [[Anthropic]] — destekçilerinden (haber: 83d5a153)
+
+## Gelişmeler
+- **2026-07-16** — Anthropic, Blackstone ve Goldman Sachs desteğiyle kurulduğunu duyurdu. (haber: 83d5a153)
 
 
 ## OpenAI
 
 _ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ şirketi._
 
-OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API (uygulamaların modele program aracılığıyla erişmesini sağlayan arayüz) üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. 2026 itibarıyla şirket yazılımın ötesine geçmeye hazırlanıyor: Bloomberg'e göre ilk donanım ürünü, ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör olacak. Öte yandan GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri, şirketin [[Kod asistanı]] alanındaki güvenilirliğini tartışmaya açmış durumda.
+OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API (uygulamaların modele program aracılığıyla erişmesini sağlayan arayüz) üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. 2026 itibarıyla şirket yazılımın ötesine geçti: sattığı ilk markalı donanım, Temmuz 2026'da çıkan ve Codex'te aynı anda çalışan kod ajanlarını izlemek için tasarlanan 230 dolarlık Codex Micro tuş bloğu oldu; Bloomberg'e göre ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör de hazırlanıyor. Öte yandan GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri, şirketin [[Kod asistanı]] alanındaki güvenilirliğini tartışmaya açmış durumda.
 
 ## İlişkiler
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
 - [[ChatGPT]] — sohbet asistanı ürünü
+- [[GPT-Red]] — modellerini denemek için geliştirdiği saldırgan yapay zekâ (haber: ee230258)
 
 ## Gelişmeler
+- **2026-07-16** — İlk markalı donanımı, kod ajanlarını izlemeye yarayan 230 dolarlık Codex Micro tuş bloğunu satışa çıkardı. (haber: d7170a29)
+- **2026-07-16** — Modellerini saldırılara karşı denemek için geliştirdiği GPT-Red'i tanıttı. (haber: ee230258)
+- **2026-07-16** — Avrupa Birliği mahkemesindeki bir marka tescili davasını kaybetti. (haber: ec44b263)
 - **2026-07-15** — GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri büyüdü. (haber: 3e68f8ee)
 - **2026-07-15** — İlk donanım ürününün, ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör olabileceği bildirildi. (haber: dc52ec30)
 - **2026-07-15** — Kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması tepki topladı. (haber: 23f5e51c)
@@ -173,8 +234,33 @@ SpaceXAI, Elon Musk'ın SpaceX çatısına taşınan yapay zekâ şirketidir; ö
 - [[Grok Build]] — kod aracı (haber: 2cc0275f)
 
 ## Gelişmeler
+- **2026-07-16** — Veri skandalının ardından Grok Build'in kaynak kodunu GitHub'da herkese açtı. (haber: f42bd958)
 - **2026-07-15** — Grok Build'in kullanıcı projelerini Google Cloud'a yüklediğinin ortaya çıkması üzerine özelliği kapattı ve verilerin silineceğini duyurdu. (haber: 2cc0275f)
 - **2026-07-09** — Grok 4.5'i, rakiplerinden daha ucuz ve aynı güçte bir seçenek iddiasıyla yayınladı. (haber: 67b034bb)
+
+
+## Suno
+
+_Metin komutuyla şarkı üreten yapay zekâyı geliştiren ABD'li şirket._
+
+Suno, metin komutuyla şarkı üreten yapay zekâyı geliştiren ABD'li şirkettir; kullanıcı birkaç satırlık istekle söz, beste ve seslendirmeyi tek seferde alır. Şirket, modelinin hangi müziklerle eğitildiğini bugüne dek hiç açıklamamıştı. Temmuz 2026'da bir siber saldırıda sızan veriler bu soruyu belgeledi: 404 Media'nın aktardığına göre model; YouTube Music, Deezer ve Genius'tan kazınan (sitelerden otomatik toplanan) milyonlarca şarkı ve şarkı sözüyle eğitilmiş. Sızıntı, yapay zekâ şirketlerinin eğitim verisini nereden aldığı sorusunun ilk kez bu kadar somut bir belgeyle yanıtlanması bakımından önemli.
+
+## Gelişmeler
+- **2026-07-16** — Siber saldırıda sızan veriler, modelin YouTube Music, Deezer ve Genius'tan izinsiz kazınan milyonlarca şarkıyla eğitildiğini gösterdi. (haber: f8bec47b)
+
+
+## Thinking Machines
+
+_Mira Murati'nin kurduğu, ilk ürünü açık ağırlıklı Inkling modeli olan ABD'li yapay zekâ şirketi._
+
+Thinking Machines, [[OpenAI]]'ın eski teknoloji şefi Mira Murati'nin kurduğu ABD'li yapay zekâ şirketidir. Kuruluşundan sonra yaklaşık bir buçuk yıl boyunca ürün çıkarmadan, gözlerden uzak altyapı kurdu. İlk somut ürünü, Temmuz 2026'da yayımladığı 975 milyar parametreli, açık ağırlıklı (herkesin indirip kullanabildiği) model [[Inkling]] oldu. Ekip "herkese tek tip model" yaklaşımına karşı çıkıyor; bunun yerine ihtiyaca göre uyarlanabilen modellere yatırım yapıyor. Inkling duyurusu teknoloji gündeminde günün en çok konuşulan başlığı oldu ve en iddialı yeni yapay zekâ laboratuvarlarından biri sayılan şirketin açtığı ilk kart olarak okundu.
+
+## İlişkiler
+- [[Inkling]] — ilk modeli (haber: f26aefe7)
+- [[OpenAI]] — kurucusu Mira Murati'nin eski şirketi (haber: f26aefe7)
+
+## Gelişmeler
+- **2026-07-16** — İlk modeli, 975 milyar parametreli açık ağırlıklı Inkling'i yayımladı. (haber: f26aefe7)
 
 
 ## tmark.ai

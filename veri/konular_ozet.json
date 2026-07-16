@@ -35,8 +35,18 @@
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 6,
+   "adet": 8,
    "son": [
+    {
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "ee230258",
+     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
+     "tarih": "2026-07-16"
+    },
     {
      "id": "3e68f8ee",
      "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
@@ -51,24 +61,61 @@
      "id": "0069d7c4",
      "baslik": "Rehber: GPT-5.6'dan en iyi verimi almanın yolları",
      "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "kod asistanları",
+   "slug": "kod-asistanlari",
+   "adet": 7,
+   "son": [
+    {
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
+     "tarih": "2026-07-16"
     },
     {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
+     "id": "f42bd958",
+     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
+     "tarih": "2026-07-16"
     },
     {
-     "id": "16830069",
-     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
-     "tarih": "2026-07-09"
+     "id": "e2469c92",
+     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3f7f2e44",
+     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3e68f8ee",
+     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
+     "tarih": "2026-07-15"
     }
    ]
   },
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 4,
+   "adet": 7,
    "son": [
+    {
+     "id": "e2469c92",
+     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3f7f2e44",
+     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "tarih": "2026-07-16"
+    },
     {
      "id": "10fd57ef",
      "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
@@ -78,68 +125,24 @@
      "id": "b8295173",
      "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
      "tarih": "2026-07-15"
-    },
-    {
-     "id": "0069d7c4",
-     "baslik": "Rehber: GPT-5.6'dan en iyi verimi almanın yolları",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "c1c7fcde",
-     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "modeller",
-   "slug": "modeller",
-   "adet": 3,
-   "son": [
-    {
-     "id": "3e68f8ee",
-     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
-    },
-    {
-     "id": "67b034bb",
-     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "kod asistanları",
-   "slug": "kod-asistanlari",
-   "adet": 3,
-   "son": [
-    {
-     "id": "3e68f8ee",
-     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "2cc0275f",
-     "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "78820279",
-     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
-     "tarih": "2026-07-09"
     }
    ]
   },
   {
    "ad": "araştırma",
    "slug": "arastirma",
-   "adet": 3,
+   "adet": 5,
    "son": [
+    {
+     "id": "ee230258",
+     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "5b346ee1",
+     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
+     "tarih": "2026-07-16"
+    },
     {
      "id": "77128801",
      "baslik": "Yapay zekâ kendi düşünmesini izleyebilir mi? Kapsamlı bir derleme",
@@ -158,10 +161,42 @@
    ]
   },
   {
+   "ad": "modeller",
+   "slug": "modeller",
+   "adet": 4,
+   "son": [
+    {
+     "id": "f26aefe7",
+     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3e68f8ee",
+     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "67b034bb",
+     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
    "ad": "Meta",
    "slug": "meta",
-   "adet": 3,
+   "adet": 4,
    "son": [
+    {
+     "id": "a9b65061",
+     "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
+     "tarih": "2026-07-16"
+    },
     {
      "id": "8c91b0e5",
      "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
@@ -180,10 +215,64 @@
    ]
   },
   {
+   "ad": "ajanlar",
+   "slug": "ajanlar",
+   "adet": 4,
+   "son": [
+    {
+     "id": "5b346ee1",
+     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "c1c7fcde",
+     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "açık kaynak",
+   "slug": "acik-kaynak",
+   "adet": 3,
+   "son": [
+    {
+     "id": "f26aefe7",
+     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "f42bd958",
+     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
    "ad": "xAI",
    "slug": "xai",
-   "adet": 2,
+   "adet": 3,
    "son": [
+    {
+     "id": "f42bd958",
+     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
+     "tarih": "2026-07-16"
+    },
     {
      "id": "2cc0275f",
      "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
@@ -193,6 +282,79 @@
      "id": "67b034bb",
      "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "güvenlik",
+   "slug": "guvenlik",
+   "adet": 3,
+   "son": [
+    {
+     "id": "ee230258",
+     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3f7f2e44",
+     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b8295173",
+     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "donanım",
+   "slug": "donanim",
+   "adet": 2,
+   "son": [
+    {
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "dc52ec30",
+     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Apple",
+   "slug": "apple",
+   "adet": 2,
+   "son": [
+    {
+     "id": "fe6ab2ef",
+     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "f6d4f1f6",
+     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Anthropic",
+   "slug": "anthropic",
+   "adet": 2,
+   "son": [
+    {
+     "id": "83d5a153",
+     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b84f0061",
+     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
+     "tarih": "2026-07-15"
     }
    ]
   },
@@ -282,43 +444,62 @@
    ]
   },
   {
-   "ad": "ajanlar",
-   "slug": "ajanlar",
-   "adet": 2,
+   "ad": "müzik üretimi",
+   "slug": "muzik-uretimi",
+   "adet": 1,
    "son": [
     {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
-    },
-    {
-     "id": "c1c7fcde",
-     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
-     "tarih": "2026-07-09"
+     "id": "f8bec47b",
+     "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
+     "tarih": "2026-07-16"
     }
    ]
   },
   {
-   "ad": "donanım",
-   "slug": "donanim",
+   "ad": "veri kazıma",
+   "slug": "veri-kazima",
    "adet": 1,
    "son": [
     {
-     "id": "dc52ec30",
-     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
-     "tarih": "2026-07-15"
+     "id": "f8bec47b",
+     "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
+     "tarih": "2026-07-16"
     }
    ]
   },
   {
-   "ad": "Apple",
-   "slug": "apple",
+   "ad": "Çin",
+   "slug": "cin",
    "adet": 1,
    "son": [
     {
-     "id": "f6d4f1f6",
-     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
-     "tarih": "2026-07-15"
+     "id": "fe6ab2ef",
+     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "davalar",
+   "slug": "davalar",
+   "adet": 1,
+   "son": [
+    {
+     "id": "a9b65061",
+     "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "kurumsal YZ",
+   "slug": "kurumsal-yz",
+   "adet": 1,
+   "son": [
+    {
+     "id": "83d5a153",
+     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
+     "tarih": "2026-07-16"
     }
    ]
   },
@@ -342,30 +523,6 @@
     {
      "id": "e74d29ba",
      "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "Anthropic",
-   "slug": "anthropic",
-   "adet": 1,
-   "son": [
-    {
-     "id": "b84f0061",
-     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "güvenlik",
-   "slug": "guvenlik",
-   "adet": 1,
-   "son": [
-    {
-     "id": "b8295173",
-     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
      "tarih": "2026-07-15"
     }
    ]
