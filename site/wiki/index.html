@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>try{var t=localStorage.getItem("havadis-tema");if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
 <title>Havadis Wiki — bağ haritası</title>
-<meta name="description" content="Havadis'in haberlerden damıtılan bilgi ağı: varlıklar, ilişkiler, kronolojik gelişim zincirleri ve arşive bağlı soru-cevap.">
+<meta name="description" content="Havadis'in haberlerden damıtılan bilgi ağı: canlı hücreler, ilişkiler, kronolojik gelişim zincirleri ve arşive bağlı soru-cevap.">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F1E5">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#16120C">
 <link rel="stylesheet" href="../varliklar/fontlar/fontlar.css">
@@ -15,24 +15,51 @@
 </head>
 <body class="wiki-govde">
 
-<canvas id="ag" aria-label="Varlıklar ve ilişkiler ağı — bir düğüme dokun"></canvas>
+<h1 class="gorsel-gizli">Havadis Wiki — yapay zekâ haberlerinin bağ haritası</h1>
 
-<div class="ust-sol">
-  <div class="marka-satir">
-    <a class="marka" href="../index.html" title="Bugünkü sayıya dön">HAVADİS</a>
-    <span class="rota">Wiki</span>
-    <span class="bosluk"></span>
-    <button class="mini-dugme ses-dugme" type="button" aria-label="Arayüz seslerini aç/kapat">🔊</button>
-    <button class="mini-dugme tema-dugme" type="button" aria-label="Açık/koyu tema">☾</button>
-  </div>
-  <input class="arama-kutusu" id="arama" type="search" placeholder="Ara… ( / )"
-         autocomplete="off" aria-label="Wiki'de varlık ara" role="combobox"
-         aria-expanded="true" aria-controls="sonuc-listesi">
-  <ul id="sonuc-listesi" role="listbox" aria-label="Arama sonuçları"></ul>
-  <p class="sayim" id="sayim">yükleniyor…</p>
+<canvas id="ag" aria-label="Varlık ağı: hücreye dokun, ilişkilileri gör"></canvas>
+
+<div class="arac sol-ust">
+  <form class="arama-hap" id="arama-hap" role="search">
+    <button type="button" id="arama-ac" aria-label="Ara ( / )">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+    </button>
+    <input id="arama" type="search" placeholder="Wiki'de ara" autocomplete="off"
+           aria-label="Wiki'de varlık ara">
+    <button type="button" id="arama-sil" aria-label="Aramayı temizle">✕</button>
+  </form>
+  <p class="terim-sayisi" id="terim-sayisi"></p>
 </div>
 
-<div class="lejant" id="lejant" role="list" aria-label="Tür renkleri"></div>
+<div class="arac sag-ust">
+  <button class="yuvarlak" id="hakkinda-ac" aria-label="Bu sayfa hakkında">i</button>
+</div>
+<div class="hakkinda" id="hakkinda" hidden>
+  <p><strong>Havadis Wiki</strong>, derginin her sabah işlediği haberlerden kendiliğinden örülen bilgi ağıdır.
+  Hücre büyüklüğü haber sayısını, koyuluğu bağlantı zenginliğini gösterir.</p>
+  <p>Bir hücreye dokun: yalnızca ilişkili hücreler kalır, aradaki bağlar görünür ve sağda madde açılır.
+  Yazarak ağı süzebilirsin.</p>
+  <p class="kunye">
+    <a href="../index.html">Bugünkü sayı</a>
+    <a href="../lugat/index.html">Lugat</a>
+    <a href="../kulliyat/index.html">Külliyat</a>
+  </p>
+</div>
+
+<a class="marka-alt" href="../index.html">HAVADİS</a>
+
+<p class="ipucu-hap" id="ipucu-hap">Sürükle: döndür · Tekerlek: yakınlaştır · Hücre: odakla</p>
+
+<div class="arac sag-alt">
+  <button class="yuvarlak" id="sohbet-ac" aria-label="Havadis'e soru sor">💬</button>
+  <button class="yuvarlak" id="renk-dugme" aria-label="Tür renklerini aç/kapat" aria-pressed="false">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18c1.5 0 2-1 2-2s-.7-1.6 0-2.6c.8-1.1 4-0.4 5.5-2.4"/><circle cx="8" cy="10" r="1" fill="currentColor"/><circle cx="12" cy="7.5" r="1" fill="currentColor"/><circle cx="16" cy="10" r="1" fill="currentColor"/></svg>
+  </button>
+  <button class="yuvarlak ses-dugme" id="ses-dugme" aria-label="Arayüz seslerini aç/kapat">🔊</button>
+  <button class="yuvarlak tema-dugme" id="tema-dugme" aria-label="Açık/koyu tema">☾</button>
+</div>
+
+<div class="lejant" id="lejant" hidden></div>
 
 <div class="ipucu" id="ipucu"></div>
 
@@ -48,9 +75,6 @@
   <div class="kunye" id="detay-linkler"></div>
 </aside>
 
-<div class="sohbet-dok" id="sohbet-dok">
-  <button type="button" id="sohbet-ac">💬 Havadis'e sor</button>
-</div>
 <div class="sohbet-panel" id="sohbet-panel">
   <div class="sohbet-baslik">
     <strong>Havadis'e sor</strong>
