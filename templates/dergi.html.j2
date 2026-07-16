@@ -132,6 +132,7 @@ try {
 
   </div>
   <p class="sayfa-gosterge"><span id="sayfa-no">1</span> / <span id="sayfa-toplam">–</span></p>
+  <p class="alt-wiki"><a class="vurgulu" href="{{ kok }}/wiki/index.html">Havadis Wiki →</a></p>
 </div>
 
 <script src="{{ kok }}/varliklar/page-flip.js"></script>
@@ -184,8 +185,9 @@ try {
       document.getElementById("sayfa-no").textContent = e.data + 1;
     });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowRight") kitap.flipNext();
-      if (e.key === "ArrowLeft") kitap.flipPrev();
+      if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+      if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); kitap.flipNext(); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); kitap.flipPrev(); }
     });
   } else if (document.documentElement.dataset.gorunum === "dergi") {
     document.documentElement.dataset.gorunum = "akis"; // kütüphane yüklenemediyse akışa düş

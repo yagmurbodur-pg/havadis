@@ -74,7 +74,8 @@
 
   function secKonu(ad) {
     durum.konu = ad;
-    if (ad) location.hash = "konu/" + slugla(ad);
+    // location.hash yerine replaceState: tarayıcının çapa arayıp sıçratmasını önler
+    if (ad) history.replaceState(null, "", "#konu/" + slugla(ad));
     else if (location.hash) history.replaceState(null, "", location.pathname);
     ciz();
   }
@@ -174,7 +175,15 @@
   var arama = $("arama"), bekle = null;
   arama.addEventListener("input", function () {
     clearTimeout(bekle);
-    bekle = setTimeout(function () { durum.q = arama.value; ciz(); }, 120);
+    bekle = setTimeout(function () {
+      durum.q = arama.value;
+      // sayfa aşağıdayken yazınca sonuç listesi kısalıp rastgele sıçramasın:
+      // aramayı görünür kılacak şekilde tek ve öngörülebilir kaydırma yap
+      if (window.scrollY > arama.offsetTop) {
+        window.scrollTo(0, Math.max(0, arama.offsetTop - 90));
+      }
+      ciz();
+    }, 120);
   });
 
   fetch("dizin.json")

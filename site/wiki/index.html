@@ -10,58 +10,60 @@
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#16120C">
 <link rel="stylesheet" href="../varliklar/fontlar/fontlar.css">
 <link rel="stylesheet" href="../varliklar/stil.css">
+<link rel="stylesheet" href="wiki.css">
 <link rel="icon" type="image/svg+xml" href="../ikon.svg">
 </head>
-<body>
+<body class="wiki-govde">
 
-<header class="masthead">
-  <button class="tema-dugme" type="button" aria-label="Açık/koyu tema değiştir">☾</button>
-  <h1><a href="../index.html">HAVADİS</a></h1>
-  <p class="slogan">Wiki — haberlerin bağ haritası</p>
-</header>
+<canvas id="ag" aria-label="Varlıklar ve ilişkiler ağı — bir düğüme dokun"></canvas>
 
-<main>
-  <h2 class="liste-baslik">Havadis Wiki</h2>
-  <p class="alt-aciklama" id="wiki-ozet">Yükleniyor…</p>
-
-  <div class="ag-kutusu">
-    <canvas id="ag" aria-label="Varlıklar ve ilişkiler grafiği"></canvas>
-    <p class="ag-ipucu">Bir düğüme dokun: o varlığın hikâyesi aşağıya kronolojik akar. Sürükleyerek ağı düzenleyebilirsin.</p>
+<div class="ust-sol">
+  <div class="marka-satir">
+    <a class="marka" href="../index.html" title="Bugünkü sayıya dön">HAVADİS</a>
+    <span class="rota">Wiki</span>
+    <span class="bosluk"></span>
+    <button class="mini-dugme ses-dugme" type="button" aria-label="Arayüz seslerini aç/kapat">🔊</button>
+    <button class="mini-dugme tema-dugme" type="button" aria-label="Açık/koyu tema">☾</button>
   </div>
+  <input class="arama-kutusu" id="arama" type="search" placeholder="Ara… ( / )"
+         autocomplete="off" aria-label="Wiki'de varlık ara" role="combobox"
+         aria-expanded="true" aria-controls="sonuc-listesi">
+  <ul id="sonuc-listesi" role="listbox" aria-label="Arama sonuçları"></ul>
+  <p class="sayim" id="sayim">yükleniyor…</p>
+</div>
 
-  <label class="secici-etiket" for="dugum-secici">Ya da listeden seç:</label>
-  <select id="dugum-secici" class="arama-kutusu"><option value="">— varlık seç —</option></select>
+<div class="lejant" id="lejant" role="list" aria-label="Tür renkleri"></div>
 
-  <section id="dugum-paneli" hidden>
-    <p class="ust-not" id="panel-tur"></p>
-    <h3 class="panel-baslik" id="panel-ad"></h3>
-    <p class="alt-aciklama" id="panel-tanim"></p>
-    <div class="kunye" id="panel-baglar"></div>
-    <h4 class="bolum-baslik">Gelişim zinciri</h4>
-    <ol class="zaman-cizgisi" id="zaman-cizgisi"></ol>
-  </section>
+<div class="ipucu" id="ipucu"></div>
 
-  <section class="sohbet">
-    <h3 class="bolum-baslik">Havadis'e sor</h3>
-    <p class="kucuk" id="kopru-durum">Arşiv üzerinde anında sentez. Derin yanıt için Mac'te <code>~/havadis/sor-sunucu</code> çalıştır — bu sayfa kendiliğinden bağlanır.</p>
-    <div class="sohbet-satir">
-      <input class="arama-kutusu" id="soru" type="text" autocomplete="off"
-             placeholder="Ör: ChatGPT'de son neler oldu? Grok güvenli mi?" aria-label="Sorunu yaz">
-      <button class="sor-dugme" id="sor-dugme" type="button">Sor</button>
-    </div>
-    <div id="cevap"></div>
-  </section>
-</main>
+<aside class="detay" id="detay" aria-live="polite">
+  <button class="kapat" id="kapat" type="button" aria-label="Paneli kapat">✕</button>
+  <span class="tur-rozet" id="detay-tur"></span>
+  <h2 id="detay-ad"></h2>
+  <p class="tanim" id="detay-tanim"></p>
+  <div class="govde" id="detay-govde"></div>
+  <div class="kunye" id="detay-baglar"></div>
+  <h4 class="bolum-baslik">Gelişim zinciri</h4>
+  <ol class="zaman-cizgisi" id="detay-zaman"></ol>
+  <div class="kunye" id="detay-linkler"></div>
+</aside>
 
-<footer class="kuyruk">
-  <div class="buyuk-baglar">
-    <a href="../index.html">Bugünkü sayı</a>
-    <a href="../kulliyat/index.html">Külliyat</a>
-    <a href="../lugat/index.html">Lugat</a>
-    <a href="../arsiv/index.html">Arşiv</a>
+<div class="sohbet-dok" id="sohbet-dok">
+  <button type="button" id="sohbet-ac">💬 Havadis'e sor</button>
+</div>
+<div class="sohbet-panel" id="sohbet-panel">
+  <div class="sohbet-baslik">
+    <strong>Havadis'e sor</strong>
+    <p class="kucuk" id="kopru-durum">arşiv senteziyle</p>
+    <button class="mini-dugme" id="sohbet-kapat" type="button" aria-label="Sohbeti kapat">✕</button>
   </div>
-  <p class="kucuk">Bu ağ, Havadis'in her sabah işlediği haberlerden ve Lugat maddelerinden kendiliğinden örülür.</p>
-</footer>
+  <div class="sohbet-satir">
+    <input class="arama-kutusu" id="soru" type="text" autocomplete="off"
+           placeholder="Ör: ChatGPT'de son neler oldu?" aria-label="Sorunu yaz">
+    <button class="sor-dugme" id="sor-dugme" type="button">Sor</button>
+  </div>
+  <div id="cevap"></div>
+</div>
 
 <script src="wiki.js"></script>
 </body>

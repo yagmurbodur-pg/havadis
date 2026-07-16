@@ -47,7 +47,7 @@ try {
           </div>
         </div>
         <div class="damga-hiza">
-          <span class="damga">Sabah Baskısı<small>12:26 · YZ dizgisi</small></span>
+          <span class="damga">Sabah Baskısı<small>12:56 · YZ dizgisi</small></span>
         </div>
         <div class="kapak-manset">
           <p class="kicker">AÇIK KAYNAK</p>
@@ -307,6 +307,7 @@ try {
 
   </div>
   <p class="sayfa-gosterge"><span id="sayfa-no">1</span> / <span id="sayfa-toplam">–</span></p>
+  <p class="alt-wiki"><a class="vurgulu" href="../wiki/index.html">Havadis Wiki →</a></p>
 </div>
 
 <script src="../varliklar/page-flip.js"></script>
@@ -359,8 +360,9 @@ try {
       document.getElementById("sayfa-no").textContent = e.data + 1;
     });
     document.addEventListener("keydown", function (e) {
-      if (e.key === "ArrowRight") kitap.flipNext();
-      if (e.key === "ArrowLeft") kitap.flipPrev();
+      if (e.target && /^(INPUT|TEXTAREA|SELECT)$/.test(e.target.tagName)) return;
+      if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); kitap.flipNext(); }
+      if (e.key === "ArrowLeft") { e.preventDefault(); kitap.flipPrev(); }
     });
   } else if (document.documentElement.dataset.gorunum === "dergi") {
     document.documentElement.dataset.gorunum = "akis"; // kütüphane yüklenemediyse akışa düş

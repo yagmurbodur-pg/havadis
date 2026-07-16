@@ -73,6 +73,7 @@ def uret(lugat_dizini, haberler, hedef_dizini, kok=".."):
     haber_haritasi = {h["id"]: h for h in haberler}
     slug_haritasi = {ad: slugla(ad) for ad in maddeler}
     baglar = []
+    wiki_maddeleri = []
 
     for ad, madde in maddeler.items():
         govde = madde["govde"]
@@ -98,6 +99,18 @@ def uret(lugat_dizini, haberler, hedef_dizini, kok=".."):
         islenmis = WIKILINK.sub(wikilink_cevir, govde)
         islenmis = HABER_REF.sub(haber_cevir, islenmis)
         icerik_html = markdown.markdown(islenmis)
+
+        wiki_maddeleri.append(
+            {
+                "ad": ad,
+                "slug": slug_haritasi[ad],
+                "tur": madde["on"].get("tur", ""),
+                "tanim": madde["on"].get("tanim", ""),
+                "etiketler": [str(e) for e in (madde["on"].get("etiketler") or [ad])],
+                "guncelleme": str(madde["on"].get("son_guncelleme", "")),
+                "govde_html": icerik_html,
+            }
+        )
 
         on = madde["on"]
         tur = TUR_ADI.get(on.get("tur", ""), "")
@@ -161,6 +174,16 @@ def uret(lugat_dizini, haberler, hedef_dizini, kok=".."):
                 "baglar": baglar,
             },
             ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
+
+    # Havadis Wiki sayfasının tam veri paketi (madde gövdeleri dahil)
+    wiki_dizini = hedef.parent / "wiki"
+    wiki_dizini.mkdir(parents=True, exist_ok=True)
+    (wiki_dizini / "wiki-veri.json").write_text(
+        json.dumps(
+            {"maddeler": wiki_maddeleri, "baglar": baglar}, ensure_ascii=False
         ),
         encoding="utf-8",
     )

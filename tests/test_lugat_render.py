@@ -42,6 +42,10 @@ def test_uret_madde_ve_dizin(tmp_path):
     assert "https://ornek.com/h" in sayfa            # haber referansı kaynağa bağlandı
     assert "Gelişmeler" in sayfa
 
+    wiki = json.loads((tmp_path / "wiki" / "wiki-veri.json").read_text(encoding="utf-8"))
+    openai_madde = [m for m in wiki["maddeler"] if m["ad"] == "OpenAI"][0]
+    assert 'href="anthropic.html"' in openai_madde["govde_html"]
+
     ag = json.loads((hedef / "ag.json").read_text(encoding="utf-8"))
     assert any(k["k"] == "OpenAI" and k["h"] == "Anthropic" for k in ag["baglar"])
     openai = [d for d in ag["dugumler"] if d["ad"] == "OpenAI"][0]
