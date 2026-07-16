@@ -1,0 +1,4 @@
+#!/bin/zsh
+# Havadis yerel zekâ köprüsü — Wiki sayfasındaki chatbot'a gerçek Claude yanıtı sağlar.
+export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
+exec /Users/yagmur/havadis/.venv/bin/python -m pipeline.sor_sunucu

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{var t=localStorage.getItem("havadis-tema");if(t)document.documentElement.dataset.tema=t}catch(e){}</script>
+<title>Havadis Wiki — bağ haritası</title>
+<meta name="description" content="Havadis'in haberlerden damıtılan bilgi ağı: varlıklar, ilişkiler, kronolojik gelişim zincirleri ve arşive bağlı soru-cevap.">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#F6F1E5">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#16120C">
+<link rel="stylesheet" href="../varliklar/fontlar/fontlar.css">
+<link rel="stylesheet" href="../varliklar/stil.css">
+<link rel="icon" type="image/svg+xml" href="../ikon.svg">
+</head>
+<body>
+
+<header class="masthead">
+  <button class="tema-dugme" type="button" aria-label="Açık/koyu tema değiştir">☾</button>
+  <h1><a href="../index.html">HAVADİS</a></h1>
+  <p class="slogan">Wiki — haberlerin bağ haritası</p>
+</header>
+
+<main>
+  <h2 class="liste-baslik">Havadis Wiki</h2>
+  <p class="alt-aciklama" id="wiki-ozet">Yükleniyor…</p>
+
+  <div class="ag-kutusu">
+    <canvas id="ag" aria-label="Varlıklar ve ilişkiler grafiği"></canvas>
+    <p class="ag-ipucu">Bir düğüme dokun: o varlığın hikâyesi aşağıya kronolojik akar. Sürükleyerek ağı düzenleyebilirsin.</p>
+  </div>
+
+  <label class="secici-etiket" for="dugum-secici">Ya da listeden seç:</label>
+  <select id="dugum-secici" class="arama-kutusu"><option value="">— varlık seç —</option></select>
+
+  <section id="dugum-paneli" hidden>
+    <p class="ust-not" id="panel-tur"></p>
+    <h3 class="panel-baslik" id="panel-ad"></h3>
+    <p class="alt-aciklama" id="panel-tanim"></p>
+    <div class="kunye" id="panel-baglar"></div>
+    <h4 class="bolum-baslik">Gelişim zinciri</h4>
+    <ol class="zaman-cizgisi" id="zaman-cizgisi"></ol>
+  </section>
+
+  <section class="sohbet">
+    <h3 class="bolum-baslik">Havadis'e sor</h3>
+    <p class="kucuk" id="kopru-durum">Arşiv üzerinde anında sentez. Derin yanıt için Mac'te <code>~/havadis/sor-sunucu</code> çalıştır — bu sayfa kendiliğinden bağlanır.</p>
+    <div class="sohbet-satir">
+      <input class="arama-kutusu" id="soru" type="text" autocomplete="off"
+             placeholder="Ör: ChatGPT'de son neler oldu? Grok güvenli mi?" aria-label="Sorunu yaz">
+      <button class="sor-dugme" id="sor-dugme" type="button">Sor</button>
+    </div>
+    <div id="cevap"></div>
+  </section>
+</main>
+
+<footer class="kuyruk">
+  <div class="buyuk-baglar">
+    <a href="../index.html">Bugünkü sayı</a>
+    <a href="../kulliyat/index.html">Külliyat</a>
+    <a href="../lugat/index.html">Lugat</a>
+    <a href="../arsiv/index.html">Arşiv</a>
+  </div>
+  <p class="kucuk">Bu ağ, Havadis'in her sabah işlediği haberlerden ve Lugat maddelerinden kendiliğinden örülür.</p>
+</footer>
+
+<script src="wiki.js"></script>
+</body>
+</html>

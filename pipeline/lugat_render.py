@@ -44,6 +44,7 @@ def _kabuk(baslik, icerik, kok):
 </main>
 <footer class="kuyruk">
   <div class="buyuk-baglar">
+    <a class="vurgulu" href="{kok}/wiki/index.html">Havadis Wiki</a>
     <a href="index.html">Lugat dizini</a>
     <a href="{kok}/kulliyat/index.html">Külliyat'ta ara</a>
     <a href="{kok}/index.html">Bugünkü sayı</a>
@@ -153,6 +154,7 @@ def uret(lugat_dizini, haberler, hedef_dizini, kok=".."):
                         "slug": slug_haritasi[ad],
                         "tur": m["on"].get("tur", ""),
                         "tanim": m["on"].get("tanim", ""),
+                        "etiketler": [str(e) for e in (m["on"].get("etiketler") or [ad])],
                     }
                     for ad, m in maddeler.items()
                 ],

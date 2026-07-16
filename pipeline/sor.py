@@ -16,6 +16,23 @@ from pipeline.metin import katla
 KOK = Path(__file__).resolve().parent.parent
 
 
+DOLGU = {
+    "neler", "nedir", "nasil", "oldu", "olan", "icin", "ile", "hakkinda",
+    "son", "sonra", "var", "daha", "cok", "gibi", "kadar", "seyler", "durum",
+}
+
+
+def _kelimelere_ayir(soru):
+    """Kesme/noktalama ekli yazımları da yakalar: \"ChatGPT'de\" → \"chatgpt\" + \"de\"(elenir)."""
+    import re
+
+    return [
+        k
+        for k in re.split(r"[^a-z0-9]+", katla(soru))
+        if len(k) > 2 and k not in DOLGU
+    ]
+
+
 def _puan(kelimeler, metin):
     duz = katla(metin)
     return sum(duz.count(k) for k in kelimeler)
@@ -23,7 +40,7 @@ def _puan(kelimeler, metin):
 
 def baglam_sec(soru, haberler, maddeler, haber_n=12, madde_n=6):
     """Soruyla örtüşen haber ve Lugat maddelerini skorla; yalnızca gerçekten eşleşenleri döndür."""
-    kelimeler = [katla(k) for k in soru.split() if len(katla(k)) > 2]
+    kelimeler = _kelimelere_ayir(soru)
 
     puanli_haber = []
     for h in haberler:

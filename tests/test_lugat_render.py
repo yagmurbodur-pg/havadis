@@ -44,4 +44,6 @@ def test_uret_madde_ve_dizin(tmp_path):
 
     ag = json.loads((hedef / "ag.json").read_text(encoding="utf-8"))
     assert any(k["k"] == "OpenAI" and k["h"] == "Anthropic" for k in ag["baglar"])
+    openai = [d for d in ag["dugumler"] if d["ad"] == "OpenAI"][0]
+    assert openai["etiketler"] == ["OpenAI"]  # wiki sayfası haber eşleştirmesi için
     assert (hedef / "lugat-tam.md").exists()

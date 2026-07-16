@@ -505,6 +505,89 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
   color: var(--murekkep-soluk);
 }
 
+/* ————— Havadis Wiki: bağ haritası + zaman çizgisi + sohbet ————— */
+
+.buyuk-baglar .vurgulu {
+  background: var(--damga);
+  color: var(--kagit) !important;
+  padding: .3rem .85rem .38rem;
+  border-radius: 99px;
+}
+.buyuk-baglar .vurgulu:hover { opacity: .85; }
+
+.ag-kutusu { margin: .4rem 0 1.2rem; }
+#ag {
+  width: 100%;
+  height: 430px;
+  display: block;
+  border: 1px solid var(--cizgi);
+  border-radius: 6px;
+  background: var(--kagit);
+  touch-action: none;
+}
+.ag-ipucu { margin: .45rem 0 0; text-align: center; font-style: italic; font-size: .82rem; color: var(--murekkep-soluk); }
+.secici-etiket { display: block; font: 600 .72rem/1.6 system-ui, sans-serif; letter-spacing: .1em; text-transform: uppercase; color: var(--murekkep-soluk); margin-bottom: .3rem; }
+
+#dugum-paneli { margin-top: 1.6rem; }
+.panel-baslik { margin: .1rem 0 .2rem; font: 900 1.7rem/1.15 "Fraunces", Georgia, serif; }
+
+.zaman-cizgisi {
+  list-style: none;
+  margin: .6rem 0 0;
+  padding: 0 0 0 1.15rem;
+  border-left: 2px solid var(--cizgi);
+}
+.zaman-ogesi { position: relative; padding: .15rem 0 1.05rem; }
+.zaman-ogesi::before {
+  content: "";
+  position: absolute;
+  left: -1.15rem;
+  top: .48rem;
+  width: .62rem; height: .62rem;
+  margin-left: -0.36rem;
+  border-radius: 50%;
+  background: var(--damga);
+  border: 2px solid var(--kagit);
+}
+.zaman-ogesi h5 { margin: .1rem 0 .25rem; font: 600 1.05rem/1.3 "Fraunces", Georgia, serif; }
+.zaman-ogesi h5 a { text-decoration: none; }
+.zaman-ogesi h5 a:hover { color: var(--damga); }
+.zaman-ozet { margin: 0; font-size: .92rem; }
+.kucuk-zaman .zaman-ogesi { padding-bottom: .55rem; }
+
+.sohbet { margin-top: 2.4rem; }
+.sohbet-satir { display: flex; gap: .5rem; }
+.sohbet-satir .arama-kutusu { flex: 1; }
+.sor-dugme {
+  border: 2px solid var(--damga);
+  background: var(--damga);
+  color: var(--kagit);
+  border-radius: 4px;
+  padding: 0 1.1rem;
+  font: 700 .85rem/1 system-ui, sans-serif;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.sor-dugme:hover { opacity: .85; }
+.cevap-kutu {
+  margin-top: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--cizgi);
+  border-radius: 6px;
+  background: var(--kagit-koyu);
+}
+.cevap-baslik {
+  margin: .9rem 0 .35rem;
+  font: 600 .8rem/1.4 system-ui, sans-serif;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--damga);
+}
+.cevap-baslik:first-child { margin-top: 0; }
+.kaynak-listesi { margin: 0; padding-left: 1.1rem; font-size: .88rem; }
+.kaynak-listesi li { margin-bottom: .25rem; }
+
 @media (max-width: 520px) {
   [data-gorunum="dergi"] .sayfa-ic { padding: 1rem 1rem 1.85rem; }
   [data-gorunum="dergi"] .sayfa .govde { font-size: .9rem; line-height: 1.5; }
