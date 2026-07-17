@@ -1,5 +1,24 @@
-"""Küpür görselleri: kaynak sayfadan og:image/twitter:image ayıklama."""
-from pipeline.gorseller import og_gorsel_ayikla
+"""Küpür görselleri + 𝕏 duyuru bağlantıları: kaynak sayfadan ayıklama."""
+from pipeline.gorseller import kurum_x_hesabi, og_gorsel_ayikla, x_link_ayikla
+
+
+def test_x_status_linki_bulur():
+    html = '<a href="https://twitter.com/OpenAI/status/1234567890123">duyuru</a>'
+    assert x_link_ayikla(html) == "https://twitter.com/OpenAI/status/1234567890123"
+
+
+def test_x_com_linki_bulur():
+    html = '<p>ayrıntı: https://x.com/AnthropicAI/status/987654321 adresinde</p>'
+    assert x_link_ayikla(html) == "https://x.com/AnthropicAI/status/987654321"
+
+
+def test_x_linki_yoksa_none():
+    assert x_link_ayikla("<p>bağlantısız içerik https://ornek.com/a</p>") is None
+
+
+def test_kurum_hesabi_eslesir():
+    assert kurum_x_hesabi("OpenAI") == "https://x.com/OpenAI"
+    assert kurum_x_hesabi("Webrazzi YZ") is None
 
 
 def test_og_image_bulur():

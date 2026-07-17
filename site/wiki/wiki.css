@@ -317,20 +317,35 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
 .mini-dugme:hover { color: var(--damga); border-color: var(--damga); }
 
 /* ————— mobil ————— */
+.tutamac { display: none; }
+
 @media (max-width: 640px) {
   .detay {
     top: auto; bottom: 0;
-    width: 100vw; height: auto;
-    max-height: 70dvh;
+    width: 100vw;
+    height: 34dvh; /* kısa açılır: hücre bağları görünür kalır */
+    max-height: none;
     border-left: 0; border-top: 1px solid var(--cizgi);
     border-radius: 16px 16px 0 0;
     transform: translateY(105%);
+    transition: transform .3s cubic-bezier(.2,.9,.3,1), height .25s ease;
   }
   .detay.acik { transform: none; }
+  .detay.buyuk { height: 84dvh; } /* yukarı sürükleyince büyür */
+  .tutamac {
+    display: block;
+    width: 46px; height: 5px;
+    border-radius: 99px;
+    background: var(--cizgi);
+    margin: .1rem auto .6rem;
+    cursor: grab;
+    touch-action: none;
+  }
   .ipucu-hap { display: none; }
   .lejant { bottom: 84px; }
   .marka-alt { display: none; }
   .sag-alt { bottom: 76px; }
+  body:has(.detay.acik) .sohbet-cubugu { display: none; } /* panel metnine binmesin */
 }
 
 @media (prefers-reduced-motion: reduce) {

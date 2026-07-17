@@ -11,7 +11,8 @@
     return (s || "").toLocaleLowerCase("tr").replace(/[çğıöşüâîû]/g, function (k) { return TRH[k] || k; });
   }
   var DOLGU = ["neler", "nedir", "nasil", "oldu", "olan", "icin", "ile", "hakkinda",
-               "son", "sonra", "var", "daha", "cok", "gibi", "kadar", "seyler", "durum"];
+               "son", "sonra", "var", "daha", "cok", "gibi", "kadar", "seyler", "durum",
+               "kimim", "kimsin", "kimdir", "benim", "senin", "sizin", "bizim", "bana", "sana"];
   function kelimelereAyir(soru) {
     return katla(soru).split(/[^a-z0-9]+/).filter(function (k) {
       return k.length > 2 && DOLGU.indexOf(k) < 0;
@@ -221,9 +222,31 @@
   function odakTemizle(paneliKapat) {
     odak = null;
     history.replaceState(null, "", location.pathname);
-    if (paneliKapat) $("detay").classList.remove("acik");
+    if (paneliKapat) {
+      $("detay").classList.remove("acik");
+      $("detay").classList.remove("buyuk");
+    }
   }
   $("kapat").addEventListener("click", function () { tikSesi(); odakTemizle(true); });
+
+  // Mobil alt-sayfa: tutamacı yukarı sürükle → büyüt, aşağı → küçült/kapat
+  (function () {
+    var tutamac = $("tutamac"), panel = $("detay"), basY = null;
+    tutamac.addEventListener("pointerdown", function (e) {
+      basY = e.clientY;
+      tutamac.setPointerCapture(e.pointerId);
+    });
+    tutamac.addEventListener("pointerup", function (e) {
+      if (basY === null) return;
+      var fark = e.clientY - basY;
+      basY = null;
+      if (fark < -30) panel.classList.add("buyuk");
+      else if (fark > 30) {
+        if (panel.classList.contains("buyuk")) panel.classList.remove("buyuk");
+        else odakTemizle(true);
+      } else panel.classList.toggle("buyuk"); // dokunuş: aç/kapa
+    });
+  })();
 
   function panelDoldur(m) {
     var rozet = $("detay-tur");
@@ -641,7 +664,30 @@
     var kutu = $("cevap");
     kutu.textContent = "";
     var kSoru = katla(soru);
+
+    // Soru anlama katmanı 1: kişisel/kimlik soruları arşiv sorgusu DEĞİLDİR.
+    if (/(^|\s)ben kimim|benim adim|beni taniyor/.test(kSoru)) {
+      kutu.appendChild(el("p", "rag-hata",
+        "❌ Bunu bilemem — ben yalnızca Havadis arşivini tanıyan bir asistanım; kişiler hakkında değil, dergide yayımlanan yapay zekâ haberleri hakkında soru yanıtlarım. Ör: \"Kimi K3 ne zaman çıktı?\""));
+      return;
+    }
+    if (/sen kimsin|sen nesin|adin ne|kendini tanit|bu sayfa ne/.test(kSoru)) {
+      var tanit = el("div", "cevap-kutu");
+      var pt = el("p", "rag-cevap");
+      pt.appendChild(el("strong", null, "Havadis arşiv asistanıyım."));
+      pt.appendChild(document.createTextNode(" Derginin her sabah işlediği haberlerden ve Lugat ansiklopedisinden örülen ilişki ağı üzerinde soru yanıtlarım — tarih, tanım ve gelişme sorularında kaynak da veririm."));
+      tanit.appendChild(pt);
+      tanit.appendChild(el("p", "kucuk", "Dene: \"Kimi K3 ne zaman çıktı?\" · \"GPT-Red nedir?\" · \"OpenAI'da son neler oldu?\""));
+      kutu.appendChild(tanit);
+      return;
+    }
+
     var kelimeler = kelimelereAyir(soru);
+    if (!kelimeler.length) {
+      kutu.appendChild(el("p", "rag-hata",
+        "❌ Soruda arayabileceğim bir anahtar kelime bulamadım — bir varlık adı ya da konu ekleyerek tekrar dener misin?"));
+      return;
+    }
     var haberHarita = {};
     haberler.forEach(function (h) { haberHarita[h.id] = h; });
 

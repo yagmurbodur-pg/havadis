@@ -73,6 +73,7 @@ try {
         {% if not gorsel.get(sayi.kapak.id) %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if k %}<a class="kaynak-link" href="{{ k.url }}" rel="noopener">{{ k.kaynak }} ↗</a>
+          {% if x_bag.get(sayi.kapak.id) %}<a class="x-bag" href="{{ x_bag.get(sayi.kapak.id) }}" rel="noopener" aria-label="X (Twitter) duyurusu">𝕏</a>{% endif %}
           {% for e in k.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
           {% for konu in sayi.kapak.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
         </div>
@@ -97,6 +98,7 @@ try {
         {% if not hg %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
+          {% if x_bag.get(h.id) %}<a class="x-bag" href="{{ x_bag.get(h.id) }}" rel="noopener" aria-label="X (Twitter) duyurusu">𝕏</a>{% endif %}
           {% for e in a.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
           {% for konu in h.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
         </div>
@@ -232,14 +234,12 @@ try {
         var koseBandi = (y - r.top) < r.height * 0.28 || (r.bottom - y) < r.height * 0.28;
         return (x - r.left) < 90 && koseBandi; // sol: yalnız köşeler (metin başlangıcı seçime kalsın)
       }
-      ["mousedown", "touchstart"].forEach(function (tur) {
-        sahne.addEventListener(tur, function (e) {
-          var nokta = e.touches && e.touches.length ? e.touches[0] : e;
-          if (typeof nokta.clientX === "number" && !cevirmeBolgesi(nokta.clientX, nokta.clientY)) {
-            e.stopPropagation();
-          }
-        }, true);
-      });
+      // Bekçi yalnız FAREDE: masaüstünde orta bölge metin seçimine ayrılır.
+      // Dokunmatik serbest: mobilde kütüphanenin doğal ÇİFT YÖNLÜ kıvrımlı kaydırması
+      // (ileri ve geri, animasyon + sesle) çalışır; mobil seçim zaten uzun-basmayla yapılır.
+      sahne.addEventListener("mousedown", function (e) {
+        if (!cevirmeBolgesi(e.clientX, e.clientY)) e.stopPropagation();
+      }, true);
     })();
     kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
     document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
@@ -261,7 +261,19 @@ try {
       g.addEventListener("load", sigdir);
       g.addEventListener("error", sigdir);
     });
-    kitap.on("changeState", function (e) { if (e.data === "flipping") sesCal(); });
+    var sesUyariVerildi = false;
+    kitap.on("changeState", function (e) {
+      if (e.data !== "flipping") return;
+      sesCal();
+      if (sessiz && !sesUyariVerildi) { // web'de "ses gelmiyor" karmaşasını bitir: kapalıysa söyle
+        sesUyariVerildi = true;
+        var uyari = document.createElement("p");
+        uyari.className = "ses-uyari";
+        uyari.textContent = "🔇 Sayfa sesi kapalı — açmak için üstteki 🔊 düğmesine dokun";
+        document.body.appendChild(uyari);
+        setTimeout(function () { uyari.remove(); }, 4000);
+      }
+    });
     kitap.on("flip", function (e) {
       document.getElementById("sayfa-no").textContent = e.data + 1;
     });

@@ -226,6 +226,15 @@ a:hover { color: var(--damga); text-decoration-color: var(--damga); }
 .kunye a:hover { text-decoration: underline; }
 .kaynak-link { color: var(--murekkep); font-weight: 700; }
 
+.x-bag {
+  font: 700 .82rem/1 system-ui, sans-serif;
+  border: 1px solid var(--cizgi);
+  border-radius: 4px;
+  padding: .14rem .4rem .2rem;
+  color: var(--murekkep);
+}
+.x-bag:hover { border-color: var(--damga); }
+
 .cip {
   padding: .12rem .55rem .16rem;
   border-radius: 99px;
@@ -530,6 +539,22 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
 .tesvik-liste li { padding: .45rem 0 .45rem 1.1rem; position: relative; font-size: .92rem; }
 .tesvik-liste li + li { border-top: 1px dotted var(--cizgi); }
 .tesvik-liste li::before { content: "◆"; position: absolute; left: 0; font-size: .6rem; top: .75rem; color: var(--damga); }
+
+.ses-uyari {
+  position: fixed;
+  top: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 40;
+  background: var(--murekkep);
+  color: var(--kagit);
+  padding: .5rem .9rem .55rem;
+  border-radius: 99px;
+  font: 600 .78rem/1.4 system-ui, sans-serif;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, .25);
+  animation: ses-uyari-gir .25s ease;
+}
+@keyframes ses-uyari-gir { from { opacity: 0; transform: translateX(-50%) translateY(-8px); } }
 
 /* metin seçimi/kopyalama her zaman serbest (flip kütüphanesi engellemesin) */
 .stf__item, .stf__item *, .sayfa, .sayfa * { -webkit-user-select: text; user-select: text; }
