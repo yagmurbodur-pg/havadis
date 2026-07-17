@@ -465,9 +465,9 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
 /* ————— küpür görselleri: küçük vinyet, metin etrafına akar ————— */
 .kupur-gorsel {
   float: right;
-  width: 38%;
-  max-width: 190px;
-  margin: .2rem 0 .45rem .8rem;
+  width: 30%;
+  max-width: 140px;
+  margin: .15rem 0 .4rem .7rem;
   border: 1px solid var(--cizgi);
   border-radius: 3px;
   overflow: hidden;
@@ -477,34 +477,37 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
 .kupur-gorsel img {
   display: block;
   width: 100%;
-  height: 96px;
+  height: 76px;
+  max-height: 76px;
   object-fit: cover;
   filter: saturate(1.05) contrast(1.02); /* kuşe baskı canlılığı */
 }
 .kupur-gorsel.kapak-gorsel {
   float: none;
-  width: 100%;
-  max-width: none;
-  margin: .7rem 0 .2rem;
+  width: 60%;
+  max-width: 240px;
+  margin: .6rem auto .2rem;
 }
-.kupur-gorsel.kapak-gorsel img { height: 128px; }
+.kupur-gorsel.kapak-gorsel img { height: 96px; max-height: 96px; }
 .kupur-gorsel.yok { display: none; }
 .kunye { clear: both; }
 .metin-govdesi { display: block; } /* flex sütun içinde float'un çalıştığı blok bağlam */
 .metin-govdesi::after { content: ""; display: block; clear: both; }
-[data-gorunum="akis"] .kupur-gorsel img { height: 118px; }
+[data-gorunum="akis"] .kupur-gorsel img { height: 96px; }
 @media (max-width: 520px) {
-  .kupur-gorsel { width: 42%; }
-  .kupur-gorsel img { height: 78px; }
-  .kupur-gorsel.kapak-gorsel img { height: 104px; }
+  .kupur-gorsel { width: 34%; max-width: 110px; }
+  .kupur-gorsel img { height: 58px; max-height: 58px; }
+  .kupur-gorsel.kapak-gorsel { width: 70%; }
+  .kupur-gorsel.kapak-gorsel img { height: 76px; max-height: 76px; }
 }
 
 /* ————— kuşe kağıt: parlak dergi sayfası ————— */
 [data-gorunum="dergi"] #kitap .sayfa {
-  background: linear-gradient(115deg,
-    color-mix(in srgb, var(--kagit) 88%, #FFFFFF) 0%,
-    var(--kagit) 52%,
-    color-mix(in srgb, var(--kagit) 94%, var(--murekkep)) 100%);
+  background: linear-gradient(112deg,
+    color-mix(in srgb, var(--kagit) 72%, #FFFFFF) 0%,
+    color-mix(in srgb, var(--kagit) 90%, #FFFFFF) 38%,
+    var(--kagit) 62%,
+    color-mix(in srgb, var(--kagit) 91%, var(--murekkep)) 100%);
 }
 [data-gorunum="dergi"] #kitap .sayfa::after {
   content: "";
@@ -512,13 +515,15 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
   inset: 0;
   pointer-events: none;
   background:
-    linear-gradient(105deg, rgba(255, 255, 255, .5) 0%, rgba(255, 255, 255, 0) 24%),
-    linear-gradient(285deg, rgba(255, 255, 255, .18) 0%, rgba(255, 255, 255, 0) 18%);
-  opacity: .5;
+    linear-gradient(104deg, rgba(255, 255, 255, .85) 0%, rgba(255, 255, 255, 0) 22%),
+    linear-gradient(284deg, rgba(255, 255, 255, .3) 0%, rgba(255, 255, 255, 0) 16%),
+    linear-gradient(90deg, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, 0) 7%),
+    linear-gradient(270deg, rgba(0, 0, 0, .05) 0%, rgba(0, 0, 0, 0) 7%);
+  opacity: .65;
 }
-:root[data-tema="koyu"] [data-gorunum="dergi"] #kitap .sayfa::after { opacity: .12; }
+:root[data-tema="koyu"] [data-gorunum="dergi"] #kitap .sayfa::after { opacity: .16; }
 @media (prefers-color-scheme: dark) {
-  :root:not([data-tema="acik"]) [data-gorunum="dergi"] #kitap .sayfa::after { opacity: .12; }
+  :root:not([data-tema="acik"]) [data-gorunum="dergi"] #kitap .sayfa::after { opacity: .16; }
 }
 
 .tesvik-liste { list-style: none; margin: .5rem 0 0; padding: 0; }
@@ -597,20 +602,28 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
 
 /* ————— Havadis Wiki: bağ haritası + zaman çizgisi + sohbet ————— */
 
-.alt-wiki { display: none; text-align: center; margin: .75rem 0 0; }
-[data-gorunum="dergi"] .alt-wiki { display: block; }
+/* HAVADİS WİKİ düğmesi: sayfanın ortasında, kırmızı kutu, gözden kaçmaz */
+.alt-wiki {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin: .9rem auto 0;
+}
+[data-gorunum="dergi"] .alt-wiki, [data-gorunum="akis"] .alt-wiki { display: block; }
 .alt-wiki a {
   display: inline-block;
   background: var(--damga);
   color: var(--kagit);
   text-decoration: none;
-  padding: .34rem .95rem .4rem;
-  border-radius: 99px;
-  font: 700 .74rem/1.4 system-ui, -apple-system, sans-serif;
-  letter-spacing: .12em;
+  padding: .7rem 1.9rem .78rem;
+  border-radius: 8px;
+  border: 2px solid color-mix(in srgb, var(--damga) 70%, var(--murekkep));
+  font: 800 .92rem/1.3 system-ui, -apple-system, sans-serif;
+  letter-spacing: .14em;
   text-transform: uppercase;
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--damga) 45%, transparent);
 }
-.alt-wiki a:hover { opacity: .85; }
+.alt-wiki a:hover { transform: translateY(-1px); box-shadow: 0 6px 18px color-mix(in srgb, var(--damga) 55%, transparent); }
 
 .buyuk-baglar .vurgulu {
   background: var(--damga);

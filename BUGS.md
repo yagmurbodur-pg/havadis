@@ -48,4 +48,31 @@ Tarama yöntemi: Playwright ile tüm sayfalar (dergi flip+akış, arşiv+örnek 
 
 ---
 
-**Özet:** 7 kayıt · 5 fixlendi ve doğrulandı · 2 gerekçeli ertelendi.
+# Jüri Turu (17 Tem, canlı kullanıcı deneyimi)
+
+## J1 — Canlıda sayfalar "dev görsel parçası + sıfır yazı" görünüyor ✅ FIXLENDİ
+- **Önem:** Kritik
+- **Repro:** Siteyi daha önce ziyaret etmiş bir tarayıcıyla (SW kayıtlı) yeni sayıyı aç.
+- **Beklenen:** Güncel mizanpaj (küçük vinyet + yazı).
+- **Gerçekleşen:** Yalnızca bir görselin parçası; yazılar ekran dışında.
+- **Kök neden:** Service worker `SURUM="havadis-v1"` hiç değişmiyordu ve varlıklar salt-önbellekti → tarayıcı GÜNLERCE eski stil.css'i kullandı; eski CSS'te görsel boyut kuralı yok → 1200px og-görseli sayfayı kapladı.
+- **Fix:** SW sürümü her basımda damgalanıyor (render.py) → eski önbellek tamamen süpürülüyor; varlık stratejisi "önbellekten servis + arka planda tazele"ye çevrildi.
+
+## J2 — Sığdırma bekçisi görseller yüklenmeden ölçüyordu ✅ FIXLENDİ
+- **Önem:** Yüksek — geç yüklenen büyük görsel yazıyı ezebiliyordu.
+- **Fix:** Ölçüm her görselin load/error olayında da tekrarlanıyor; ayrıca görsele katı max-height sınırı eklendi (savunma katmanı).
+
+## J3 — Görseller sayfaya oranla büyüktü ✅ FIXLENDİ
+- **Fix:** Vinyet %30/140px (76px yükseklik), mobilde 110px/58px; kapak görseli ortalanmış %60/96px.
+
+## J4 — "Havadis Wiki" düğmesi silik ve (bayat CSS'te) sola yapışıktı ✅ FIXLENDİ
+- **Fix:** Sayfanın ortasında, büyük kırmızı kutu (gölgeli, 2px çerçeveli, .92rem); artık akış görünümünde de görünür.
+
+## J5 — Sayfa çevirme sesi gelmeyebiliyordu ✅ FIXLENDİ
+- **Kök neden:** Ses bağlamı yalnızca sayfadaki İLK pointerdown'da kuruluyordu; zamanlama kaçarsa hiç kurulmuyordu (bayat SW mp3'ü de etkileyebiliyordu).
+- **Fix:** Bağlam+mp3 artık her çevirme anında da tembel kuruluyor (çevirme zaten kullanıcı jesti); SW tazeleme mp3'ü de kapsıyor.
+
+## J6 — Kuşe hissi bayat CSS yüzünden hiç ulaşmamıştı ✅ FIXLENDİ + GÜÇLENDİ
+- **Fix:** J1 çözümüyle ulaşıyor; ayrıca parlaklık belirginleştirildi: daha aydınlık degrade taban, güçlü köşegen ışık süpürmesi, sayfa kenarlarında ince sırt gölgeleri.
+
+**Genel özet:** 13 kayıt · 11 fixlendi ve doğrulandı · 2 gerekçeli ertelendi.

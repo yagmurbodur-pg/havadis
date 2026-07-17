@@ -102,6 +102,18 @@ def uret(sayi, havuz, site_dizini, simdi, gorseller=None):
         arsiv_tpl.render(sayilar=sayilar, kok=".."), encoding="utf-8"
     )
 
+    # service worker sürüm damgası: her basım varlık önbelleğini tazeler (bayat CSS/JS kalmasın)
+    sw_yolu = site / "sw.js"
+    if sw_yolu.exists():
+        import re as _re
+
+        sw_metin = sw_yolu.read_text(encoding="utf-8")
+        damga = "havadis-" + yerel.strftime("%Y%m%d%H%M")
+        sw_yolu.write_text(
+            _re.sub(r'const SURUM = "[^"]*"', f'const SURUM = "{damga}"', sw_metin),
+            encoding="utf-8",
+        )
+
     # notify + service worker sürümü için küçük durum dosyası
     (site / "son.json").write_text(
         json.dumps(

@@ -168,21 +168,26 @@ try {
   try { sessiz = localStorage.getItem("havadis-ses") === "kapali"; } catch (e) {}
 
   /* ————— sayfa çevirme sesi: gerçek kayıt (varliklar/sayfa-sesi.mp3) ————— */
-  var baglam = null, sesVerisi = null;
-  document.addEventListener("pointerdown", function () {
-    if (baglam) return;
-    try {
-      baglam = new (window.AudioContext || window.webkitAudioContext)();
+  var baglam = null, sesVerisi = null, sesYukleniyor = false;
+  function sesHazirla() { // her çevirme zaten kullanıcı jestidir; bağlam burada da açılabilir
+    if (!baglam) {
+      try { baglam = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { return; }
+    }
+    if (!sesVerisi && !sesYukleniyor) {
+      sesYukleniyor = true;
       fetch("{{ kok }}/varliklar/sayfa-sesi.mp3")
         .then(function (r) { return r.arrayBuffer(); })
         .then(function (b) { return baglam.decodeAudioData(b); })
-        .then(function (d) { sesVerisi = d; })
-        .catch(function () {});
-    } catch (e) {}
-  }, { once: true });
+        .then(function (d) { sesVerisi = d; sesYukleniyor = false; })
+        .catch(function () { sesYukleniyor = false; });
+    }
+  }
+  document.addEventListener("pointerdown", sesHazirla, { once: true });
 
   function sesCal() {
-    if (sessiz || !baglam || !sesVerisi) return;
+    if (sessiz) return;
+    sesHazirla();
+    if (!baglam || !sesVerisi) return; // ilk çeviriş yüklenme anına denk gelirse sessiz geçer
     if (baglam.state === "suspended") baglam.resume();
     var src = baglam.createBufferSource();
     src.buffer = sesVerisi;
@@ -228,7 +233,7 @@ try {
     })();
     kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
     document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
-    setTimeout(function () { // içerik sayfaya sığmazsa önce görseli geri çek, sonra puntoyu incelt
+    function sigdir() { // içerik sayfaya sığmazsa önce görseli geri çek, sonra puntoyu incelt
       document.querySelectorAll(".stf__item .sayfa-ic").forEach(function (s) {
         if (s.scrollHeight > s.clientHeight + 4) {
           var f = s.querySelector(".kupur-gorsel");
@@ -236,7 +241,13 @@ try {
         }
         if (s.scrollHeight > s.clientHeight + 4) s.style.fontSize = "0.93em";
       });
-    }, 450);
+    }
+    setTimeout(sigdir, 450);
+    // görseller sonradan yüklenir: her yüklemede yeniden ölç (geç gelen dev görsel yazıyı ezmesin)
+    document.querySelectorAll(".kupur-gorsel img").forEach(function (g) {
+      g.addEventListener("load", sigdir);
+      g.addEventListener("error", sigdir);
+    });
     kitap.on("changeState", function (e) { if (e.data === "flipping") sesCal(); });
     kitap.on("flip", function (e) {
       document.getElementById("sayfa-no").textContent = e.data + 1;

@@ -1,7 +1,9 @@
-/* Havadis service worker — HTML ve dizin: önce ağ; varlıklar: önce önbellek.
-   (GitHub Pages max-age=600 önbelleğiyle üst üste binmesin diye HTML asla cache-first değil.) */
-const SURUM = "havadis-v1";
-const VARLIK = /(\/varliklar\/|minisearch|ikon|manifest|apple-touch)/;
+/* Havadis service worker
+   HTML ve dizin: önce ağ (çevrimdışıysa son kopya).
+   Varlıklar: önbellekten hızlı servis + arka planda tazeleme (stale-while-revalidate).
+   SURUM her basımda damgalanır → yeni sürüm eski önbelleği tamamen süpürür. */
+const SURUM = "havadis-202607171637";
+const VARLIK = /(\/varliklar\/|minisearch|ikon|manifest|apple-touch|sayfa-sesi)/;
 
 self.addEventListener("install", () => self.skipWaiting());
 
@@ -36,18 +38,19 @@ self.addEventListener("fetch", (olay) => {
     return;
   }
 
-  // fontlar, stil, ikonlar: önce önbellek
+  // fontlar, stil, sesler, ikonlar: önbellekten an, arka planda tazele
   if (VARLIK.test(url.pathname)) {
     olay.respondWith(
-      caches.match(istek).then(
-        (eski) =>
-          eski ||
-          fetch(istek).then((yanit) => {
+      caches.match(istek).then((eski) => {
+        const taze = fetch(istek)
+          .then((yanit) => {
             const kopya = yanit.clone();
             caches.open(SURUM).then((c) => c.put(istek, kopya));
             return yanit;
           })
-      )
+          .catch(() => eski);
+        return eski || taze;
+      })
     );
   }
 });
