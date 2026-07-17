@@ -97,13 +97,13 @@ def test_bos_bolum_reddedilir():
 
 def test_uzun_haber_ozeti_reddedilir():
     s = gecerli_sayi()
-    s["bolumler"][0]["haberler"][0]["ozet"] = "kelime " * 71
+    s["bolumler"][0]["haberler"][0]["ozet"] = "kelime " * 101
     assert dogrula(s, havuz()) != []
 
 
 def test_uzun_kapak_ozeti_reddedilir():
     s = gecerli_sayi()
-    s["kapak"]["ozet"] = "kelime " * 136
+    s["kapak"]["ozet"] = "kelime " * 141
     assert dogrula(s, havuz()) != []
 
 

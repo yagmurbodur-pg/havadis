@@ -47,7 +47,7 @@ try {
           </div>
         </div>
         <div class="damga-hiza">
-          <span class="damga">Sabah Baskısı<small>10:43 · YZ dizgisi</small></span>
+          <span class="damga">Sabah Baskısı<small>13:52 · YZ dizgisi</small></span>
         </div>
         <div class="kapak-manset">
           <p class="kicker">MİNİ SAYI</p>
@@ -204,6 +204,8 @@ try {
     </div>
 
   </div>
+  <button class="cevir sol" id="cevir-sol" type="button" aria-label="Önceki sayfa">‹</button>
+  <button class="cevir sag" id="cevir-sag" type="button" aria-label="Sonraki sayfa">›</button>
   <p class="sayfa-gosterge"><span id="sayfa-no">1</span> / <span id="sayfa-toplam">–</span></p>
   <p class="alt-wiki"><a class="vurgulu" href="./wiki/index.html">Havadis Wiki →</a></p>
 </div>
@@ -249,7 +251,9 @@ try {
       width: 400, height: 600, size: "stretch",
       minWidth: 280, maxWidth: 500, minHeight: 480, maxHeight: 760,
       showCover: true, usePortrait: true,
-      maxShadowOpacity: 0.35, flippingTime: 700, mobileScrollSupport: true
+      maxShadowOpacity: 0.35, flippingTime: 700,
+      useMouseEvents: false, // metin seçimi/kopyalama serbest; katlanma takılması imkânsız
+      mobileScrollSupport: true
     });
     kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
     document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
@@ -262,6 +266,21 @@ try {
       if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); kitap.flipNext(); }
       if (e.key === "ArrowLeft") { e.preventDefault(); kitap.flipPrev(); }
     });
+    document.getElementById("cevir-sol").addEventListener("click", function () { kitap.flipPrev(); });
+    document.getElementById("cevir-sag").addEventListener("click", function () { kitap.flipNext(); });
+    // dokunmatikte bilinçli kaydırmayla çevirme (fare sürüklemesi metin seçimine ayrıldı)
+    var dokunusX = null, dokunusY = null;
+    eleman.addEventListener("pointerdown", function (e) {
+      if (e.pointerType === "touch") { dokunusX = e.clientX; dokunusY = e.clientY; }
+    }, { passive: true });
+    eleman.addEventListener("pointerup", function (e) {
+      if (e.pointerType !== "touch" || dokunusX === null) return;
+      var dx = e.clientX - dokunusX, dy = e.clientY - dokunusY;
+      dokunusX = dokunusY = null;
+      if (Math.abs(dx) > 70 && Math.abs(dy) < 50) {
+        if (dx < 0) kitap.flipNext(); else kitap.flipPrev();
+      }
+    }, { passive: true });
   } else if (document.documentElement.dataset.gorunum === "dergi") {
     document.documentElement.dataset.gorunum = "akis"; // kütüphane yüklenemediyse akışa düş
   }

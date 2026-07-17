@@ -10,8 +10,8 @@ from pathlib import Path
 BOLUMLER = ["Gündem", "Araştırma Masası", "Türkiye'den", "Araç Çantası"]
 
 LIMITLER = {
-    "kapak_ozet_kelime": 110,
-    "haber_ozet_kelime": 70,
+    "kapak_ozet_kelime": 140,
+    "haber_ozet_kelime": 100,
     "neden_kelime": 30,
     "baslik_karakter": 110,
     "kicker_karakter": 48,

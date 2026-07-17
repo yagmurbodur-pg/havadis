@@ -462,6 +462,60 @@ footer.kuyruk .kucuk { font-size: .78rem; font-style: italic; }
   overflow: hidden;
   box-sizing: border-box;
 }
+/* ————— küpür görselleri ————— */
+.kupur-gorsel {
+  margin: 0 0 .7rem;
+  border: 1px solid var(--cizgi);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--kagit-koyu);
+}
+.kupur-gorsel img {
+  display: block;
+  width: 100%;
+  height: 158px;
+  object-fit: cover;
+  filter: sepia(.12) saturate(.9) contrast(.97);
+}
+.kupur-gorsel.kapak-gorsel img { height: 190px; }
+.kupur-gorsel.yok { display: none; }
+[data-gorunum="akis"] .kupur-gorsel img { height: 230px; }
+@media (max-width: 520px) {
+  .kupur-gorsel img { height: 122px; }
+  .kupur-gorsel.kapak-gorsel img { height: 150px; }
+}
+
+.tesvik-liste { list-style: none; margin: .5rem 0 0; padding: 0; }
+.tesvik-liste li { padding: .45rem 0 .45rem 1.1rem; position: relative; font-size: .92rem; }
+.tesvik-liste li + li { border-top: 1px dotted var(--cizgi); }
+.tesvik-liste li::before { content: "◆"; position: absolute; left: 0; font-size: .6rem; top: .75rem; color: var(--damga); }
+
+/* metin seçimi/kopyalama her zaman serbest (flip kütüphanesi engellemesin) */
+.stf__item, .stf__item *, .sayfa, .sayfa * { -webkit-user-select: text; user-select: text; }
+
+.cevir {
+  display: none;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 6;
+  width: 44px; height: 64px;
+  border: 1px solid var(--cizgi);
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--kagit) 82%, transparent);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: var(--murekkep-soluk);
+  font: 400 1.7rem/1 "Newsreader", Georgia, serif;
+  cursor: pointer;
+  transition: color .15s, border-color .15s;
+}
+.cevir:hover { color: var(--damga); border-color: var(--damga); }
+.cevir.sol { left: max(8px, calc(50vw - 34rem)); }
+.cevir.sag { right: max(8px, calc(50vw - 34rem)); }
+[data-gorunum="dergi"] .cevir { display: block; }
+@media (max-width: 720px) { .cevir { display: none !important; } } /* mobilde kaydırma var */
+
 [data-gorunum="dergi"] .sus {
   display: flex;
   flex: 1;

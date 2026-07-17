@@ -50,7 +50,7 @@ def okuma_suresi(sayi):
     return max(1, round(kelime / 180))
 
 
-def uret(sayi, havuz, site_dizini, simdi):
+def uret(sayi, havuz, site_dizini, simdi, gorseller=None):
     site = Path(site_dizini)
     (site / "arsiv").mkdir(parents=True, exist_ok=True)
 
@@ -80,6 +80,7 @@ def uret(sayi, havuz, site_dizini, simdi):
         "okuma": okuma_suresi(sayi),
         "onceki": onceki,
         "meta": havuz.get("meta", {}),
+        "gorsel": gorseller or {},
     }
     dergi = env.get_template("dergi.html.j2")
     (site / "index.html").write_text(dergi.render(kok=".", **baglam), encoding="utf-8")
@@ -120,7 +121,11 @@ def uret(sayi, havuz, site_dizini, simdi):
 def main():
     sayi = json.loads((KOK / "issue.json").read_text(encoding="utf-8"))
     havuz = json.loads((KOK / "candidates.json").read_text(encoding="utf-8"))
-    hedef = uret(sayi, havuz, KOK / "site", datetime.now(timezone.utc))
+    gorsel_yolu = KOK / "veri" / "gorseller.json"
+    gorseller = (
+        json.loads(gorsel_yolu.read_text(encoding="utf-8")) if gorsel_yolu.exists() else {}
+    )
+    hedef = uret(sayi, havuz, KOK / "site", datetime.now(timezone.utc), gorseller)
     print(f"Dergi üretildi: {hedef}")
 
 

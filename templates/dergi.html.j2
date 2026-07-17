@@ -49,6 +49,8 @@ try {
         <div class="damga-hiza">
           <span class="damga">Sabah Baskısı<small>{{ saat }} · YZ dizgisi</small></span>
         </div>
+        {% set kg = gorsel.get(sayi.kapak.id) %}
+        {% if kg %}<figure class="kupur-gorsel kapak-gorsel"><img src="{{ kg }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').classList.add('yok')"></figure>{% endif %}
         <div class="kapak-manset">
           <p class="kicker">{{ sayi.kapak.kicker }}</p>
           <h2>{{ sayi.kapak.baslik }}</h2>
@@ -68,7 +70,7 @@ try {
         {% if sayi.mini %}<p class="mini-uyari">Mini sayı: bu sabah tam editoryal üretim yapılamadı; başlıklar kaynaklarından aynen aktarıldı.</p>{% endif %}
         <p class="govde buyukce">{{ sayi.kapak.ozet }}</p>
         <p class="neden">Neden önemli? {{ sayi.kapak.neden_onemli }}</p>
-        <div class="sus" aria-hidden="true">❦</div>
+        {% if not gorsel.get(sayi.kapak.id) %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if k %}<a class="kaynak-link" href="{{ k.url }}" rel="noopener">{{ k.kaynak }} ↗</a>
           {% for e in k.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
@@ -85,10 +87,12 @@ try {
     <div class="sayfa">
       <div class="sayfa-ic">
         <p class="sayfa-bolum">{{ b.ad }}{% if bolum_boy > 1 %} · {{ loop.index }}/{{ bolum_boy }}{% endif %}</p>
+        {% set hg = gorsel.get(h.id) %}
+        {% if hg %}<figure class="kupur-gorsel"><img src="{{ hg }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').classList.add('yok')"></figure>{% endif %}
         <h4>{{ h.baslik }}</h4>
         <p class="govde">{{ h.ozet }}</p>
         <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
-        <div class="sus" aria-hidden="true">❦</div>
+        {% if not hg %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
           {% for e in a.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
@@ -99,6 +103,23 @@ try {
     </div>
     {% endfor %}
     {% endfor %}
+
+    {# ————— sabit rehber: Türkiye'de YZ devlet destekleri ————— #}
+    <div class="sayfa">
+      <div class="sayfa-ic">
+        <p class="sayfa-bolum">Rehber — Türkiye'de YZ Destekleri</p>
+        <h4>Devlet teşvikleriyle yapay zekâ yolculuğu</h4>
+        <p class="govde">TÜBİTAK'ın 10 milyon TL'ye varan 1711 Yapay Zekâ Ekosistem Çağrısı'ndan KOSGEB'in GPU harcamaları için açtığı 5 milyon TL'lik faizsiz YZ kredisine, teknopark vergi istisnalarından TEKNOFEST ödüllerine kadar güncel kamu destekleri tek rehberde derlendi.</p>
+        <ul class="tesvik-liste">
+          <li><strong>TÜBİTAK</strong> — 1711, 1007 Kamu YZ, 1507/1501, 1707, BiGG Yatırım</li>
+          <li><strong>KOSGEB</strong> — Faizsiz YZ Kredisi, Ar-Ge/Ür-Ge, Girişimci Desteği</li>
+          <li><strong>Bakanlık & Ajanslar</strong> — HAMLE, İSTKA, teknopark ve 5746 teşvikleri</li>
+        </ul>
+        <div class="sus" aria-hidden="true">❦</div>
+        <div class="kunye"><a class="kaynak-link" href="{{ kok }}/tesvikler/index.html">Tam rehberi aç ↗</a></div>
+      </div>
+      <p class="sayfa-alt">HAVADİS · SAYI {{ sayi_no }}</p>
+    </div>
 
     {# ————— Radar sayfası ————— #}
     <div class="sayfa">
@@ -131,6 +152,8 @@ try {
     </div>
 
   </div>
+  <button class="cevir sol" id="cevir-sol" type="button" aria-label="Önceki sayfa">‹</button>
+  <button class="cevir sag" id="cevir-sag" type="button" aria-label="Sonraki sayfa">›</button>
   <p class="sayfa-gosterge"><span id="sayfa-no">1</span> / <span id="sayfa-toplam">–</span></p>
   <p class="alt-wiki"><a class="vurgulu" href="{{ kok }}/wiki/index.html">Havadis Wiki →</a></p>
 </div>
@@ -176,10 +199,21 @@ try {
       width: 400, height: 600, size: "stretch",
       minWidth: 280, maxWidth: 500, minHeight: 480, maxHeight: 760,
       showCover: true, usePortrait: true,
-      maxShadowOpacity: 0.35, flippingTime: 700, mobileScrollSupport: true
+      maxShadowOpacity: 0.35, flippingTime: 700,
+      useMouseEvents: false, // metin seçimi/kopyalama serbest; katlanma takılması imkânsız
+      mobileScrollSupport: true
     });
     kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
     document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
+    setTimeout(function () { // içerik sayfaya sığmazsa önce görseli geri çek, sonra puntoyu incelt
+      document.querySelectorAll(".stf__item .sayfa-ic").forEach(function (s) {
+        if (s.scrollHeight > s.clientHeight + 4) {
+          var f = s.querySelector(".kupur-gorsel");
+          if (f) f.style.display = "none";
+        }
+        if (s.scrollHeight > s.clientHeight + 4) s.style.fontSize = "0.93em";
+      });
+    }, 450);
     kitap.on("changeState", function (e) { if (e.data === "flipping") sesCal(); });
     kitap.on("flip", function (e) {
       document.getElementById("sayfa-no").textContent = e.data + 1;
@@ -189,6 +223,21 @@ try {
       if (e.key === "ArrowRight" || e.key === " ") { e.preventDefault(); kitap.flipNext(); }
       if (e.key === "ArrowLeft") { e.preventDefault(); kitap.flipPrev(); }
     });
+    document.getElementById("cevir-sol").addEventListener("click", function () { kitap.flipPrev(); });
+    document.getElementById("cevir-sag").addEventListener("click", function () { kitap.flipNext(); });
+    // dokunmatikte bilinçli kaydırmayla çevirme (fare sürüklemesi metin seçimine ayrıldı)
+    var dokunusX = null, dokunusY = null;
+    eleman.addEventListener("pointerdown", function (e) {
+      if (e.pointerType === "touch") { dokunusX = e.clientX; dokunusY = e.clientY; }
+    }, { passive: true });
+    eleman.addEventListener("pointerup", function (e) {
+      if (e.pointerType !== "touch" || dokunusX === null) return;
+      var dx = e.clientX - dokunusX, dy = e.clientY - dokunusY;
+      dokunusX = dokunusY = null;
+      if (Math.abs(dx) > 70 && Math.abs(dy) < 50) {
+        if (dx < 0) kitap.flipNext(); else kitap.flipPrev();
+      }
+    }, { passive: true });
   } else if (document.documentElement.dataset.gorunum === "dergi") {
     document.documentElement.dataset.gorunum = "akis"; // kütüphane yüklenemediyse akışa düş
   }

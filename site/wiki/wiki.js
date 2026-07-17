@@ -585,16 +585,21 @@
   });
 
   /* ————— sohbet ————— */
-  var KOPRU = "http://127.0.0.1:8747", koprulu = false;
-  fetch(KOPRU + "/ping").then(function (r) {
-    if (r.ok) { koprulu = true; $("kopru-durum").textContent = "🟢 yerel zekâ bağlı"; }
-  }).catch(function () {});
+  var KOPRU = "http://127.0.0.1:8747", koprulu = false, kopruDenendi = false;
+  function kopruYokla() { // yalnız sohbet ilk açıldığında (kapalı köprü konsolu kirletmesin)
+    if (kopruDenendi) return;
+    kopruDenendi = true;
+    fetch(KOPRU + "/ping").then(function (r) {
+      if (r.ok) { koprulu = true; $("kopru-durum").textContent = "🟢 yerel zekâ bağlı"; }
+    }).catch(function () {});
+  }
 
   function sohbetKapat() { $("sohbet-panel").classList.remove("acik"); }
   $("sohbet-ac").addEventListener("click", function () {
     tikSesi();
     var p = $("sohbet-panel");
     if (p.classList.contains("acik")) { sohbetKapat(); return; }
+    kopruYokla();
     panelSesi();
     p.classList.add("acik");
     $("soru").focus();
