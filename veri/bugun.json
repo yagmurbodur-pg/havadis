@@ -192,6 +192,248 @@
    "kaynak": "Ars Technica AI",
    "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
    "ek_kaynaklar": []
+  },
+  {
+   "id": "b82b19a7",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Kapak",
+   "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
+   "ozet": "Çinli yapay zekâ şirketi Moonshot AI, bugüne kadarki en büyük açık ağırlıklı modelini (herkesin indirip kullanabildiği model) duyurdu: Kimi K3. Şirkete göre model, 2,8 trilyon parametreyle şimdiye dek yayımlanmış en büyük açık model. Kimi K3 şu anda Moonshot'ın kendi sitesi ve API'si üzerinden kullanılabiliyor; modelin ağırlıklarının (indirilebilir dosyalarının) 27 Temmuz 2026'ya kadar herkese açılması bekleniyor. Şirketin kendi paylaştığı test sonuçlarına göre Kimi K3, Claude Opus 4.8 max ve GPT-5.5 high modellerini büyük ölçüde geride bırakıyor; ancak Claude Fable 5 ve GPT-5.6 Sol'un gerisinde kalıyor. Fiyatlandırma tarafında ise K3, Anthropic'in Sonnet 5 modeliyle aynı bantta kalıp güçte Opus 4.8 sınıfını hedefliyor — yani ucuz ama iddialı bir konumlanma.",
+   "neden_onemli": "En büyük açık model unvanı Çin'e geçiyor; bu, güçlü YZ modellerine erişimi ücretsiz ya da çok ucuz hale getirip rekabeti hızlandırıyor.",
+   "konular": [
+    "açık kaynak",
+    "modeller",
+    "Çin"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.kimi.com/blog/kimi-k3",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=48935342",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "f2d4f0d1",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
+   "ozet": "Avrupa Birliği, dijital rekabet kurallarına uymak zorunda olan Google'a, rakip yapay zekâ asistanlarının ve arama motorlarının Android ile Google Arama'nın önemli bölümlerine erişmesini sağlama kararı verdi. Karar, Google'ın bu iki platform üzerindeki kontrolünü zayıflatabilir. Google ise değişikliklerin kullanıcı gizliliğini ve güvenliğini tehlikeye atabileceğini savunuyor.",
+   "neden_onemli": "Karar gerçekleşirse Android'de Gemini dışında yapay zekâ asistanları da öne çıkabilir, kullanıcı seçenekleri artabilir.",
+   "konular": [
+    "Google",
+    "regülasyon"
+   ],
+   "iliskili": [],
+   "kaynak": "The Verge AI",
+   "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "d4ca69cf",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
+   "ozet": "Google, video oluşturma aracı Vids'e yeni özellikler ekledi. Kullanıcılar artık kendi dijital ikizinin (avatarının) oynadığı videolar oluşturabiliyor. Gemini Omni destekli araçlarla, yazılı komut ve referans görsellerden video üretmek ve düzenlemek de mümkün hale geldi.",
+   "neden_onemli": "Video üretimi artık teknik bilgi gerektirmeden, herkesin kendi görüntüsüyle içerik üretebileceği bir noktaya geliyor.",
+   "konular": [
+    "Google",
+    "video üretimi"
+   ],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "9d6f1edd",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
+   "ozet": "Bir Alman yapay zekâ konsorsiyumu, 30 milyar parametreli açık ağırlıklı (herkesin indirip kullanabildiği) yeni bir model yayımladı: Soofi S. Habere göre model, hem İngilizce hem Almanca dilinde karşılaştırma testlerinde (benchmark) zirveye çıkıyor.",
+   "neden_onemli": "Açık modellerde Avrupa da güç gösteriyor; ABD ve Çin dışında alternatif kaynaklar çoğalıyor.",
+   "konular": [
+    "açık kaynak",
+    "modeller"
+   ],
+   "iliskili": [],
+   "kaynak": "Hacker News",
+   "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=48937756",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "79ed56fa",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
+   "ozet": "Google, yapay zekâ destekli not alma uygulaması NotebookLM'in adını Gemini Notebook olarak değiştirdi. Uygulama bağımsız bir ürün olarak kalmaya devam edecek; ancak Gemini ve Google Arama ile daha derin entegre olacak. Google, bu ürünü ilk kez Mayıs 2023'te 'Project Tailwind' adıyla duyurmuştu.",
+   "neden_onemli": "İsim değişikliği, Google'ın tüm yapay zekâ ürünlerini Gemini markası altında topladığını gösteriyor.",
+   "konular": [
+    "Google",
+    "araçlar"
+   ],
+   "iliskili": [],
+   "kaynak": "The Verge AI",
+   "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN Ana Sayfa",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
+     "baslik": "NotebookLM is now Gemini Notebook"
+    }
+   ]
+  },
+  {
+   "id": "49d8cb27",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Araştırma Masası",
+   "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
+   "ozet": "Web'de bilgi arayan yapay zekâ ajanları, aramalar sonuç vermediğinde sık sık aynı adımları tekrarlayıp zaman ve kaynak kaybediyor. Araştırmacıların tanıttığı SearchOS sistemi, bu tekrar döngülerini fark edip ajanların arama stratejisini değiştirmesini sağlayarak daha eksiksiz ve kaliteli sonuçlar üretmeyi hedefliyor.",
+   "neden_onemli": "Arama tabanlı yapay zekâ ajanlarının günlük kullanımda daha güvenilir ve hızlı sonuç vermesine katkı sağlayabilir.",
+   "konular": [
+    "ajanlar",
+    "araştırma"
+   ],
+   "iliskili": [],
+   "kaynak": "HF Daily Papers",
+   "url": "https://huggingface.co/papers/2607.15257",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "61dced22",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Araştırma Masası",
+   "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
+   "ozet": "Görme engelli bireylerin günlük hayatta karşılaştığı zorluklara rağmen, çok-modlu yapay zekâ modellerinin (görsel ve metni birlikte işleyen modeller) bu alanda ne kadar gerçekten yardımcı olduğu az araştırılmıştı. Araştırmacılar, bu modelleri görme engellilere yardım senaryolarında test etmek için VIABench adlı kapsamlı bir video test setini (benchmark) tanıttı.",
+   "neden_onemli": "Görme engelliler için gerçekten faydalı yapay zekâ araçları geliştirmenin önünü açabilir.",
+   "konular": [
+    "araştırma",
+    "erişilebilirlik"
+   ],
+   "iliskili": [],
+   "kaynak": "HF Daily Papers",
+   "url": "https://huggingface.co/papers/2607.14660",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "fd8d69ff",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Türkiye'den",
+   "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
+   "ozet": "Türk girişimci Bercan Kılıç'ın kurucu ortağı ve CEO'su olduğu Münih merkezli robotik şirketi microagi, 55 milyon dolarlık tohum yatırım turunu tamamladı. Turu Hummingbird Ventures yönetti; Northzone, LocalGlobe, Village Global ve redalpine de katıldı. Haberlere göre bu, bir Alman girişiminin bugüne dek aldığı en büyük tohum yatırımlardan biri.",
+   "neden_onemli": "Bir Türk girişimcinin küresel ölçekte büyük bir yatırım turuna liderlik etmesi, Türkiye kökenli girişimcilerin dünya sahnesindeki görünürlüğünü artırıyor.",
+   "konular": [
+    "Türkiye",
+    "yatırımlar"
+   ],
+   "iliskili": [],
+   "kaynak": "eGirişim",
+   "url": "https://egirisim.com/2026/07/16/bercan-kilicin-kurucu-ortagi-oldugu-munih-merkezli-microagi-55-milyon-dolar-yatirim-aldi/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "ad18a56b",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Araç Çantası",
+   "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
+   "ozet": "code-review-graph, kod tabanınızın kalıcı bir haritasını çıkaran, yerel çalışan (verilerinizi dışarı göndermeyen) bir araç. Bu sayede kod asistanları yalnızca gerçekten ilgili kısımları okuyor; büyük depolarda ve kod incelemelerinde bağlam (context) kullanımını azalttığı ölçülmüş. Bugün dene: büyük bir depoda MCP ya da komut satırı (CLI) üzerinden çalıştırıp fark yaratıp yaratmadığına bakın.",
+   "neden_onemli": "Büyük kod tabanlarında çalışan geliştiriciler için kod asistanlarını daha isabetli ve hızlı hale getirebilir.",
+   "konular": [
+    "araçlar",
+    "kod asistanları"
+   ],
+   "iliskili": [],
+   "kaynak": "GitHub Trending",
+   "url": "https://github.com/tirth8205/code-review-graph",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "c599c61e",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
+   "ozet": "Apple Intelligence, Çin'de Alibaba ve Baidu iş birliğiyle onay aldı; Apple'ın Çin'deki yapay zekâ planları için önemli bir adım.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "5f22dfb9",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Yes, you can now order DoorDash from the command line",
+   "ozet": "DoorDash, geliştiricilerin ve yapay zekâ ajanlarının komut satırından yemek siparişi vermesini sağlayan dd-cli aracını sınırlı beta olarak açtı.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "e433f753",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Energy IPOs surge as investors hunt for ways to play AI boom",
+   "ozet": "Yapay zekâ patlaması, enerji şirketlerinin halka arzlarını bu yüzyılın en hızlı temposuna taşıdı.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "ba15284a",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
+   "ozet": "Linus Torvalds, Linux'ta yapay zekâ kullanımına karşı çıkanlara net mesaj verdi: 'Projeyi çatallayın ya da bırakıp gidin.'",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "d322af2b",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Why is OpenAI selling a ChatGPT basketball?",
+   "ozet": "OpenAI, ilk donanım ürününün ardından bu kez de 'ChatGPT' markalı basketbol topu satmaya başladı.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+   "ek_kaynaklar": []
   }
  ]
 }

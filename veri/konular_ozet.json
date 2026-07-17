@@ -33,6 +33,70 @@
    ]
   },
   {
+   "ad": "araçlar",
+   "slug": "araclar",
+   "adet": 9,
+   "son": [
+    {
+     "id": "79ed56fa",
+     "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "ad18a56b",
+     "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "e2469c92",
+     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3f7f2e44",
+     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "kod asistanları",
+   "slug": "kod-asistanlari",
+   "adet": 8,
+   "son": [
+    {
+     "id": "ad18a56b",
+     "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "f42bd958",
+     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "e2469c92",
+     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3f7f2e44",
+     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
    "ad": "OpenAI",
    "slug": "openai",
    "adet": 8,
@@ -65,74 +129,20 @@
    ]
   },
   {
-   "ad": "kod asistanları",
-   "slug": "kod-asistanlari",
-   "adet": 7,
-   "son": [
-    {
-     "id": "d7170a29",
-     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "f42bd958",
-     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "e2469c92",
-     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "3f7f2e44",
-     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "3e68f8ee",
-     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "araçlar",
-   "slug": "araclar",
-   "adet": 7,
-   "son": [
-    {
-     "id": "e2469c92",
-     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "3f7f2e44",
-     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "10fd57ef",
-     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "b8295173",
-     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
    "ad": "araştırma",
    "slug": "arastirma",
-   "adet": 5,
+   "adet": 7,
    "son": [
+    {
+     "id": "49d8cb27",
+     "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "61dced22",
+     "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
+     "tarih": "2026-07-17"
+    },
     {
      "id": "ee230258",
      "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
@@ -147,24 +157,24 @@
      "id": "77128801",
      "baslik": "Yapay zekâ kendi düşünmesini izleyebilir mi? Kapsamlı bir derleme",
      "tarih": "2026-07-15"
-    },
-    {
-     "id": "b84f0061",
-     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "89886d70",
-     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
-     "tarih": "2026-07-09"
     }
    ]
   },
   {
    "ad": "modeller",
    "slug": "modeller",
-   "adet": 4,
+   "adet": 6,
    "son": [
+    {
+     "id": "b82b19a7",
+     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "9d6f1edd",
+     "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
+     "tarih": "2026-07-17"
+    },
     {
      "id": "f26aefe7",
      "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
@@ -179,10 +189,101 @@
      "id": "54ee76ae",
      "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "açık kaynak",
+   "slug": "acik-kaynak",
+   "adet": 5,
+   "son": [
+    {
+     "id": "b82b19a7",
+     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "67b034bb",
-     "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
+     "id": "9d6f1edd",
+     "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "f26aefe7",
+     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "f42bd958",
+     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "Google",
+   "slug": "google",
+   "adet": 5,
+   "son": [
+    {
+     "id": "f2d4f0d1",
+     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "d4ca69cf",
+     "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "79ed56fa",
+     "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "cb9db543",
+     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "b98c65f8",
+     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "ajanlar",
+   "slug": "ajanlar",
+   "adet": 5,
+   "son": [
+    {
+     "id": "49d8cb27",
+     "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "5b346ee1",
+     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "54ee76ae",
+     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "c1c7fcde",
+     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
      "tarih": "2026-07-09"
     }
    ]
@@ -215,51 +316,46 @@
    ]
   },
   {
-   "ad": "ajanlar",
-   "slug": "ajanlar",
-   "adet": 4,
+   "ad": "regülasyon",
+   "slug": "regulasyon",
+   "adet": 3,
    "son": [
     {
-     "id": "5b346ee1",
-     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
-     "tarih": "2026-07-16"
+     "id": "f2d4f0d1",
+     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-     "tarih": "2026-07-16"
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
-    },
-    {
-     "id": "c1c7fcde",
-     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
-     "tarih": "2026-07-09"
+     "id": "cb9db543",
+     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
+     "tarih": "2026-07-15"
     }
    ]
   },
   {
-   "ad": "açık kaynak",
-   "slug": "acik-kaynak",
+   "ad": "Türkiye",
+   "slug": "turkiye",
    "adet": 3,
    "son": [
     {
-     "id": "f26aefe7",
-     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
-     "tarih": "2026-07-16"
+     "id": "fd8d69ff",
+     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "f42bd958",
-     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
-     "tarih": "2026-07-16"
+     "id": "10fd57ef",
+     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
+     "tarih": "2026-07-15"
     },
     {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-     "tarih": "2026-07-16"
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
+     "tarih": "2026-07-09"
     }
    ]
   },
@@ -304,6 +400,40 @@
      "id": "b8295173",
      "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
      "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Çin",
+   "slug": "cin",
+   "adet": 2,
+   "son": [
+    {
+     "id": "b82b19a7",
+     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "fe6ab2ef",
+     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "yatırımlar",
+   "slug": "yatirimlar",
+   "adet": 2,
+   "son": [
+    {
+     "id": "fd8d69ff",
+     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
+     "tarih": "2026-07-09"
     }
    ]
   },
@@ -376,40 +506,6 @@
    ]
   },
   {
-   "ad": "regülasyon",
-   "slug": "regulasyon",
-   "adet": 2,
-   "son": [
-    {
-     "id": "e74d29ba",
-     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "cb9db543",
-     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "Google",
-   "slug": "google",
-   "adet": 2,
-   "son": [
-    {
-     "id": "cb9db543",
-     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "b98c65f8",
-     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
    "ad": "telif davaları",
    "slug": "telif-davalari",
    "adet": 2,
@@ -427,19 +523,26 @@
    ]
   },
   {
-   "ad": "Türkiye",
-   "slug": "turkiye",
-   "adet": 2,
+   "ad": "video üretimi",
+   "slug": "video-uretimi",
+   "adet": 1,
    "son": [
     {
-     "id": "10fd57ef",
-     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
-     "tarih": "2026-07-15"
-    },
+     "id": "d4ca69cf",
+     "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
+     "tarih": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "ad": "erişilebilirlik",
+   "slug": "erisilebilirlik",
+   "adet": 1,
+   "son": [
     {
-     "id": "86e5b702",
-     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
-     "tarih": "2026-07-09"
+     "id": "61dced22",
+     "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
+     "tarih": "2026-07-17"
     }
    ]
   },
@@ -463,18 +566,6 @@
     {
      "id": "f8bec47b",
      "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "Çin",
-   "slug": "cin",
-   "adet": 1,
-   "son": [
-    {
-     "id": "fe6ab2ef",
-     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
      "tarih": "2026-07-16"
     }
    ]
@@ -559,18 +650,6 @@
     {
      "id": "89886d70",
      "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "yatırımlar",
-   "slug": "yatirimlar",
-   "adet": 1,
-   "son": [
-    {
-     "id": "86e5b702",
-     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
      "tarih": "2026-07-09"
     }
    ]

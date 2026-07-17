@@ -4,8 +4,10 @@ tur: konu
 
 # araçlar
 
-7 haber
+9 haber
 
+- [[2026-07-17 Google, NotebookLM'in adını Gemini Notebook yaptı]] — 2026-07-17, Gündem
+- [[2026-07-17 Kod tabanının haritasını çıkaran araç code-review-graph]] — 2026-07-17, Araç Çantası
 - [[2026-07-16 YZ'nin bayat tasarımlarına panzehir Claude Code için 'hallma]] — 2026-07-16, Araç Çantası
 - [[2026-07-16 Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması aweso]] — 2026-07-16, Araç Çantası
 - [[2026-07-16 Ajanların tehlikeli komutlarına fren dcg, silici komutları ç]] — 2026-07-16, Araç Çantası

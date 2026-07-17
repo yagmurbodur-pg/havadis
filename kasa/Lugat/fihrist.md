@@ -8,6 +8,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Apple]]
 - [[Google]]
 - [[Meta]]
+- [[microagi]]
 - [[Ode]]
 - [[OpenAI]]
 - [[SpaceXAI]]
@@ -20,6 +21,8 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[GPT-5.6]]
 - [[GPT-Red]]
 - [[Inkling]]
+- [[Kimi K3]]
+- [[Soofi S]]
 
 ## Ürünler
 
@@ -31,6 +34,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 ## Kişiler
 
+- [[Bercan Kılıç]]
 - [[Demis Hassabis]]
 
 ## Kavramlar
