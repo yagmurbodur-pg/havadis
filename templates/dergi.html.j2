@@ -88,10 +88,12 @@ try {
       <div class="sayfa-ic">
         <p class="sayfa-bolum">{{ b.ad }}{% if bolum_boy > 1 %} · {{ loop.index }}/{{ bolum_boy }}{% endif %}</p>
         {% set hg = gorsel.get(h.id) %}
-        {% if hg %}<figure class="kupur-gorsel"><img src="{{ hg }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').classList.add('yok')"></figure>{% endif %}
-        <h4>{{ h.baslik }}</h4>
-        <p class="govde">{{ h.ozet }}</p>
-        <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
+        <div class="metin-govdesi">
+          {% if hg %}<figure class="kupur-gorsel"><img src="{{ hg }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').classList.add('yok')"></figure>{% endif %}
+          <h4>{{ h.baslik }}</h4>
+          <p class="govde">{{ h.ozet }}</p>
+          <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
+        </div>
         {% if not hg %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
@@ -200,9 +202,30 @@ try {
       minWidth: 280, maxWidth: 500, minHeight: 480, maxHeight: 760,
       showCover: true, usePortrait: true,
       maxShadowOpacity: 0.35, flippingTime: 700,
-      useMouseEvents: false, // metin seçimi/kopyalama serbest; katlanma takılması imkânsız
+      useMouseEvents: true,      // kenardan kıvırarak çevirme (aşağıdaki bölge bekçisiyle)
+      disableFlipByClick: true,  // düz tıklama çevirmesin (linkler ve seçim rahat kalsın)
+      showPageCorners: false,    // hover kıvrım önizlemesi kapalı: seçim sırasında sayfayı yeniden çizip vurgulamayı düşürüyordu
       mobileScrollSupport: true
     });
+    // Bölge bekçisi: sürükleme sayfanın KENAR şeridinden (90px) başlarsa kütüphaneye gider
+    // (kıvrılma animasyonu); ORTADAN başlarsa kütüphaneye ulaşmaz → metin seçimi çalışır.
+    (function () {
+      var sahne = document.querySelector(".kitap-sahne");
+      function cevirmeBolgesi(x, y) {
+        var r = eleman.getBoundingClientRect();
+        if ((r.right - x) < 90) return true; // sağ kenar: tam şerit (ileri çevirme jesti)
+        var koseBandi = (y - r.top) < r.height * 0.28 || (r.bottom - y) < r.height * 0.28;
+        return (x - r.left) < 90 && koseBandi; // sol: yalnız köşeler (metin başlangıcı seçime kalsın)
+      }
+      ["mousedown", "touchstart"].forEach(function (tur) {
+        sahne.addEventListener(tur, function (e) {
+          var nokta = e.touches && e.touches.length ? e.touches[0] : e;
+          if (typeof nokta.clientX === "number" && !cevirmeBolgesi(nokta.clientX, nokta.clientY)) {
+            e.stopPropagation();
+          }
+        }, true);
+      });
+    })();
     kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
     document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
     setTimeout(function () { // içerik sayfaya sığmazsa önce görseli geri çek, sonra puntoyu incelt
@@ -225,19 +248,6 @@ try {
     });
     document.getElementById("cevir-sol").addEventListener("click", function () { kitap.flipPrev(); });
     document.getElementById("cevir-sag").addEventListener("click", function () { kitap.flipNext(); });
-    // dokunmatikte bilinçli kaydırmayla çevirme (fare sürüklemesi metin seçimine ayrıldı)
-    var dokunusX = null, dokunusY = null;
-    eleman.addEventListener("pointerdown", function (e) {
-      if (e.pointerType === "touch") { dokunusX = e.clientX; dokunusY = e.clientY; }
-    }, { passive: true });
-    eleman.addEventListener("pointerup", function (e) {
-      if (e.pointerType !== "touch" || dokunusX === null) return;
-      var dx = e.clientX - dokunusX, dy = e.clientY - dokunusY;
-      dokunusX = dokunusY = null;
-      if (Math.abs(dx) > 70 && Math.abs(dy) < 50) {
-        if (dx < 0) kitap.flipNext(); else kitap.flipPrev();
-      }
-    }, { passive: true });
   } else if (document.documentElement.dataset.gorunum === "dergi") {
     document.documentElement.dataset.gorunum = "akis"; // kütüphane yüklenemediyse akışa düş
   }
