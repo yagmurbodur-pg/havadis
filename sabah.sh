@@ -62,7 +62,7 @@ while [ "$LUGAT_DENEME" -le 2 ]; do
   echo "lugat denemesi $LUGAT_DENEME/2 başlıyor ($(date '+%H:%M:%S'))"
   claude -p "LUGAT.md'yi oku ve aynen uygula: veri/bugun.json'daki haberlerin dokunduğu lugat maddelerini güncelle ya da aç, 'python3 -m pipeline.lugat_dogrula' yeşil olana dek düzelt. Başka dosyaya dokunma; commit/push yapma." \
     --allowedTools "Read,Write,Edit,Bash(python3 -m pipeline.lugat_dogrula)" \
-    --max-turns 30 &
+    --max-turns 45 &
   LUGAT_PID=$!
   ( sleep 600; kill "$LUGAT_PID" 2>/dev/null && echo "uyarı: lugat editörü 10 dk'da bitmedi, durduruldu" ) &
   LUGAT_BEKCI=$!
