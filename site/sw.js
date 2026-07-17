@@ -2,7 +2,7 @@
    HTML ve dizin: önce ağ (çevrimdışıysa son kopya).
    Varlıklar: önbellekten hızlı servis + arka planda tazeleme (stale-while-revalidate).
    SURUM her basımda damgalanır → yeni sürüm eski önbelleği tamamen süpürür. */
-const SURUM = "havadis-202607171641";
+const SURUM = "havadis-202607180036";
 const VARLIK = /(\/varliklar\/|minisearch|ikon|manifest|apple-touch|sayfa-sesi)/;
 
 self.addEventListener("install", () => self.skipWaiting());

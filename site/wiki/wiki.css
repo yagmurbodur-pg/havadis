@@ -154,7 +154,7 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
 /* ————— marka + ipucu hapı ————— */
 .marka-alt {
   position: fixed;
-  left: 16px; bottom: 16px;
+  left: 16px; bottom: 24px;
   z-index: 20;
   font: 900 .95rem/1 "Fraunces", Georgia, serif;
   letter-spacing: .1em;
@@ -165,7 +165,7 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
 
 .ipucu-hap {
   position: fixed;
-  left: 50%; bottom: 16px;
+  left: 50%; bottom: 84px;
   transform: translateX(-50%);
   z-index: 15;
   margin: 0;
@@ -186,7 +186,7 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
 /* ————— lejant (yalnız renkli modda) ————— */
 .lejant {
   position: fixed;
-  left: 16px; bottom: 52px;
+  left: 16px; bottom: 92px;
   z-index: 15;
   display: flex; flex-wrap: wrap; gap: .25rem .8rem;
   max-width: min(420px, calc(100vw - 32px));
@@ -246,27 +246,64 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
 .detay .govde li { margin-bottom: .3rem; font-size: .92rem; }
 .detay .kunye { margin-top: 1rem; }
 
-/* ————— sohbet ————— */
-.sohbet-panel {
+/* ————— sohbet çubuğu: sayfanın altında uzun kutu ————— */
+.sohbet-cubugu {
   position: fixed;
-  right: 14px; bottom: 64px;
-  width: min(430px, calc(100vw - 28px));
-  max-height: min(72dvh, 620px);
+  left: 50%;
+  bottom: 14px;
+  transform: translateX(-50%);
+  width: min(780px, calc(100vw - 24px));
   z-index: 35;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+.cubuk-satir {
+  display: flex;
+  gap: .5rem;
+  background: var(--cam);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--cizgi);
+  border-radius: 12px;
+  padding: .45rem;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, .14);
+}
+.cubuk-satir .arama-kutusu {
+  flex: 1;
+  border: 0;
+  background: transparent;
+  padding: .5rem .7rem;
+  font-size: 1rem;
+}
+.cubuk-satir .arama-kutusu:focus { outline: none; }
+.cubuk-satir:focus-within { border-color: var(--damga); }
+.cevap-sayfasi {
   background: var(--kagit);
   border: 1px solid var(--cizgi);
   border-radius: 12px;
-  box-shadow: 0 12px 36px rgba(0,0,0,.18);
-  padding: .9rem 1rem 1rem;
-  display: none;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, .2);
+  padding: .85rem 1rem 1rem;
+  max-height: min(58dvh, 540px);
+  display: flex;
   flex-direction: column;
 }
-.sohbet-panel.acik { display: flex; }
-.sohbet-panel .sohbet-baslik { display: flex; align-items: center; gap: .5rem; margin-bottom: .5rem; }
-.sohbet-panel .sohbet-baslik strong { font: 600 1rem "Fraunces", Georgia, serif; }
-.sohbet-panel .sohbet-baslik .kucuk { margin: 0; flex: 1; }
-.sohbet-panel #cevap { overflow-y: auto; margin-top: .6rem; }
-.sohbet-panel .cevap-kutu { margin-top: 0; }
+.cevap-sayfasi[hidden] { display: none; }
+.cevap-ust { display: flex; align-items: center; gap: .55rem; margin-bottom: .45rem; }
+.cevap-ust strong { font: 600 1rem "Fraunces", Georgia, serif; }
+.cevap-ust .kucuk { margin: 0; flex: 1; }
+.cevap-sayfasi #cevap { overflow-y: auto; }
+.cevap-sayfasi .cevap-kutu { margin-top: 0; border: 0; padding: 0; background: transparent; }
+.rag-cevap { font-size: 1.02rem; margin: 0 0 .6rem; }
+.rag-cevap strong { color: var(--damga); }
+.rag-hata {
+  border: 1.5px dashed var(--damga);
+  border-radius: 8px;
+  padding: .7rem .85rem;
+  color: var(--damga);
+  font-size: .92rem;
+  margin: 0;
+}
 .mini-dugme {
   border: 1px solid var(--cizgi);
   background: transparent;
@@ -291,10 +328,11 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
   }
   .detay.acik { transform: none; }
   .ipucu-hap { display: none; }
-  .lejant { bottom: 64px; }
-  .marka-alt { bottom: 18px; }
+  .lejant { bottom: 84px; }
+  .marka-alt { display: none; }
+  .sag-alt { bottom: 76px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .detay, .sohbet-panel, .arama-hap, .yuvarlak { transition: none; }
+  .detay, .cevap-sayfasi, .arama-hap, .yuvarlak { transition: none; }
 }

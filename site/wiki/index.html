@@ -51,7 +51,6 @@
 <p class="ipucu-hap" id="ipucu-hap">Sürükle: döndür · Tekerlek: yakınlaştır · Hücre: odakla</p>
 
 <div class="arac sag-alt">
-  <button class="yuvarlak" id="sohbet-ac" aria-label="Havadis'e soru sor">💬</button>
   <button class="yuvarlak" id="renk-dugme" aria-label="Tür renklerini aç/kapat" aria-pressed="false">
     <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18c1.5 0 2-1 2-2s-.7-1.6 0-2.6c.8-1.1 4-0.4 5.5-2.4"/><circle cx="8" cy="10" r="1" fill="currentColor"/><circle cx="12" cy="7.5" r="1" fill="currentColor"/><circle cx="16" cy="10" r="1" fill="currentColor"/></svg>
   </button>
@@ -75,18 +74,20 @@
   <div class="kunye" id="detay-linkler"></div>
 </aside>
 
-<div class="sohbet-panel" id="sohbet-panel">
-  <div class="sohbet-baslik">
-    <strong>Havadis'e sor</strong>
-    <p class="kucuk" id="kopru-durum">arşiv senteziyle</p>
-    <button class="mini-dugme" id="sohbet-kapat" type="button" aria-label="Sohbeti kapat">✕</button>
-  </div>
-  <div class="sohbet-satir">
+<div class="sohbet-cubugu" id="sohbet-cubugu">
+  <section class="cevap-sayfasi" id="cevap-sayfasi" hidden aria-live="polite">
+    <div class="cevap-ust">
+      <strong>Havadis yanıtı</strong>
+      <span class="kucuk" id="kopru-durum">arşiv RAG'ı</span>
+      <button class="mini-dugme" id="cevap-kapat" type="button" aria-label="Yanıtı kapat">✕</button>
+    </div>
+    <div id="cevap"></div>
+  </section>
+  <form class="cubuk-satir" id="sohbet-form">
     <input class="arama-kutusu" id="soru" type="text" autocomplete="off"
-           placeholder="Ör: ChatGPT'de son neler oldu?" aria-label="Sorunu yaz">
-    <button class="sor-dugme" id="sor-dugme" type="button">Sor</button>
-  </div>
-  <div id="cevap"></div>
+           placeholder="Havadis arşivine sor: Kimi K3 ne zaman çıktı?" aria-label="Arşive soru sor">
+    <button class="sor-dugme" id="sor-dugme" type="submit">Sor</button>
+  </form>
 </div>
 
 <script src="wiki.js"></script>

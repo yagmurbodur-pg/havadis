@@ -63,53 +63,46 @@
   /* ————— arayüz sesleri ————— */
   var sessiz = false;
   try { sessiz = localStorage.getItem("havadis-ses") === "kapali"; } catch (e) {}
-  var ses = { ctx: null, panelBuf: null };
+  /* Sesler: kullanıcının seçtiği gerçek fare tık kaydı (tik-sesi.mp3) —
+     HER fare tıkında ve HER klavye tuşunda çalar. Panel açılışında kâğıt hışırtısı. */
+  var ses = { ctx: null, panelBuf: null, tikBuf: null, yukleniyor: false };
   function sesHazirla() {
-    if (ses.ctx) return;
-    try {
-      ses.ctx = new (window.AudioContext || window.webkitAudioContext)();
-      fetch("../varliklar/sayfa-sesi.mp3")
-        .then(function (r) { return r.arrayBuffer(); })
-        .then(function (b) { return ses.ctx.decodeAudioData(b); })
-        .then(function (d) { ses.panelBuf = d; })
-        .catch(function () {});
-    } catch (e) {}
+    if (!ses.ctx) {
+      try { ses.ctx = new (window.AudioContext || window.webkitAudioContext)(); } catch (e) { return; }
+    }
+    if (!ses.yukleniyor && (!ses.panelBuf || !ses.tikBuf)) {
+      ses.yukleniyor = true;
+      var yukle = function (yol, hedef) {
+        return fetch(yol)
+          .then(function (r) { return r.arrayBuffer(); })
+          .then(function (b) { return ses.ctx.decodeAudioData(b); })
+          .then(function (d) { ses[hedef] = d; })
+          .catch(function () {});
+      };
+      Promise.all([
+        yukle("../varliklar/sayfa-sesi.mp3", "panelBuf"),
+        yukle("../varliklar/tik-sesi.mp3", "tikBuf")
+      ]).then(function () { ses.yukleniyor = false; });
+    }
   }
-  document.addEventListener("pointerdown", sesHazirla, { once: true });
-  document.addEventListener("keydown", sesHazirla, { once: true });
-
-  function tusSesi() {
-    if (sessiz || !ses.ctx) return;
+  function bufCal(buf, kazancDeger, hiz) {
+    if (sessiz || !ses.ctx || !buf) return;
     if (ses.ctx.state === "suspended") ses.ctx.resume();
-    var c = ses.ctx, n = Math.floor(c.sampleRate * 0.028);
-    var buf = c.createBuffer(1, n, c.sampleRate), d = buf.getChannelData(0);
-    for (var i = 0; i < n; i++) d[i] = (Math.random() * 2 - 1) * Math.pow(1 - i / n, 3);
-    var src = c.createBufferSource(); src.buffer = buf;
-    src.playbackRate.value = 0.9 + Math.random() * 0.25;
-    var f = c.createBiquadFilter(); f.type = "highpass"; f.frequency.value = 1900;
-    var g = c.createGain(); g.gain.value = 0.1;
-    src.connect(f); f.connect(g); g.connect(c.destination); src.start();
-  }
-  function tikSesi() {
-    if (sessiz || !ses.ctx) return;
-    if (ses.ctx.state === "suspended") ses.ctx.resume();
-    var c = ses.ctx, t = c.currentTime;
-    var o = c.createOscillator(); o.type = "square";
-    o.frequency.setValueAtTime(1150, t);
-    o.frequency.exponentialRampToValueAtTime(430, t + 0.04);
-    var g = c.createGain();
-    g.gain.setValueAtTime(0.13, t);
-    g.gain.exponentialRampToValueAtTime(0.001, t + 0.055);
-    o.connect(g); g.connect(c.destination); o.start(t); o.stop(t + 0.06);
-  }
-  function panelSesi() {
-    if (sessiz || !ses.ctx || !ses.panelBuf) return;
-    if (ses.ctx.state === "suspended") ses.ctx.resume();
-    var src = ses.ctx.createBufferSource(); src.buffer = ses.panelBuf;
-    src.playbackRate.value = 1.4;
-    var g = ses.ctx.createGain(); g.gain.value = 0.18;
+    var src = ses.ctx.createBufferSource();
+    src.buffer = buf;
+    src.playbackRate.value = hiz;
+    var g = ses.ctx.createGain();
+    g.gain.value = kazancDeger;
     src.connect(g); g.connect(ses.ctx.destination); src.start();
   }
+  function tikCal() { sesHazirla(); bufCal(ses.tikBuf, 0.55, 0.95 + Math.random() * 0.1); }
+  function panelSesi() { bufCal(ses.panelBuf, 0.18, 1.4); }
+  // küresel: her tık ve her tuş
+  document.addEventListener("pointerdown", function () { tikCal(); }, true);
+  document.addEventListener("keydown", function (e) { if (!e.repeat) tikCal(); }, true);
+  // eski çağrı noktaları küresel dinleyiciye devredildi (çift ses olmasın)
+  function tusSesi() {}
+  function tikSesi() {}
 
   /* ————— durum ————— */
   var maddeler = [], baglar = [], haberler = [], komsular = {}, adIndex = {};
@@ -205,7 +198,7 @@
       e.preventDefault(); aramaAc();
     }
     if (e.key === "Escape") {
-      if ($("sohbet-panel").classList.contains("acik")) sohbetKapat();
+      if (!$("cevap-sayfasi").hidden) $("cevap-sayfasi").hidden = true;
       else if (odak) odakTemizle(true);
       else if (!$("hakkinda").hidden) $("hakkinda").hidden = true;
     }
@@ -584,57 +577,49 @@
     $("hakkinda").hidden = !$("hakkinda").hidden;
   });
 
-  /* ————— sohbet ————— */
+  /* ————— sohbet çubuğu (alt) + arşiv RAG'ı ————— */
   var KOPRU = "http://127.0.0.1:8747", koprulu = false, kopruDenendi = false;
-  function kopruYokla() { // yalnız sohbet ilk açıldığında (kapalı köprü konsolu kirletmesin)
-    if (kopruDenendi) return;
+  function kopruYokla(bitince) { // ilk soruda bir kez yoklanır (kapalı köprü konsolu kirletmesin)
+    if (kopruDenendi) { bitince(); return; }
     kopruDenendi = true;
     fetch(KOPRU + "/ping").then(function (r) {
       if (r.ok) { koprulu = true; $("kopru-durum").textContent = "🟢 yerel zekâ bağlı"; }
-    }).catch(function () {});
+    }).catch(function () {}).then(bitince, bitince);
   }
 
-  function sohbetKapat() { $("sohbet-panel").classList.remove("acik"); }
-  $("sohbet-ac").addEventListener("click", function () {
-    tikSesi();
-    var p = $("sohbet-panel");
-    if (p.classList.contains("acik")) { sohbetKapat(); return; }
-    kopruYokla();
-    panelSesi();
-    p.classList.add("acik");
-    $("soru").focus();
-  });
-  $("sohbet-kapat").addEventListener("click", function () { tikSesi(); sohbetKapat(); });
-  $("soru").addEventListener("keydown", function (e) {
-    if (e.key.length === 1 || e.key === "Backspace") tusSesi();
-    if (e.key === "Enter") sorusor();
-  });
-  $("sor-dugme").addEventListener("click", sorusor);
+  function cevapSayfasiAc() {
+    var s = $("cevap-sayfasi");
+    if (s.hidden) { s.hidden = false; panelSesi(); }
+  }
+  $("cevap-kapat").addEventListener("click", function () { $("cevap-sayfasi").hidden = true; });
+  $("sohbet-form").addEventListener("submit", function (e) { e.preventDefault(); sorusor(); });
 
   function sorusor() {
     var soru = $("soru").value.trim();
     if (!soru) return;
-    tikSesi();
+    cevapSayfasiAc();
     var kutu = $("cevap");
     kutu.textContent = "";
-    kutu.appendChild(el("p", "kucuk", "☕ Külliyat taranıyor…"));
-    if (koprulu) {
-      fetch(KOPRU + "/sor", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ soru: soru })
-      }).then(function (r) { return r.json(); })
-        .then(function (v) {
-          kutu.textContent = "";
-          var c = el("div", "cevap-kutu");
-          c.appendChild(el("p", "ust-not", "Yerel Claude yanıtı"));
-          (v.cevap || "Yanıt boş döndü.").split(/\n{2,}/).forEach(function (par) {
-            c.appendChild(el("p", null, par));
-          });
-          kutu.appendChild(c);
-        })
-        .catch(function () { koprulu = false; sentezle(soru); });
-    } else sentezle(soru);
+    kutu.appendChild(el("p", "kucuk", "☕ Arşiv taranıyor…"));
+    kopruYokla(function () {
+      if (koprulu) {
+        fetch(KOPRU + "/sor", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ soru: soru })
+        }).then(function (r) { return r.json(); })
+          .then(function (v) {
+            kutu.textContent = "";
+            var c = el("div", "cevap-kutu");
+            c.appendChild(el("p", "ust-not", "Yerel Claude yanıtı"));
+            (v.cevap || "Yanıt boş döndü.").split(/\n{2,}/).forEach(function (par) {
+              c.appendChild(el("p", null, par));
+            });
+            kutu.appendChild(c);
+          })
+          .catch(function () { koprulu = false; ragYanit(soru); });
+      } else ragYanit(soru);
+    });
   }
 
   function puanla(kelimeler, metin) {
@@ -643,65 +628,148 @@
     return p;
   }
 
-  function sentezle(soru) {
+  /* Arşiv RAG'ı: Lugat'ın tarihli gelişme üçlüleri + Külliyat haberleri üzerinde
+     niyet çözümlemeli soru-cevap. Eşleşme yoksa açık hata verir; asla uydurmaz. */
+  function duzlestir(s) { return katla(s).replace(/[^a-z0-9]+/g, ""); }
+  function ortakOnek(a, b) {
+    var n = 0;
+    while (n < a.length && n < b.length && a[n] === b[n]) n++;
+    return n;
+  }
+
+  function ragYanit(soru) {
     var kutu = $("cevap");
     kutu.textContent = "";
+    var kSoru = katla(soru);
     var kelimeler = kelimelereAyir(soru);
+    var haberHarita = {};
+    haberler.forEach(function (h) { haberHarita[h.id] = h; });
 
-    var dEs = maddeler.map(function (m) {
-      return { m: m, p: puanla(kelimeler, m.ad + " " + m.tanim + " " + (m.etiketler || []).join(" ")) };
-    }).filter(function (x) { return x.p > 0; }).sort(function (a, b) { return b.p - a.p; }).slice(0, 3);
+    // 1) varlık eşleşmesi (ad + eş anlamlılar + etiketler; "kimi3" ≈ "Kimi K3" toleransı)
+    var adaylar = maddeler.map(function (m) {
+      var p = 0;
+      [m.ad].concat(m.esanlamlilar || []).forEach(function (ad) {
+        var aK = katla(ad), aD = duzlestir(ad);
+        if (aK.length >= 3 && kSoru.indexOf(aK) >= 0) p += 6;
+        kelimeler.forEach(function (k) {
+          var kD = duzlestir(k);
+          if (!kD) return;
+          if (aD === kD) p += 6;
+          else if (kD.length >= 3 && aD.indexOf(kD) >= 0) p += 3;
+          else if (ortakOnek(aD, kD) >= 4) p += 2;
+        });
+      });
+      (m.etiketler || []).forEach(function (et) {
+        if (kelimeler.indexOf(katla(et)) >= 0) p += 2;
+      });
+      return { m: m, p: p };
+    }).filter(function (x) { return x.p > 0; }).sort(function (a, b) { return b.p - a.p; });
+    var enIyi = adaylar[0] || null;
 
+    // tam-kelime eşleşmesi: "dolar" ≠ "dolarlık" (gevşek substring alakasız cevap üretir)
+    function tamPuanla(sozcukler, metin) {
+      var tokenlar = katla(metin).split(/[^a-z0-9]+/);
+      var p = 0;
+      sozcukler.forEach(function (k) {
+        tokenlar.forEach(function (t) { if (t === k) p++; });
+      });
+      return p;
+    }
+
+    // 2) gelişme satırı skorlaması (varlık çapası bonuslu)
+    var satirlar = [];
+    maddeler.forEach(function (m) {
+      var capali = adaylar.some(function (a) { return a.m === m; });
+      (m.gelismeler || []).forEach(function (g) {
+        var p = tamPuanla(kelimeler, g.cumle) * 2;
+        if (capali) adaylar.slice(0, 3).forEach(function (a, i) { if (a.m === m) p += 4 - i; });
+        if (p > 0) satirlar.push({ m: m, g: g, p: p, capali: capali });
+      });
+    });
+    satirlar.sort(function (a, b) { return b.p - a.p; });
+
+    // 3) haber skorlaması (tam kelime)
     var hEs = haberler.map(function (h) {
-      return { h: h, p: puanla(kelimeler, (h.baslik || "") + " " + (h.ozet || "") + " " + (h.konular || []).join(" ")) };
-    }).filter(function (x) { return x.p > 0; }).sort(function (a, b) { return b.p - a.p; }).slice(0, 12);
+      return { h: h, p: tamPuanla(kelimeler, (h.baslik || "") + " " + (h.ozet || "") + " " + (h.konular || []).join(" ")) };
+    }).filter(function (x) { return x.p > 0; }).sort(function (a, b) { return b.p - a.p; });
 
-    if (!dEs.length && !hEs.length) {
-      kutu.appendChild(el("p", "bos-durum", "Külliyat'ta bu kelimelerle kayıt yok. Farklı kelimelerle dene."));
+    // GÜVEN KAPISI: varlık çapası yoksa yalnız ÇOK güçlü serbest eşleşme kabul edilir
+    var kapaliSatirlar = satirlar.filter(function (s) { return s.capali || s.p >= 8; });
+    if ((!enIyi || enIyi.p < 3) && (!kapaliSatirlar.length || kapaliSatirlar[0].p < 3) && (!hEs.length || hEs[0].p < 5)) {
+      kutu.appendChild(el("p", "rag-hata",
+        "❌ Bu soruyla eşleşen bir kayıt Havadis arşivinde bulunamadı. " +
+        "Arşiv yalnızca dergide yayımlanan yapay zekâ haberlerini bilir — " +
+        "bir varlık adıyla (ör. \"Kimi K3\", \"OpenAI\") ya da farklı anahtar kelimelerle yeniden dene."));
       return;
     }
+
     var c = el("div", "cevap-kutu");
-    if (dEs.length) {
-      c.appendChild(el("h4", "cevap-baslik", "Ne biliyoruz"));
-      dEs.forEach(function (x) {
-        var p = el("p");
-        p.appendChild(el("strong", null, x.m.ad));
-        p.appendChild(document.createTextNode(" (" + (TUR_ADI[x.m.tur] || "") + ") — " + (x.m.tanim || "")));
-        c.appendChild(p);
-      });
+    var kaynakIdler = [];
+    function kaynakEkle(idler) {
+      (idler || []).forEach(function (i) { if (haberHarita[i] && kaynakIdler.indexOf(i) < 0) kaynakIdler.push(i); });
     }
-    var zincir = [], zincirde = {};
-    function ekle(h) { if (!zincirde[h.id]) { zincirde[h.id] = 1; zincir.push(h); } }
-    dEs.forEach(function (x) { x.m.haberler.forEach(ekle); });
-    hEs.forEach(function (x) { ekle(x.h); });
-    zincir.sort(function (a, b) { return (a.tarih || "").localeCompare(b.tarih || ""); });
-    zincir = zincir.slice(-9);
-    if (zincir.length) {
-      c.appendChild(el("h4", "cevap-baslik", "Gelişim zinciri"));
-      var ol = el("ol", "zaman-cizgisi kucuk-zaman");
-      zincir.forEach(function (h) {
-        var li = el("li", "zaman-ogesi");
-        li.appendChild(el("p", "ust-not", trTarih(h.tarih)));
-        var st = el("h5");
-        var a = el("a", null, h.baslik || "");
+
+    var neZaman = /ne zaman|hangi tarih|tarihinde|kacinda/.test(kSoru) || kelimeler.indexOf("tarih") >= 0;
+    var nedirMi = /nedir|kimdir|ne ise yarar/.test(kSoru);
+    var EYLEM = /cikti|cikis|yayimla|yayinla|duyur|tanit|acildi|sunuldu|piyasa|kullanima/;
+
+    if (neZaman && enIyi && enIyi.p >= 3) {
+      var mg = enIyi.m.gelismeler || [];
+      var uygun = mg.filter(function (g) { return EYLEM.test(katla(g.cumle)); });
+      var secilen = uygun[0] || mg[0];
+      if (secilen) {
+        var pcv = el("p", "rag-cevap");
+        pcv.appendChild(el("strong", null, enIyi.m.ad));
+        pcv.appendChild(document.createTextNode(" — "));
+        pcv.appendChild(el("strong", null, trTarih(secilen.tarih)));
+        pcv.appendChild(document.createTextNode(": " + secilen.cumle));
+        c.appendChild(pcv);
+        kaynakEkle(secilen.haberler);
+        if (enIyi.m.tanim) c.appendChild(el("p", "kucuk", enIyi.m.tanim));
+      } else {
+        c.appendChild(el("p", "rag-cevap", enIyi.m.ad + " için arşivde tarihli bir gelişme kaydı yok; tanım: " + (enIyi.m.tanim || "—")));
+      }
+    } else if (nedirMi && enIyi && enIyi.p >= 3) {
+      var pcv2 = el("p", "rag-cevap");
+      pcv2.appendChild(el("strong", null, enIyi.m.ad));
+      pcv2.appendChild(document.createTextNode(" (" + (TUR_ADI[enIyi.m.tur] || "") + ") — " + (enIyi.m.tanim || "")));
+      c.appendChild(pcv2);
+      (enIyi.m.gelismeler || []).slice(-2).reverse().forEach(function (g) {
+        c.appendChild(el("p", null, trTarih(g.tarih) + ": " + g.cumle));
+        kaynakEkle(g.haberler);
+      });
+      var kom = komsular[enIyi.m.ad] || [];
+      if (kom.length) c.appendChild(el("p", "kucuk", "İlişkili: " + kom.join(" · ")));
+    } else {
+      var yazilan = 0;
+      kapaliSatirlar.slice(0, 4).forEach(function (s) {
+        var pv = el("p", "rag-cevap");
+        pv.appendChild(el("strong", null, s.m.ad));
+        pv.appendChild(document.createTextNode(" — " + trTarih(s.g.tarih) + ": " + s.g.cumle));
+        c.appendChild(pv);
+        kaynakEkle(s.g.haberler);
+        yazilan++;
+      });
+      if (!yazilan && enIyi) {
+        c.appendChild(el("p", "rag-cevap", enIyi.m.ad + " — " + (enIyi.m.tanim || "")));
+        (enIyi.m.gelismeler || []).slice(-2).forEach(function (g) { kaynakEkle(g.haberler); });
+      }
+      hEs.slice(0, 3).forEach(function (x) { kaynakEkle([x.h.id]); });
+    }
+
+    if (kaynakIdler.length) {
+      c.appendChild(el("h4", "cevap-baslik", "Kaynaklar"));
+      var kl = el("ul", "kaynak-listesi");
+      kaynakIdler.slice(0, 6).forEach(function (id, i) {
+        var h = haberHarita[id];
+        var li = el("li");
+        var a = el("a", null, "[" + (i + 1) + "] " + (h.baslik || "") + " — " + (h.kaynak || "") + ", " + trTarih(h.tarih));
         a.href = h.url || "#"; a.rel = "noopener"; a.target = "_blank";
-        st.appendChild(a);
-        li.appendChild(st);
-        ol.appendChild(li);
+        li.appendChild(a);
+        kl.appendChild(li);
       });
-      c.appendChild(ol);
+      c.appendChild(kl);
     }
-    c.appendChild(el("h4", "cevap-baslik", "Kaynaklar"));
-    var kl = el("ul", "kaynak-listesi");
-    hEs.slice(0, 6).forEach(function (x, i) {
-      var li = el("li");
-      var a = el("a", null, "[" + (i + 1) + "] " + (x.h.baslik || "") + " — " + (x.h.kaynak || ""));
-      a.href = x.h.url || "#"; a.rel = "noopener"; a.target = "_blank";
-      li.appendChild(a);
-      kl.appendChild(li);
-    });
-    c.appendChild(kl);
-    c.appendChild(el("p", "kucuk", "Hızlı sentez. Akıcı yanıt için Mac'te ~/havadis/sor-sunucu çalıştır."));
     kutu.appendChild(c);
   }
 

@@ -183,19 +183,29 @@ try {
     }
   }
   document.addEventListener("pointerdown", sesHazirla, { once: true });
+  document.addEventListener("keydown", sesHazirla, { once: true });
 
+  var yedekSes = null;
   function sesCal() {
     if (sessiz) return;
     sesHazirla();
-    if (!baglam || !sesVerisi) return; // ilk çeviriş yüklenme anına denk gelirse sessiz geçer
-    if (baglam.state === "suspended") baglam.resume();
-    var src = baglam.createBufferSource();
-    src.buffer = sesVerisi;
-    src.playbackRate.value = 0.96 + Math.random() * 0.08; // her çeviriş bir tık farklı
-    var kazanc = baglam.createGain();
-    kazanc.gain.value = 0.9;
-    src.connect(kazanc); kazanc.connect(baglam.destination);
-    src.start();
+    if (baglam && sesVerisi) {
+      if (baglam.state === "suspended") baglam.resume();
+      var src = baglam.createBufferSource();
+      src.buffer = sesVerisi;
+      src.playbackRate.value = 0.96 + Math.random() * 0.08; // her çeviriş bir tık farklı
+      var kazanc = baglam.createGain();
+      kazanc.gain.value = 0.9;
+      src.connect(kazanc); kazanc.connect(baglam.destination);
+      src.start();
+      return;
+    }
+    try { // yedek yol: WebAudio hazır değilse bile hışırtı duyulsun
+      if (!yedekSes) yedekSes = new Audio("{{ kok }}/varliklar/sayfa-sesi.mp3");
+      yedekSes.currentTime = 0;
+      yedekSes.volume = 0.9;
+      yedekSes.play().catch(function () {});
+    } catch (e) {}
   }
 
   /* ————— kitap ————— */

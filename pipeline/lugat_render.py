@@ -1,7 +1,9 @@
 """Lugat web basımı: lugat/*.md → site/lugat/ (dizin + madde sayfaları)
++ wiki-veri.json içinde RAG üçlüleri (tarih, cümle, kaynak id'leri)
 + lugat-tam.md (tek dosyada bütün ansiklopedi — chatbot/LLM tüketimi için)
 + ag.json (düğümler ve bağlar — ilişki grafiği)."""
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -100,6 +102,18 @@ def uret(lugat_dizini, haberler, hedef_dizini, kok=".."):
         islenmis = HABER_REF.sub(haber_cevir, islenmis)
         icerik_html = markdown.markdown(islenmis)
 
+        gelismeler = []
+        for satir in govde.splitlines():
+            esle = re.match(r"\s*-\s*\*\*(\d{4}-\d{2}-\d{2})\*\*\s*[—–-]\s*(.+)", satir)
+            if not esle:
+                continue
+            tarih, cumle = esle.group(1), esle.group(2).strip()
+            idler = HABER_REF.findall(cumle)
+            cumle = HABER_REF.sub("", cumle)
+            cumle = WIKILINK.sub(lambda m: m.group(1), cumle).strip().rstrip(".") + "."
+            gelismeler.append({"tarih": tarih, "cumle": cumle, "haberler": idler})
+        gelismeler.sort(key=lambda g: g["tarih"])
+
         wiki_maddeleri.append(
             {
                 "ad": ad,
@@ -107,8 +121,10 @@ def uret(lugat_dizini, haberler, hedef_dizini, kok=".."):
                 "tur": madde["on"].get("tur", ""),
                 "tanim": madde["on"].get("tanim", ""),
                 "etiketler": [str(e) for e in (madde["on"].get("etiketler") or [ad])],
+                "esanlamlilar": [str(e) for e in (madde["on"].get("esanlamlilar") or [])],
                 "guncelleme": str(madde["on"].get("son_guncelleme", "")),
                 "govde_html": icerik_html,
+                "gelismeler": gelismeler,
             }
         )
 
