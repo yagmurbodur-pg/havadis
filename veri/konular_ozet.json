@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 23,
+   "adet": 29,
    "son": [
     {
-     "id": "78847ab0",
-     "baslik": "Already rich, already successful, why the last wave of tech winners is grinding again",
-     "tarih": "2026-07-14"
+     "id": "8fe39edf",
+     "baslik": "Why teens deserve access to safe AI",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "b33e95b4",
-     "baslik": "Uber’s product chief on hotels, robotaxis, and why the company doesn’t want to be “everything for everyone”",
-     "tarih": "2026-07-14"
+     "id": "85cdb4a3",
+     "baslik": "Connect more of your apps to Search",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "dc42d63d",
-     "baslik": "Video-generation startup PixVerse raises $439M, valuation soars past $2B",
-     "tarih": "2026-07-14"
+     "id": "45a4595f",
+     "baslik": "Create, edit and star in videos with two Google Vids updates",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "4cba1dee",
-     "baslik": "Hermes agent maker Nous Research in talks for new funding at $1.5B valuation",
-     "tarih": "2026-07-14"
+     "id": "e723c4e7",
+     "baslik": "Our approach to bioresilience",
+     "tarih": "2026-07-17"
     },
     {
-     "id": "6b47c606",
-     "baslik": "Satya Nadella has issued a shocking warning to companies using AI",
-     "tarih": "2026-07-14"
+     "id": "6f16a999",
+     "baslik": "How Cars24 scales conversations and builds faster with OpenAI",
+     "tarih": "2026-07-17"
     }
    ]
   },

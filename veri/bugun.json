@@ -1,337 +1,196 @@
 {
- "tarih": "2026-07-16",
+ "tarih": "2026-07-17",
  "haberler": [
   {
-   "id": "f26aefe7",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
+   "id": "8fe39edf",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
    "bolum": "Kapak",
-   "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
-   "ozet": "OpenAI'ın eski teknoloji şefi Mira Murati'nin kurduğu Thinking Machines, ilk yapay zekâ modelini yayımladı. Inkling adlı model 975 milyar parametreli ve açık ağırlıklı (herkesin indirip kullanabildiği model). Şirket bir buçuk yıldır gözlerden uzak altyapı kuruyordu; bu, ilk somut ürünü. Ekip 'herkese tek tip model' yaklaşımına karşı çıkıyor. Bunun yerine ihtiyaca göre uyarlanabilen modellere yatırım yapıyor. Duyuru, teknoloji gündeminde günün en çok konuşulan başlığı oldu.",
-   "neden_onemli": "En iddialı yeni YZ laboratuvarlarından biri ilk kartını açtı; dev boyutlu bir model artık herkesin erişimine açık.",
+   "baslik": "Why teens deserve access to safe AI",
+   "ozet": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "açık kaynak",
-    "modeller"
+    "genel"
    ],
    "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://thinkingmachines.ai/news/introducing-inkling/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48924912",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "f8bec47b",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Gündem",
-   "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
-   "ozet": "Müzik üreten yapay zekâ Suno'nun verileri bir siber saldırıda sızdı. 404 Media'nın aktardığına göre sızan veriler, modelin YouTube Music, Deezer ve Genius'tan kazınan milyonlarca şarkı ve şarkı sözüyle eğitildiğini gösteriyor. Suno, eğitim verilerinin kaynağını bugüne dek hiç açıklamamıştı.",
-   "neden_onemli": "Yapay zekâ şirketlerinin eğitim verisini nereden aldığı sorusu, ilk kez bu kadar somut bir belgeyle yanıtlandı.",
-   "konular": [
-    "müzik üretimi",
-    "veri kazıma"
-   ],
-   "iliskili": [],
-   "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/966072/suno-ai-music-training-scraping-youtube-hack",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "d7170a29",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Gündem",
-   "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
-   "ozet": "OpenAI, kod platformu Codex için Codex Micro adında ışıklı bir tuş bloğu çıkardı. 230 dolarlık kare cihaz, aynı anda çalışan birden çok kod ajanını (kendi başına iş yapan YZ yazılımı) tek bakışta izlemek için tasarlandı. Bu, şirketin sattığı ilk markalı donanım.",
-   "neden_onemli": "Herkes Jony Ive'lı gizemli cihazı beklerken OpenAI donanıma geliştirici aracıyla girdi; ajanlarla çalışma artık masaüstüne taşınıyor.",
-   "konular": [
-    "OpenAI",
-    "donanım",
-    "kod asistanları"
-   ],
-   "iliskili": [
-    "dc52ec30"
-   ],
-   "kaynak": "Hacker News",
-   "url": "https://openai.com/supply/co-lab/work-louder/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48923079",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "f42bd958",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Gündem",
-   "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
-   "ozet": "Grok Build, kullanıcıların tüm klasörlerini izinsiz buluta yüklediği ortaya çıkınca sert tepki çekmişti. SpaceXAI şimdi aracın kaynak kodunu GitHub'da herkese açtı. Musk, daha önce yüklenen kullanıcı verilerinin silineceğini söylemişti. Kod açıldığı için aracın ne yaptığı artık dışarıdan denetlenebilir.",
-   "neden_onemli": "Bilgisayarında kod aracı çalıştıran herkesi ilgilendiren güven sorununa ilk somut yanıt geldi.",
-   "konular": [
-    "xAI",
-    "açık kaynak",
-    "kod asistanları"
-   ],
-   "iliskili": [
-    "2cc0275f"
-   ],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://github.com/xai-org/grok-build",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48926590",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "fe6ab2ef",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Gündem",
-   "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
-   "ozet": "Apple'ın yapay zekâ paketi Apple Intelligence, Çin'de kullanım için gereken düzenleyici onayı aldı. Sistem orada Alibaba'nın Qwen modeliyle çalışacak. Geçen yıldan beri konuşulan anlaşma böylece resmileşti. Apple, kilit bir pazarda yapay zekâ özelliklerini nihayet açabilecek.",
-   "neden_onemli": "Dünyanın en büyük telefon pazarlarından Çin'de iPhone'lar yapay zekâya kavuşuyor; Apple'ın YZ hamlesi küreselleşiyor.",
-   "konular": [
-    "Apple",
-    "Çin"
-   ],
-   "iliskili": [
-    "f6d4f1f6"
-   ],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/15/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "a9b65061",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Gündem",
-   "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
-   "ozet": "Eski çalışanlara göre Meta, kimin işten çıkarılacağını şirket içi yapay zekâ araçlarının topladığı performans verileriyle belirledi. Dava, özellikle izindeki çalışanların haksız yere hedef alındığını öne sürüyor. Meta, engelli ve sağlık sorunu olan çalışanları yapay zekâyla işten çıkardığı iddiasını reddediyor.",
-   "neden_onemli": "İşe alma ve işten çıkarmada yapay zekâ kullanımı ilk büyük hukuk sınavına giriyor.",
-   "konular": [
-    "Meta",
-    "davalar"
-   ],
-   "iliskili": [],
-   "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/tech/965486/meta-lawsuit-former-employees-ai-layoffs",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "83d5a153",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Gündem",
-   "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
-   "ozet": "Anthropic'in desteklediği Ode adlı girişim yola çıktı. Şirket, mühendisleri büyük şirketlerin içine yerleştirip yapay zekâ dönüşümünü hızlandırmayı hedefliyor. Arkasında Anthropic'in yanı sıra Blackstone ve Goldman Sachs gibi yatırımcılar var. İddiaları büyük: sıradaki dev YZ işi modelin kendisi değil, şirketlerde uygulanması.",
-   "neden_onemli": "Danışman ordusu yerine bir avuç mühendis: şirketlerde yapay zekâ dönüşümünün yeni modeli bu olabilir.",
-   "konular": [
-    "Anthropic",
-    "kurumsal YZ"
-   ],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "ee230258",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Araştırma Masası",
-   "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
-   "ozet": "GPT-Red, siber saldırı yollarını otomatik deneyen bir yapay zekâ. OpenAI onu kendi modellerine karşı antrenman rakibi olarak kullanıyor. Sistem, kendi kendine oynayarak (self-play) yeni saldırı ve savunma yolları buluyor. Şirkete göre GPT-5.6 bu eğitim sayesinde kandırmaya karşı en dayanıklı sürümü oldu.",
-   "neden_onemli": "Kullandığın sohbet botunun kandırılmaya karşı direncini artık başka bir yapay zekâ test ediyor.",
-   "konular": [
-    "OpenAI",
-    "güvenlik",
-    "araştırma"
-   ],
-   "iliskili": [
-    "54ee76ae"
-   ],
    "kaynak": "OpenAI",
-   "url": "https://openai.com/index/unlocking-self-improvement-gpt-red",
+   "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
    "ek_kaynaklar": []
   },
   {
-   "id": "5b346ee1",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Araştırma Masası",
-   "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
-   "ozet": "Araştırmacılar, ekranı görüp tıklayan kişisel asistanlar için yeni bir yöntem önerdi. Sistem, kullanıcıyla her etkileşimden hafıza ve beceri biriktiriyor; zamanla kendi kendini geliştiriyor. Amaç, aynı asistanın telefon ve bilgisayar gibi farklı cihazlarda da çalışabilmesi.",
-   "neden_onemli": "Bilgisayarını senin yerine kullanan asistanlar, seni tanıdıkça daha isabetli hale gelebilir.",
+   "id": "85cdb4a3",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Connect more of your apps to Search",
+   "ozet": "Connected apps rendering",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "ajanlar",
-    "araştırma"
+    "genel"
    ],
    "iliskili": [],
-   "kaynak": "HF Daily Papers",
-   "url": "https://huggingface.co/papers/2607.12625",
+   "kaynak": "Google AI",
+   "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
    "ek_kaynaklar": []
   },
   {
-   "id": "e2469c92",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Araç Çantası",
-   "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
-   "ozet": "Hallmark, kod asistanlarının ürettiği arayüzlerdeki tektip 'yapay zekâ işi' görünümü engellemeye çalışan bir beceri paketi. Claude Code, Cursor ve Codex ile çalışıyor. GitHub'da bir günde 1.200'den fazla yıldız topladı.",
-   "neden_onemli": "Yapay zekâyla arayüz yapan herkesin derdi olan 'hepsi aynı görünüyor' sorununa pratik bir çare.",
+   "id": "45a4595f",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Create, edit and star in videos with two Google Vids updates",
+   "ozet": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "kod asistanları",
-    "araçlar"
+    "genel"
    ],
    "iliskili": [],
-   "kaynak": "GitHub Trending",
-   "url": "https://github.com/Nutlope/hallmark",
+   "kaynak": "Google AI",
+   "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
    "ek_kaynaklar": []
   },
   {
-   "id": "b409dc7b",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Araç Çantası",
-   "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-   "ozet": "Bu depo; ajan ve RAG (belgelerden bilgi çekerek yanıt verme) uygulamalarından 100'den fazla hazır örnek içeriyor. Her birini indirip kendi ihtiyacına göre uyarlayabilirsin. Bugün dene: listeden ilgini çeken bir örneği klonla, kendi verinle çalıştır.",
-   "neden_onemli": "Sıfırdan başlamak yerine çalışan bir örneği değiştirmek, yapay zekâ uygulaması yapmanın en hızlı yolu.",
+   "id": "e723c4e7",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Our approach to bioresilience",
+   "ozet": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "araçlar",
-    "ajanlar",
-    "açık kaynak"
+    "genel"
    ],
    "iliskili": [],
-   "kaynak": "GitHub Trending",
-   "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+   "kaynak": "Google DeepMind",
+   "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
    "ek_kaynaklar": []
   },
   {
-   "id": "3f7f2e44",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Araç Çantası",
-   "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
-   "ozet": "Destructive Command Guard (dcg), yapay zekâ ajanlarının çalıştırdığı tehlikeli git ve kabuk komutlarını engelleyen küçük bir araç. Dosya silen ya da geri dönüşü olmayan komutlar daha çalışmadan durduruluyor.",
-   "neden_onemli": "Gündemdeki 'model dosyalarımı sildi' şikâyetlerinin tam da çaresi olan türden bir önlem.",
+   "id": "6f16a999",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "How Cars24 scales conversations and builds faster with OpenAI",
+   "ozet": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "araçlar",
-    "güvenlik",
-    "kod asistanları"
+    "genel"
    ],
-   "iliskili": [
-    "3e68f8ee"
+   "iliskili": [],
+   "kaynak": "OpenAI",
+   "url": "https://openai.com/index/cars24",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "08ffed92",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Gündem",
+   "baslik": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
+   "ozet": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddings that connect users’ inferred interests with the breadth of what advertisers offer in their deep funnel ads. The innovations in Hierarchical Interest Representation are…",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
    ],
-   "kaynak": "GitHub Trending",
-   "url": "https://github.com/Dicklesworthstone/destructive_command_guard",
+   "iliskili": [],
+   "kaynak": "Meta AI",
+   "url": "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/",
    "ek_kaynaklar": []
   },
   {
-   "id": "a7a2286f",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
+   "id": "08f77354",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
    "bolum": "Radar",
-   "baslik": "Vint Cerf is working on a plan to unleash AI agents on the open internet",
-   "ozet": "İnternetin kurucularından Vint Cerf, yapay zekâ ajanlarını açık internette kimliklendirecek bir standart üzerinde çalışıyor.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/15/vint-cerf-is-working-on-a-plan-to-unleash-ai-agents-on-the-open-internet/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "8ed791a2",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Radar",
-   "baslik": "Microsoft patches record number of security vulnerabilities, citing its use of AI",
-   "ozet": "Microsoft, yapay zekâ destekli taramalar sayesinde tek seferde rekor sayıda, 570 güvenlik açığını yamadı.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/15/microsoft-patches-record-number-of-security-vulnerabilities-citing-its-use-of-ai/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "ec44b263",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Radar",
-   "baslik": "OpenAI loses trademark dispute at EU court",
-   "ozet": "OpenAI, Avrupa Birliği mahkemesindeki bir marka tescili davasını kaybetti.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "Hacker News",
-   "url": "https://dpa-international.com/economics/urn:newsml:dpa.com:20090101:260715-930-389143/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48921461",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "a65b996f",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Radar",
-   "baslik": "How I tricked Claude into leaking your deepest, darkest secrets",
-   "ozet": "Bir araştırmacı, Claude'un web okuma aracındaki bir açıkla sohbet hafızasındaki özel bilgilerin dışarı sızdırılabileceğini gösterdi.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "Simon Willison",
-   "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/#atom-everything",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "9ea36484",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Radar",
-   "baslik": "Running Gemma 4 26B at 5 tokens/sec on a 13-year-old Xeon with no GPU",
-   "ozet": "Bir geliştirici, açık model Gemma 4 26B'yi ekran kartsız, 13 yaşında bir sunucuda saniyede 5 token (kelime parçası) hızında çalıştırdı.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://www.neomindlabs.com/2026/06/08/running-gemma-4-26b-at-5-tokens-sec-on-a-13-year-old-xeon-with-no-gpu/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48922434",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "22032595",
-   "tarih": "2026-07-16",
-   "sayi_no": 8,
-   "bolum": "Radar",
-   "baslik": "[AINews] not much happened today",
-   "ozet": "Günün dijesti Latent.Space'e göre sakin bir gündü; öne çıkan tek veri, Codex'in günde 1 milyon yeni kullanıcı eklemesi.",
+   "baslik": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
+   "ozet": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "AI News (Latent.Space)",
-   "url": "https://www.latent.space/p/ainews-not-much-happened-today-c72",
+   "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "252ccc31",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "It's official: EU will force Google to share search data and open up AI on Android",
+   "ozet": "It's official: EU will force Google to share search data and open up AI on Android",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "01bb588c",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Mathematics of Data Science",
+   "ozet": "Mathematics of Data Science",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://arxiv.org/abs/2607.11938",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=48939896",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "976e25fe",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
+   "ozet": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "9be1570d",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "LM Studio Bionic: the AI agent for open models",
+   "ozet": "LM Studio Bionic: the AI agent for open models",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=48939662",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "4cd6d663",
+   "tarih": "2026-07-17",
+   "sayi_no": 9,
+   "bolum": "Radar",
+   "baslik": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+   "ozet": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
    "ek_kaynaklar": []
   }
  ]

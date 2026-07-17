@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-23 haber
+29 haber
 
+- [[2026-07-17 Why teens deserve access to safe AI]] — 2026-07-17, Kapak
+- [[2026-07-17 Connect more of your apps to Search]] — 2026-07-17, Gündem
+- [[2026-07-17 Create, edit and star in videos with two Google Vids updates]] — 2026-07-17, Gündem
+- [[2026-07-17 Our approach to bioresilience]] — 2026-07-17, Gündem
+- [[2026-07-17 How Cars24 scales conversations and builds faster with OpenA]] — 2026-07-17, Gündem
+- [[2026-07-17 Exploring Hierarchical Interest Representation For Meta Ads]] — 2026-07-17, Gündem
 - [[2026-07-14 Already rich, already successful, why the last wave of tech]] — 2026-07-14, Kapak
 - [[2026-07-14 Uber’s product chief on hotels, robotaxis, and why the compa]] — 2026-07-14, Gündem
 - [[2026-07-14 Video-generation startup PixVerse raises $439M, valuation so]] — 2026-07-14, Gündem
