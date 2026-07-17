@@ -47,7 +47,7 @@ try {
           </div>
         </div>
         <div class="damga-hiza">
-          <span class="damga">Sabah Baskısı<small>16:37 · YZ dizgisi</small></span>
+          <span class="damga">Sabah Baskısı<small>16:41 · YZ dizgisi</small></span>
         </div>
         
         
@@ -451,13 +451,16 @@ try {
     })();
     kitap.loadFromHTML(document.querySelectorAll(".sayfa"));
     document.getElementById("sayfa-toplam").textContent = kitap.getPageCount();
-    function sigdir() { // içerik sayfaya sığmazsa önce görseli geri çek, sonra puntoyu incelt
+    function sigdir() { // içerik sayfaya sığmazsa: önce görseli geri çek, sonra puntoyu kademeli incelt
       document.querySelectorAll(".stf__item .sayfa-ic").forEach(function (s) {
         if (s.scrollHeight > s.clientHeight + 4) {
           var f = s.querySelector(".kupur-gorsel");
           if (f) f.style.display = "none";
         }
-        if (s.scrollHeight > s.clientHeight + 4) s.style.fontSize = "0.93em";
+        var adimlar = ["0.93em", "0.88em", "0.84em"];
+        for (var i = 0; i < adimlar.length && s.scrollHeight > s.clientHeight + 4; i++) {
+          s.style.fontSize = adimlar[i];
+        }
       });
     }
     setTimeout(sigdir, 450);
