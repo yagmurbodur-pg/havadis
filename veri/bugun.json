@@ -1,438 +1,218 @@
 {
- "tarih": "2026-07-17",
+ "tarih": "2026-07-18",
  "haberler": [
   {
-   "id": "8fe39edf",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
+   "id": "6e5f1797",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
    "bolum": "Kapak",
-   "baslik": "Why teens deserve access to safe AI",
-   "ozet": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "baslik": "Apple, OpenAI çalışanlarına da cephe açtı: onlarca kişiye hukuki uyarı mektubu",
+   "ozet": "Yapay zekâ dünyasının en sert hukuk kavgası yeni bir aşamaya geçti. Financial Times'a göre Apple, OpenAI'da çalışan onlarca kişiye hukuki uyarı mektubu gönderdi. Apple geçen cuma OpenAI'a ticari sır davası açmıştı. Dava dilekçesi, usulsüzlük iddialarının OpenAI'ın donanım şefine kadar uzandığını öne sürüyor. Apple'a göre 400'den fazla eski Apple çalışanı bugün OpenAI'da görev yapıyor. Öte yandan bazı uzmanlar, iddiaların bir kısmının sektörde olağan işleyiş olduğu görüşünde. OpenAI ise şimdilik temkinli açıklamalarla yetiniyor. Zamanlama şirket için kritik; çünkü OpenAI'ın halka arza hazırlandığı konuşuluyor. Çalışanlara tek tek giden mektuplar, Apple'ın baskıyı mahkeme salonuyla sınırlı tutmayacağını gösteriyor.",
+   "neden_onemli": "İki dev arasındaki kavga, yapay zekâda yetenek transferinin ve ticari sırların ne kadar hassas bir konu hâline geldiğini gösteriyor.",
    "konular": [
-    "genel"
+    "Apple",
+    "OpenAI",
+    "davalar"
    ],
    "iliskili": [],
-   "kaynak": "OpenAI",
-   "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "85cdb4a3",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "Connect more of your apps to Search",
-   "ozet": "Connected apps rendering",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Google AI",
-   "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "45a4595f",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "Create, edit and star in videos with two Google Vids updates",
-   "ozet": "Text \"Gemini Omni and Personal Avatars in Google Vids\" surrounded by various images",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Google AI",
-   "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "e723c4e7",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "Our approach to bioresilience",
-   "ozet": "Google DeepMind and Isomorphic Labs are sharing our joint approach to bioresilience and AI models.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Google DeepMind",
-   "url": "https://deepmind.google/blog/our-approach-to-bioresilience/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "6f16a999",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "How Cars24 scales conversations and builds faster with OpenAI",
-   "ozet": "Cars24 uses OpenAI-powered voice and chat agents to handle 1M+ monthly conversation minutes, recover 12% of lost leads, and bring agentic workflows to teams across the company.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "OpenAI",
-   "url": "https://openai.com/index/cars24",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "08ffed92",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "Exploring Hierarchical Interest Representation For Meta Ads Deep Funnel Optimization",
-   "ozet": "Hierarchical Interest Representation is a research area for Meta Ads. We’re exploring an upstream representation layer over the universe of Ads entities – users, advertisers, products, services – learning unified embeddings that connect users’ inferred interests with the breadth of what advertisers offer in their deep funnel ads. The innovations in Hierarchical Interest Representation are…",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Meta AI",
-   "url": "https://engineering.fb.com/2026/07/15/ai-research/exploring-hierarchical-interest-representation-for-meta-ads-deep-funnel-optimization/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "08f77354",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-   "ozet": "[AINews] Kimi K3 2.8T-A50B: the largest open model ever released; Opus 4.8-class at Sonnet 5 pricing",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "AI News (Latent.Space)",
-   "url": "https://www.latent.space/p/ainews-kimi-k3-28t-a50b-the-largest",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "252ccc31",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "It's official: EU will force Google to share search data and open up AI on Android",
-   "ozet": "It's official: EU will force Google to share search data and open up AI on Android",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/gadgets/2026/07/its-official-eu-will-force-google-to-share-search-data-and-open-up-ai-on-android/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "01bb588c",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "Mathematics of Data Science",
-   "ozet": "Mathematics of Data Science",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://arxiv.org/abs/2607.11938",
+   "kaynak": "Hacker News",
+   "url": "https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48939896",
+     "url": "https://news.ycombinator.com/item?id=48946303",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "976e25fe",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
-   "ozet": "xAI can’t deny Grok makes CSAM anymore. So it’s suing users.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/tech-policy/2026/07/xai-cant-deny-grok-makes-csam-anymore-so-its-suing-users/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "9be1570d",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "LM Studio Bionic: the AI agent for open models",
-   "ozet": "LM Studio Bionic: the AI agent for open models",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://lmstudio.ai/blog/introducing-lm-studio-bionic",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48939662",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "4cd6d663",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
-   "ozet": "Fear of humanoid robots spurs human workers to strike at Hyundai auto factory",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/ai/2026/07/fear-of-humanoid-robots-spurs-human-workers-to-strike-at-hyundai-auto-factory/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "b82b19a7",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Kapak",
-   "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
-   "ozet": "Çinli yapay zekâ şirketi Moonshot AI, bugüne kadarki en büyük açık ağırlıklı modelini (herkesin indirip kullanabildiği model) duyurdu: Kimi K3. Şirkete göre model, 2,8 trilyon parametreyle şimdiye dek yayımlanmış en büyük açık model. Kimi K3 şu anda Moonshot'ın kendi sitesi ve API'si üzerinden kullanılabiliyor; modelin ağırlıklarının (indirilebilir dosyalarının) 27 Temmuz 2026'ya kadar herkese açılması bekleniyor. Şirketin kendi paylaştığı test sonuçlarına göre Kimi K3, Claude Opus 4.8 max ve GPT-5.5 high modellerini büyük ölçüde geride bırakıyor; ancak Claude Fable 5 ve GPT-5.6 Sol'un gerisinde kalıyor. Fiyatlandırma tarafında ise K3, Anthropic'in Sonnet 5 modeliyle aynı bantta kalıp güçte Opus 4.8 sınıfını hedefliyor — yani ucuz ama iddialı bir konumlanma.",
-   "neden_onemli": "En büyük açık model unvanı Çin'e geçiyor; bu, güçlü YZ modellerine erişimi ücretsiz ya da çok ucuz hale getirip rekabeti hızlandırıyor.",
-   "konular": [
-    "açık kaynak",
-    "modeller",
-    "Çin"
-   ],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://www.kimi.com/blog/kimi-k3",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48935342",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "f2d4f0d1",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
+   "id": "df39e0ae",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
    "bolum": "Gündem",
-   "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
-   "ozet": "Avrupa Birliği, dijital rekabet kurallarına uymak zorunda olan Google'a, rakip yapay zekâ asistanlarının ve arama motorlarının Android ile Google Arama'nın önemli bölümlerine erişmesini sağlama kararı verdi. Karar, Google'ın bu iki platform üzerindeki kontrolünü zayıflatabilir. Google ise değişikliklerin kullanıcı gizliliğini ve güvenliğini tehlikeye atabileceğini savunuyor.",
-   "neden_onemli": "Karar gerçekleşirse Android'de Gemini dışında yapay zekâ asistanları da öne çıkabilir, kullanıcı seçenekleri artabilir.",
+   "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
+   "ozet": "Veri ve yapay zekâ şirketi Databricks, 188 milyar dolar değerlemeye ulaştı. TechCrunch'a göre şirket, imajını baştan aşağı bir yapay zekâ şirketi olarak yeniledi ve bu koşuyu sürdürüyor. Databricks ayrıca kodlama işlerinde açık ağırlıklı modellerin (herkesin indirip kullanabildiği modeller) sağladığı maliyet tasarrufu üzerine araştırma da yayımladı. Değerleme, kurumsal yapay zekâ pazarına duyulan güvenin sürdüğünü gösteriyor.",
+   "neden_onemli": "Kurumsal yapay zekâ dönüşümüne yatırım iştahının hâlâ güçlü olduğunu gösteren somut bir işaret.",
    "konular": [
-    "Google",
-    "regülasyon"
-   ],
-   "iliskili": [],
-   "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/policy/966438/eu-google-android-ai-interoperability-search-data-dma",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "d4ca69cf",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
-   "ozet": "Google, video oluşturma aracı Vids'e yeni özellikler ekledi. Kullanıcılar artık kendi dijital ikizinin (avatarının) oynadığı videolar oluşturabiliyor. Gemini Omni destekli araçlarla, yazılı komut ve referans görsellerden video üretmek ve düzenlemek de mümkün hale geldi.",
-   "neden_onemli": "Video üretimi artık teknik bilgi gerektirmeden, herkesin kendi görüntüsüyle içerik üretebileceği bir noktaya geliyor.",
-   "konular": [
-    "Google",
-    "video üretimi"
+    "yatırımlar",
+    "kurumsal YZ"
    ],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/",
+   "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
    "ek_kaynaklar": []
   },
   {
-   "id": "9d6f1edd",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
+   "id": "7be29e0c",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
    "bolum": "Gündem",
-   "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
-   "ozet": "Bir Alman yapay zekâ konsorsiyumu, 30 milyar parametreli açık ağırlıklı (herkesin indirip kullanabildiği) yeni bir model yayımladı: Soofi S. Habere göre model, hem İngilizce hem Almanca dilinde karşılaştırma testlerinde (benchmark) zirveye çıkıyor.",
-   "neden_onemli": "Açık modellerde Avrupa da güç gösteriyor; ABD ve Çin dışında alternatif kaynaklar çoğalıyor.",
+   "baslik": "Patreon yapay zekâ botlarından rica etmeyi bıraktı: artık engelliyor",
+   "ozet": "İçerik üreticilerine abonelik geliri sağlayan Patreon, yapay zekâ botlarına karşı savunmasını sertleştirdi. Şirket, Cloudflare ile birlikte çalışarak üreticilerin içeriğini izinsiz model eğitiminde kullanan botları artık aktif olarak engelliyor. Bu hamle, botlara yalnızca \"girme\" diyen robots.txt dosyasına (sitelerin gönüllü nezaket kuralı) güvenmekten aktif engellemeye geçişi simgeliyor. Böylece üreticilerin izni olmadan eğitilen modellere veri akışı zorlaşıyor.",
+   "neden_onemli": "İçerik platformları, üreticilerin emeğini izinsiz model eğitimine karşı korumak için artık fiilen kapı kapatıyor.",
+   "konular": [
+    "veri kazıma"
+   ],
+   "iliskili": [
+    "f8bec47b"
+   ],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "623b1a8a",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Araştırma Masası",
+   "baslik": "Rapor: Açık kaynak yapay zekâ ne durumda?",
+   "ozet": "Açık kaynak yapay zekânın bugünkü durumunu inceleyen bir rapor yayımlandı: \"The State of Open Source AI\". Rapor, Hacker News'te yaklaşık 400 puan alarak günün en çok konuşulan içeriklerinden biri oldu. Kimi K3 ve Soofi S gibi güçlü açık modellerin peş peşe geldiği bir haftada rapor, ekosistemin genel fotoğrafını çekmek için iyi bir fırsat sunuyor.",
+   "neden_onemli": "Açık modeller hızla güçlenirken ekosistemin genel fotoğrafını tek yerden görmek isteyenler için iyi bir başlangıç.",
    "konular": [
     "açık kaynak",
     "modeller"
    ],
-   "iliskili": [],
-   "kaynak": "Hacker News",
-   "url": "https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/",
+   "iliskili": [
+    "b82b19a7",
+    "9d6f1edd"
+   ],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://stateofopensource.ai/",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=48937756",
+     "url": "https://news.ycombinator.com/item?id=48947825",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "79ed56fa",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Gündem",
-   "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
-   "ozet": "Google, yapay zekâ destekli not alma uygulaması NotebookLM'in adını Gemini Notebook olarak değiştirdi. Uygulama bağımsız bir ürün olarak kalmaya devam edecek; ancak Gemini ve Google Arama ile daha derin entegre olacak. Google, bu ürünü ilk kez Mayıs 2023'te 'Project Tailwind' adıyla duyurmuştu.",
-   "neden_onemli": "İsim değişikliği, Google'ın tüm yapay zekâ ürünlerini Gemini markası altında topladığını gösteriyor.",
+   "id": "b1443c15",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Araştırma Masası",
+   "baslik": "Hava durumu verisine sabotaj riski artıyor",
+   "ozet": "Her sabah havayolu planlamacıları, elektrik şebekesi operatörleri ve çiftçiler aynı şeye bakarak karar veriyor: hava tahmini. Çoğumuz tahmine iki saniye bakıp geçiyoruz; oysa arka planda koca bir düzen dönüyor. MIT Technology Review'a göre bu tahminlerin dayandığı verilerin sabote edilme riski giderek yükseliyor. Tahminler pek çok sektörde büyük stratejik kararları yönlendiriyor. İşin ucunda gerçek para, insanların geçim kaynakları ve hatta hayatları var.",
+   "neden_onemli": "Sıradan görünen hava durumu verisi bile artık korunması gereken kritik bir altyapı hâline geldi.",
    "konular": [
-    "Google",
+    "güvenlik",
+    "araştırma"
+   ],
+   "iliskili": [],
+   "kaynak": "MIT Tech Review AI",
+   "url": "https://www.technologyreview.com/2026/07/17/1140622/weather-data-sabotage/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "e5d9a870",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Araç Çantası",
+   "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
+   "ozet": "GitHub'da bugün yükselişte olan Open Interpreter, Kimi K3 gibi açık modellerle çalışan bir kod ajanı. Depo yalnızca bugün 400'den fazla yıldız topladı. Araç, kod yazarken kapalı modellere bağımlı kalmak istemeyenlere açık kaynak bir alternatif sunuyor. Bugün dene: aracı kur, bir açık model bağla, küçük bir kodlama görevini çözdür.",
+   "neden_onemli": "Kod asistanını kapalı ve ücretli modellere bağlamak istemeyenler için pratik bir alternatif.",
+   "konular": [
+    "araçlar",
+    "kod asistanları",
+    "açık kaynak"
+   ],
+   "iliskili": [
+    "b82b19a7"
+   ],
+   "kaynak": "GitHub Trending",
+   "url": "https://github.com/openinterpreter/openinterpreter",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "00bf6c71",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Araç Çantası",
+   "baslik": "Yapay zekâ klişelerini yakalayan araç: LLM Cliché Highlighter",
+   "ozet": "Simon Willison, yapay zekâ metinlerindeki klişeleri işaretleyen küçük bir web aracı yayımladı. Araç, \"no fluff, no filler\" tarzı kalıplar dâhil bu tür yazılarda sık görülen on kalıbı vurguluyor. Willison, klişe dolu bir makale okuyup sinirlenince aracı Fable 5'e hızlıca kodlatmış. Şüphelendiğin bir metni yapıştırıp kaç kalıp yakalandığına bakabilirsin.",
+   "neden_onemli": "Okuduğun metnin yapay zekâ ürünü olup olmadığına dair hızlı bir koku testi sunuyor.",
+   "konular": [
     "araçlar"
    ],
    "iliskili": [],
+   "kaynak": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Jul/17/llm-cliche-highlighter/#atom-everything",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "3ba9165b",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Radar",
+   "baslik": "New York governor says she&#8217;s using AI to analyze &#8216;every single rule&#8217; in the state",
+   "ozet": "New York Valisi Kathy Hochul, eyaletteki \"her bir kural, düzenleme ve politikayı\" yapay zekâyla analiz ettirdiklerini söyledi.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
    "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/tech/966112/google-gemini-notebook-notebooklm",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/966647/new-york-governor-kathy-hochul-ai-policies",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "b59aca9f",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Radar",
+   "baslik": "Kaiser nurses say AI, workplace surveillance are making their jobs, care worse",
+   "ozet": "ABD'li sağlık kuruluşu Kaiser'ın hemşireleri, yapay zekâ ve iş yeri gözetiminin hem işlerini hem hasta bakımını kötüleştirdiğini söylüyor.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/",
    "ek_kaynaklar": [
     {
-     "kaynak": "HN Ana Sayfa",
-     "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/",
-     "baslik": "NotebookLM is now Gemini Notebook"
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=48952880",
+     "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "49d8cb27",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Araştırma Masası",
-   "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
-   "ozet": "Web'de bilgi arayan yapay zekâ ajanları, aramalar sonuç vermediğinde sık sık aynı adımları tekrarlayıp zaman ve kaynak kaybediyor. Araştırmacıların tanıttığı SearchOS sistemi, bu tekrar döngülerini fark edip ajanların arama stratejisini değiştirmesini sağlayarak daha eksiksiz ve kaliteli sonuçlar üretmeyi hedefliyor.",
-   "neden_onemli": "Arama tabanlı yapay zekâ ajanlarının günlük kullanımda daha güvenilir ve hızlı sonuç vermesine katkı sağlayabilir.",
-   "konular": [
-    "ajanlar",
-    "araştırma"
-   ],
-   "iliskili": [],
-   "kaynak": "HF Daily Papers",
-   "url": "https://huggingface.co/papers/2607.15257",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "61dced22",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Araştırma Masası",
-   "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
-   "ozet": "Görme engelli bireylerin günlük hayatta karşılaştığı zorluklara rağmen, çok-modlu yapay zekâ modellerinin (görsel ve metni birlikte işleyen modeller) bu alanda ne kadar gerçekten yardımcı olduğu az araştırılmıştı. Araştırmacılar, bu modelleri görme engellilere yardım senaryolarında test etmek için VIABench adlı kapsamlı bir video test setini (benchmark) tanıttı.",
-   "neden_onemli": "Görme engelliler için gerçekten faydalı yapay zekâ araçları geliştirmenin önünü açabilir.",
-   "konular": [
-    "araştırma",
-    "erişilebilirlik"
-   ],
-   "iliskili": [],
-   "kaynak": "HF Daily Papers",
-   "url": "https://huggingface.co/papers/2607.14660",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "fd8d69ff",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Türkiye'den",
-   "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
-   "ozet": "Türk girişimci Bercan Kılıç'ın kurucu ortağı ve CEO'su olduğu Münih merkezli robotik şirketi microagi, 55 milyon dolarlık tohum yatırım turunu tamamladı. Turu Hummingbird Ventures yönetti; Northzone, LocalGlobe, Village Global ve redalpine de katıldı. Haberlere göre bu, bir Alman girişiminin bugüne dek aldığı en büyük tohum yatırımlardan biri.",
-   "neden_onemli": "Bir Türk girişimcinin küresel ölçekte büyük bir yatırım turuna liderlik etmesi, Türkiye kökenli girişimcilerin dünya sahnesindeki görünürlüğünü artırıyor.",
-   "konular": [
-    "Türkiye",
-    "yatırımlar"
-   ],
-   "iliskili": [],
-   "kaynak": "eGirişim",
-   "url": "https://egirisim.com/2026/07/16/bercan-kilicin-kurucu-ortagi-oldugu-munih-merkezli-microagi-55-milyon-dolar-yatirim-aldi/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "ad18a56b",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Araç Çantası",
-   "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
-   "ozet": "code-review-graph, kod tabanınızın kalıcı bir haritasını çıkaran, yerel çalışan (verilerinizi dışarı göndermeyen) bir araç. Bu sayede kod asistanları yalnızca gerçekten ilgili kısımları okuyor; büyük depolarda ve kod incelemelerinde bağlam (context) kullanımını azalttığı ölçülmüş. Bugün dene: büyük bir depoda MCP ya da komut satırı (CLI) üzerinden çalıştırıp fark yaratıp yaratmadığına bakın.",
-   "neden_onemli": "Büyük kod tabanlarında çalışan geliştiriciler için kod asistanlarını daha isabetli ve hızlı hale getirebilir.",
-   "konular": [
-    "araçlar",
-    "kod asistanları"
-   ],
-   "iliskili": [],
-   "kaynak": "GitHub Trending",
-   "url": "https://github.com/tirth8205/code-review-graph",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "c599c61e",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
+   "id": "36b945dd",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
    "bolum": "Radar",
-   "baslik": "Apple Intelligence approved for launch in China with Alibaba and Baidu",
-   "ozet": "Apple Intelligence, Çin'de Alibaba ve Baidu iş birliğiyle onay aldı; Apple'ın Çin'deki yapay zekâ planları için önemli bir adım.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/16/apple-intelligence-approved-for-launch-in-china-with-alibabas-qwen-ai/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "5f22dfb9",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "Yes, you can now order DoorDash from the command line",
-   "ozet": "DoorDash, geliştiricilerin ve yapay zekâ ajanlarının komut satırından yemek siparişi vermesini sağlayan dd-cli aracını sınırlı beta olarak açtı.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/16/yes-you-can-now-order-doordash-from-the-command-line/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "e433f753",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "Energy IPOs surge as investors hunt for ways to play AI boom",
-   "ozet": "Yapay zekâ patlaması, enerji şirketlerinin halka arzlarını bu yüzyılın en hızlı temposuna taşıdı.",
+   "baslik": "Google-backed satellites for wildfire detection launch as smoke chokes US, Canada",
+   "ozet": "Google destekli FireSat uyduları fırlatıldı; program, diğer uyduların gözden kaçırdığı orman yangınlarını tespit edebiliyor.",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/information-technology/2026/07/energy-ipos-surge-as-investors-hunt-for-ways-to-play-ai-boom/",
+   "url": "https://arstechnica.com/space/2026/07/google-backed-satellites-for-wildfire-detection-launch-as-smoke-chokes-us-canada/",
    "ek_kaynaklar": []
   },
   {
-   "id": "ba15284a",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
+   "id": "e3176d1e",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
    "bolum": "Radar",
-   "baslik": "Linus Torvalds to critics of AI coding in Linux: \"Fork it. Or just walk away.\"",
-   "ozet": "Linus Torvalds, Linux'ta yapay zekâ kullanımına karşı çıkanlara net mesaj verdi: 'Projeyi çatallayın ya da bırakıp gidin.'",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/ai/2026/07/linus-torvalds-to-critics-of-ai-coding-in-linux-fork-it-or-just-walk-away/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "d322af2b",
-   "tarih": "2026-07-17",
-   "sayi_no": 9,
-   "bolum": "Radar",
-   "baslik": "Why is OpenAI selling a ChatGPT basketball?",
-   "ozet": "OpenAI, ilk donanım ürününün ardından bu kez de 'ChatGPT' markalı basketbol topu satmaya başladı.",
+   "baslik": "Roblox launches an AI-powered game-creation feature in its mobile app",
+   "ozet": "Roblox'un mobil uygulamasına gelen \"Build\" özelliği, tek bir metin komutuyla basit oyunlar üretmeyi sağlıyor.",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/16/why-is-openai-selling-a-chatgpt-basketball/",
+   "url": "https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "133497b6",
+   "tarih": "2026-07-18",
+   "sayi_no": 10,
+   "bolum": "Radar",
+   "baslik": "AI-driven memory crunch jolts India’s smartphone market",
+   "ozet": "Yapay zekâ kaynaklı bellek çipi sıkıntısı Hindistan'ın akıllı telefon pazarını sarstı; fiyatlar ve talep yeniden şekilleniyor.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/07/17/ai-driven-memory-crunch-jolts-indias-smartphone-market/",
    "ek_kaynaklar": []
   }
  ]

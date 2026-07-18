@@ -24,8 +24,10 @@ Apple, iPhone'u ve iOS işletim sistemini geliştiren ABD'li teknoloji şirketid
 
 ## İlişkiler
 - [[Siri]] — sesli asistanı (haber: f6d4f1f6)
+- [[OpenAI]] — ticari sır davası açtığı rakip (haber: 6e5f1797)
 
 ## Gelişmeler
+- **2026-07-18** — Ticari sır davası açtığı OpenAI'da çalışan onlarca kişiye hukuki uyarı mektubu gönderdi. (haber: 6e5f1797)
 - **2026-07-16** — Yapay zekâ paketi Apple Intelligence, Alibaba'nın Qwen modeliyle çalışacak biçimde Çin'de düzenleyici onay aldı. (haber: fe6ab2ef)
 - **2026-07-15** — Yenilenen Siri'yi içeren iOS 27 genel betasını yayımladı. (haber: f6d4f1f6)
 
@@ -73,6 +75,16 @@ Claude, [[Anthropic]]'in geliştirdiği büyük dil modeli ailesidir; aynı ad, 
 - **2026-07-15** — Bir güvenlik araştırmacısı, hafıza özelliğini kandırarak kullanıcı bilgilerini sızdırtabildiğini iddia etti. (haber: bba9d9e9)
 
 
+## Databricks
+
+_Kurumlara veri ve yapay zekâ platformu sunan, 188 milyar dolar değerlemeye ulaşmış ABD'li şirket._
+
+Databricks, kurumlara veri işleme ve yapay zekâ platformu sunan ABD'li bir şirkettir. Şirketler verilerini bu platformda toplar, işler ve üzerinde yapay zekâ modelleri çalıştırır. Veri altyapısı şirketi olarak kurulan Databricks, son yıllarda imajını baştan aşağı bir yapay zekâ şirketi olarak yeniledi ve büyümesini bu kimlik üzerinden sürdürüyor. Temmuz 2026'da değerlemesi 188 milyar dolara ulaştı; bu, kurumsal yapay zekâ pazarına duyulan yatırımcı güveninin sürdüğünü gösteren somut işaretlerden biri. Şirket aynı dönemde, kodlama işlerinde açık ağırlıklı modellerin (herkesin indirip kullanabildiği modeller) sağladığı maliyet tasarrufu üzerine bir araştırma da yayımladı; bu tercih, kapalı modellere ödenen ücretlerin kurumsal bütçelerde giderek daha görünür bir kalem hâline geldiğine işaret ediyor.
+
+## Gelişmeler
+- **2026-07-18** — Değerlemesi 188 milyar dolara ulaştı. (haber: df39e0ae)
+
+
 ## Demis Hassabis
 
 _Google DeepMind'ın kurucu ortağı ve CEO'su._
@@ -106,6 +118,7 @@ Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
 
 ## Gelişmeler
+- **2026-07-18** — Desteklediği, orman yangınlarını diğer uyduların gözden kaçırdığı durumlarda da tespit edebilen FireSat uyduları fırlatıldı. (haber: 36b945dd)
 - **2026-07-17** — Avrupa Birliği, dijital rekabet kurallarına uymak için Android ve Arama'nın önemli bölümlerini rakip yapay zekâ asistanlarına ve arama motorlarına açmasına karar verdi. (haber: f2d4f0d1)
 - **2026-07-17** — Not alma uygulaması NotebookLM'in adını Gemini Notebook olarak değiştirdi. (haber: 79ed56fa)
 - **2026-07-17** — Arama'ya bağlanan uygulama sayısını artırdı. (haber: 85cdb4a3)
@@ -237,6 +250,19 @@ Ode, mühendisleri büyük şirketlerin içine yerleştirerek yapay zekâ dönü
 - **2026-07-16** — Anthropic, Blackstone ve Goldman Sachs desteğiyle kurulduğunu duyurdu. (haber: 83d5a153)
 
 
+## Open Interpreter
+
+_Kimi K3 gibi açık ağırlıklı modellerle çalışan açık kaynaklı kod ajanı._
+
+Open Interpreter, [[Kimi K3]] gibi açık ağırlıklı (herkesin indirip kullanabildiği) modellerle çalışan açık kaynaklı bir kod ajanıdır (kodu kendi başına yazıp çalıştırabilen araç). Kullanıcı aracı kendi bilgisayarına kurar, istediği açık modeli bağlar ve kodlama görevlerini ona devreder. Aracın ayırt edici yanı, [[Kod asistanı]] alanında kapalı ve ücretli modellere bağımlı kalmak istemeyenlere açık kaynak bir alternatif sunması: hem aracın kendisi hem de bağlanan model açık olduğunda, kod asistanı zinciri baştan sona kullanıcının denetiminde kalıyor. Temmuz 2026'da, güçlü açık modellerin peş peşe yayımlandığı bir dönemde araç GitHub'da hızla yükseldi; depo tek günde 400'den fazla yıldız topladı.
+
+## İlişkiler
+- [[Kimi K3]] — birlikte çalıştığı açık modellerden biri (haber: e5d9a870)
+
+## Gelişmeler
+- **2026-07-18** — GitHub'da tek günde 400'den fazla yıldız toplayarak yükselişe geçti. (haber: e5d9a870)
+
+
 ## OpenAI
 
 _ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ şirketi._
@@ -247,8 +273,10 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
 - [[ChatGPT]] — sohbet asistanı ürünü
 - [[GPT-Red]] — modellerini denemek için geliştirdiği saldırgan yapay zekâ (haber: ee230258)
+- [[Apple]] — kendisine ticari sır davası açan şirket (haber: 6e5f1797)
 
 ## Gelişmeler
+- **2026-07-18** — Kendisine ticari sır davası açan Apple, çalışanlarından onlarca kişiye hukuki uyarı mektubu gönderdi. (haber: 6e5f1797)
 - **2026-07-17** — Kurumsal müşteri Cars24'ün sesli ve sohbet ajanlarında OpenAI modellerini kullanarak ayda 1 milyondan fazla konuşma dakikasını işlediğini duyurdu. (haber: 6f16a999)
 - **2026-07-16** — İlk markalı donanımı, kod ajanlarını izlemeye yarayan 230 dolarlık Codex Micro tuş bloğunu satışa çıkardı. (haber: d7170a29)
 - **2026-07-16** — Modellerini saldırılara karşı denemek için geliştirdiği GPT-Red'i tanıttı. (haber: ee230258)
@@ -257,6 +285,16 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - **2026-07-15** — İlk donanım ürününün, ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör olabileceği bildirildi. (haber: dc52ec30)
 - **2026-07-15** — Kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması tepki topladı. (haber: 23f5e51c)
 - **2026-07-09** — GPT-5.6'yı üç boyuyla herkesin kullanımına açtı. (haber: 54ee76ae)
+
+
+## Patreon
+
+_İçerik üreticilerine abonelik geliri sağlayan ABD merkezli platform._
+
+Patreon, içerik üreticilerinin izleyicilerinden düzenli abonelik geliri toplamasını sağlayan ABD merkezli bir platformdur. Yazarlar, çizerler, müzisyenler ve video üreticileri, çalışmalarını destekçilerine bu platform üzerinden ücret karşılığı sunar. Temmuz 2026'da şirket, yapay zekâ botlarına karşı savunmasını sertleştirdi: Cloudflare ile birlikte çalışarak, üreticilerin içeriğini izinsiz model eğitiminde kullanmak üzere kazıyan botları aktif olarak engellemeye başladı. Bu hamle, botlara yalnızca "girme" diyen robots.txt dosyasına (sitelerin gönüllü nezaket kuralı) güvenmekten fiilî engellemeye geçişi simgeliyor. İçerik platformlarının bu yöndeki adımları, üreticilerin izni olmadan eğitilen modellere veri akışını zorlaştırıyor ve içerik emeğinin yapay zekâ çağındaki değeri tartışmasında platformları aktif taraf hâline getiriyor.
+
+## Gelişmeler
+- **2026-07-18** — Cloudflare ile çalışarak, içerik kazıyan yapay zekâ botlarını aktif olarak engellemeye başladı. (haber: 7be29e0c)
 
 
 ## Siri

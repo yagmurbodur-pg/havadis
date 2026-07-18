@@ -6,11 +6,13 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 - [[Anthropic]]
 - [[Apple]]
+- [[Databricks]]
 - [[Google]]
 - [[Meta]]
 - [[microagi]]
 - [[Ode]]
 - [[OpenAI]]
+- [[Patreon]]
 - [[SpaceXAI]]
 - [[Suno]]
 - [[Thinking Machines]]
@@ -29,6 +31,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[ChatGPT]]
 - [[Dependabot]]
 - [[Grok Build]]
+- [[Open Interpreter]]
 - [[Siri]]
 - [[tmark.ai]]
 

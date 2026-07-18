@@ -4,8 +4,10 @@ tur: konu
 
 # araçlar
 
-9 haber
+11 haber
 
+- [[2026-07-18 Açık modellerle kod yazan ajan Open Interpreter yükselişte]] — 2026-07-18, Araç Çantası
+- [[2026-07-18 Yapay zekâ klişelerini yakalayan araç LLM Cliché Highlighter]] — 2026-07-18, Araç Çantası
 - [[2026-07-17 Google, NotebookLM'in adını Gemini Notebook yaptı]] — 2026-07-17, Gündem
 - [[2026-07-17 Kod tabanının haritasını çıkaran araç code-review-graph]] — 2026-07-17, Araç Çantası
 - [[2026-07-16 YZ'nin bayat tasarımlarına panzehir Claude Code için 'hallma]] — 2026-07-16, Araç Çantası

@@ -35,8 +35,18 @@
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 9,
+   "adet": 11,
    "son": [
+    {
+     "id": "e5d9a870",
+     "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "00bf6c71",
+     "baslik": "Yapay zekâ klişelerini yakalayan araç: LLM Cliché Highlighter",
+     "tarih": "2026-07-18"
+    },
     {
      "id": "79ed56fa",
      "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
@@ -51,56 +61,19 @@
      "id": "e2469c92",
      "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
      "tarih": "2026-07-16"
-    },
-    {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "3f7f2e44",
-     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "kod asistanları",
-   "slug": "kod-asistanlari",
-   "adet": 8,
-   "son": [
-    {
-     "id": "ad18a56b",
-     "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "d7170a29",
-     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "f42bd958",
-     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "e2469c92",
-     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "3f7f2e44",
-     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
-     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 8,
+   "adet": 9,
    "son": [
+    {
+     "id": "6e5f1797",
+     "baslik": "Apple, OpenAI çalışanlarına da cephe açtı: onlarca kişiye hukuki uyarı mektubu",
+     "tarih": "2026-07-18"
+    },
     {
      "id": "d7170a29",
      "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
@@ -120,19 +93,51 @@
      "id": "dc52ec30",
      "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
      "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "kod asistanları",
+   "slug": "kod-asistanlari",
+   "adet": 9,
+   "son": [
+    {
+     "id": "e5d9a870",
+     "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
+     "tarih": "2026-07-18"
     },
     {
-     "id": "0069d7c4",
-     "baslik": "Rehber: GPT-5.6'dan en iyi verimi almanın yolları",
-     "tarih": "2026-07-15"
+     "id": "ad18a56b",
+     "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "f42bd958",
+     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "e2469c92",
+     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
+     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "araştırma",
    "slug": "arastirma",
-   "adet": 7,
+   "adet": 8,
    "son": [
+    {
+     "id": "b1443c15",
+     "baslik": "Hava durumu verisine sabotaj riski artıyor",
+     "tarih": "2026-07-18"
+    },
     {
      "id": "49d8cb27",
      "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
@@ -152,19 +157,51 @@
      "id": "5b346ee1",
      "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
      "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "açık kaynak",
+   "slug": "acik-kaynak",
+   "adet": 7,
+   "son": [
+    {
+     "id": "623b1a8a",
+     "baslik": "Rapor: Açık kaynak yapay zekâ ne durumda?",
+     "tarih": "2026-07-18"
     },
     {
-     "id": "77128801",
-     "baslik": "Yapay zekâ kendi düşünmesini izleyebilir mi? Kapsamlı bir derleme",
-     "tarih": "2026-07-15"
+     "id": "e5d9a870",
+     "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "b82b19a7",
+     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "9d6f1edd",
+     "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "f26aefe7",
+     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
+     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "modeller",
    "slug": "modeller",
-   "adet": 6,
+   "adet": 7,
    "son": [
+    {
+     "id": "623b1a8a",
+     "baslik": "Rapor: Açık kaynak yapay zekâ ne durumda?",
+     "tarih": "2026-07-18"
+    },
     {
      "id": "b82b19a7",
      "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
@@ -184,43 +221,6 @@
      "id": "3e68f8ee",
      "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
      "tarih": "2026-07-15"
-    },
-    {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "açık kaynak",
-   "slug": "acik-kaynak",
-   "adet": 5,
-   "son": [
-    {
-     "id": "b82b19a7",
-     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "9d6f1edd",
-     "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "f26aefe7",
-     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "f42bd958",
-     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-     "tarih": "2026-07-16"
     }
    ]
   },
@@ -289,6 +289,33 @@
    ]
   },
   {
+   "ad": "güvenlik",
+   "slug": "guvenlik",
+   "adet": 4,
+   "son": [
+    {
+     "id": "b1443c15",
+     "baslik": "Hava durumu verisine sabotaj riski artıyor",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "ee230258",
+     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "3f7f2e44",
+     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b8295173",
+     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
    "ad": "Meta",
    "slug": "meta",
    "adet": 4,
@@ -311,6 +338,50 @@
     {
      "id": "fbe93ef8",
      "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "Apple",
+   "slug": "apple",
+   "adet": 3,
+   "son": [
+    {
+     "id": "6e5f1797",
+     "baslik": "Apple, OpenAI çalışanlarına da cephe açtı: onlarca kişiye hukuki uyarı mektubu",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "fe6ab2ef",
+     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "f6d4f1f6",
+     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "yatırımlar",
+   "slug": "yatirimlar",
+   "adet": 3,
+   "son": [
+    {
+     "id": "df39e0ae",
+     "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "fd8d69ff",
+     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
      "tarih": "2026-07-09"
     }
    ]
@@ -382,24 +453,53 @@
    ]
   },
   {
-   "ad": "güvenlik",
-   "slug": "guvenlik",
-   "adet": 3,
+   "ad": "davalar",
+   "slug": "davalar",
+   "adet": 2,
    "son": [
     {
-     "id": "ee230258",
-     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
-     "tarih": "2026-07-16"
+     "id": "6e5f1797",
+     "baslik": "Apple, OpenAI çalışanlarına da cephe açtı: onlarca kişiye hukuki uyarı mektubu",
+     "tarih": "2026-07-18"
     },
     {
-     "id": "3f7f2e44",
-     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
+     "id": "a9b65061",
+     "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
      "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "kurumsal YZ",
+   "slug": "kurumsal-yz",
+   "adet": 2,
+   "son": [
+    {
+     "id": "df39e0ae",
+     "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
+     "tarih": "2026-07-18"
     },
     {
-     "id": "b8295173",
-     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
-     "tarih": "2026-07-15"
+     "id": "83d5a153",
+     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "veri kazıma",
+   "slug": "veri-kazima",
+   "adet": 2,
+   "son": [
+    {
+     "id": "7be29e0c",
+     "baslik": "Patreon yapay zekâ botlarından rica etmeyi bıraktı: artık engelliyor",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "f8bec47b",
+     "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
+     "tarih": "2026-07-16"
     }
    ]
   },
@@ -421,23 +521,6 @@
    ]
   },
   {
-   "ad": "yatırımlar",
-   "slug": "yatirimlar",
-   "adet": 2,
-   "son": [
-    {
-     "id": "fd8d69ff",
-     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "86e5b702",
-     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
    "ad": "donanım",
    "slug": "donanim",
    "adet": 2,
@@ -450,23 +533,6 @@
     {
      "id": "dc52ec30",
      "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "Apple",
-   "slug": "apple",
-   "adet": 2,
-   "son": [
-    {
-     "id": "fe6ab2ef",
-     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "f6d4f1f6",
-     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
      "tarih": "2026-07-15"
     }
    ]
@@ -554,42 +620,6 @@
     {
      "id": "f8bec47b",
      "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "veri kazıma",
-   "slug": "veri-kazima",
-   "adet": 1,
-   "son": [
-    {
-     "id": "f8bec47b",
-     "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "davalar",
-   "slug": "davalar",
-   "adet": 1,
-   "son": [
-    {
-     "id": "a9b65061",
-     "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "kurumsal YZ",
-   "slug": "kurumsal-yz",
-   "adet": 1,
-   "son": [
-    {
-     "id": "83d5a153",
-     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
      "tarih": "2026-07-16"
     }
    ]

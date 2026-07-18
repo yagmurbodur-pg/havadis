@@ -4,8 +4,9 @@ tur: konu
 
 # kod asistanları
 
-8 haber
+9 haber
 
+- [[2026-07-18 Açık modellerle kod yazan ajan Open Interpreter yükselişte]] — 2026-07-18, Araç Çantası
 - [[2026-07-17 Kod tabanının haritasını çıkaran araç code-review-graph]] — 2026-07-17, Araç Çantası
 - [[2026-07-16 OpenAI'ın ilk donanımı kod ajanlarını izlemek için 230 dolar]] — 2026-07-16, Gündem
 - [[2026-07-16 Veri skandalının ardından Grok Build açık kaynak oldu]] — 2026-07-16, Gündem
