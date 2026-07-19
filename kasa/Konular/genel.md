@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-29 haber
+35 haber
 
+- [[2026-07-19 Transcribe.cpp]] — 2026-07-19, Kapak
+- [[2026-07-19 Codex Resets]] — 2026-07-19, Gündem
+- [[2026-07-19 Mayor Mamdani Says Landlords Can't Use AI Images to Advertis]] — 2026-07-19, Gündem
+- [[2026-07-19 Hardcore IndieWeb Run your own website 100% independently fo]] — 2026-07-19, Gündem
+- [[2026-07-19 Dave Eggers told OpenAI staff that ChatGPT was ‘silencing an]] — 2026-07-19, Gündem
+- [[2026-07-19 Kimi Threat or menace]] — 2026-07-19, Gündem
 - [[2026-07-17 Why teens deserve access to safe AI]] — 2026-07-17, Kapak
 - [[2026-07-17 Connect more of your apps to Search]] — 2026-07-17, Gündem
 - [[2026-07-17 Create, edit and star in videos with two Google Vids updates]] — 2026-07-17, Gündem

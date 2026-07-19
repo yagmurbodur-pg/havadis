@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 29,
+   "adet": 35,
    "son": [
     {
-     "id": "8fe39edf",
-     "baslik": "Why teens deserve access to safe AI",
-     "tarih": "2026-07-17"
+     "id": "45da52ae",
+     "baslik": "Transcribe.cpp",
+     "tarih": "2026-07-19"
     },
     {
-     "id": "85cdb4a3",
-     "baslik": "Connect more of your apps to Search",
-     "tarih": "2026-07-17"
+     "id": "d6dc55b4",
+     "baslik": "Codex Resets",
+     "tarih": "2026-07-19"
     },
     {
-     "id": "45a4595f",
-     "baslik": "Create, edit and star in videos with two Google Vids updates",
-     "tarih": "2026-07-17"
+     "id": "6d307ade",
+     "baslik": "Mayor Mamdani Says Landlords Can't Use AI Images to Advertise",
+     "tarih": "2026-07-19"
     },
     {
-     "id": "e723c4e7",
-     "baslik": "Our approach to bioresilience",
-     "tarih": "2026-07-17"
+     "id": "603bdbc9",
+     "baslik": "Hardcore IndieWeb: Run your own website 100% independently for only $0.01/day",
+     "tarih": "2026-07-19"
     },
     {
-     "id": "6f16a999",
-     "baslik": "How Cars24 scales conversations and builds faster with OpenAI",
-     "tarih": "2026-07-17"
+     "id": "3d89d3a4",
+     "baslik": "Dave Eggers told OpenAI staff  that ChatGPT was ‘silencing an entire generation’",
+     "tarih": "2026-07-19"
     }
    ]
   },
