@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-35 haber
+41 haber
 
+- [[2026-07-20 AI advice made people less accurate but more confident – sud]] — 2026-07-20, Kapak
+- [[2026-07-20 What to watch for after Jensen Huang’s Japan visit]] — 2026-07-20, Gündem
+- [[2026-07-20 Meta’dan Ses Tonuyla Duygu Analizi Yapan Yeni Patent]] — 2026-07-20, Gündem
+- [[2026-07-20 Can an Apple lawsuit derail OpenAI’s hardware plans]] — 2026-07-20, Gündem
+- [[2026-07-20 Google’ın Yeni Yapay Zeka Modeli Gemini 3.5 Pro Neden Gecikt]] — 2026-07-20, Gündem
+- [[2026-07-20 Yapay Zeka F-16 Uçurdu]] — 2026-07-20, Gündem
 - [[2026-07-19 Transcribe.cpp]] — 2026-07-19, Kapak
 - [[2026-07-19 Codex Resets]] — 2026-07-19, Gündem
 - [[2026-07-19 Mayor Mamdani Says Landlords Can't Use AI Images to Advertis]] — 2026-07-19, Gündem
