@@ -4,8 +4,11 @@ tur: konu
 
 # kod asistanları
 
-9 haber
+12 haber
 
+- [[2026-07-21 Kod ajanı neyi unutacağını zaten biliyor SWE-Pruner Pro]] — 2026-07-21, Araştırma Masası
+- [[2026-07-21 Kod ajanına ücretsiz internet erişimi wigolo]] — 2026-07-21, Araç Çantası
+- [[2026-07-21 Tersine mühendislik artık ucuz evdeki cihazları ajanlara çöz]] — 2026-07-21, Araç Çantası
 - [[2026-07-18 Açık modellerle kod yazan ajan Open Interpreter yükselişte]] — 2026-07-18, Araç Çantası
 - [[2026-07-17 Kod tabanının haritasını çıkaran araç code-review-graph]] — 2026-07-17, Araç Çantası
 - [[2026-07-16 OpenAI'ın ilk donanımı kod ajanlarını izlemek için 230 dolar]] — 2026-07-16, Gündem

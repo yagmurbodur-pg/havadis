@@ -4,8 +4,10 @@ tur: konu
 
 # ajanlar
 
-5 haber
+7 haber
 
+- [[2026-07-21 OpenAI Uzun süre kendi başına çalışan modeller yeni riskler]] — 2026-07-21, Gündem
+- [[2026-07-21 Tersine mühendislik artık ucuz evdeki cihazları ajanlara çöz]] — 2026-07-21, Araç Çantası
 - [[2026-07-17 Araştırma ajanları artık arama döngüsüne takılıp kalmasın di]] — 2026-07-17, Araştırma Masası
 - [[2026-07-16 Deneyimden öğrenen kişisel bilgisayar asistanı KnowAct-GUICl]] — 2026-07-16, Araştırma Masası
 - [[2026-07-16 Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması aweso]] — 2026-07-16, Araç Çantası

@@ -4,8 +4,9 @@ tur: konu
 
 # modeller
 
-7 haber
+8 haber
 
+- [[2026-07-21 Çin'den peş peşe iki hamle Kimi ve Qwen, ABD'li devlere kafa]] — 2026-07-21, Kapak
 - [[2026-07-18 Rapor Açık kaynak yapay zekâ ne durumda]] — 2026-07-18, Araştırma Masası
 - [[2026-07-17 Çin'den dev açık model Kimi K3, 2,8 trilyon parametreyle gel]] — 2026-07-17, Kapak
 - [[2026-07-17 Almanya'dan açık model Soofi S, İngilizce ve Almancada zirve]] — 2026-07-17, Gündem

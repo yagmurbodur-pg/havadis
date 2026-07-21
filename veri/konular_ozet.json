@@ -35,8 +35,18 @@
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 11,
+   "adet": 13,
    "son": [
+    {
+     "id": "9fedc9b4",
+     "baslik": "Kod ajanına ücretsiz internet erişimi: wigolo",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "c04b1b26",
+     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "e5d9a870",
      "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
@@ -51,24 +61,51 @@
      "id": "79ed56fa",
      "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
      "tarih": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "ad": "kod asistanları",
+   "slug": "kod-asistanlari",
+   "adet": 12,
+   "son": [
+    {
+     "id": "05b14f9b",
+     "baslik": "Kod ajanı neyi unutacağını zaten biliyor: SWE-Pruner Pro",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "9fedc9b4",
+     "baslik": "Kod ajanına ücretsiz internet erişimi: wigolo",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "8de94208",
+     "baslik": "Tersine mühendislik artık ucuz: evdeki cihazları ajanlara çözdürmek",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "e5d9a870",
+     "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
+     "tarih": "2026-07-18"
     },
     {
      "id": "ad18a56b",
      "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
      "tarih": "2026-07-17"
-    },
-    {
-     "id": "e2469c92",
-     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
-     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 9,
+   "adet": 10,
    "son": [
+    {
+     "id": "d4ff9ec8",
+     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "6e5f1797",
      "baslik": "Apple, OpenAI çalışanlarına da cephe açtı: onlarca kişiye hukuki uyarı mektubu",
@@ -88,51 +125,24 @@
      "id": "3e68f8ee",
      "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
      "tarih": "2026-07-15"
-    },
-    {
-     "id": "dc52ec30",
-     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "kod asistanları",
-   "slug": "kod-asistanlari",
-   "adet": 9,
-   "son": [
-    {
-     "id": "e5d9a870",
-     "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "ad18a56b",
-     "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "d7170a29",
-     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "f42bd958",
-     "baslik": "Veri skandalının ardından Grok Build açık kaynak oldu",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "e2469c92",
-     "baslik": "YZ'nin bayat tasarımlarına panzehir: Claude Code için 'hallmark' beceri paketi",
-     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "araştırma",
    "slug": "arastirma",
-   "adet": 8,
+   "adet": 10,
    "son": [
+    {
+     "id": "f3a7c008",
+     "baslik": "İddia: Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "05b14f9b",
+     "baslik": "Kod ajanı neyi unutacağını zaten biliyor: SWE-Pruner Pro",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "b1443c15",
      "baslik": "Hava durumu verisine sabotaj riski artıyor",
@@ -147,24 +157,24 @@
      "id": "61dced22",
      "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
      "tarih": "2026-07-17"
-    },
-    {
-     "id": "ee230258",
-     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "5b346ee1",
-     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
-     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "açık kaynak",
    "slug": "acik-kaynak",
-   "adet": 7,
+   "adet": 9,
    "son": [
+    {
+     "id": "90cef26b",
+     "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "c04b1b26",
+     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "623b1a8a",
      "baslik": "Rapor: Açık kaynak yapay zekâ ne durumda?",
@@ -179,24 +189,19 @@
      "id": "b82b19a7",
      "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
      "tarih": "2026-07-17"
-    },
-    {
-     "id": "9d6f1edd",
-     "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "f26aefe7",
-     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
-     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "modeller",
    "slug": "modeller",
-   "adet": 7,
+   "adet": 8,
    "son": [
+    {
+     "id": "90cef26b",
+     "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "623b1a8a",
      "baslik": "Rapor: Açık kaynak yapay zekâ ne durumda?",
@@ -216,19 +221,51 @@
      "id": "f26aefe7",
      "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
      "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "ajanlar",
+   "slug": "ajanlar",
+   "adet": 7,
+   "son": [
+    {
+     "id": "d4ff9ec8",
+     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
+     "tarih": "2026-07-21"
     },
     {
-     "id": "3e68f8ee",
-     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
-     "tarih": "2026-07-15"
+     "id": "8de94208",
+     "baslik": "Tersine mühendislik artık ucuz: evdeki cihazları ajanlara çözdürmek",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "49d8cb27",
+     "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "5b346ee1",
+     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b409dc7b",
+     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "Google",
    "slug": "google",
-   "adet": 5,
+   "adet": 6,
    "son": [
+    {
+     "id": "d573260c",
+     "baslik": "Google, Gemini'yi daha verimli çalıştıracak yeni bir çip geliştiriyor",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "f2d4f0d1",
      "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
@@ -248,51 +285,19 @@
      "id": "cb9db543",
      "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
      "tarih": "2026-07-15"
-    },
-    {
-     "id": "b98c65f8",
-     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "ajanlar",
-   "slug": "ajanlar",
-   "adet": 5,
-   "son": [
-    {
-     "id": "49d8cb27",
-     "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "5b346ee1",
-     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "54ee76ae",
-     "baslik": "GPT-5.6 herkese açıldı: üç boy, bir de 'iş ajanı'",
-     "tarih": "2026-07-09"
-    },
-    {
-     "id": "c1c7fcde",
-     "baslik": "Notion'dan iPhone'a ayrı bir 'ajanlar' uygulaması",
-     "tarih": "2026-07-09"
     }
    ]
   },
   {
    "ad": "güvenlik",
    "slug": "guvenlik",
-   "adet": 4,
+   "adet": 5,
    "son": [
+    {
+     "id": "d4ff9ec8",
+     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
+     "tarih": "2026-07-21"
+    },
     {
      "id": "b1443c15",
      "baslik": "Hava durumu verisine sabotaj riski artıyor",
@@ -312,6 +317,141 @@
      "id": "b8295173",
      "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
      "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Çin",
+   "slug": "cin",
+   "adet": 4,
+   "son": [
+    {
+     "id": "90cef26b",
+     "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "66e5c0ba",
+     "baslik": "ABD, Çinli yapay zekâ modellerini engellemek için düğmeye bastı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "b82b19a7",
+     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "fe6ab2ef",
+     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "Anthropic",
+   "slug": "anthropic",
+   "adet": 4,
+   "son": [
+    {
+     "id": "70097351",
+     "baslik": "Anthropic'in 1,5 milyar dolarlık telif uzlaşmasına mahkeme onayı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f3a7c008",
+     "baslik": "İddia: Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "83d5a153",
+     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "b84f0061",
+     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "telif davaları",
+   "slug": "telif-davalari",
+   "adet": 4,
+   "son": [
+    {
+     "id": "70097351",
+     "baslik": "Anthropic'in 1,5 milyar dolarlık telif uzlaşmasına mahkeme onayı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f09cbf6a",
+     "baslik": "Sony'den Udio'ya yeni dava: listede 30 binden fazla şarkı var",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "b98c65f8",
+     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "16830069",
+     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "regülasyon",
+   "slug": "regulasyon",
+   "adet": 4,
+   "son": [
+    {
+     "id": "66e5c0ba",
+     "baslik": "ABD, Çinli yapay zekâ modellerini engellemek için düğmeye bastı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f2d4f0d1",
+     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "cb9db543",
+     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Türkiye",
+   "slug": "turkiye",
+   "adet": 4,
+   "son": [
+    {
+     "id": "81d1d75c",
+     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "fd8d69ff",
+     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "10fd57ef",
+     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
+     "tarih": "2026-07-09"
     }
    ]
   },
@@ -339,6 +479,28 @@
      "id": "fbe93ef8",
      "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "kurumsal YZ",
+   "slug": "kurumsal-yz",
+   "adet": 3,
+   "son": [
+    {
+     "id": "81d1d75c",
+     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "df39e0ae",
+     "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "83d5a153",
+     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
+     "tarih": "2026-07-16"
     }
    ]
   },
@@ -387,50 +549,6 @@
    ]
   },
   {
-   "ad": "regülasyon",
-   "slug": "regulasyon",
-   "adet": 3,
-   "son": [
-    {
-     "id": "f2d4f0d1",
-     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "e74d29ba",
-     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "cb9db543",
-     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "Türkiye",
-   "slug": "turkiye",
-   "adet": 3,
-   "son": [
-    {
-     "id": "fd8d69ff",
-     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "10fd57ef",
-     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "86e5b702",
-     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
    "ad": "xAI",
    "slug": "xai",
    "adet": 3,
@@ -453,6 +571,57 @@
    ]
   },
   {
+   "ad": "çipler",
+   "slug": "cipler",
+   "adet": 2,
+   "son": [
+    {
+     "id": "d573260c",
+     "baslik": "Google, Gemini'yi daha verimli çalıştıracak yeni bir çip geliştiriyor",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "8c91b0e5",
+     "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "müzik üretimi",
+   "slug": "muzik-uretimi",
+   "adet": 2,
+   "son": [
+    {
+     "id": "f09cbf6a",
+     "baslik": "Sony'den Udio'ya yeni dava: listede 30 binden fazla şarkı var",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f8bec47b",
+     "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
+     "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "ses modelleri",
+   "slug": "ses-modelleri",
+   "adet": 2,
+   "son": [
+    {
+     "id": "c04b1b26",
+     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "963a6870",
+     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
    "ad": "davalar",
    "slug": "davalar",
    "adet": 2,
@@ -465,23 +634,6 @@
     {
      "id": "a9b65061",
      "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "kurumsal YZ",
-   "slug": "kurumsal-yz",
-   "adet": 2,
-   "son": [
-    {
-     "id": "df39e0ae",
-     "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "83d5a153",
-     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
      "tarih": "2026-07-16"
     }
    ]
@@ -504,23 +656,6 @@
    ]
   },
   {
-   "ad": "Çin",
-   "slug": "cin",
-   "adet": 2,
-   "son": [
-    {
-     "id": "b82b19a7",
-     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "fe6ab2ef",
-     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
    "ad": "donanım",
    "slug": "donanim",
    "adet": 2,
@@ -538,23 +673,6 @@
    ]
   },
   {
-   "ad": "Anthropic",
-   "slug": "anthropic",
-   "adet": 2,
-   "son": [
-    {
-     "id": "83d5a153",
-     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "b84f0061",
-     "baslik": "Anthropic doğruladı: Claude, kullanılan dile göre farklı davranıyor",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
    "ad": "gizlilik",
    "slug": "gizlilik",
    "adet": 2,
@@ -567,23 +685,6 @@
     {
      "id": "fbe93ef8",
      "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "telif davaları",
-   "slug": "telif-davalari",
-   "adet": 2,
-   "son": [
-    {
-     "id": "b98c65f8",
-     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "16830069",
-     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
      "tarih": "2026-07-09"
     }
    ]
@@ -613,18 +714,6 @@
    ]
   },
   {
-   "ad": "müzik üretimi",
-   "slug": "muzik-uretimi",
-   "adet": 1,
-   "son": [
-    {
-     "id": "f8bec47b",
-     "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
-     "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
    "ad": "asistanlar",
    "slug": "asistanlar",
    "adet": 1,
@@ -645,30 +734,6 @@
      "id": "e74d29ba",
      "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
      "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "çipler",
-   "slug": "cipler",
-   "adet": 1,
-   "son": [
-    {
-     "id": "8c91b0e5",
-     "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "ses modelleri",
-   "slug": "ses-modelleri",
-   "adet": 1,
-   "son": [
-    {
-     "id": "963a6870",
-     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
-     "tarih": "2026-07-09"
     }
    ]
   },

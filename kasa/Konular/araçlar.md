@@ -4,8 +4,10 @@ tur: konu
 
 # araçlar
 
-11 haber
+13 haber
 
+- [[2026-07-21 Kod ajanına ücretsiz internet erişimi wigolo]] — 2026-07-21, Araç Çantası
+- [[2026-07-21 Açık kaynak ses stüdyosu voicebox sesini klonla, dikte et, s]] — 2026-07-21, Araç Çantası
 - [[2026-07-18 Açık modellerle kod yazan ajan Open Interpreter yükselişte]] — 2026-07-18, Araç Çantası
 - [[2026-07-18 Yapay zekâ klişelerini yakalayan araç LLM Cliché Highlighter]] — 2026-07-18, Araç Çantası
 - [[2026-07-17 Google, NotebookLM'in adını Gemini Notebook yaptı]] — 2026-07-17, Gündem

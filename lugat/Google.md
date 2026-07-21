@@ -5,7 +5,7 @@ tanim: "Arama ve bulut hizmetleriyle bilinen, DeepMind laboratuvarıyla yapay ze
 esanlamlilar: []
 etiketler: [Google]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-18
+son_guncelleme: 2026-07-21
 ---
 
 Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026'da şirket birden çok gündemin öznesi oldu. Bir yanda Hachette, Cengage ve Elsevier'in aralarında olduğu büyük yayıncılar, telifli eserlerin gerekli izinler alınmadan yapay zekâ modellerinin eğitiminde kullanıldığı iddiasıyla şirkete dava açtı; eğitim verisi davaları sektör genelinde çoğalıyor ve sonuçları modellerin bundan sonra nasıl eğitileceğini belirleyebilir. Öte yanda Hassabis, en gelişmiş yapay zekâ modellerini test edecek bağımsız bir küresel denetim kurumu önerisiyle regülasyon tartışmasının merkezine geçti.
@@ -14,6 +14,7 @@ Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
 
 ## Gelişmeler
+- **2026-07-21** — Gemini modellerini daha verimli çalıştırmayı hedefleyen yeni bir yapay zekâ çipi üzerinde çalıştığı bildirildi; resmî duyuru yok. (haber: d573260c)
 - **2026-07-18** — Desteklediği, orman yangınlarını diğer uyduların gözden kaçırdığı durumlarda da tespit edebilen FireSat uyduları fırlatıldı. (haber: 36b945dd)
 - **2026-07-17** — Avrupa Birliği, dijital rekabet kurallarına uymak için Android ve Arama'nın önemli bölümlerini rakip yapay zekâ asistanlarına ve arama motorlarına açmasına karar verdi. (haber: f2d4f0d1)
 - **2026-07-17** — Not alma uygulaması NotebookLM'in adını Gemini Notebook olarak değiştirdi. (haber: 79ed56fa)

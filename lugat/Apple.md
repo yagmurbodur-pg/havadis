@@ -16,5 +16,5 @@ Apple, iPhone'u ve iOS işletim sistemini geliştiren ABD'li teknoloji şirketid
 
 ## Gelişmeler
 - **2026-07-18** — Ticari sır davası açtığı OpenAI'da çalışan onlarca kişiye hukuki uyarı mektubu gönderdi. (haber: 6e5f1797)
-- **2026-07-16** — Yapay zekâ paketi Apple Intelligence, Alibaba'nın Qwen modeliyle çalışacak biçimde Çin'de düzenleyici onay aldı. (haber: fe6ab2ef)
+- **2026-07-16** — Yapay zekâ paketi Apple Intelligence, Alibaba'nın [[Qwen]] modeliyle çalışacak biçimde Çin'de düzenleyici onay aldı. (haber: fe6ab2ef)
 - **2026-07-15** — Yenilenen Siri'yi içeren iOS 27 genel betasını yayımladı. (haber: f6d4f1f6)

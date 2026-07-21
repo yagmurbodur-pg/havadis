@@ -10,6 +10,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Google]]
 - [[Meta]]
 - [[microagi]]
+- [[Moonshot AI]]
 - [[Ode]]
 - [[OpenAI]]
 - [[Patreon]]
@@ -24,6 +25,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[GPT-Red]]
 - [[Inkling]]
 - [[Kimi K3]]
+- [[Qwen]]
 - [[Soofi S]]
 
 ## Ürünler

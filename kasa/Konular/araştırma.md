@@ -4,8 +4,10 @@ tur: konu
 
 # araştırma
 
-8 haber
+10 haber
 
+- [[2026-07-21 İddia Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti]] — 2026-07-21, Araştırma Masası
+- [[2026-07-21 Kod ajanı neyi unutacağını zaten biliyor SWE-Pruner Pro]] — 2026-07-21, Araştırma Masası
 - [[2026-07-18 Hava durumu verisine sabotaj riski artıyor]] — 2026-07-18, Araştırma Masası
 - [[2026-07-17 Araştırma ajanları artık arama döngüsüne takılıp kalmasın di]] — 2026-07-17, Araştırma Masası
 - [[2026-07-17 Görme engelliler için yapay zekâyı sınayan yeni test seti VI]] — 2026-07-17, Araştırma Masası
