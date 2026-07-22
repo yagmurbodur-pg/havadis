@@ -35,8 +35,18 @@
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 13,
+   "adet": 15,
    "son": [
+    {
+     "id": "f9e92857",
+     "baslik": "Mac'te yapay zekâ modellerini yerel çalıştıran yeni uygulama: Nativ",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "16169d53",
+     "baslik": "Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi: i-have-adhd",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "9fedc9b4",
      "baslik": "Kod ajanına ücretsiz internet erişimi: wigolo",
@@ -51,24 +61,19 @@
      "id": "e5d9a870",
      "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
      "tarih": "2026-07-18"
-    },
-    {
-     "id": "00bf6c71",
-     "baslik": "Yapay zekâ klişelerini yakalayan araç: LLM Cliché Highlighter",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "79ed56fa",
-     "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
-     "tarih": "2026-07-17"
     }
    ]
   },
   {
    "ad": "kod asistanları",
    "slug": "kod-asistanlari",
-   "adet": 12,
+   "adet": 13,
    "son": [
+    {
+     "id": "16169d53",
+     "baslik": "Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi: i-have-adhd",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "05b14f9b",
      "baslik": "Kod ajanı neyi unutacağını zaten biliyor: SWE-Pruner Pro",
@@ -88,19 +93,51 @@
      "id": "e5d9a870",
      "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
      "tarih": "2026-07-18"
+    }
+   ]
+  },
+  {
+   "ad": "araştırma",
+   "slug": "arastirma",
+   "adet": 12,
+   "son": [
+    {
+     "id": "dbe4c24c",
+     "baslik": "Metinden oyun dünyası: AlayaWorld, içinde gezilebilen sanal dünyalar üretiyor",
+     "tarih": "2026-07-22"
     },
     {
-     "id": "ad18a56b",
-     "baslik": "Kod tabanının haritasını çıkaran araç: code-review-graph",
-     "tarih": "2026-07-17"
+     "id": "60f3b696",
+     "baslik": "Küçük ama iddialı görsel model: 4 milyar parametrelik Mage-Flow",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "f3a7c008",
+     "baslik": "İddia: Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "05b14f9b",
+     "baslik": "Kod ajanı neyi unutacağını zaten biliyor: SWE-Pruner Pro",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "b1443c15",
+     "baslik": "Hava durumu verisine sabotaj riski artıyor",
+     "tarih": "2026-07-18"
     }
    ]
   },
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 10,
+   "adet": 11,
    "son": [
+    {
+     "id": "20b0eb2d",
+     "baslik": "OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine sızdı",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "d4ff9ec8",
      "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
@@ -120,51 +157,24 @@
      "id": "ee230258",
      "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
      "tarih": "2026-07-16"
-    },
-    {
-     "id": "3e68f8ee",
-     "baslik": "GPT-5.6 Sol dosya mı siliyor? Kullanıcı şikâyetleri büyüyor",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "araştırma",
-   "slug": "arastirma",
-   "adet": 10,
-   "son": [
-    {
-     "id": "f3a7c008",
-     "baslik": "İddia: Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "05b14f9b",
-     "baslik": "Kod ajanı neyi unutacağını zaten biliyor: SWE-Pruner Pro",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "b1443c15",
-     "baslik": "Hava durumu verisine sabotaj riski artıyor",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "49d8cb27",
-     "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "61dced22",
-     "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
-     "tarih": "2026-07-17"
     }
    ]
   },
   {
    "ad": "açık kaynak",
    "slug": "acik-kaynak",
-   "adet": 9,
+   "adet": 11,
    "son": [
+    {
+     "id": "162a22c4",
+     "baslik": "Yeni ölçüm: Çinli açık model Kimi K3, Anthropic'in Fable modeliyle başa baş",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "f9e92857",
+     "baslik": "Mac'te yapay zekâ modellerini yerel çalıştıran yeni uygulama: Nativ",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "90cef26b",
      "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
@@ -179,24 +189,24 @@
      "id": "623b1a8a",
      "baslik": "Rapor: Açık kaynak yapay zekâ ne durumda?",
      "tarih": "2026-07-18"
-    },
-    {
-     "id": "e5d9a870",
-     "baslik": "Açık modellerle kod yazan ajan: Open Interpreter yükselişte",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "b82b19a7",
-     "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
-     "tarih": "2026-07-17"
     }
    ]
   },
   {
    "ad": "modeller",
    "slug": "modeller",
-   "adet": 8,
+   "adet": 10,
    "son": [
+    {
+     "id": "5479f7ef",
+     "baslik": "Google'dan üç yeni Gemini: 3.6 Flash, 3.5 Flash-Lite ve siber güvenlik modeli",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "162a22c4",
+     "baslik": "Yeni ölçüm: Çinli açık model Kimi K3, Anthropic'in Fable modeliyle başa baş",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "90cef26b",
      "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
@@ -211,24 +221,24 @@
      "id": "b82b19a7",
      "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
      "tarih": "2026-07-17"
-    },
-    {
-     "id": "9d6f1edd",
-     "baslik": "Almanya'dan açık model: Soofi S, İngilizce ve Almancada zirvede",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "f26aefe7",
-     "baslik": "Thinking Machines ilk modelini yayımladı: 975 milyar parametreli açık model Inkling",
-     "tarih": "2026-07-16"
     }
    ]
   },
   {
    "ad": "ajanlar",
    "slug": "ajanlar",
-   "adet": 7,
+   "adet": 9,
    "son": [
+    {
+     "id": "20b0eb2d",
+     "baslik": "OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine sızdı",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "af599775",
+     "baslik": "Jack Dorsey'den Slack'e rakip: insanları ve YZ ajanlarını aynı sohbete koyan Buzz",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "d4ff9ec8",
      "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
@@ -243,15 +253,37 @@
      "id": "49d8cb27",
      "baslik": "Araştırma ajanları artık arama döngüsüne takılıp kalmasın diye: SearchOS",
      "tarih": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "ad": "güvenlik",
+   "slug": "guvenlik",
+   "adet": 7,
+   "son": [
+    {
+     "id": "20b0eb2d",
+     "baslik": "OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine sızdı",
+     "tarih": "2026-07-22"
     },
     {
-     "id": "5b346ee1",
-     "baslik": "Deneyimden öğrenen kişisel bilgisayar asistanı: KnowAct-GUIClaw",
-     "tarih": "2026-07-16"
+     "id": "5479f7ef",
+     "baslik": "Google'dan üç yeni Gemini: 3.6 Flash, 3.5 Flash-Lite ve siber güvenlik modeli",
+     "tarih": "2026-07-22"
     },
     {
-     "id": "b409dc7b",
-     "baslik": "Çalıştırmaya hazır 100'den fazla yapay zekâ uygulaması: awesome-llm-apps",
+     "id": "d4ff9ec8",
+     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "b1443c15",
+     "baslik": "Hava durumu verisine sabotaj riski artıyor",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "ee230258",
+     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
      "tarih": "2026-07-16"
     }
    ]
@@ -259,8 +291,13 @@
   {
    "ad": "Google",
    "slug": "google",
-   "adet": 6,
+   "adet": 7,
    "son": [
+    {
+     "id": "5479f7ef",
+     "baslik": "Google'dan üç yeni Gemini: 3.6 Flash, 3.5 Flash-Lite ve siber güvenlik modeli",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "d573260c",
      "baslik": "Google, Gemini'yi daha verimli çalıştıracak yeni bir çip geliştiriyor",
@@ -280,51 +317,24 @@
      "id": "79ed56fa",
      "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
      "tarih": "2026-07-17"
-    },
-    {
-     "id": "cb9db543",
-     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "güvenlik",
-   "slug": "guvenlik",
-   "adet": 5,
-   "son": [
-    {
-     "id": "d4ff9ec8",
-     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "b1443c15",
-     "baslik": "Hava durumu verisine sabotaj riski artıyor",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "ee230258",
-     "baslik": "OpenAI kendi modellerini denemek için 'süper hacker' bir YZ geliştirdi: GPT-Red",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "3f7f2e44",
-     "baslik": "Ajanların tehlikeli komutlarına fren: dcg, silici komutları çalışmadan durduruyor",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "b8295173",
-     "baslik": "Dependabot artık yeni paket sürümleri için üç gün bekliyor",
-     "tarih": "2026-07-15"
     }
    ]
   },
   {
    "ad": "Çin",
    "slug": "cin",
-   "adet": 4,
+   "adet": 6,
    "son": [
+    {
+     "id": "162a22c4",
+     "baslik": "Yeni ölçüm: Çinli açık model Kimi K3, Anthropic'in Fable modeliyle başa baş",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "2a32c5e4",
+     "baslik": "ABD'den yeni hamle: Çinli yapay zekâ modellerine yaptırım tehdidi",
+     "tarih": "2026-07-22"
+    },
     {
      "id": "90cef26b",
      "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
@@ -339,11 +349,102 @@
      "id": "b82b19a7",
      "baslik": "Çin'den dev açık model: Kimi K3, 2,8 trilyon parametreyle geldi",
      "tarih": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "ad": "kurumsal YZ",
+   "slug": "kurumsal-yz",
+   "adet": 5,
+   "son": [
+    {
+     "id": "af599775",
+     "baslik": "Jack Dorsey'den Slack'e rakip: insanları ve YZ ajanlarını aynı sohbete koyan Buzz",
+     "tarih": "2026-07-22"
     },
     {
-     "id": "fe6ab2ef",
-     "baslik": "Apple Intelligence, Alibaba'nın Qwen modeliyle Çin'de onay aldı",
+     "id": "b03fdae3",
+     "baslik": "Hayat Kimya, 65 milyon dolarlık enerji bütçesini kendi yapay zekâsıyla yönetiyor",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "81d1d75c",
+     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "df39e0ae",
+     "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
+     "tarih": "2026-07-18"
+    },
+    {
+     "id": "83d5a153",
+     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
      "tarih": "2026-07-16"
+    }
+   ]
+  },
+  {
+   "ad": "regülasyon",
+   "slug": "regulasyon",
+   "adet": 5,
+   "son": [
+    {
+     "id": "2a32c5e4",
+     "baslik": "ABD'den yeni hamle: Çinli yapay zekâ modellerine yaptırım tehdidi",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "66e5c0ba",
+     "baslik": "ABD, Çinli yapay zekâ modellerini engellemek için düğmeye bastı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f2d4f0d1",
+     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "cb9db543",
+     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "Türkiye",
+   "slug": "turkiye",
+   "adet": 5,
+   "son": [
+    {
+     "id": "b03fdae3",
+     "baslik": "Hayat Kimya, 65 milyon dolarlık enerji bütçesini kendi yapay zekâsıyla yönetiyor",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "81d1d75c",
+     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "fd8d69ff",
+     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "10fd57ef",
+     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "86e5b702",
+     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
+     "tarih": "2026-07-09"
     }
    ]
   },
@@ -402,60 +503,6 @@
    ]
   },
   {
-   "ad": "regülasyon",
-   "slug": "regulasyon",
-   "adet": 4,
-   "son": [
-    {
-     "id": "66e5c0ba",
-     "baslik": "ABD, Çinli yapay zekâ modellerini engellemek için düğmeye bastı",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "f2d4f0d1",
-     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "e74d29ba",
-     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "cb9db543",
-     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "Türkiye",
-   "slug": "turkiye",
-   "adet": 4,
-   "son": [
-    {
-     "id": "81d1d75c",
-     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "fd8d69ff",
-     "baslik": "Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar yatırım aldı",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "10fd57ef",
-     "baslik": "Marka tescilini hızlandıran yerli platform tmark.ai yayında",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "86e5b702",
-     "baslik": "Borusan Ventures'ın da katıldığı turda Omen AI 41,5 milyon dolar topladı",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
    "ad": "Meta",
    "slug": "meta",
    "adet": 4,
@@ -483,24 +530,24 @@
    ]
   },
   {
-   "ad": "kurumsal YZ",
-   "slug": "kurumsal-yz",
+   "ad": "donanım",
+   "slug": "donanim",
    "adet": 3,
    "son": [
     {
-     "id": "81d1d75c",
-     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
-     "tarih": "2026-07-21"
+     "id": "ade7e27d",
+     "baslik": "Veri merkezlerinin elektrik tüketimi 2035'e kadar dörde katlanabilir",
+     "tarih": "2026-07-22"
     },
     {
-     "id": "df39e0ae",
-     "baslik": "Databricks'in değeri 188 milyar dolara ulaştı",
-     "tarih": "2026-07-18"
-    },
-    {
-     "id": "83d5a153",
-     "baslik": "Anthropic destekli Ode kuruldu: 'Sıradaki trilyon dolarlık iş, YZ'yi şirketlere kurmak'",
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
      "tarih": "2026-07-16"
+    },
+    {
+     "id": "dc52ec30",
+     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
+     "tarih": "2026-07-15"
     }
    ]
   },
@@ -567,6 +614,40 @@
      "id": "67b034bb",
      "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "veri merkezleri",
+   "slug": "veri-merkezleri",
+   "adet": 2,
+   "son": [
+    {
+     "id": "ade7e27d",
+     "baslik": "Veri merkezlerinin elektrik tüketimi 2035'e kadar dörde katlanabilir",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
+   "ad": "video üretimi",
+   "slug": "video-uretimi",
+   "adet": 2,
+   "son": [
+    {
+     "id": "dbe4c24c",
+     "baslik": "Metinden oyun dünyası: AlayaWorld, içinde gezilebilen sanal dünyalar üretiyor",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "d4ca69cf",
+     "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
+     "tarih": "2026-07-17"
     }
    ]
   },
@@ -656,23 +737,6 @@
    ]
   },
   {
-   "ad": "donanım",
-   "slug": "donanim",
-   "adet": 2,
-   "son": [
-    {
-     "id": "d7170a29",
-     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "dc52ec30",
-     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
    "ad": "gizlilik",
    "slug": "gizlilik",
    "adet": 2,
@@ -690,14 +754,14 @@
    ]
   },
   {
-   "ad": "video üretimi",
-   "slug": "video-uretimi",
+   "ad": "görsel üretim",
+   "slug": "gorsel-uretim",
    "adet": 1,
    "son": [
     {
-     "id": "d4ca69cf",
-     "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
-     "tarih": "2026-07-17"
+     "id": "60f3b696",
+     "baslik": "Küçük ama iddialı görsel model: 4 milyar parametrelik Mage-Flow",
+     "tarih": "2026-07-22"
     }
    ]
   },
@@ -721,18 +785,6 @@
     {
      "id": "f6d4f1f6",
      "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
-   "ad": "veri merkezleri",
-   "slug": "veri-merkezleri",
-   "adet": 1,
-   "son": [
-    {
-     "id": "e74d29ba",
-     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
      "tarih": "2026-07-15"
     }
    ]

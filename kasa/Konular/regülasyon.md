@@ -4,8 +4,9 @@ tur: konu
 
 # regülasyon
 
-4 haber
+5 haber
 
+- [[2026-07-22 ABD'den yeni hamle Çinli yapay zekâ modellerine yaptırım teh]] — 2026-07-22, Gündem
 - [[2026-07-21 ABD, Çinli yapay zekâ modellerini engellemek için düğmeye ba]] — 2026-07-21, Gündem
 - [[2026-07-17 AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor]] — 2026-07-17, Gündem
 - [[2026-07-15 New York, yeni veri merkezi inşaatını bir yıllığına durdurdu]] — 2026-07-15, Gündem

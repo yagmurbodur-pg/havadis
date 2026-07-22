@@ -4,8 +4,10 @@ tur: konu
 
 # araştırma
 
-10 haber
+12 haber
 
+- [[2026-07-22 Metinden oyun dünyası AlayaWorld, içinde gezilebilen sanal d]] — 2026-07-22, Araştırma Masası
+- [[2026-07-22 Küçük ama iddialı görsel model 4 milyar parametrelik Mage-Fl]] — 2026-07-22, Araştırma Masası
 - [[2026-07-21 İddia Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti]] — 2026-07-21, Araştırma Masası
 - [[2026-07-21 Kod ajanı neyi unutacağını zaten biliyor SWE-Pruner Pro]] — 2026-07-21, Araştırma Masası
 - [[2026-07-18 Hava durumu verisine sabotaj riski artıyor]] — 2026-07-18, Araştırma Masası

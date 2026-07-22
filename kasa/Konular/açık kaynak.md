@@ -4,8 +4,10 @@ tur: konu
 
 # açık kaynak
 
-9 haber
+11 haber
 
+- [[2026-07-22 Yeni ölçüm Çinli açık model Kimi K3, Anthropic'in Fable mode]] — 2026-07-22, Gündem
+- [[2026-07-22 Mac'te yapay zekâ modellerini yerel çalıştıran yeni uygulama]] — 2026-07-22, Araç Çantası
 - [[2026-07-21 Çin'den peş peşe iki hamle Kimi ve Qwen, ABD'li devlere kafa]] — 2026-07-21, Kapak
 - [[2026-07-21 Açık kaynak ses stüdyosu voicebox sesini klonla, dikte et, s]] — 2026-07-21, Araç Çantası
 - [[2026-07-18 Rapor Açık kaynak yapay zekâ ne durumda]] — 2026-07-18, Araştırma Masası

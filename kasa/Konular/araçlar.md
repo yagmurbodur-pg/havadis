@@ -4,8 +4,10 @@ tur: konu
 
 # araçlar
 
-13 haber
+15 haber
 
+- [[2026-07-22 Mac'te yapay zekâ modellerini yerel çalıştıran yeni uygulama]] — 2026-07-22, Araç Çantası
+- [[2026-07-22 Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi i-have-a]] — 2026-07-22, Araç Çantası
 - [[2026-07-21 Kod ajanına ücretsiz internet erişimi wigolo]] — 2026-07-21, Araç Çantası
 - [[2026-07-21 Açık kaynak ses stüdyosu voicebox sesini klonla, dikte et, s]] — 2026-07-21, Araç Çantası
 - [[2026-07-18 Açık modellerle kod yazan ajan Open Interpreter yükselişte]] — 2026-07-18, Araç Çantası

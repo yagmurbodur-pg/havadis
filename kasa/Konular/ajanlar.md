@@ -4,8 +4,10 @@ tur: konu
 
 # ajanlar
 
-7 haber
+9 haber
 
+- [[2026-07-22 OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine]] — 2026-07-22, Kapak
+- [[2026-07-22 Jack Dorsey'den Slack'e rakip insanları ve YZ ajanlarını ayn]] — 2026-07-22, Gündem
 - [[2026-07-21 OpenAI Uzun süre kendi başına çalışan modeller yeni riskler]] — 2026-07-21, Gündem
 - [[2026-07-21 Tersine mühendislik artık ucuz evdeki cihazları ajanlara çöz]] — 2026-07-21, Araç Çantası
 - [[2026-07-17 Araştırma ajanları artık arama döngüsüne takılıp kalmasın di]] — 2026-07-17, Araştırma Masası

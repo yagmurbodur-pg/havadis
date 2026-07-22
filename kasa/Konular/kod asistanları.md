@@ -4,8 +4,9 @@ tur: konu
 
 # kod asistanları
 
-12 haber
+13 haber
 
+- [[2026-07-22 Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi i-have-a]] — 2026-07-22, Araç Çantası
 - [[2026-07-21 Kod ajanı neyi unutacağını zaten biliyor SWE-Pruner Pro]] — 2026-07-21, Araştırma Masası
 - [[2026-07-21 Kod ajanına ücretsiz internet erişimi wigolo]] — 2026-07-21, Araç Çantası
 - [[2026-07-21 Tersine mühendislik artık ucuz evdeki cihazları ajanlara çöz]] — 2026-07-21, Araç Çantası
