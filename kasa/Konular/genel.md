@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-41 haber
+47 haber
 
+- [[2026-07-24 Launching Health in ChatGPT]] — 2026-07-24, Kapak
+- [[2026-07-24 How AI guardrails are impeding the work of offensive cyberse]] — 2026-07-24, Gündem
+- [[2026-07-24 98.css]] — 2026-07-24, Gündem
+- [[2026-07-24 Alexa Plus is getting an AI update to handle more complicate]] — 2026-07-24, Gündem
+- [[2026-07-24 Nubia NaviX Ultra Özellikleri Sızdırıldı! Yapay Zeka Odaklı]] — 2026-07-24, Gündem
+- [[2026-07-24 AMD takes on Nvidia with its Helios AI rack-scale system]] — 2026-07-24, Gündem
 - [[2026-07-20 AI advice made people less accurate but more confident – sud]] — 2026-07-20, Kapak
 - [[2026-07-20 What to watch for after Jensen Huang’s Japan visit]] — 2026-07-20, Gündem
 - [[2026-07-20 Meta’dan Ses Tonuyla Duygu Analizi Yapan Yeni Patent]] — 2026-07-20, Gündem
