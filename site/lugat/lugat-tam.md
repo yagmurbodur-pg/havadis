@@ -9,9 +9,11 @@ Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir;
 
 ## İlişkiler
 - [[Claude]] — geliştirdiği model ailesi (haber: b84f0061)
+- [[Opus 5]] — duyurduğu en yeni model (haber: e75df101)
 - [[Ode]] — desteklediği kurumsal yapay zekâ girişimi (haber: 83d5a153)
 
 ## Gelişmeler
+- **2026-07-25** — Claude ailesinin en üst düzey modeli Claude Opus 5'i duyurdu. (haber: e75df101)
 - **2026-07-21** — Bir ABD mahkemesi, eserlerin model eğitiminde kullanılmasıyla ilgili 1,5 milyar dolarlık telif uzlaşmasına kesin onay verdi. (haber: 70097351)
 - **2026-07-16** — Blackstone ve Goldman Sachs ile birlikte, şirketlere yapay zekâ kuran Ode girişiminin destekçileri arasında yer aldı. (haber: 83d5a153)
 - **2026-07-15** — Claude'un iletişiminin seçilen modele ve kullanılan dile göre değiştiğini doğrulayan bir araştırma yayımladı. (haber: b84f0061)
@@ -70,8 +72,10 @@ Claude, [[Anthropic]]'in geliştirdiği büyük dil modeli ailesidir; aynı ad, 
 
 ## İlişkiler
 - [[Anthropic]] — geliştiricisi (haber: b84f0061)
+- [[Opus 5]] — ailenin en üst düzey modeli (haber: e75df101)
 
 ## Gelişmeler
+- **2026-07-25** — Anthropic, aileye en üst düzey model olarak Claude Opus 5'i ekledi. (haber: e75df101)
 - **2026-07-21** — Bir matematikçinin iddiasına göre Claude Fable, Jacobian Hipotezi'ne karşı örnek üretti; sonuç henüz hakemli bir yayında doğrulanmadı. (haber: f3a7c008)
 - **2026-07-15** — Anthropic, modelin iletişiminin seçilen modele ve kullanılan dile göre değiştiğini doğrulayan bir araştırma yayımladı. (haber: b84f0061)
 - **2026-07-15** — Bir güvenlik araştırmacısı, hafıza özelliğini kandırarak kullanıcı bilgilerini sızdırtabildiğini iddia etti. (haber: bba9d9e9)
@@ -307,6 +311,22 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - **2026-07-15** — İlk donanım ürününün, ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör olabileceği bildirildi. (haber: dc52ec30)
 - **2026-07-15** — Kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması tepki topladı. (haber: 23f5e51c)
 - **2026-07-09** — GPT-5.6'yı üç boyuyla herkesin kullanımına açtı. (haber: 54ee76ae)
+
+
+## Opus 5
+
+_Anthropic'in Claude ailesindeki en üst düzey modeli; 25 Temmuz 2026'da duyuruldu._
+
+Opus 5 (tam adıyla Claude Opus 5), [[Anthropic]]'in [[Claude]] model ailesindeki en üst düzey büyük dil modelidir; şirketin Opus, Sonnet ve Haiku olarak sıraladığı boylardan en yeteneklisine karşılık gelir. Temmuz 2026'da duyuruldu ve çıkışıyla birlikte Artificial Analysis'in zekâ liderlik tablosunda ilk sıraya yerleşti. Yorumcuların bir bölümü sürümü bir yetenek sıçramasından çok token verimliliği (aynı işi daha az hesap birimiyle, dolayısıyla daha ucuza yapabilme) adımı olarak değerlendirdi; bu görüşe göre modeller hızla iyileşse de çoğu iş için daha ucuz seçenekler çoğu zaman yeterli kalıyor. Model, Anthropic'in genel amaçlı asistan ve [[Kod asistanı]] kullanımlarında öne çıkardığı amiral gemisi olarak konumlanıyor.
+
+## İlişkiler
+- [[Anthropic]] — geliştiricisi (haber: e75df101)
+- [[Claude]] — üyesi olduğu model ailesi
+
+## Gelişmeler
+- **2026-07-25** — Anthropic tarafından herkese duyuruldu. (haber: e75df101)
+- **2026-07-25** — Artificial Analysis zekâ liderlik tablosunda ilk sıraya yerleşti. (haber: e616440e)
+- **2026-07-25** — Yaygın değerlendirme, sürümün yetenek sıçramasından çok token verimliliğine odaklandığı yönünde oldu. (haber: 70081e2e)
 
 
 ## Patreon

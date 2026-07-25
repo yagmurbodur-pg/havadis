@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 47,
+   "adet": 53,
    "son": [
     {
-     "id": "7569338e",
-     "baslik": "Launching Health in ChatGPT",
-     "tarih": "2026-07-24"
+     "id": "e75df101",
+     "baslik": "Introducing Claude Opus 5",
+     "tarih": "2026-07-25"
     },
     {
-     "id": "bbe4c3fe",
-     "baslik": "How AI guardrails are impeding the work of offensive cybersecurity researchers",
-     "tarih": "2026-07-24"
+     "id": "68eaa3a9",
+     "baslik": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone els",
+     "tarih": "2026-07-25"
     },
     {
-     "id": "e989f4e0",
-     "baslik": "98.css",
-     "tarih": "2026-07-24"
+     "id": "5c26666d",
+     "baslik": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
+     "tarih": "2026-07-25"
     },
     {
-     "id": "c6bad60c",
-     "baslik": "Alexa Plus is getting an AI update to handle more complicated instructions",
-     "tarih": "2026-07-24"
+     "id": "e7c94365",
+     "baslik": "Canadian legislator reads out apparent LLM response in floor speech",
+     "tarih": "2026-07-25"
     },
     {
-     "id": "3e45c74b",
-     "baslik": "Nubia NaviX Ultra Özellikleri Sızdırıldı! Yapay Zeka Odaklı Amiral Gemisi",
-     "tarih": "2026-07-24"
+     "id": "70081e2e",
+     "baslik": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
+     "tarih": "2026-07-25"
     }
    ]
   },

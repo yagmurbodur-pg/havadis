@@ -25,6 +25,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[GPT-Red]]
 - [[Inkling]]
 - [[Kimi K3]]
+- [[Opus 5]]
 - [[Qwen]]
 - [[Soofi S]]
 

@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-47 haber
+53 haber
 
+- [[2026-07-25 Introducing Claude Opus 5]] — 2026-07-25, Kapak
+- [[2026-07-25 I tried out OpenAI’s new AI keypad — which will be fun for s]] — 2026-07-25, Gündem
+- [[2026-07-25 Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus]] — 2026-07-25, Gündem
+- [[2026-07-25 Canadian legislator reads out apparent LLM response in floor]] — 2026-07-25, Gündem
+- [[2026-07-25 Anthropic's Opus 5 is about token efficiency, not a capabili]] — 2026-07-25, Gündem
+- [[2026-07-25 Opus 5 is currently 1 on Artificial Analysis Intelligence Le]] — 2026-07-25, Gündem
 - [[2026-07-24 Launching Health in ChatGPT]] — 2026-07-24, Kapak
 - [[2026-07-24 How AI guardrails are impeding the work of offensive cyberse]] — 2026-07-24, Gündem
 - [[2026-07-24 98.css]] — 2026-07-24, Gündem
