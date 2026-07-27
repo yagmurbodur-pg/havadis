@@ -7,7 +7,9 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Anthropic]]
 - [[Apple]]
 - [[Databricks]]
+- [[DeepSeek]]
 - [[Google]]
+- [[Hugging Face]]
 - [[Meta]]
 - [[microagi]]
 - [[Moonshot AI]]
@@ -31,10 +33,14 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 ## Ürünler
 
+- [[Buzz]]
 - [[ChatGPT]]
+- [[Claude Cowork]]
 - [[Dependabot]]
+- [[ego-lite]]
 - [[Grok Build]]
 - [[Open Interpreter]]
+- [[open-code-review]]
 - [[Siri]]
 - [[tmark.ai]]
 

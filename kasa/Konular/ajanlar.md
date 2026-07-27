@@ -4,8 +4,12 @@ tur: konu
 
 # ajanlar
 
-9 haber
+13 haber
 
+- [[2026-07-27 Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı R]] — 2026-07-27, Kapak
+- [[2026-07-27 Claude Cowork'te güvenlik açığı sanal makineden çıkıp Mac do]] — 2026-07-27, Gündem
+- [[2026-07-27 Ajanlar için tarayıcı ego-lite, oturumlarını Codex ve Claude]] — 2026-07-27, Araç Çantası
+- [[2026-07-27 Dorsey'nin insan-ajan sohbet platformu Buzz'ın kodu GitHub'd]] — 2026-07-27, Araç Çantası
 - [[2026-07-22 OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine]] — 2026-07-22, Kapak
 - [[2026-07-22 Jack Dorsey'den Slack'e rakip insanları ve YZ ajanlarını ayn]] — 2026-07-22, Gündem
 - [[2026-07-21 OpenAI Uzun süre kendi başına çalışan modeller yeni riskler]] — 2026-07-21, Gündem

@@ -4,8 +4,9 @@ tur: konu
 
 # Türkiye
 
-5 haber
+6 haber
 
+- [[2026-07-27 Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kulla]] — 2026-07-27, Türkiye'den
 - [[2026-07-22 Hayat Kimya, 65 milyon dolarlık enerji bütçesini kendi yapay]] — 2026-07-22, Türkiye'den
 - [[2026-07-21 FineDine, restoranlar için tam entegre yapay zekâ platformun]] — 2026-07-21, Türkiye'den
 - [[2026-07-17 Türk girişimci Bercan Kılıç'ın microagi'si 55 milyon dolar y]] — 2026-07-17, Türkiye'den

@@ -4,8 +4,9 @@ tur: konu
 
 # araştırma
 
-12 haber
+13 haber
 
+- [[2026-07-27 Fiziksel yapay zekânın yeni yakıtı beyin dalgaları olabilir]] — 2026-07-27, Araştırma Masası
 - [[2026-07-22 Metinden oyun dünyası AlayaWorld, içinde gezilebilen sanal d]] — 2026-07-22, Araştırma Masası
 - [[2026-07-22 Küçük ama iddialı görsel model 4 milyar parametrelik Mage-Fl]] — 2026-07-22, Araştırma Masası
 - [[2026-07-21 İddia Claude, ünlü Jacobian Hipotezi'ne karşı örnek üretti]] — 2026-07-21, Araştırma Masası

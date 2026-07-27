@@ -4,8 +4,10 @@ tur: konu
 
 # açık kaynak
 
-11 haber
+13 haber
 
+- [[2026-07-27 Moonshot CEO'sundan OpenAI'a sert çıkış 'Yeni bir şey icat e]] — 2026-07-27, Gündem
+- [[2026-07-27 Alibaba kod inceleme aracını açık kaynak yaptı open-code-rev]] — 2026-07-27, Araç Çantası
 - [[2026-07-22 Yeni ölçüm Çinli açık model Kimi K3, Anthropic'in Fable mode]] — 2026-07-22, Gündem
 - [[2026-07-22 Mac'te yapay zekâ modellerini yerel çalıştıran yeni uygulama]] — 2026-07-22, Araç Çantası
 - [[2026-07-21 Çin'den peş peşe iki hamle Kimi ve Qwen, ABD'li devlere kafa]] — 2026-07-21, Kapak

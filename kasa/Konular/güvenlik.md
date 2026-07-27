@@ -4,8 +4,10 @@ tur: konu
 
 # güvenlik
 
-7 haber
+9 haber
 
+- [[2026-07-27 Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı R]] — 2026-07-27, Kapak
+- [[2026-07-27 Claude Cowork'te güvenlik açığı sanal makineden çıkıp Mac do]] — 2026-07-27, Gündem
 - [[2026-07-22 OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine]] — 2026-07-22, Kapak
 - [[2026-07-22 Google'dan üç yeni Gemini 3.6 Flash, 3.5 Flash-Lite ve siber]] — 2026-07-22, Gündem
 - [[2026-07-21 OpenAI Uzun süre kendi başına çalışan modeller yeni riskler]] — 2026-07-21, Gündem

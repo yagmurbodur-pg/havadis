@@ -4,8 +4,11 @@ tur: konu
 
 # araçlar
 
-15 haber
+18 haber
 
+- [[2026-07-27 Ajanlar için tarayıcı ego-lite, oturumlarını Codex ve Claude]] — 2026-07-27, Araç Çantası
+- [[2026-07-27 Dorsey'nin insan-ajan sohbet platformu Buzz'ın kodu GitHub'd]] — 2026-07-27, Araç Çantası
+- [[2026-07-27 Alibaba kod inceleme aracını açık kaynak yaptı open-code-rev]] — 2026-07-27, Araç Çantası
 - [[2026-07-22 Mac'te yapay zekâ modellerini yerel çalıştıran yeni uygulama]] — 2026-07-22, Araç Çantası
 - [[2026-07-22 Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi i-have-a]] — 2026-07-22, Araç Çantası
 - [[2026-07-21 Kod ajanına ücretsiz internet erişimi wigolo]] — 2026-07-21, Araç Çantası

@@ -4,8 +4,9 @@ tur: konu
 
 # Çin
 
-6 haber
+7 haber
 
+- [[2026-07-27 Moonshot CEO'sundan OpenAI'a sert çıkış 'Yeni bir şey icat e]] — 2026-07-27, Gündem
 - [[2026-07-22 Yeni ölçüm Çinli açık model Kimi K3, Anthropic'in Fable mode]] — 2026-07-22, Gündem
 - [[2026-07-22 ABD'den yeni hamle Çinli yapay zekâ modellerine yaptırım teh]] — 2026-07-22, Gündem
 - [[2026-07-21 Çin'den peş peşe iki hamle Kimi ve Qwen, ABD'li devlere kafa]] — 2026-07-21, Kapak
