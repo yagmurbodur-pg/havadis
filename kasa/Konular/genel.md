@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-53 haber
+59 haber
 
+- [[2026-07-27 Monday.com is the latest tech company to blame AI for layoff]] — 2026-07-27, Kapak
+- [[2026-07-27 DeepSeek pause fundraise after comments on compute gap to US]] — 2026-07-27, Gündem
+- [[2026-07-27 GM Backs Sodium Ion Batteries for U.S. Grid Storage]] — 2026-07-27, Gündem
+- [[2026-07-27 Turn And Face The Strange]] — 2026-07-27, Gündem
+- [[2026-07-27 The new rules of context engineering for Claude 5 generation]] — 2026-07-27, Gündem
+- [[2026-07-27 LLM Usage in Debian Three Proposals]] — 2026-07-27, Gündem
 - [[2026-07-25 Introducing Claude Opus 5]] — 2026-07-25, Kapak
 - [[2026-07-25 I tried out OpenAI’s new AI keypad — which will be fun for s]] — 2026-07-25, Gündem
 - [[2026-07-25 Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus]] — 2026-07-25, Gündem

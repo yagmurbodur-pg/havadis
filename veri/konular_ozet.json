@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 53,
+   "adet": 59,
    "son": [
     {
-     "id": "e75df101",
-     "baslik": "Introducing Claude Opus 5",
-     "tarih": "2026-07-25"
+     "id": "cc992448",
+     "baslik": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+     "tarih": "2026-07-27"
     },
     {
-     "id": "68eaa3a9",
-     "baslik": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone els",
-     "tarih": "2026-07-25"
+     "id": "7f366388",
+     "baslik": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+     "tarih": "2026-07-27"
     },
     {
-     "id": "5c26666d",
-     "baslik": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-     "tarih": "2026-07-25"
+     "id": "8622cff3",
+     "baslik": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+     "tarih": "2026-07-27"
     },
     {
-     "id": "e7c94365",
-     "baslik": "Canadian legislator reads out apparent LLM response in floor speech",
-     "tarih": "2026-07-25"
+     "id": "9130fcc2",
+     "baslik": "Turn And Face The Strange",
+     "tarih": "2026-07-27"
     },
     {
-     "id": "70081e2e",
-     "baslik": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
-     "tarih": "2026-07-25"
+     "id": "81e43f03",
+     "baslik": "The new rules of context engineering for Claude 5 generation models",
+     "tarih": "2026-07-27"
     }
    ]
   },

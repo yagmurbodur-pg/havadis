@@ -1,203 +1,239 @@
 {
- "tarih": "2026-07-25",
+ "tarih": "2026-07-27",
  "haberler": [
   {
-   "id": "e75df101",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
+   "id": "cc992448",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
    "bolum": "Kapak",
-   "baslik": "Introducing Claude Opus 5",
-   "ozet": "Introducing Claude Opus 5",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Anthropic",
-   "url": "https://www.anthropic.com/news/claude-opus-5",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5/#atom-everything",
-     "baslik": "Introducing Claude Opus 5"
-    }
-   ]
-  },
-  {
-   "id": "68eaa3a9",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
-   "bolum": "Gündem",
-   "baslik": "I tried out OpenAI’s new AI keypad — which will be fun for some coders and slightly mystifying to everyone els",
-   "ozet": "OpenAI's fancy new AI keypad will be a lot of fun for some, while many others are probably not going to touch it.",
+   "baslik": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
+   "ozet": "A running look — in reverse chronological order — at the bigger tech companies that have announced significant layoffs this year with AI as a stated factor.",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else/",
+   "url": "https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai/",
    "ek_kaynaklar": []
   },
   {
-   "id": "5c26666d",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
+   "id": "7f366388",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
    "bolum": "Gündem",
-   "baslik": "Prentis, new AI lab co-founded by Reid Hoffman, Mark Pincus in talks to raise $100M",
-   "ozet": "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/24/prentis-new-ai-lab-co-founded-by-reid-hoffman-mark-pincus-in-talks-to-raise-100m/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "e7c94365",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
-   "bolum": "Gündem",
-   "baslik": "Canadian legislator reads out apparent LLM response in floor speech",
-   "ozet": "\"Here’s a more natural, flowing version of that section...\"",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/ai/2026/07/canadian-legislator-reads-out-apparent-llm-response-in-floor-speech/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "70081e2e",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
-   "bolum": "Gündem",
-   "baslik": "Anthropic's Opus 5 is about token efficiency, not a capability leap",
-   "ozet": "Models are improving quickly, but the cheaper options are often good enough.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/ai/2026/07/anthropics-opus-5-is-about-token-efficiency-not-a-capability-leap/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "e616440e",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
-   "bolum": "Gündem",
-   "baslik": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
-   "ozet": "Opus 5 is currently #1 on Artificial Analysis Intelligence Leaderboard",
+   "baslik": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
+   "ozet": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
    "iliskili": [],
    "kaynak": "HN Ana Sayfa",
-   "url": "https://artificialanalysis.ai/models",
+   "url": "https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49040741",
+     "url": "https://news.ycombinator.com/item?id=49052912",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "70b0fd35",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
+   "id": "8622cff3",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
+   "bolum": "Gündem",
+   "baslik": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+   "ozet": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://spectrum.ieee.org/sodium-ion-battery-peak-energy",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49051947",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "9130fcc2",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
+   "bolum": "Gündem",
+   "baslik": "Turn And Face The Strange",
+   "ozet": "Turn And Face The Strange",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://fly.io/blog/kurt-scott-money-sprites/",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49051369",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "81e43f03",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
+   "bolum": "Gündem",
+   "baslik": "The new rules of context engineering for Claude 5 generation models",
+   "ozet": "The new rules of context engineering for Claude 5 generation models",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49051361",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "10e81be2",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
+   "bolum": "Gündem",
+   "baslik": "LLM Usage in Debian: Three Proposals",
+   "ozet": "LLM Usage in Debian: Three Proposals",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.debian.org/vote/2026/vote_002",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49050859",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "62808420",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
    "bolum": "Radar",
-   "baslik": "Postgres LISTEN/NOTIFY actually scales",
-   "ozet": "Postgres LISTEN/NOTIFY actually scales",
+   "baslik": "Producing ammonia and fertiliser using wind power in Morris, Minnesota",
+   "ozet": "Producing ammonia and fertiliser using wind power in Morris, Minnesota",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "HN Ana Sayfa",
-   "url": "https://www.dbos.dev/blog/postgres-listen-notify-scalability",
+   "url": "https://ammoniaenergy.org/articles/flexible-renewable-ammonia-demonstrator-now-operational-in-minnesota/",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49040296",
+     "url": "https://news.ycombinator.com/item?id=49050735",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "6e35222f",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
+   "id": "d94a8cd9",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
    "bolum": "Radar",
-   "baslik": "Anthropic, Claude Opus 5 Modelini Duyurdu",
-   "ozet": "Anthropic, Claude Opus 5 Modelini Duyurdu",
+   "baslik": "San Francisco’daki Yapay Zeka Zirvesinde 750 Milyar Dolarlık Anlaşma Rüzgarı",
+   "ozet": "San Francisco’daki Yapay Zeka Zirvesinde 750 Milyar Dolarlık Anlaşma Rüzgarı",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "ShiftDelete YZ",
-   "url": "https://shiftdelete.net/anthropic-claude-opus-5-modelini-duyurdu",
+   "url": "https://shiftdelete.net/san-franciscodaki-yapay-zeka-zirvesinde-750-milyar-dolarlik-anlasma-ruzgari",
    "ek_kaynaklar": []
   },
   {
-   "id": "8622540f",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
+   "id": "5f284dec",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
    "bolum": "Radar",
-   "baslik": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
-   "ozet": "Why Cognition bought Poke: AI personality is becoming a competitive advantage",
+   "baslik": "Running a 28.9M parameter LLM on an $8 microcontroller",
+   "ozet": "Running a 28.9M parameter LLM on an $8 microcontroller",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://github.com/slvDev/esp32-ai",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49050512",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "b18867ee",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
+   "bolum": "Radar",
+   "baslik": "Show HN: Brolly, a plain-text weather forecast site",
+   "ozet": "Show HN: Brolly, a plain-text weather forecast site",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://brolly.sh/forecast/RWFP2qW8",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49049693",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "2040a4e4",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
+   "bolum": "Radar",
+   "baslik": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
+   "ozet": "Librarians are hosting viral ‘Avoiding AI’ workshops for people who are fed up with Big Tech",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/24/why-cognition-bought-poke-ai-personality-is-becoming-a-competitive-advantage/",
+   "url": "https://techcrunch.com/2026/07/25/librarians-are-hosting-viral-avoiding-ai-workshops-for-people-who-are-fed-up-with-big-tech/",
    "ek_kaynaklar": []
   },
   {
-   "id": "aca42f61",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
+   "id": "2635b89b",
+   "tarih": "2026-07-27",
+   "sayi_no": 17,
    "bolum": "Radar",
-   "baslik": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
-   "ozet": "Team uses AlphaFold AI to redesign gene-editing proteins to make them safer",
+   "baslik": "Open-weight AI is having its Kubernetes moment",
+   "ozet": "Open-weight AI is having its Kubernetes moment",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "e69b66c3",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
-   "bolum": "Radar",
-   "baslik": "You can’t ignore Google Zero anymore",
-   "ozet": "You can’t ignore Google Zero anymore",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/podcast/970735/google-zero-reddit-ai-publishers-vergecast",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "254c94d3",
-   "tarih": "2026-07-25",
-   "sayi_no": 16,
-   "bolum": "Radar",
-   "baslik": "Anthropic launches Opus 5",
-   "ozet": "Anthropic launches Opus 5",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/",
-   "ek_kaynaklar": []
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://tobi.knaup.me/2026-07-25-open-weight-ai-is-having-its-kubernetes-moment/",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49048034",
+     "baslik": "Yorumlar"
+    }
+   ]
   }
  ]
 }
