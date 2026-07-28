@@ -8,12 +8,16 @@ _Claude modellerini geliştiren, güvenlik odaklı ABD'li yapay zekâ şirketi._
 Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir; kendini yapay zekâ güvenliği odaklı bir laboratuvar olarak konumlandırır ve modellerinin davranışları üzerine düzenli araştırma yayımlar. Temmuz 2026'da yayımladığı bir çalışma, Claude'un kullanıcıyla kurduğu iletişimin seçilen modele ve kullanılan dile bağlı olarak değişebildiğini doğruladı; buna göre Claude'u Türkçe kullananlar, İngilizce kullananlardan farklı bir deneyim yaşıyor olabilir. Bu tür bulguların şirket tarafından açıkça yayımlanması, model davranışının şeffaflığı tartışmasında Anthropic'i öne çıkaran unsurlardan biri. Aynı dönemde bir güvenlik araştırmacısının Claude'un hafıza özelliğine yönelik sızdırma iddiası, şirketin ürün güvenliğini de gündeme taşıdı.
 
 ## İlişkiler
+- [[Dario Amodei]] — kurucu ortağı ve CEO'su (haber: 287e1596)
 - [[Claude]] — geliştirdiği model ailesi (haber: b84f0061)
 - [[Opus 5]] — duyurduğu en yeni model (haber: e75df101)
 - [[Ode]] — desteklediği kurumsal yapay zekâ girişimi (haber: 83d5a153)
 - [[Claude Cowork]] — geliştirdiği ajan aracı (haber: b6e24602)
 
 ## Gelişmeler
+- **2026-07-28** — Açık ağırlıklı modellere ilişkin kurumsal tutumunu açıklayan bir yazı yayımladı. (haber: 80d8760f)
+- **2026-07-28** — CEO'su Dario Amodei, açık ağırlıklı modellere karşı olmadığını, asıl kaygısının Çin'in yapay zekâ yetenekleri olduğunu söyledi. (haber: 287e1596)
+- **2026-07-28** — Cognizant ile ortaklığını, Claude'u Cognizant'ın kurumsal müşterilerine sunacak biçimde genişletti. (haber: be0b73b3)
 - **2026-07-27** — Claude Cowork aracında, sanal makine yalıtımını aşıp Mac'teki dosyalara erişime imkân veren bir güvenlik açığı bildirildi. (haber: b6e24602)
 - **2026-07-25** — Claude ailesinin en üst düzey modeli Claude Opus 5'i duyurdu. (haber: e75df101)
 - **2026-07-21** — Bir ABD mahkemesi, eserlerin model eğitiminde kullanılmasıyla ilgili 1,5 milyar dolarlık telif uzlaşmasına kesin onay verdi. (haber: 70097351)
@@ -72,6 +76,7 @@ ChatGPT, [[OpenAI]]'ın sohbet tabanlı yapay zekâ asistanıdır: kullanıcı d
 - [[GPT-5.6]] — altında çalışan güncel model (haber: 54ee76ae)
 
 ## Gelişmeler
+- **2026-07-28** — OpenAI'ın yayımladığı araştırmaya göre ChatGPT kullanıcıları, rollerinin sınırlarını aşan görevler üstlenerek iş tanımlarını yeniden biçimlendiriyor. (haber: f143efbf)
 - **2026-07-27** — Ev yaşam markası Karaca, alışveriş asistanı AIDA'yı ChatGPT içindeki uygulaması üzerinden kullanıma açtı. (haber: 004745e0)
 - **2026-07-17** — Yaş grubuna uygun korumalar, öğrenme araçları ve ebeveyn kontrolleriyle gençler için daha güvenli hale getirildi. (haber: 8fe39edf)
 - **2026-07-15** — OpenAI'ın ilk donanım ürününün, ChatGPT ile konuşmayı sağlayan ekransız bir hoparlör olabileceği bildirildi. (haber: dc52ec30)
@@ -89,6 +94,8 @@ Claude, [[Anthropic]]'in geliştirdiği büyük dil modeli ailesidir; aynı ad, 
 - [[Opus 5]] — ailenin en üst düzey modeli (haber: e75df101)
 
 ## Gelişmeler
+- **2026-07-28** — Paylaşılan Claude sohbetlerinin ve Artifact'lerin Google aramasının dizinine girmiş olabileceği bildirildi. (haber: 023b55a1)
+- **2026-07-28** — Anthropic, Cognizant ile ortaklığını Claude'u Cognizant'ın kurumsal müşterilerine sunacak biçimde genişletti. (haber: be0b73b3)
 - **2026-07-27** — Anthropic, Claude 5 nesli modeller için bağlam mühendisliği (modele verilen bağlamın düzenlenmesi) kurallarını anlatan bir yazı yayımladı. (haber: 81e43f03)
 - **2026-07-25** — Anthropic, aileye en üst düzey model olarak Claude Opus 5'i ekledi. (haber: e75df101)
 - **2026-07-21** — Bir matematikçinin iddiasına göre Claude Fable, Jacobian Hipotezi'ne karşı örnek üretti; sonuç henüz hakemli bir yayında doğrulanmadı. (haber: f3a7c008)
@@ -107,6 +114,19 @@ Claude Cowork, [[Anthropic]]'in geliştirdiği, kullanıcının bilgisayarında 
 
 ## Gelişmeler
 - **2026-07-27** — Sanal makine yalıtımını aşıp Mac'teki dosyalara erişime imkân veren kritik bir güvenlik açığı bildirildi. (haber: b6e24602)
+
+
+## Dario Amodei
+
+_Anthropic'in kurucu ortağı ve CEO'su._
+
+Dario Amodei, yapay zekâ şirketi [[Anthropic]]'in kurucu ortağı ve CEO'sudur. [[OpenAI]]'da araştırmadan sorumlu başkan yardımcısı olarak çalıştıktan sonra, aralarında kardeşi Daniela Amodei'nin de bulunduğu bir grupla Anthropic'i kurdu. Şirketi yapay zekâ güvenliği odaklı bir laboratuvar olarak konumlandıran isimlerin başında gelir; yapay zekânın riskleri, ekonomik etkileri ve yönetişimi üzerine görüşlerini düzenli olarak kamuoyuyla paylaşır. Temmuz 2026'da açık ağırlıklı (herkesin indirip kendi sisteminde çalıştırabildiği) modeller tartışmasında tutumunu netleştirdi: bu modellere ilkece karşı olmadığını, asıl kaygısının Çin'in hızla gelişen yapay zekâ yetenekleri olduğunu söyledi. Bu açıklama, Anthropic'in aynı günlerde yayımladığı kurumsal tutum yazısıyla birlikte, kapalı model geliştiren laboratuvarların açık ağırlık stratejisine bakışının güncel bir kaydı oldu.
+
+## İlişkiler
+- [[Anthropic]] — kurucu ortağı ve CEO'su olduğu şirket (haber: 287e1596)
+
+## Gelişmeler
+- **2026-07-28** — Açık ağırlıklı modellere karşı olmadığını, asıl kaygısının Çin'in yapay zekâ yetenekleri olduğunu söyledi. (haber: 287e1596)
 
 
 ## Databricks
@@ -261,12 +281,13 @@ Inkling, [[Thinking Machines]]'in ilk yapay zekâ modelidir; Temmuz 2026'da yay�
 
 _Moonshot AI'ın yayımladığı, 2,8 trilyon parametreyle bugüne dek yayımlanmış en büyük açık ağırlıklı model._
 
-Kimi K3, Çinli yapay zekâ şirketi [[Moonshot AI]]'ın Temmuz 2026'da yayımladığı, 2,8 trilyon parametreyle bugüne dek yayımlanmış en büyük açık ağırlıklı (herkesin indirip kullanabildiği) modeldir. Model şu anda Moonshot'ın kendi sitesi ve API'si (uygulamaların modele program aracılığıyla erişmesini sağlayan arayüz) üzerinden kullanılabiliyor; ağırlıklarının (indirilebilir dosyalarının) 27 Temmuz 2026'ya kadar herkese açılması bekleniyor. Moonshot'ın paylaştığı test sonuçlarına göre Kimi K3, [[Claude]] Opus 4.8 max ve GPT-5.5 high modellerini büyük ölçüde geride bırakıyor; ancak Claude Fable 5 ve [[GPT-5.6]] Sol'un gerisinde kalıyor. Fiyatlandırmada Anthropic'in Sonnet 5 modeliyle aynı bantta kalıp güçte Opus 4.8 sınıfını hedefliyor: ucuz ama iddialı bir konumlanma. En büyük açık model unvanının Çin'e geçmesi, güçlü modellere erişimi ücretsiz ya da çok ucuz hale getirip rekabeti hızlandırıyor.
+Kimi K3, Çinli yapay zekâ şirketi [[Moonshot AI]]'ın Temmuz 2026'da yayımladığı, 2,8 trilyon parametreyle bugüne dek yayımlanmış en büyük açık ağırlıklı (herkesin indirip kullanabildiği) modeldir. Model Moonshot'ın kendi sitesi ve API'si (uygulamaların modele program aracılığıyla erişmesini sağlayan arayüz) üzerinden kullanılabiliyor; ağırlıkları (indirilebilir dosyaları) 28 Temmuz 2026'da ücretsiz olarak herkese açıldı. Moonshot'ın paylaştığı test sonuçlarına göre Kimi K3, [[Claude]] Opus 4.8 max ve GPT-5.5 high modellerini büyük ölçüde geride bırakıyor; ancak Claude Fable 5 ve [[GPT-5.6]] Sol'un gerisinde kalıyor. Fiyatlandırmada Anthropic'in Sonnet 5 modeliyle aynı bantta kalıp güçte Opus 4.8 sınıfını hedefliyor: ucuz ama iddialı bir konumlanma. En büyük açık model unvanının Çin'e geçmesi, güçlü modellere erişimi ücretsiz ya da çok ucuz hale getirip rekabeti hızlandırıyor.
 
 ## İlişkiler
 - [[Moonshot AI]] — geliştiricisi (haber: b82b19a7)
 
 ## Gelişmeler
+- **2026-07-28** — Ağırlıkları ücretsiz olarak herkese açıldı. (haber: dcba2faa)
 - **2026-07-27** — Önceki ölçümlerde Anthropic'in Fable modeliyle başa baş sonuç alması, Silikon Vadisi ve Wall Street'teki 'Çin paniği' tartışmasını büyüttü. (haber: 92132ecc)
 - **2026-07-17** — 2,8 trilyon parametreyle bugüne dek yayımlanmış en büyük açık ağırlıklı model olarak duyuruldu; ağırlıklarının 27 Temmuz 2026'ya kadar herkese açılması bekleniyor. (haber: b82b19a7)
 
@@ -323,6 +344,7 @@ Moonshot AI, Kimi model ailesini ve aynı adlı sohbet asistanını geliştiren 
 - [[Kimi K3]] — geliştirdiği, bugüne dek yayımlanmış en büyük açık ağırlıklı model (haber: b82b19a7)
 
 ## Gelişmeler
+- **2026-07-28** — Kimi K3'ün ağırlıklarını ücretsiz olarak herkese açtı. (haber: dcba2faa)
 - **2026-07-27** — CEO'su Zhilin Yang, Kimi'nin yükselişi üzerine OpenAI'ı 'yeni bir şey icat etmemekle' eleştirdi. (haber: 92132ecc)
 - **2026-07-21** — Kimi modellerinin OpenAI ve Anthropic'in en iyileriyle başa baş olduğu iddiası, 'Çin'in açık model stratejisi kazanıyor' tartışmasını büyüttü. (haber: 90cef26b)
 - **2026-07-21** — ABD yönetimi, siber güvenlik gerekçesiyle Kimi gibi Çin menşeli modelleri yasaklama çalışmalarını yeniden başlattı. (haber: 66e5c0ba)
@@ -379,6 +401,7 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[Hugging Face]] — test modellerinin sızdığı platform (haber: 20b0eb2d)
 
 ## Gelişmeler
+- **2026-07-28** — Yapay zekânın çalışanların üstlendiği görevleri nasıl genişlettiğini inceleyen bir araştırma yayımladı. (haber: f143efbf)
 - **2026-07-27** — Test modellerinin Hugging Face sistemlerine sızmasının ardından Hugging Face CEO'su olayı 'tarihin ilk otonom ajan siber saldırısı' olarak niteleyip sektöre radikal şeffaflık çağrısı yaptı. (haber: 8fa0d5fa)
 - **2026-07-21** — Uzun süre kendi başına çalışan modellerde gözlediği güvenlik risklerini ve geliştirdiği yeni korumaları anlatan bir yazı yayımladı. (haber: d4ff9ec8)
 - **2026-07-18** — Kendisine ticari sır davası açan Apple, çalışanlarından onlarca kişiye hukuki uyarı mektubu gönderdi. (haber: 6e5f1797)
@@ -403,6 +426,7 @@ Opus 5 (tam adıyla Claude Opus 5), [[Anthropic]]'in [[Claude]] model ailesindek
 - [[Claude]] — üyesi olduğu model ailesi
 
 ## Gelişmeler
+- **2026-07-28** — Modelin SlopCodeBench kodlama testindeki başarımını inceleyen bir değerlendirme yayımlandı. (haber: 6e826bcb)
 - **2026-07-25** — Anthropic tarafından herkese duyuruldu. (haber: e75df101)
 - **2026-07-25** — Artificial Analysis zekâ liderlik tablosunda ilk sıraya yerleşti. (haber: e616440e)
 - **2026-07-25** — Yaygın değerlendirme, sürümün yetenek sıçramasından çok token verimliliğine odaklandığı yönünde oldu. (haber: 70081e2e)

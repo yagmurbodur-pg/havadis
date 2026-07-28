@@ -4,8 +4,14 @@ tur: konu
 
 # genel
 
-59 haber
+65 haber
 
+- [[2026-07-28 How AI is expanding what people do at work]] — 2026-07-28, Kapak
+- [[2026-07-28 Cognizant and Anthropic expand their partnership to bring Cl]] — 2026-07-28, Gündem
+- [[2026-07-28 Our position on open-weights models]] — 2026-07-28, Gündem
+- [[2026-07-28 Çinli Fable 5 Kimi K3 Ağırlıkları Yayınlandı]] — 2026-07-28, Gündem
+- [[2026-07-28 Anthropic’s Dario Amodei responds doesn’t oppose open-weight]] — 2026-07-28, Gündem
+- [[2026-07-28 Netflix employee fired for sharing personal details in retre]] — 2026-07-28, Gündem
 - [[2026-07-27 Monday.com is the latest tech company to blame AI for layoff]] — 2026-07-27, Kapak
 - [[2026-07-27 DeepSeek pause fundraise after comments on compute gap to US]] — 2026-07-27, Gündem
 - [[2026-07-27 GM Backs Sodium Ion Batteries for U.S. Grid Storage]] — 2026-07-27, Gündem

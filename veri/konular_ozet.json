@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 59,
+   "adet": 65,
    "son": [
     {
-     "id": "cc992448",
-     "baslik": "Monday.com is the latest tech company to blame AI for layoffs — here are 20 others",
-     "tarih": "2026-07-27"
+     "id": "f143efbf",
+     "baslik": "How AI is expanding what people do at work",
+     "tarih": "2026-07-28"
     },
     {
-     "id": "7f366388",
-     "baslik": "DeepSeek pause fundraise after comments on compute gap to US leaked (transcript) [pdf]",
-     "tarih": "2026-07-27"
+     "id": "be0b73b3",
+     "baslik": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+     "tarih": "2026-07-28"
     },
     {
-     "id": "8622cff3",
-     "baslik": "GM Backs Sodium Ion Batteries for U.S. Grid Storage",
-     "tarih": "2026-07-27"
+     "id": "80d8760f",
+     "baslik": "Our position on open-weights models",
+     "tarih": "2026-07-28"
     },
     {
-     "id": "9130fcc2",
-     "baslik": "Turn And Face The Strange",
-     "tarih": "2026-07-27"
+     "id": "dcba2faa",
+     "baslik": "Çinli Fable 5: Kimi K3 Ağırlıkları Yayınlandı",
+     "tarih": "2026-07-28"
     },
     {
-     "id": "81e43f03",
-     "baslik": "The new rules of context engineering for Claude 5 generation models",
-     "tarih": "2026-07-27"
+     "id": "287e1596",
+     "baslik": "Anthropic’s Dario Amodei responds: doesn’t oppose open-weight models, but fears Chinese AI",
+     "tarih": "2026-07-28"
     }
    ]
   },

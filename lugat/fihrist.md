@@ -47,6 +47,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 ## Kişiler
 
 - [[Bercan Kılıç]]
+- [[Dario Amodei]]
 - [[Demis Hassabis]]
 
 ## Kavramlar
