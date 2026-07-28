@@ -4,8 +4,10 @@ tur: konu
 
 # kurumsal YZ
 
-7 haber
+9 haber
 
+- [[2026-07-28 OpenAI araştırması Yapay zekâ çalışanların yaptığı işi geniş]] — 2026-07-28, Gündem
+- [[2026-07-28 Cognizant ve Anthropic, Claude'u kurumsal müşterilere taşıyo]] — 2026-07-28, Gündem
 - [[2026-07-27 Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kulla]] — 2026-07-27, Türkiye'den
 - [[2026-07-27 Dorsey'nin insan-ajan sohbet platformu Buzz'ın kodu GitHub'd]] — 2026-07-27, Araç Çantası
 - [[2026-07-22 Jack Dorsey'den Slack'e rakip insanları ve YZ ajanlarını ayn]] — 2026-07-22, Gündem

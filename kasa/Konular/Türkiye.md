@@ -4,8 +4,10 @@ tur: konu
 
 # Türkiye
 
-6 haber
+8 haber
 
+- [[2026-07-28 Meta ve Yıldız Teknik'ten yapay zekâ programı AI Builders Tü]] — 2026-07-28, Türkiye'den
+- [[2026-07-28 Fintables'tan bireysel yatırımcıya yapay zekâ asistanı Evo]] — 2026-07-28, Türkiye'den
 - [[2026-07-27 Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kulla]] — 2026-07-27, Türkiye'den
 - [[2026-07-22 Hayat Kimya, 65 milyon dolarlık enerji bütçesini kendi yapay]] — 2026-07-22, Türkiye'den
 - [[2026-07-21 FineDine, restoranlar için tam entegre yapay zekâ platformun]] — 2026-07-21, Türkiye'den

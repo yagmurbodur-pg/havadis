@@ -4,8 +4,9 @@ tur: konu
 
 # ajanlar
 
-13 haber
+14 haber
 
+- [[2026-07-28 Hangi iş için hangi yapay zekâ Mollick'in güncel rehberi]] — 2026-07-28, Araç Çantası
 - [[2026-07-27 Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı R]] — 2026-07-27, Kapak
 - [[2026-07-27 Claude Cowork'te güvenlik açığı sanal makineden çıkıp Mac do]] — 2026-07-27, Gündem
 - [[2026-07-27 Ajanlar için tarayıcı ego-lite, oturumlarını Codex ve Claude]] — 2026-07-27, Araç Çantası

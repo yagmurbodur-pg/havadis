@@ -4,8 +4,11 @@ tur: konu
 
 # araştırma
 
-13 haber
+16 haber
 
+- [[2026-07-28 OpenAI araştırması Yapay zekâ çalışanların yaptığı işi geniş]] — 2026-07-28, Gündem
+- [[2026-07-28 Tıbbi görüntüleri bütün olarak anlayan yapay zekâ ClinFusion]] — 2026-07-28, Araştırma Masası
+- [[2026-07-28 Yapay zekâ videosu sinema kalitesinde mi FilmBench ölçüyor]] — 2026-07-28, Araştırma Masası
 - [[2026-07-27 Fiziksel yapay zekânın yeni yakıtı beyin dalgaları olabilir]] — 2026-07-27, Araştırma Masası
 - [[2026-07-22 Metinden oyun dünyası AlayaWorld, içinde gezilebilen sanal d]] — 2026-07-22, Araştırma Masası
 - [[2026-07-22 Küçük ama iddialı görsel model 4 milyar parametrelik Mage-Fl]] — 2026-07-22, Araştırma Masası

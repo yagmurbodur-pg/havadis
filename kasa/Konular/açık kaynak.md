@@ -4,8 +4,11 @@ tur: konu
 
 # açık kaynak
 
-13 haber
+16 haber
 
+- [[2026-07-28 Kimi K3'ün ağırlıkları herkese açıldı en büyük açık model ar]] — 2026-07-28, Kapak
+- [[2026-07-28 Anthropic, açık ağırlıklı modeller konusundaki tutumunu açık]] — 2026-07-28, Gündem
+- [[2026-07-28 Amodei Açık ağırlıklı modellere karşı değilim, kaygım Çin]] — 2026-07-28, Gündem
 - [[2026-07-27 Moonshot CEO'sundan OpenAI'a sert çıkış 'Yeni bir şey icat e]] — 2026-07-27, Gündem
 - [[2026-07-27 Alibaba kod inceleme aracını açık kaynak yaptı open-code-rev]] — 2026-07-27, Araç Çantası
 - [[2026-07-22 Yeni ölçüm Çinli açık model Kimi K3, Anthropic'in Fable mode]] — 2026-07-22, Gündem

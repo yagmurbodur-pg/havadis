@@ -4,8 +4,10 @@ tur: konu
 
 # araçlar
 
-18 haber
+20 haber
 
+- [[2026-07-28 Hangi iş için hangi yapay zekâ Mollick'in güncel rehberi]] — 2026-07-28, Araç Çantası
+- [[2026-07-28 Claude'a video izleten araç claude-video]] — 2026-07-28, Araç Çantası
 - [[2026-07-27 Ajanlar için tarayıcı ego-lite, oturumlarını Codex ve Claude]] — 2026-07-27, Araç Çantası
 - [[2026-07-27 Dorsey'nin insan-ajan sohbet platformu Buzz'ın kodu GitHub'd]] — 2026-07-27, Araç Çantası
 - [[2026-07-27 Alibaba kod inceleme aracını açık kaynak yaptı open-code-rev]] — 2026-07-27, Araç Çantası
