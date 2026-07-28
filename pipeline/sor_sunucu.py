@@ -1,11 +1,12 @@
-"""Yerel zekâ köprüsü — Havadis Wiki'deki chatbot'a Mac'teki Claude'dan yanıt taşır.
+"""Yerel zekâ köprüsü — Havadis Wiki'deki chatbot'a OpenAI-uyumlu API'den (Kimi) yanıt taşır.
 
 Çalıştır: ~/havadis/sor-sunucu  → Wiki sayfası (127.0.0.1:8747'yi görünce) yanıtları
-otomatik olarak buradan alır. Token gerekmez; terminaldeki abonelik oturumu kullanılır.
+otomatik olarak buradan alır. Ayarlar kökteki .env dosyasından okunur.
 """
 import json
-import subprocess
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+
+from pipeline import llm
 
 from pipeline.kulliyat import jsonl_oku
 from pipeline.sor import KOK, baglam_sec, lugat_yukle, prompt_kur
@@ -55,13 +56,12 @@ class Istek(BaseHTTPRequestHandler):
         if not secim["haberler"] and not secim["maddeler"]:
             cevap = "Külliyat'ta bu konuda kayıt yok."
         else:
-            sonuc = subprocess.run(
-                ["claude", "-p", prompt_kur(soru, secim), "--max-turns", "1"],
-                capture_output=True, text=True, timeout=280,
-            )
-            cevap = sonuc.stdout.strip() if sonuc.returncode == 0 else (
-                "Yanıt üretilemedi: " + (sonuc.stderr or "").strip()[:200]
-            )
+            try:
+                cevap = llm.sohbet(
+                    [{"role": "user", "content": prompt_kur(soru, secim)}], zaman_asimi=280
+                )
+            except RuntimeError as hata:
+                cevap = "Yanıt üretilemedi: " + str(hata)[:200]
         self._basliklar()
         self.wfile.write(json.dumps({"cevap": cevap}, ensure_ascii=False).encode("utf-8"))
 

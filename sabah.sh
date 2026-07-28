@@ -1,5 +1,5 @@
 #!/bin/zsh
-# Havadis — sabah üretim görevi (yerel, token'sız).
+# Havadis — sabah üretim görevi (LLM: OpenAI-uyumlu API'deki Kimi; ayarlar kökteki .env'de).
 # launchd her sabah 06:47'de çalıştırır; Mac uykudaysa uyanınca telafi eder.
 set -euo pipefail
 
@@ -26,23 +26,15 @@ PY="$KOK/.venv/bin/python"
 
 "$PY" -m pipeline.fetch
 
-# Editörlük: yerel Claude, headless. Bu script Terminal penceresinde koşar (launchd → open -a Terminal),
-# böylece Keychain'deki abonelik kimliği erişilebilir olur — token üretmeye gerek kalmaz.
-# Bekçi: editör 15 dakikada bitmezse durdurulur → mini sayı devreye girer; sabah asla bloke olmaz.
-# Geçici API kopmaları (ör. "Connection closed mid-response") tek denemede mini sayıya
-# düşürmesin: 3 deneme, başarı ölçütü validate'in yeşile dönmesi.
+# Editörlük: OpenAI-uyumlu API'deki Kimi modeli, pipeline/editor.py üzerinden (ayarlar .env'de).
+# Zaman aşımı ve model-düzeltme döngüsü editor.py'nin içindedir; Claude/Keychain gerekmez.
+# Geçici API kopmaları tek denemede mini sayıya düşürmesin: 3 deneme,
+# başarı ölçütü validate'in yeşile dönmesi.
 rm -f issue.json
 DENEME=1
 while [ "$DENEME" -le 3 ]; do
   echo "editör denemesi $DENEME/3 başlıyor ($(date '+%H:%M:%S'))"
-  claude -p "EDITORIAL.md'yi oku ve aynen uygula: candidates.json'dan bugünün sayısını seç, issue.json'ı depo köküne yaz, 'python3 -m pipeline.validate' yeşil olana dek düzelt. Başka dosyaya dokunma; commit/push yapma." \
-    --allowedTools "Read,Write,Edit,Bash(python3 -m pipeline.validate)" \
-    --max-turns 40 &
-  CLAUDE_PID=$!
-  ( sleep 900; kill "$CLAUDE_PID" 2>/dev/null && echo "uyarı: editör 15 dk'da bitmedi, durduruldu" ) &
-  BEKCI_PID=$!
-  wait "$CLAUDE_PID" || echo "uyarı: editör denemesi $DENEME hata verdi"
-  kill "$BEKCI_PID" 2>/dev/null || true
+  "$PY" -m pipeline.editor || echo "uyarı: editör denemesi $DENEME hata verdi"
   if "$PY" -m pipeline.validate; then
     echo "editör denemesi $DENEME başarılı ✓"
     break
@@ -60,16 +52,10 @@ done
 LUGAT_DENEME=1
 while [ "$LUGAT_DENEME" -le 2 ]; do
   echo "lugat denemesi $LUGAT_DENEME/2 başlıyor ($(date '+%H:%M:%S'))"
-  claude -p "LUGAT.md'yi oku ve aynen uygula: veri/bugun.json'daki haberlerin dokunduğu lugat maddelerini güncelle ya da aç, 'python3 -m pipeline.lugat_dogrula' yeşil olana dek düzelt. Başka dosyaya dokunma; commit/push yapma." \
-    --allowedTools "Read,Write,Edit,Bash(python3 -m pipeline.lugat_dogrula)" \
-    --max-turns 45 &
-  LUGAT_PID=$!
-  ( sleep 600; kill "$LUGAT_PID" 2>/dev/null && echo "uyarı: lugat editörü 10 dk'da bitmedi, durduruldu" ) &
-  LUGAT_BEKCI=$!
-  LUGAT_TAMAM=1
-  wait "$LUGAT_PID" || { echo "uyarı: lugat denemesi $LUGAT_DENEME hata verdi"; LUGAT_TAMAM=0; }
-  kill "$LUGAT_BEKCI" 2>/dev/null || true
-  [ "$LUGAT_TAMAM" -eq 1 ] && break
+  if "$PY" -m pipeline.lugat_editor; then
+    break
+  fi
+  echo "uyarı: lugat denemesi $LUGAT_DENEME hata verdi"
   LUGAT_DENEME=$((LUGAT_DENEME + 1))
   [ "$LUGAT_DENEME" -le 2 ] && sleep 30
 done

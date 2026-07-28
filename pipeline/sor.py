@@ -1,13 +1,14 @@
-"""Havadis'e soru sor — yerel, token'sız chatbot.
+"""Havadis'e soru sor — Külliyat + Lugat üzerinde soru-cevap.
 
 Erişim: Türkçe-katlamalı skorlama Külliyat (haberler.jsonl) + Lugat maddelerinden
-bağlam seçer; yerel `claude -p` (abonelik oturumu) kaynak numaralı Türkçe yanıt üretir.
+bağlam seçer; OpenAI-uyumlu API'deki model (Kimi, bkz. .env) kaynak numaralı
+Türkçe yanıt üretir.
 Kullanım: ~/havadis/sor "GPT-5.6'da neler oldu?"
 """
-import json
-import subprocess
 import sys
 from pathlib import Path
+
+from pipeline import llm
 
 from pipeline.kulliyat import jsonl_oku
 from pipeline.lugat_dogrula import _on_yazi_ayir
@@ -120,16 +121,12 @@ def main():
         sys.exit(0)
 
     print(f"☕ {len(secim['haberler'])} haber + {len(secim['maddeler'])} lugat maddesi bulundu; yanıt yazılıyor…\n")
-    sonuc = subprocess.run(
-        ["claude", "-p", prompt_kur(soru, secim), "--max-turns", "1"],
-        capture_output=True,
-        text=True,
-        timeout=300,
-    )
-    if sonuc.returncode != 0:
-        print("Yanıt üretilemedi:", (sonuc.stderr or "").strip()[:300])
+    try:
+        cevap = llm.sohbet([{"role": "user", "content": prompt_kur(soru, secim)}], zaman_asimi=300)
+    except RuntimeError as hata:
+        print("Yanıt üretilemedi:", str(hata)[:300])
         sys.exit(1)
-    print(sonuc.stdout.strip())
+    print(cevap)
 
 
 if __name__ == "__main__":
