@@ -4,8 +4,9 @@ tur: konu
 
 # regülasyon
 
-5 haber
+6 haber
 
+- [[2026-07-29 OpenAI, Anthropic, Google ve Meta'dan ABD'ye Yapay zekâyı ya]] — 2026-07-29, Kapak
 - [[2026-07-22 ABD'den yeni hamle Çinli yapay zekâ modellerine yaptırım teh]] — 2026-07-22, Gündem
 - [[2026-07-21 ABD, Çinli yapay zekâ modellerini engellemek için düğmeye ba]] — 2026-07-21, Gündem
 - [[2026-07-17 AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor]] — 2026-07-17, Gündem

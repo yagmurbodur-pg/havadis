@@ -5,7 +5,7 @@ tanim: "Claude modellerini geliştiren, güvenlik odaklı ABD'li yapay zekâ şi
 esanlamlilar: []
 etiketler: [Anthropic]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-28
+son_guncelleme: 2026-07-29
 ---
 
 Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir; kendini yapay zekâ güvenliği odaklı bir laboratuvar olarak konumlandırır ve modellerinin davranışları üzerine düzenli araştırma yayımlar. Temmuz 2026'da yayımladığı bir çalışma, Claude'un kullanıcıyla kurduğu iletişimin seçilen modele ve kullanılan dile bağlı olarak değişebildiğini doğruladı; buna göre Claude'u Türkçe kullananlar, İngilizce kullananlardan farklı bir deneyim yaşıyor olabilir. Bu tür bulguların şirket tarafından açıkça yayımlanması, model davranışının şeffaflığı tartışmasında Anthropic'i öne çıkaran unsurlardan biri. Aynı dönemde bir güvenlik araştırmacısının Claude'un hafıza özelliğine yönelik sızdırma iddiası, şirketin ürün güvenliğini de gündeme taşıdı.
@@ -18,6 +18,8 @@ Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir;
 - [[Claude Cowork]] — geliştirdiği ajan aracı (haber: b6e24602)
 
 ## Gelişmeler
+- **2026-07-29** — Araştırmacıları, Claude ile kriptografik sistemlerdeki gizli zayıflıkları keşfeden bir çalışma yayımladı. (haber: df6c1655)
+- **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-28** — Açık ağırlıklı modellere ilişkin kurumsal tutumunu açıklayan bir yazı yayımladı. (haber: 80d8760f)
 - **2026-07-28** — CEO'su Dario Amodei, açık ağırlıklı modellere karşı olmadığını, asıl kaygısının Çin'in yapay zekâ yetenekleri olduğunu söyledi. (haber: 287e1596)
 - **2026-07-28** — Cognizant ile ortaklığını, Claude'u Cognizant'ın kurumsal müşterilerine sunacak biçimde genişletti. (haber: be0b73b3)

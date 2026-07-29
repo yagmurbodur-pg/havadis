@@ -4,8 +4,9 @@ tur: konu
 
 # araştırma
 
-16 haber
+17 haber
 
+- [[2026-07-29 Claude kriptografik zayıflıkları keşfetti]] — 2026-07-29, Araştırma Masası
 - [[2026-07-28 OpenAI araştırması Yapay zekâ çalışanların yaptığı işi geniş]] — 2026-07-28, Gündem
 - [[2026-07-28 Tıbbi görüntüleri bütün olarak anlayan yapay zekâ ClinFusion]] — 2026-07-28, Araştırma Masası
 - [[2026-07-28 Yapay zekâ videosu sinema kalitesinde mi FilmBench ölçüyor]] — 2026-07-28, Araştırma Masası

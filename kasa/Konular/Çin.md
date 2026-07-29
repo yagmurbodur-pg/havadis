@@ -4,8 +4,9 @@ tur: konu
 
 # Çin
 
-9 haber
+10 haber
 
+- [[2026-07-29 Kimi K3'ün ağırlıkları yayınlandı 2,8 trilyon parametre, 1,5]] — 2026-07-29, Gündem
 - [[2026-07-28 Kimi K3'ün ağırlıkları herkese açıldı en büyük açık model ar]] — 2026-07-28, Kapak
 - [[2026-07-28 Amodei Açık ağırlıklı modellere karşı değilim, kaygım Çin]] — 2026-07-28, Gündem
 - [[2026-07-27 Moonshot CEO'sundan OpenAI'a sert çıkış 'Yeni bir şey icat e]] — 2026-07-27, Gündem

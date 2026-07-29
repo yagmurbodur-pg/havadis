@@ -35,8 +35,18 @@
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 20,
+   "adet": 22,
    "son": [
+    {
+     "id": "a58fde93",
+     "baslik": "PDF teknik kitapları Claude Code yetkinliğine dönüştürün",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "3e5eebb5",
+     "baslik": "Yerel ses ajanları kurmak için açık kaynak toolkit",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "db1f5ea7",
      "baslik": "Hangi iş için hangi yapay zekâ? Mollick'in güncel rehberi",
@@ -51,24 +61,51 @@
      "id": "629c51aa",
      "baslik": "Ajanlar için tarayıcı: ego-lite, oturumlarını Codex ve Claude Code'a açıyor",
      "tarih": "2026-07-27"
+    }
+   ]
+  },
+  {
+   "ad": "ajanlar",
+   "slug": "ajanlar",
+   "adet": 19,
+   "son": [
+    {
+     "id": "af8439b1",
+     "baslik": "OpenAI, Anthropic, Google ve Meta'dan ABD'ye: Yapay zekâyı yavaşlatın",
+     "tarih": "2026-07-29"
     },
     {
-     "id": "53958cf5",
-     "baslik": "Dorsey'nin insan-ajan sohbet platformu Buzz'ın kodu GitHub'da zirvede",
-     "tarih": "2026-07-27"
+     "id": "2aacbf99",
+     "baslik": "OpenAI modelleri Hugging Face'e sızmıştı: Saldırı JFrog 0-day'iyle gerçekleşmiş",
+     "tarih": "2026-07-29"
     },
     {
-     "id": "f7cfdfd7",
-     "baslik": "Alibaba kod inceleme aracını açık kaynak yaptı: open-code-review",
-     "tarih": "2026-07-27"
+     "id": "37db1a04",
+     "baslik": "Perplexity'nin PC aracı artık Windows'ta",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "5454fd6b",
+     "baslik": "İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına aldı",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "3e5eebb5",
+     "baslik": "Yerel ses ajanları kurmak için açık kaynak toolkit",
+     "tarih": "2026-07-29"
     }
    ]
   },
   {
    "ad": "açık kaynak",
    "slug": "acik-kaynak",
-   "adet": 16,
+   "adet": 17,
    "son": [
+    {
+     "id": "d38c0977",
+     "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "dcba2faa",
      "baslik": "Kimi K3'ün ağırlıkları herkese açıldı: en büyük açık model artık ücretsiz",
@@ -88,19 +125,19 @@
      "id": "92132ecc",
      "baslik": "Moonshot CEO'sundan OpenAI'a sert çıkış: 'Yeni bir şey icat etmediler'",
      "tarih": "2026-07-27"
-    },
-    {
-     "id": "f7cfdfd7",
-     "baslik": "Alibaba kod inceleme aracını açık kaynak yaptı: open-code-review",
-     "tarih": "2026-07-27"
     }
    ]
   },
   {
    "ad": "araştırma",
    "slug": "arastirma",
-   "adet": 16,
+   "adet": 17,
    "son": [
+    {
+     "id": "df6c1655",
+     "baslik": "Claude kriptografik zayıflıkları keşfetti",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "f143efbf",
      "baslik": "OpenAI araştırması: Yapay zekâ çalışanların yaptığı işi genişletiyor",
@@ -120,19 +157,24 @@
      "id": "81a7106a",
      "baslik": "Fiziksel yapay zekânın yeni yakıtı beyin dalgaları olabilir",
      "tarih": "2026-07-27"
-    },
-    {
-     "id": "dbe4c24c",
-     "baslik": "Metinden oyun dünyası: AlayaWorld, içinde gezilebilen sanal dünyalar üretiyor",
-     "tarih": "2026-07-22"
     }
    ]
   },
   {
    "ad": "kod asistanları",
    "slug": "kod-asistanlari",
-   "adet": 15,
+   "adet": 17,
    "son": [
+    {
+     "id": "5454fd6b",
+     "baslik": "İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına aldı",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "a58fde93",
+     "baslik": "PDF teknik kitapları Claude Code yetkinliğine dönüştürün",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "629c51aa",
      "baslik": "Ajanlar için tarayıcı: ego-lite, oturumlarını Codex ve Claude Code'a açıyor",
@@ -147,24 +189,24 @@
      "id": "16169d53",
      "baslik": "Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi: i-have-adhd",
      "tarih": "2026-07-22"
-    },
-    {
-     "id": "05b14f9b",
-     "baslik": "Kod ajanı neyi unutacağını zaten biliyor: SWE-Pruner Pro",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "9fedc9b4",
-     "baslik": "Kod ajanına ücretsiz internet erişimi: wigolo",
-     "tarih": "2026-07-21"
     }
    ]
   },
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 14,
+   "adet": 16,
    "son": [
+    {
+     "id": "af8439b1",
+     "baslik": "OpenAI, Anthropic, Google ve Meta'dan ABD'ye: Yapay zekâyı yavaşlatın",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "2aacbf99",
+     "baslik": "OpenAI modelleri Hugging Face'e sızmıştı: Saldırı JFrog 0-day'iyle gerçekleşmiş",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "f143efbf",
      "baslik": "OpenAI araştırması: Yapay zekâ çalışanların yaptığı işi genişletiyor",
@@ -179,56 +221,19 @@
      "id": "92132ecc",
      "baslik": "Moonshot CEO'sundan OpenAI'a sert çıkış: 'Yeni bir şey icat etmediler'",
      "tarih": "2026-07-27"
-    },
-    {
-     "id": "20b0eb2d",
-     "baslik": "OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine sızdı",
-     "tarih": "2026-07-22"
-    },
-    {
-     "id": "d4ff9ec8",
-     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
-     "tarih": "2026-07-21"
-    }
-   ]
-  },
-  {
-   "ad": "ajanlar",
-   "slug": "ajanlar",
-   "adet": 14,
-   "son": [
-    {
-     "id": "db1f5ea7",
-     "baslik": "Hangi iş için hangi yapay zekâ? Mollick'in güncel rehberi",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "8fa0d5fa",
-     "baslik": "Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı: Radikal şeffaflık şart",
-     "tarih": "2026-07-27"
-    },
-    {
-     "id": "b6e24602",
-     "baslik": "Claude Cowork'te güvenlik açığı: sanal makineden çıkıp Mac dosyalarına erişebiliyor",
-     "tarih": "2026-07-27"
-    },
-    {
-     "id": "629c51aa",
-     "baslik": "Ajanlar için tarayıcı: ego-lite, oturumlarını Codex ve Claude Code'a açıyor",
-     "tarih": "2026-07-27"
-    },
-    {
-     "id": "53958cf5",
-     "baslik": "Dorsey'nin insan-ajan sohbet platformu Buzz'ın kodu GitHub'da zirvede",
-     "tarih": "2026-07-27"
     }
    ]
   },
   {
    "ad": "modeller",
    "slug": "modeller",
-   "adet": 12,
+   "adet": 13,
    "son": [
+    {
+     "id": "d38c0977",
+     "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "dcba2faa",
      "baslik": "Kimi K3'ün ağırlıkları herkese açıldı: en büyük açık model artık ücretsiz",
@@ -248,19 +253,83 @@
      "id": "162a22c4",
      "baslik": "Yeni ölçüm: Çinli açık model Kimi K3, Anthropic'in Fable modeliyle başa baş",
      "tarih": "2026-07-22"
+    }
+   ]
+  },
+  {
+   "ad": "Anthropic",
+   "slug": "anthropic",
+   "adet": 11,
+   "son": [
+    {
+     "id": "af8439b1",
+     "baslik": "OpenAI, Anthropic, Google ve Meta'dan ABD'ye: Yapay zekâyı yavaşlatın",
+     "tarih": "2026-07-29"
     },
     {
-     "id": "90cef26b",
-     "baslik": "Çin'den peş peşe iki hamle: Kimi ve Qwen, ABD'li devlere kafa tutuyor",
-     "tarih": "2026-07-21"
+     "id": "df6c1655",
+     "baslik": "Claude kriptografik zayıflıkları keşfetti",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "80d8760f",
+     "baslik": "Anthropic, açık ağırlıklı modeller konusundaki tutumunu açıkladı",
+     "tarih": "2026-07-28"
+    },
+    {
+     "id": "287e1596",
+     "baslik": "Amodei: Açık ağırlıklı modellere karşı değilim, kaygım Çin",
+     "tarih": "2026-07-28"
+    },
+    {
+     "id": "be0b73b3",
+     "baslik": "Cognizant ve Anthropic, Claude'u kurumsal müşterilere taşıyor",
+     "tarih": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "ad": "güvenlik",
+   "slug": "guvenlik",
+   "adet": 11,
+   "son": [
+    {
+     "id": "2aacbf99",
+     "baslik": "OpenAI modelleri Hugging Face'e sızmıştı: Saldırı JFrog 0-day'iyle gerçekleşmiş",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "df6c1655",
+     "baslik": "Claude kriptografik zayıflıkları keşfetti",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "8fa0d5fa",
+     "baslik": "Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı: Radikal şeffaflık şart",
+     "tarih": "2026-07-27"
+    },
+    {
+     "id": "b6e24602",
+     "baslik": "Claude Cowork'te güvenlik açığı: sanal makineden çıkıp Mac dosyalarına erişebiliyor",
+     "tarih": "2026-07-27"
+    },
+    {
+     "id": "20b0eb2d",
+     "baslik": "OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine sızdı",
+     "tarih": "2026-07-22"
     }
    ]
   },
   {
    "ad": "Çin",
    "slug": "cin",
-   "adet": 9,
+   "adet": 10,
    "son": [
+    {
+     "id": "d38c0977",
+     "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
+     "tarih": "2026-07-29"
+    },
     {
      "id": "dcba2faa",
      "baslik": "Kimi K3'ün ağırlıkları herkese açıldı: en büyük açık model artık ücretsiz",
@@ -280,43 +349,38 @@
      "id": "162a22c4",
      "baslik": "Yeni ölçüm: Çinli açık model Kimi K3, Anthropic'in Fable modeliyle başa baş",
      "tarih": "2026-07-22"
-    },
-    {
-     "id": "2a32c5e4",
-     "baslik": "ABD'den yeni hamle: Çinli yapay zekâ modellerine yaptırım tehdidi",
-     "tarih": "2026-07-22"
     }
    ]
   },
   {
-   "ad": "Anthropic",
-   "slug": "anthropic",
+   "ad": "Türkiye",
+   "slug": "turkiye",
    "adet": 9,
    "son": [
     {
-     "id": "80d8760f",
-     "baslik": "Anthropic, açık ağırlıklı modeller konusundaki tutumunu açıkladı",
+     "id": "5454fd6b",
+     "baslik": "İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına aldı",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "3c1966fc",
+     "baslik": "Meta ve Yıldız Teknik'ten yapay zekâ programı: AI Builders Türkiye",
      "tarih": "2026-07-28"
     },
     {
-     "id": "287e1596",
-     "baslik": "Amodei: Açık ağırlıklı modellere karşı değilim, kaygım Çin",
+     "id": "8a77a840",
+     "baslik": "Fintables'tan bireysel yatırımcıya yapay zekâ asistanı: Evo",
      "tarih": "2026-07-28"
     },
     {
-     "id": "be0b73b3",
-     "baslik": "Cognizant ve Anthropic, Claude'u kurumsal müşterilere taşıyor",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "023b55a1",
-     "baslik": "Claude'da paylaşılan sohbetler Google aramasına düşmüş olabilir",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "b6e24602",
-     "baslik": "Claude Cowork'te güvenlik açığı: sanal makineden çıkıp Mac dosyalarına erişebiliyor",
+     "id": "004745e0",
+     "baslik": "Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kullanıma açıldı",
      "tarih": "2026-07-27"
+    },
+    {
+     "id": "b03fdae3",
+     "baslik": "Hayat Kimya, 65 milyon dolarlık enerji bütçesini kendi yapay zekâsıyla yönetiyor",
+     "tarih": "2026-07-22"
     }
    ]
   },
@@ -353,70 +417,6 @@
    ]
   },
   {
-   "ad": "güvenlik",
-   "slug": "guvenlik",
-   "adet": 9,
-   "son": [
-    {
-     "id": "8fa0d5fa",
-     "baslik": "Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı: Radikal şeffaflık şart",
-     "tarih": "2026-07-27"
-    },
-    {
-     "id": "b6e24602",
-     "baslik": "Claude Cowork'te güvenlik açığı: sanal makineden çıkıp Mac dosyalarına erişebiliyor",
-     "tarih": "2026-07-27"
-    },
-    {
-     "id": "20b0eb2d",
-     "baslik": "OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine sızdı",
-     "tarih": "2026-07-22"
-    },
-    {
-     "id": "5479f7ef",
-     "baslik": "Google'dan üç yeni Gemini: 3.6 Flash, 3.5 Flash-Lite ve siber güvenlik modeli",
-     "tarih": "2026-07-22"
-    },
-    {
-     "id": "d4ff9ec8",
-     "baslik": "OpenAI: Uzun süre kendi başına çalışan modeller yeni riskler getiriyor",
-     "tarih": "2026-07-21"
-    }
-   ]
-  },
-  {
-   "ad": "Türkiye",
-   "slug": "turkiye",
-   "adet": 8,
-   "son": [
-    {
-     "id": "3c1966fc",
-     "baslik": "Meta ve Yıldız Teknik'ten yapay zekâ programı: AI Builders Türkiye",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "8a77a840",
-     "baslik": "Fintables'tan bireysel yatırımcıya yapay zekâ asistanı: Evo",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "004745e0",
-     "baslik": "Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kullanıma açıldı",
-     "tarih": "2026-07-27"
-    },
-    {
-     "id": "b03fdae3",
-     "baslik": "Hayat Kimya, 65 milyon dolarlık enerji bütçesini kendi yapay zekâsıyla yönetiyor",
-     "tarih": "2026-07-22"
-    },
-    {
-     "id": "81d1d75c",
-     "baslik": "FineDine, restoranlar için tam entegre yapay zekâ platformuna geçti",
-     "tarih": "2026-07-21"
-    }
-   ]
-  },
-  {
    "ad": "Google",
    "slug": "google",
    "adet": 7,
@@ -445,6 +445,38 @@
      "id": "79ed56fa",
      "baslik": "Google, NotebookLM'in adını Gemini Notebook yaptı",
      "tarih": "2026-07-17"
+    }
+   ]
+  },
+  {
+   "ad": "regülasyon",
+   "slug": "regulasyon",
+   "adet": 6,
+   "son": [
+    {
+     "id": "af8439b1",
+     "baslik": "OpenAI, Anthropic, Google ve Meta'dan ABD'ye: Yapay zekâyı yavaşlatın",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "2a32c5e4",
+     "baslik": "ABD'den yeni hamle: Çinli yapay zekâ modellerine yaptırım tehdidi",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "66e5c0ba",
+     "baslik": "ABD, Çinli yapay zekâ modellerini engellemek için düğmeye bastı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f2d4f0d1",
+     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
+     "tarih": "2026-07-17"
+    },
+    {
+     "id": "e74d29ba",
+     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
+     "tarih": "2026-07-15"
     }
    ]
   },
@@ -481,38 +513,6 @@
    ]
   },
   {
-   "ad": "regülasyon",
-   "slug": "regulasyon",
-   "adet": 5,
-   "son": [
-    {
-     "id": "2a32c5e4",
-     "baslik": "ABD'den yeni hamle: Çinli yapay zekâ modellerine yaptırım tehdidi",
-     "tarih": "2026-07-22"
-    },
-    {
-     "id": "66e5c0ba",
-     "baslik": "ABD, Çinli yapay zekâ modellerini engellemek için düğmeye bastı",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "f2d4f0d1",
-     "baslik": "AB, Google'ı Android ve Arama'yı rakiplere açmaya zorluyor",
-     "tarih": "2026-07-17"
-    },
-    {
-     "id": "e74d29ba",
-     "baslik": "New York, yeni veri merkezi inşaatını bir yıllığına durdurdu",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "cb9db543",
-     "baslik": "DeepMind CEO'su: Yapay zekâya küresel bir denetim kurumu gerek",
-     "tarih": "2026-07-15"
-    }
-   ]
-  },
-  {
    "ad": "telif davaları",
    "slug": "telif-davalari",
    "adet": 4,
@@ -535,6 +535,28 @@
     {
      "id": "16830069",
      "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "ses modelleri",
+   "slug": "ses-modelleri",
+   "adet": 3,
+   "son": [
+    {
+     "id": "3e5eebb5",
+     "baslik": "Yerel ses ajanları kurmak için açık kaynak toolkit",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "c04b1b26",
+     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "963a6870",
+     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
      "tarih": "2026-07-09"
     }
    ]
@@ -672,6 +694,23 @@
    ]
   },
   {
+   "ad": "asistanlar",
+   "slug": "asistanlar",
+   "adet": 2,
+   "son": [
+    {
+     "id": "37db1a04",
+     "baslik": "Perplexity'nin PC aracı artık Windows'ta",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "f6d4f1f6",
+     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
+     "tarih": "2026-07-15"
+    }
+   ]
+  },
+  {
    "ad": "eğitim",
    "slug": "egitim",
    "adet": 2,
@@ -736,23 +775,6 @@
      "id": "f8bec47b",
      "baslik": "Sızan veriler: Suno, milyonlarca şarkıyı YouTube ve Deezer'dan izinsiz toplamış",
      "tarih": "2026-07-16"
-    }
-   ]
-  },
-  {
-   "ad": "ses modelleri",
-   "slug": "ses-modelleri",
-   "adet": 2,
-   "son": [
-    {
-     "id": "c04b1b26",
-     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "963a6870",
-     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
-     "tarih": "2026-07-09"
     }
    ]
   },
@@ -847,18 +869,6 @@
      "id": "61dced22",
      "baslik": "Görme engelliler için yapay zekâyı sınayan yeni test seti: VIABench",
      "tarih": "2026-07-17"
-    }
-   ]
-  },
-  {
-   "ad": "asistanlar",
-   "slug": "asistanlar",
-   "adet": 1,
-   "son": [
-    {
-     "id": "f6d4f1f6",
-     "baslik": "Apple'ın yenilenen Siri'si iOS 27 genel betasıyla herkese açıldı",
-     "tarih": "2026-07-15"
     }
    ]
   }

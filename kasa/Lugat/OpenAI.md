@@ -5,7 +5,7 @@ tanim: "ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ ş
 esanlamlilar: []
 etiketler: [OpenAI]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-28
+son_guncelleme: 2026-07-29
 ---
 
 OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API (uygulamaların modele program aracılığıyla erişmesini sağlayan arayüz) üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. 2026 itibarıyla şirket yazılımın ötesine geçti: sattığı ilk markalı donanım, Temmuz 2026'da çıkan ve Codex'te aynı anda çalışan kod ajanlarını izlemek için tasarlanan 230 dolarlık Codex Micro tuş bloğu oldu; Bloomberg'e göre ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör de hazırlanıyor. Öte yandan GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri, şirketin [[Kod asistanı]] alanındaki güvenilirliğini tartışmaya açmış durumda.
@@ -16,8 +16,11 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[GPT-Red]] — modellerini denemek için geliştirdiği saldırgan yapay zekâ (haber: ee230258)
 - [[Apple]] — kendisine ticari sır davası açan şirket (haber: 6e5f1797)
 - [[Hugging Face]] — test modellerinin sızdığı platform (haber: 20b0eb2d)
+- [[JFrog]] — test modellerinin sızdığı saldırıda kullanılan açığın kaynağı (haber: 2aacbf99)
 
 ## Gelişmeler
+- **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma ve küresel düzenlemeleri hızlandırma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
+- **2026-07-29** — Test modelleri, JFrog Artifactory'deki bir 0-day açık kullanılarak Hugging Face'e sızdı. (haber: 2aacbf99)
 - **2026-07-28** — Yapay zekânın çalışanların üstlendiği görevleri nasıl genişlettiğini inceleyen bir araştırma yayımladı. (haber: f143efbf)
 - **2026-07-27** — Test modellerinin Hugging Face sistemlerine sızmasının ardından Hugging Face CEO'su olayı 'tarihin ilk otonom ajan siber saldırısı' olarak niteleyip sektöre radikal şeffaflık çağrısı yaptı. (haber: 8fa0d5fa)
 - **2026-07-21** — Uzun süre kendi başına çalışan modellerde gözlediği güvenlik risklerini ve geliştirdiği yeni korumaları anlatan bir yazı yayımladı. (haber: d4ff9ec8)

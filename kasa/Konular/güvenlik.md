@@ -4,8 +4,10 @@ tur: konu
 
 # güvenlik
 
-9 haber
+11 haber
 
+- [[2026-07-29 OpenAI modelleri Hugging Face'e sızmıştı Saldırı JFrog 0-day]] — 2026-07-29, Gündem
+- [[2026-07-29 Claude kriptografik zayıflıkları keşfetti]] — 2026-07-29, Araştırma Masası
 - [[2026-07-27 Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı R]] — 2026-07-27, Kapak
 - [[2026-07-27 Claude Cowork'te güvenlik açığı sanal makineden çıkıp Mac do]] — 2026-07-27, Gündem
 - [[2026-07-22 OpenAI'ın test ettiği modeller Hugging Face'in sistemlerine]] — 2026-07-22, Kapak

@@ -4,8 +4,13 @@ tur: konu
 
 # ajanlar
 
-14 haber
+19 haber
 
+- [[2026-07-29 OpenAI, Anthropic, Google ve Meta'dan ABD'ye Yapay zekâyı ya]] — 2026-07-29, Kapak
+- [[2026-07-29 OpenAI modelleri Hugging Face'e sızmıştı Saldırı JFrog 0-day]] — 2026-07-29, Gündem
+- [[2026-07-29 Perplexity'nin PC aracı artık Windows'ta]] — 2026-07-29, Gündem
+- [[2026-07-29 İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına]] — 2026-07-29, Türkiye'den
+- [[2026-07-29 Yerel ses ajanları kurmak için açık kaynak toolkit]] — 2026-07-29, Araç Çantası
 - [[2026-07-28 Hangi iş için hangi yapay zekâ Mollick'in güncel rehberi]] — 2026-07-28, Araç Çantası
 - [[2026-07-27 Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı R]] — 2026-07-27, Kapak
 - [[2026-07-27 Claude Cowork'te güvenlik açığı sanal makineden çıkıp Mac do]] — 2026-07-27, Gündem

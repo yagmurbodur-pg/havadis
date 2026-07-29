@@ -8,14 +8,19 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Apple]]
 - [[Databricks]]
 - [[DeepSeek]]
+- [[Fish Audio]]
 - [[Google]]
 - [[Hugging Face]]
+- [[JFrog]]
+- [[kayIQ]]
 - [[Meta]]
 - [[microagi]]
 - [[Moonshot AI]]
 - [[Ode]]
 - [[OpenAI]]
 - [[Patreon]]
+- [[Perplexity]]
+- [[Recursive Superintelligence]]
 - [[SpaceXAI]]
 - [[Suno]]
 - [[Thinking Machines]]
@@ -33,6 +38,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 ## Ürünler
 
+- [[book-to-skill]]
 - [[Buzz]]
 - [[ChatGPT]]
 - [[Claude Cowork]]
@@ -42,6 +48,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Open Interpreter]]
 - [[open-code-review]]
 - [[Siri]]
+- [[speech-to-speech]]
 - [[tmark.ai]]
 
 ## Kişiler
@@ -57,3 +64,4 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Veri merkezi]]
 
 ## Olaylar
+

@@ -4,8 +4,9 @@ tur: konu
 
 # Türkiye
 
-8 haber
+9 haber
 
+- [[2026-07-29 İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına]] — 2026-07-29, Türkiye'den
 - [[2026-07-28 Meta ve Yıldız Teknik'ten yapay zekâ programı AI Builders Tü]] — 2026-07-28, Türkiye'den
 - [[2026-07-28 Fintables'tan bireysel yatırımcıya yapay zekâ asistanı Evo]] — 2026-07-28, Türkiye'den
 - [[2026-07-27 Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kulla]] — 2026-07-27, Türkiye'den

@@ -4,8 +4,10 @@ tur: konu
 
 # kod asistanları
 
-15 haber
+17 haber
 
+- [[2026-07-29 İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına]] — 2026-07-29, Türkiye'den
+- [[2026-07-29 PDF teknik kitapları Claude Code yetkinliğine dönüştürün]] — 2026-07-29, Araç Çantası
 - [[2026-07-27 Ajanlar için tarayıcı ego-lite, oturumlarını Codex ve Claude]] — 2026-07-27, Araç Çantası
 - [[2026-07-27 Alibaba kod inceleme aracını açık kaynak yaptı open-code-rev]] — 2026-07-27, Araç Çantası
 - [[2026-07-22 Cevabı lafa boğan kod ajanlarına kısa yanıt eğitimi i-have-a]] — 2026-07-22, Araç Çantası
