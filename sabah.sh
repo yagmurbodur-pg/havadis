@@ -14,8 +14,10 @@ echo "═══ $(date '+%F %T') — sabah koşusu başladı"
 export PATH="$HOME/.local/bin:/opt/homebrew/bin:/usr/local/bin:$PATH"
 
 alarm() {
+  # Kimi'den tek satırlık arıza teşhisi iste (onarici asla alarmı engellemez; boş dönebilir)
+  TESHIS="$("$PY" -m pipeline.onarici 2>/dev/null || true)"
   curl -sf -H "Priority: high" -H "Tags: rotating_light" \
-    -d "Havadis üretilemedi: $1 ($(date '+%H:%M'))" \
+    -d "Havadis üretilemedi: $1 ($(date '+%H:%M'))${TESHIS:+ · Teşhis: $TESHIS}" \
     "https://ntfy.sh/${NTFY_TOPIC:-}" >/dev/null 2>&1 || true
 }
 trap 'alarm "beklenmedik hata — ~/Library/Logs/havadis-sabah.log"' ERR

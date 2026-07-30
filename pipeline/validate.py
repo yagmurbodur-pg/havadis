@@ -1,6 +1,6 @@
 """issue.json doğrulayıcı — şema + aday havuzu (ID) kontrolü.
 
-Hata mesajları Türkçe'dir: sabah editörü (Claude) bu çıktıyı okuyup issue.json'ı düzeltir.
+Hata mesajları Türkçe'dir: sabah editörü (model) bu çıktıyı okuyup issue.json'ı düzeltir.
 Temel güvence: dergiye yalnızca candidates.json havuzundaki id'ler girebilir (uydurma link imkânsız).
 """
 import json

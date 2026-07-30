@@ -1,4 +1,4 @@
-"""Acil durum: editör (Claude) çıktı üretemezse havuzdan mekanik bir 'mini sayı' kur.
+"""Acil durum: editör (model) çıktı üretemezse havuzdan mekanik bir 'mini sayı' kur.
 
 Metinler aday verisinden AYNEN alınır (özet kaynak dilinde kalabilir) — kod uydurmaz,
 bu yüzden validate zorunlu değildir. Dergi 'mini sayı' uyarısıyla yayınlanır.
