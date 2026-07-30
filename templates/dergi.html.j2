@@ -69,13 +69,11 @@ try {
         <p class="sayfa-bolum">Kapak Yazısı</p>
         {% if sayi.mini %}<p class="mini-uyari">Mini sayı: bu sabah tam editoryal üretim yapılamadı; başlıklar kaynaklarından aynen aktarıldı.</p>{% endif %}
         <p class="govde buyukce">{{ sayi.kapak.ozet }}</p>
-        <p class="neden">Neden önemli? {{ sayi.kapak.neden_onemli }}</p>
         {% if not gorsel.get(sayi.kapak.id) %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if k %}<a class="kaynak-link" href="{{ k.url }}" rel="noopener">{{ k.kaynak }} ↗</a>
           {% if x_bag.get(sayi.kapak.id) %}<a class="x-bag" href="{{ x_bag.get(sayi.kapak.id) }}" rel="noopener" aria-label="X (Twitter) duyurusu">𝕏</a>{% endif %}
           {% for e in k.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
-          {% for konu in sayi.kapak.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
         </div>
       </div>
       <p class="sayfa-alt">HAVADİS · SAYI {{ sayi_no }}</p>
@@ -93,14 +91,12 @@ try {
           {% if hg %}<figure class="kupur-gorsel"><img src="{{ hg }}" alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.closest('figure').classList.add('yok')"></figure>{% endif %}
           <h4>{{ h.baslik }}</h4>
           <p class="govde">{{ h.ozet }}</p>
-          <p class="neden">Neden önemli? {{ h.neden_onemli }}</p>
         </div>
         {% if not hg %}<div class="sus" aria-hidden="true">❦</div>{% endif %}
         <div class="kunye">
           {% if a %}<a class="kaynak-link" href="{{ a.url }}" rel="noopener">{{ a.kaynak }} ↗</a>
           {% if x_bag.get(h.id) %}<a class="x-bag" href="{{ x_bag.get(h.id) }}" rel="noopener" aria-label="X (Twitter) duyurusu">𝕏</a>{% endif %}
           {% for e in a.ek_kaynaklar[:3] %}<a href="{{ e.url }}" rel="noopener">{{ e.kaynak }}</a>{% endfor %}{% endif %}
-          {% for konu in h.get('konular', []) %}<a class="cip" href="{{ kok }}/kulliyat/index.html#konu/{{ konu|slugla }}">{{ konu }}</a>{% endfor %}
         </div>
       </div>
       <p class="sayfa-alt">HAVADİS · SAYI {{ sayi_no }}</p>

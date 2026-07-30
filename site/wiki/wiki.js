@@ -481,10 +481,12 @@
       var dx = h.x - k.x, dy = h.y - k.y, dz = h.z - k.z;
       var u = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
       var hedefUz = odak ? 95 : 118;
-      var cekim = (u - hedefUz) * 0.0045;
+      // yay kuvveti uzaklıkla DOĞRUSAL olmalı; u ile bir kez daha çarpmak (u²) ağ
+      // yoğunlaştığında entegrasyonu ıraksatıp konumları Infinity/NaN'a taşıyordu
+      var cekim = (u - hedefUz) * 0.012;
       dx /= u; dy /= u; dz /= u;
-      k.vx += dx * cekim * u * 0.06; k.vy += dy * cekim * u * 0.06; k.vz += dz * cekim * u * 0.06;
-      h.vx -= dx * cekim * u * 0.06; h.vy -= dy * cekim * u * 0.06; h.vz -= dz * cekim * u * 0.06;
+      k.vx += dx * cekim; k.vy += dy * cekim; k.vz += dz * cekim;
+      h.vx -= dx * cekim; h.vy -= dy * cekim; h.vz -= dz * cekim;
     });
     maddeler.forEach(function (m) {
       var g = gorunur(m);
@@ -494,7 +496,14 @@
       m.vx -= m.x * 0.004; m.vy -= m.y * 0.004; m.vz -= m.z * 0.004;
       if (m === suruklenen) return;
       m.vx *= 0.86; m.vy *= 0.86; m.vz *= 0.86;
+      var hiz = Math.sqrt(m.vx * m.vx + m.vy * m.vy + m.vz * m.vz);
+      if (hiz > 24) { var fren = 24 / hiz; m.vx *= fren; m.vy *= fren; m.vz *= fren; }
       m.x += m.vx; m.y += m.vy; m.z += m.vz;
+      if (!isFinite(m.x + m.y + m.z)) { // emniyet: bozulan hücreyi küreye geri koy
+        var aci = m.faz * 7;
+        m.x = 205 * Math.cos(aci); m.y = 205 * Math.sin(aci); m.z = 205 * Math.sin(m.faz);
+        m.vx = 0; m.vy = 0; m.vz = 0;
+      }
     });
 
     // kamera: odak varken hücreye süzül, yoksa merkeze dön

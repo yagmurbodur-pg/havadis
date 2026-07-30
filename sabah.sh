@@ -66,9 +66,8 @@ if ! "$PY" -m pipeline.lugat_dogrula; then
   git checkout -- lugat/ 2>/dev/null || true
 fi
 "$PY" -m pipeline.lugat_render
-"$PY" -m pipeline.kasa
 
-git add site veri kasa lugat
+git add site veri lugat
 git commit -m "Sayı: $(date '+%F')" || echo "değişiklik yok"
 git push origin main   # push → GitHub Actions yalnızca Pages yayını yapar
 

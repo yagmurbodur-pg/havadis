@@ -24,7 +24,8 @@ dergi güne bakar, Lugat birikir.
    VE fihristte yok. Yeni maddeyi fihristin doğru bölümüne ekle; sonra MEVCUT maddelerde bu terime
    bağlanabilecek yerleri tara ve ilk-geçiş kuralıyla bağla.
 5. **Dil:** yalın kayıt dili. "Devrim", "çığır açan", "oyunun kurallarını değiştiren" yok.
-   Ne olduğunu düz yaz. İlk cümle = tanım. Teknik terim ilk geçişte parantezle açıklanır.
+   Ne olduğunu düz yaz. İlk cümle = tanım. Okur tekniktir: yerleşik teknik terimler İngilizce
+   bırakılır; parantezle Türkçe açıklama/çeviri eklenmez.
 6. **Bağlantı disiplini:** `[[Madde Adı]]` yalnızca o maddenin dosyası varsa kullanılır ve bir maddede
    yalnızca İLK geçtiği yerde bağlanır.
 7. **Dosya adı = madde adı = kimliktir** ve bir kez açıldıktan sonra ASLA değişmez.

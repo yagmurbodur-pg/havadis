@@ -13,7 +13,7 @@ fetch (kaynaklardan aday havuzu) → editor (Kimi, EDITORIAL.md → issue.json)
 → validate (yeşil değilse 3 deneme; yine olmazsa fallback = mini sayı)
 → gorseller → render (site/) → kulliyat (veri/haberler.jsonl, arşiv)
 → lugat_editor (Kimi, LUGAT.md) → lugat_dogrula (geçmezse dünkü lugat kalır)
-→ lugat_render → kasa (Obsidian) → git push (Pages yayını) → notify (ntfy)
+→ lugat_render → git push (Pages yayını) → notify (ntfy)
 ```
 
 Elle tetikleme: `launchctl kickstart gui/$(id -u)/com.havadis.sabah`
@@ -37,8 +37,8 @@ $PY -m pipeline.gunu_sil          # bugünün kayıtlarını Külliyat'tan çık
 $PY -m pipeline.editor && $PY -m pipeline.validate
 $PY -m pipeline.gorseller; $PY -m pipeline.render && $PY -m pipeline.kulliyat
 $PY -m pipeline.lugat_editor && $PY -m pipeline.lugat_dogrula
-$PY -m pipeline.lugat_render && $PY -m pipeline.kasa
-git add site veri kasa lugat && git commit -m "Sayı: $(date '+%F') (tam sürüm)" && git push
+$PY -m pipeline.lugat_render
+git add site veri lugat && git commit -m "Sayı: $(date '+%F') (tam sürüm)" && git push
 $PY -m pipeline.notify
 ```
 

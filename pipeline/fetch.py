@@ -337,9 +337,28 @@ def topla(ayar, simdi=None):
     }
 
 
+def yayimlanmis_idler():
+    """Külliyat'ta (geçmiş sayılarda) zaten yayımlanmış haber id'leri."""
+    jsonl = KOK / "veri" / "haberler.jsonl"
+    if not jsonl.exists():
+        return set()
+    return {
+        json.loads(satir)["id"]
+        for satir in jsonl.read_text(encoding="utf-8").splitlines()
+        if satir.strip()
+    }
+
+
 def main():
     ayar = yaml.safe_load((KOK / "sources.yaml").read_text(encoding="utf-8"))
     havuz = topla(ayar)
+    # Geçmiş sayılarda çıkan haber yeniden aday olamaz (36 saatlik pencere çakışması)
+    eski = yayimlanmis_idler()
+    onceki_adet = len(havuz["adaylar"])
+    havuz["adaylar"] = [a for a in havuz["adaylar"] if a["id"] not in eski]
+    elenen = onceki_adet - len(havuz["adaylar"])
+    if elenen:
+        print(f"{elenen} aday geçmiş sayılarda yayımlandığı için elendi")
     (KOK / "candidates.json").write_text(
         json.dumps(havuz, ensure_ascii=False, indent=1), encoding="utf-8"
     )

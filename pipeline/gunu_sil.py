@@ -3,7 +3,7 @@
 Ne zaman gerekir: sabah mini sayı basıldıysa ve gün içinde sayı yeniden üretilecekse.
 Külliyat id bazlı idempotent olduğundan, önce o günün kayıtları silinmezse yeni
 başlıklar arşive işlenmez. Silme sonrası normal zincir koşulur:
-  editor → validate → gorseller → render → kulliyat → lugat_editor → lugat_render → kasa
+  editor → validate → gorseller → render → kulliyat → lugat_editor → lugat_render
 
 Kullanım: python3 -m pipeline.gunu_sil [--tarih 2026-07-28]   (varsayılan: bugünkü sayı tarihi)
 """

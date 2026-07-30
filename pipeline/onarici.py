@@ -25,7 +25,7 @@ def main():
                     "role": "system",
                     "content": (
                         "Sen Havadis'in (günlük Türkçe YZ dergisi; hat: fetch → editör → validate → "
-                        "render → külliyat → lugat → kasa → push → notify) nöbetçi işletmecisisin. "
+                        "render → külliyat → lugat → push → notify) nöbetçi işletmecisisin. "
                         "Aşağıdaki log kuyruğuna bak; hatanın en olası nedenini ve ilk müdahaleyi "
                         "TEK cümlede, ≤40 kelimeyle, Türkçe söyle. Emin değilsen 'log'da şunu kontrol et' de."
                     ),

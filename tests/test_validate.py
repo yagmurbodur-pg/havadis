@@ -187,3 +187,12 @@ def test_iliskili_fazlaysa_reddedilir():
     s["bolumler"][0]["haberler"][0]["iliskili"] = ["e1", "e2", "e3", "e4"]
     hatalar = dogrula(s, havuz(), eski_idler={"e1", "e2", "e3", "e4"})
     assert hatalar != []
+
+
+def test_gecmiste_yayimlanan_haber_reddedilir():
+    """Geçmiş sayıda çıkmış id (Külliyat'ta kayıtlı) yeni sayıya giremez."""
+    h = havuz(20)
+    s = gecerli_sayi()
+    hatalar = dogrula(s, h, eski_idler={s["kapak"]["id"]})
+    assert any("zaten yayımlandı" in x for x in hatalar)
+    assert not dogrula(s, h, eski_idler=set())

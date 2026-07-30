@@ -51,6 +51,10 @@ def dogrula(sayi, havuz, eski_idler=None):
             )
         elif cid in kullanilan_idler:
             hatalar.append(f"{yer}: '{cid}' sayıda birden fazla kez kullanılmış.")
+        elif cid in gecmis_idler:
+            hatalar.append(
+                f"{yer}: '{cid}' geçmiş bir sayıda zaten yayımlandı — aynı haber yeniden basılamaz."
+            )
         kullanilan_idler.add(cid)
 
     def haber_kontrol(obj, yer, ozet_siniri):
