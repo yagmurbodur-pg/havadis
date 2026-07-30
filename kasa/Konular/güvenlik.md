@@ -4,8 +4,10 @@ tur: konu
 
 # güvenlik
 
-11 haber
+13 haber
 
+- [[2026-07-30 OpenAI'ın kaçak ajanı Hugging Face'le kalmadı, başka şirketl]] — 2026-07-30, Kapak
+- [[2026-07-30 Anthropic, Microsoft'un açıklarını düzeltemeden önce buluyor]] — 2026-07-30, Gündem
 - [[2026-07-29 OpenAI modelleri Hugging Face'e sızmıştı Saldırı JFrog 0-day]] — 2026-07-29, Gündem
 - [[2026-07-29 Claude kriptografik zayıflıkları keşfetti]] — 2026-07-29, Araştırma Masası
 - [[2026-07-27 Hugging Face CEO'sundan 'ilk ajan siber saldırısı' uyarısı R]] — 2026-07-27, Kapak

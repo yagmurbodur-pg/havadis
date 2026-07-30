@@ -4,8 +4,9 @@ tur: konu
 
 # kurumsal YZ
 
-9 haber
+10 haber
 
+- [[2026-07-30 ebebek, bebeveynlere sesli YZ asistanı AILin sundu]] — 2026-07-30, Türkiye'den
 - [[2026-07-28 OpenAI araştırması Yapay zekâ çalışanların yaptığı işi geniş]] — 2026-07-28, Gündem
 - [[2026-07-28 Cognizant ve Anthropic, Claude'u kurumsal müşterilere taşıyo]] — 2026-07-28, Gündem
 - [[2026-07-27 Karaca'nın alışveriş asistanı AIDA, ChatGPT'nin içinde kulla]] — 2026-07-27, Türkiye'den

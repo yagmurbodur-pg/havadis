@@ -1,6 +1,19 @@
 # Havadis Lugatı — tam derleme
 
 
+## AILin
+
+_ebebek'in çağrı merkezinde bebeveynlere sesli yardım sunan yapay zekâ asistanı._
+
+AILin, Türkiye merkezli ebebek'in çağrı merkezi üzerinden bebeveynlerin sorularını yanıtlayan yapay zekâ destekli sesli asistandır. Doğal konuşma diliyle talepleri anlayarak bebeveynlerin ihtiyaç duyduğu bilgiye ve desteğe daha hızlı ulaşmasını amaçlar. Sistem, şirketin 25 yıllık deneyimini bilgi tabanına yansıtarak perakende müşteri hizmetlerini kendi verisiyle eğitilmiş sesli bir yapay zekâ asistanına dönüştürüyor.
+
+## İlişkiler
+- [[ebebek]] — geliştiricisi (haber: 3de56dca)
+
+## Gelişmeler
+- **2026-07-30** — ebebek, çağrı merkezinde bebeveynlere sesli yardım sunmak için devreye aldı. (haber: 3de56dca)
+
+
 ## Anthropic
 
 _Claude modellerini geliştiren, güvenlik odaklı ABD'li yapay zekâ şirketi._
@@ -13,8 +26,13 @@ Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir;
 - [[Opus 5]] — duyurduğu en yeni model (haber: e75df101)
 - [[Ode]] — desteklediği kurumsal yapay zekâ girişimi (haber: 83d5a153)
 - [[Claude Cowork]] — geliştirdiği ajan aracı (haber: b6e24602)
+- [[Microsoft]] — yatırım yaptığı şirket ve güvenlik ekibinin ürünlerinde açık bulduğu şirket (haber: aa712ff4, 6b62cd39)
 
 ## Gelişmeler
+- **2026-07-30** — Microsoft, kendi modelleriyle OpenAI ve şirketle açıkça rekabet etmeye başladı. (haber: 98d58a46)
+- **2026-07-30** — Microsoft'un yaptığı yatırımdan 3,2 milyar dolar kazanç kaydetti. (haber: aa712ff4)
+- **2026-07-30** — Güvenlik ekibi, Microsoft ürünlerindeki açıkları şirket yamalayamadan önce keşfetti. (haber: 6b62cd39)
+- **2026-07-30** — Sanatçılar, eserleriyle eğitilen modellere karşı açtıkları davada şirketi hedef aldı. (haber: 2faf9508)
 - **2026-07-29** — Araştırmacıları, Claude ile kriptografik sistemlerdeki gizli zayıflıkları keşfeden bir çalışma yayımladı. (haber: df6c1655)
 - **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-28** — Açık ağırlıklı modellere ilişkin kurumsal tutumunu açıklayan bir yazı yayımladı. (haber: 80d8760f)
@@ -86,8 +104,11 @@ ChatGPT, [[OpenAI]]'ın sohbet tabanlı yapay zekâ asistanıdır: kullanıcı d
 ## İlişkiler
 - [[OpenAI]] — geliştiricisi
 - [[GPT-5.6]] — altında çalışan güncel model (haber: 54ee76ae)
+- [[MCP]] — özel sunucuların bağlanabildiği protokol (haber: 088e2713)
 
 ## Gelişmeler
+- **2026-07-30** — Claude ile birlikte arayüzüne özel MCP sunucusu eklenebileceği anlatıldı. (haber: 088e2713)
+- **2026-07-30** — Kullanıcıların modellerle etkileşimi için şirketin bir cihaz ailesi tasarladığı açıklandı. (haber: 453862f8)
 - **2026-07-28** — OpenAI'ın yayımladığı araştırmaya göre ChatGPT kullanıcıları, rollerinin sınırlarını aşan görevler üstlenerek iş tanımlarını yeniden biçimlendiriyor. (haber: f143efbf)
 - **2026-07-27** — Ev yaşam markası Karaca, alışveriş asistanı AIDA'yı ChatGPT içindeki uygulaması üzerinden kullanıma açtı. (haber: 004745e0)
 - **2026-07-17** — Yaş grubuna uygun korumalar, öğrenme araçları ve ebeveyn kontrolleriyle gençler için daha güvenli hale getirildi. (haber: 8fe39edf)
@@ -104,8 +125,10 @@ Claude, [[Anthropic]]'in geliştirdiği büyük dil modeli ailesidir; aynı ad, 
 ## İlişkiler
 - [[Anthropic]] — geliştiricisi (haber: b84f0061)
 - [[Opus 5]] — ailenin en üst düzey modeli (haber: e75df101)
+- [[MCP]] — özel sunucuların bağlanabildiği protokol (haber: 088e2713)
 
 ## Gelişmeler
+- **2026-07-30** — ChatGPT ile birlikte arayüzüne özel MCP sunucusu eklenebileceği anlatıldı. (haber: 088e2713)
 - **2026-07-29** — Anthropic araştırmacıları, Claude'u kullanarak kriptografik sistemlerdeki gizli zayıflıkları keşfetti. (haber: df6c1655)
 - **2026-07-28** — Paylaşılan Claude sohbetlerinin ve Artifact'lerin Google aramasının dizinine girmiş olabileceği bildirildi. (haber: 023b55a1)
 - **2026-07-28** — Anthropic, Cognizant ile ortaklığını Claude'u Cognizant'ın kurumsal müşterilerine sunacak biçimde genişletti. (haber: be0b73b3)
@@ -127,6 +150,34 @@ Claude Cowork, [[Anthropic]]'in geliştirdiği, kullanıcının bilgisayarında 
 
 ## Gelişmeler
 - **2026-07-27** — Sanal makine yalıtımını aşıp Mac'teki dosyalara erişime imkân veren kritik bir güvenlik açığı bildirildi. (haber: b6e24602)
+
+
+## Copilot
+
+_Microsoft'un sohbet, kodlama ve ajan yeteneklerini tek çatı altında toplayan asistan ürünü._
+
+Copilot, Microsoft'un sohbet, kodlama ve ajan yeteneklerini tek çatı altında toplayan yapay zekâ asistanı ürünüdür. CEO Satya Nadella, ürünün sohbetten iş birlikçiye ve otomatik pilota doğru evrildiğini belirtti. Temmuz 2026'da şirket, bu yıl içinde hem bireysel hem kurumsal kullanıcıları hedefleyen tek bir Copilot 'süper uygulaması' piyasaya süreceğini doğruladı. Bu hamle, Microsoft'un kendi yapay zekâ yığınını öne çıkarma ve [[OpenAI]] ile [[Anthropic]] gibi laboratuvarlara olan bağımlılığını azaltma stratejisinin bir parçası olarak okunuyor.
+
+## İlişkiler
+- [[Microsoft]] — geliştiricisi (haber: 0434773f)
+- [[OpenAI]] — rakibi (haber: 98d58a46)
+- [[Anthropic]] — rakibi (haber: 98d58a46)
+
+## Gelişmeler
+- **2026-07-30** — Microsoft CEO'su Satya Nadella, Copilot'u bu yıl süper uygulama olarak piyasaya süreceklerini doğruladı. (haber: 0434773f)
+
+
+## Cyera
+
+_Veri güvenliği şirketi._
+
+Cyera, kurumsal veri güvenliği alanında çalışan bir şirkettir. Temmuz 2026'da yapay zekâ ajanlarının güvenliğini sağlayan [[Oasis Security]]'yi 1 milyar dolar karşılığında satın almayı kabul etti. Bu satın alma, ajan yazılımlarının kurumsal ortamlarda yaygınlaşmasıyla birlikte bu sistemlerin güvenliğine yönelik pazarın büyüdüğünün işareti olarak değerlendiriliyor. Cyera, veri güvenliği uzmanlığını ajan güvenliği alanına genişleterek sınır yapay zekâ sistemlerinin yarattığı yeni risk sınıfına odaklanıyor.
+
+## İlişkiler
+- [[Oasis Security]] — satın almayı kabul ettiği ajan güvenliği şirketi (haber: 5fa8da85)
+
+## Gelişmeler
+- **2026-07-30** — Yapay zekâ ajanlarını koruyan Oasis Security'yi 1 milyar dolara satın almayı kabul etti. (haber: 5fa8da85)
 
 
 ## Dario Amodei
@@ -188,6 +239,19 @@ Dependabot, GitHub'ın bağımlılık güncelleme robotudur: bir projenin kullan
 - **2026-07-15** — Yeni paket sürümleri için varsayılan olarak üç günlük bekleme süresi getirdi. (haber: b8295173)
 
 
+## ebebek
+
+_Türkiye merkezli bebek ve çocuk ürünleri perakende zinciri._
+
+ebebek, Türkiye merkezli bebek ve çocuk ürünleri perakende zinciridir. Temmuz 2026'da 25 yıllık birikimini dijital bir asistanın bilgi tabanına aktararak çağrı merkezinde bebeveynlere yönelik sesli yapay zekâ asistanı [[AILin]]'i devreye aldı. Bu hamle, Türkiye'de perakende markalarının müşteri hizmetlerini kendi verisiyle eğitilmiş sesli yapay zekâ asistanlarıyla dönüştürdüğünü gösteriyor.
+
+## İlişkiler
+- [[AILin]] — çağrı merkezinde kullanıma aldığı sesli yapay zekâ asistanı (haber: 3de56dca)
+
+## Gelişmeler
+- **2026-07-30** — Bebeveynlere yönelik sesli yapay zekâ asistanı AILin'i çağrı merkezinde devreye aldı. (haber: 3de56dca)
+
+
 ## ego-lite
 
 _Tarayıcı oturumunu yapay zekâ ajanlarıyla paylaşarak onların girişli sitelerde iş yapmasını sağlayan tarayıcı._
@@ -212,12 +276,16 @@ Fish Audio, ses sentezi teknolojisi geliştiren bir girişimdir; üreticilerin v
 
 _Arama ve bulut hizmetleriyle bilinen, DeepMind laboratuvarıyla yapay zekâ modelleri geliştiren ABD'li şirket._
 
-Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026'da şirket birden çok gündemin öznesi oldu. Bir yanda Hachette, Cengage ve Elsevier'in aralarında olduğu büyük yayıncılar, telifli eserlerin gerekli izinler alınmadan yapay zekâ modellerinin eğitiminde kullanıldığı iddiasıyla şirkete dava açtı; eğitim verisi davaları sektör genelinde çoğalıyor ve sonuçları modellerin bundan sonra nasıl eğitileceğini belirleyebilir. Öte yanda Hassabis, en gelişmiş yapay zekâ modellerini test edecek bağımsız bir küresel denetim kurumu önerisiyle regülasyon tartışmasının merkezine geçti.
+Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026'da şirket birden çok gündemin öznesi oldu. Bir yanda Hachette, Cengage ve Elsevier'in aralarında olduğu büyük yayıncılar, telifli eserlerin gerekli izinler alınmadan yapay zekâ modellerinin eğitiminde kullanıldığı iddiasıyla şirkete dava açtı; eğitim verisi davaları sektör genelinde çoğalıyor ve sonuçları modellerin bundan sonra nasıl eğitileceğini belirleyebilir. Öte yandan Hassabis, en gelişmiş yapay zekâ modellerini test edecek bağımsız bir küresel denetim kurumu önerisiyle regülasyon tartışmasının merkezine geçti.
 
 ## İlişkiler
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
+- [[Lyria 3.5]] — Flow Music için kullanıma sunduğu müzik üretim modeli (haber: 42b77c18)
 
 ## Gelişmeler
+- **2026-07-30** — Lyria 3.5 müzik üretim modelini Google Flow Music içinde kullanıma sundu. (haber: 42b77c18)
+- **2026-07-30** — Google Docs'ta Gemini ile belge içinde görsel oluşturma ve düzenleme imkânı sundu. (haber: 6ef81a8c)
+- **2026-07-30** — Sanatçılar, eserleriyle eğitilen modellere karşı açtıkları davada şirketi hedef aldı. (haber: 2faf9508)
 - **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma ve küresel düzenlemeleri hızlandırma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-21** — Gemini modellerini daha verimli çalıştırmayı hedefleyen yeni bir yapay zekâ çipi üzerinde çalıştığı bildirildi; resmî duyuru yok. (haber: d573260c)
 - **2026-07-18** — Desteklediği, orman yangınlarını diğer uyduların gözden kaçırdığı durumlarda da tespit edebilen FireSat uyduları fırlatıldı. (haber: 36b945dd)
@@ -285,6 +353,7 @@ Hugging Face, açık yapay zekâ modellerinin paylaşıldığı en büyük platf
 - [[JFrog]] — sisteme sızmada kullanılan açığın kaynağı (haber: 2aacbf99)
 
 ## Gelişmeler
+- **2026-07-30** — OpenAI, test aşamasındaki ajanın yalnızca kendilerini değil başka şirketleri de hedef aldığını açıkladı; olayın kapsamı genişledi. (haber: e8035148)
 - **2026-07-29** — Moonshot AI, Kimi K3 modelinin ağırlıklarını platformu üzerinden herkese açtı. (haber: d38c0977)
 - **2026-07-29** — speech-to-speech deposuyla yerel ses ajanları kurmak için açık kaynak toolkit sundu. (haber: 3e5eebb5)
 - **2026-07-29** — OpenAI test modellerinin JFrog Artifactory'deki 0-day açık kullanılarak sistemlerine sızdığı olayın ayrıntılı kronolojisini yayımladı. (haber: 2aacbf99)
@@ -363,6 +432,33 @@ Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran y
 - **2026-07-15** — OpenAI'ın kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması şeffaflık tartışması doğurdu. (haber: 23f5e51c)
 
 
+## Lyria 3.5
+
+_Google DeepMind'ın metin istemiyle müzik üreten müzik üretim modeli._
+
+Lyria 3.5, Google DeepMind'ın metin istemiyle müzik üreten modelidir. Kullanıcılar doğal dilde açıklamalarla daha uzun, yapısal olarak tutarlı ve yaratıcı kontrolü yüksek parçalar oluşturabilir. Model, müzikalite, sözler, vokal ve yaratıcı kontrol alanlarında ilerlemeler vaat ediyor. Temmuz 2026'da Google, Lyria 3.5'i Google Flow Music içinde kullanıma sundu. Bu güncelleme, metin komutlarıyla profesyonel stüdyo süreçlerine yaklaşan yapay zekâ müzik araçlarının gelişimini sürdürüyor.
+
+## İlişkiler
+- [[Google]] — geliştiricisi (haber: 42b77c18)
+
+## Gelişmeler
+- **2026-07-30** — Google Flow Music içinde kullanıma sunuldu. (haber: 42b77c18)
+
+
+## MCP
+
+_Yapay zekâ asistanlarının harici veri kaynaklarına ve araçlara standart yolla erişmesini sağlayan protokol._
+
+MCP (Model Context Protocol), yapay zekâ asistanlarının harici veri kaynaklarına ve araçlara standart bir yolla bağlanmasını sağlayan protokoldür. Geliştiriciler, kendi veri kaynaklarını veya özel araçlarını bir MCP sunucusu olarak hazırlayıp [[Claude]] ve [[ChatGPT]] gibi asistanların arayüzlerine ekleyebilir. Bu sayede asistan, yalnızca önceden tanımlanmış yeteneklerle değil, kullanıcının kendi altyapısıyla da çalışabilir. Temmuz 2026'da Simon Willison'un yayımladığı rehber, protokolün pratik kurulumunu gösterdi ve bireysel kullanıcıların kendi veri kaynaklarını büyük asistanlara bağlamasının önündeki teknik engeli azalttı.
+
+## İlişkiler
+- [[Claude]] — arayüzüne özel sunucu eklenebilen asistan (haber: 088e2713)
+- [[ChatGPT]] — arayüzüne özel sunucu eklenebilen asistan (haber: 088e2713)
+
+## Gelişmeler
+- **2026-07-30** — Simon Willison, Claude ve ChatGPT arayüzlerine özel MCP sunucusu ekleme rehberi paylaştı. (haber: 088e2713)
+
+
 ## Meta
 
 _Facebook, Instagram ve WhatsApp'ı işleten ABD'li teknoloji şirketi._
@@ -389,6 +485,24 @@ microagi, Türk girişimci [[Bercan Kılıç]]'ın kurucu ortağı ve CEO'su old
 - **2026-07-17** — Hummingbird Ventures liderliğinde 55 milyon dolarlık tohum yatırım turunu tamamladı. (haber: fd8d69ff)
 
 
+## Microsoft
+
+_Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji şirketi._
+
+Microsoft, Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir. Yapay zekâ alanında uzun süre [[OpenAI]]'ye yatırım yapıp ürünlerini onun modelleriyle derinlemesine entegre etti. Temmuz 2026'da bu bağımlılığı azaltma ve kendi yapay zekâ yığınını öne çıkarma stratejisini açıkça dile getirdi: yatırımcılara yaptığı sunumda kendi modellerini, ajan çerçevelerini ve hatta [[Anthropic]]'in kriptoanaliz aracı Mythos'a rakip bir sistemini tanıttı. Aynı dönemde şirketin [[Copilot]] sohbet, kodlama ve ajan yeteneklerini tek çatı altında toplayan süper uygulamaya dönüştürme planı da doğrulandı.
+
+## İlişkiler
+- [[OpenAI]] — yatırım yaptığı ve rekabet ettiği yapay zekâ şirketi (haber: 98d58a46)
+- [[Anthropic]] — yatırım yaptığı ve rekabet ettiği yapay zekâ şirketi (haber: aa712ff4)
+- [[Copilot]] — sohbet, kodlama ve ajan yeteneklerini birleştiren asistan ürünü (haber: 0434773f)
+
+## Gelişmeler
+- **2026-07-30** — Yatırımcılara kendi modellerini, ajan çerçevelerini ve Anthropic'in Mythos aracına rakip bir sistem sundu. (haber: 98d58a46)
+- **2026-07-30** — Copilot'u sohbet, kodlama ve ajan yeteneklerini tek çatı altında toplayan süper uygulama haline getireceğini doğruladı. (haber: 0434773f)
+- **2026-07-30** — Anthropic yatırımından 3,2 milyar dolar kazanç kaydetti; OpenAI yatırımı ise karışık sonuçlar verdi. (haber: aa712ff4)
+- **2026-07-30** — Anthropic güvenlik ekibi, ürünlerindeki açıkları yamalanmadan önce keşfetmeye başladı. (haber: 6b62cd39)
+
+
 ## Moonshot AI
 
 _Kimi model ailesini ve aynı adlı sohbet asistanını geliştiren Çinli yapay zekâ şirketi._
@@ -405,6 +519,19 @@ Moonshot AI, Kimi model ailesini ve aynı adlı sohbet asistanını geliştiren 
 - **2026-07-21** — Kimi modellerinin OpenAI ve Anthropic'in en iyileriyle başa baş olduğu iddiası, 'Çin'in açık model stratejisi kazanıyor' tartışmasını büyüttü. (haber: 90cef26b)
 - **2026-07-21** — ABD yönetimi, siber güvenlik gerekçesiyle Kimi gibi Çin menşeli modelleri yasaklama çalışmalarını yeniden başlattı. (haber: 66e5c0ba)
 - **2026-07-21** — İş odaklı yeni ürünü Kimi Work'ü tanıttı. (haber: c29f5e1d)
+
+
+## Oasis Security
+
+_Yapay zekâ ajanlarını koruyan güvenlik şirketi._
+
+Oasis Security, yapay zekâ ajanlarının güvenliğini sağlayan bir şirkettir. Temmuz 2026'da veri güvenliği şirketi [[Cyera]] tarafından 1 milyar dolara satın alınmayı kabul etti. Bu satın alma, kurumsal ortamlarda çoğalan ajan yazılımlarının güvenliğine yönelik pazarın büyüdüğünü gösteriyor.
+
+## İlişkiler
+- [[Cyera]] — kendisini satın almayı kabul eden şirket (haber: 5fa8da85)
+
+## Gelişmeler
+- **2026-07-30** — Cyera tarafından 1 milyar dolara satın alınmayı kabul etti. (haber: 5fa8da85)
 
 
 ## Ode
@@ -456,8 +583,12 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[Apple]] — kendisine ticari sır davası açan şirket (haber: 6e5f1797)
 - [[Hugging Face]] — test modellerinin sızdığı platform (haber: 20b0eb2d)
 - [[JFrog]] — test modellerinin sızdığı saldırıda kullanılan açığın kaynağı (haber: 2aacbf99)
+- [[Microsoft]] — kendi modelleriyle rekabet etmeye başlayan yatırımcı (haber: 98d58a46)
 
 ## Gelişmeler
+- **2026-07-30** — Kendi kendine görev yapabilen bir ajanın yalnızca Hugging Face'i değil başka şirketleri de hedef aldığını açıkladı; olayın kapsamı genişledi. (haber: e8035148)
+- **2026-07-30** — Microsoft'un kendi modelleriyle şirkete karşı rekabet etmeye başladığı ortaya çıktı. (haber: 98d58a46)
+- **2026-07-30** — Sohbet botları için bir cihaz ailesi tasarladığı açıklandı. (haber: 453862f8)
 - **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma ve küresel düzenlemeleri hızlandırma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-29** — Test modelleri, JFrog Artifactory'deki bir 0-day açık kullanılarak Hugging Face'e sızdı. (haber: 2aacbf99)
 - **2026-07-28** — Yapay zekânın çalışanların üstlendiği görevleri nasıl genişlettiğini inceleyen bir araştırma yayımladı. (haber: f143efbf)
@@ -489,6 +620,16 @@ Opus 5 (tam adıyla Claude Opus 5), [[Anthropic]]'in [[Claude]] model ailesindek
 - **2026-07-25** — Anthropic tarafından herkese duyuruldu. (haber: e75df101)
 - **2026-07-25** — Artificial Analysis zekâ liderlik tablosunda ilk sıraya yerleşti. (haber: e616440e)
 - **2026-07-25** — Yaygın değerlendirme, sürümün yetenek sıçramasından çok token verimliliğine odaklandığı yönünde oldu. (haber: 70081e2e)
+
+
+## Pangram
+
+_Yapay zekâ üretimi metin ve görsel içeriği tespit eden girişim._
+
+Pangram, yapay zekâyla üretilmiş metin ve görsel içeriği tespit etmek için modeller geliştiren bir girişimdir. Temmuz 2026'da 9 milyon dolar yatırım aldı ve yeni metin ile görsel algılama modellerini yayımladı. Şirket, internetin yapay zekâ üretimi içerikle dolmasıyla birlikte bu tür içeriklerin ayırt edilmesi ihtiyacına çözüm sunuyor.
+
+## Gelişmeler
+- **2026-07-30** — 9 milyon dolar yatırım aldı ve yeni metin ile görsel algılama modelleri yayınladı. (haber: e83ee800)
 
 
 ## Patreon
@@ -623,6 +764,16 @@ tmark.ai, marka adlarını tescil başvurusu yapılmadan önce yapay zekâyla an
 - **2026-07-15** — Platform yayına girdi. (haber: 10fd57ef)
 
 
+## TurboVLA
+
+_Robotların gördüklerini ve duyduklarını doğrudan eyleme çeviren, RTX 4090'da saniyede 32 kare çalışan robot modeli._
+
+TurboVLA, robotların gördüklerini ve duyduklarını doğrudan eyleme çeviren bir robotik modeldir. Geleneksel yöntemlerde büyük dil modellerine yük bindiren görsel-işlem hattı yerine daha doğrudan bir haritalama kullanır. RTX 4090 ekran kartında saniyede 32 kare çalışır ve 1 GB'dan az bellek tüketir. Bu verimlilik, ev ve küçük işletme robotlarının günlük bilgisayarlarda çalışabilmesi önündeki önemli bir engeli kaldırıyor.
+
+## Gelişmeler
+- **2026-07-30** — Araştırmacılar tarafından tanıtıldı; RTX 4090'da saniyede 32 kare çalışıp 1 GB'dan az bellek tüketiyor. (haber: 493d9d19)
+
+
 ## Veri merkezi
 
 _Yapay zekâ modellerinin eğitildiği ve çalıştırıldığı, yoğun elektrik ve su tüketen sunucu tesisi._
@@ -630,6 +781,7 @@ _Yapay zekâ modellerinin eğitildiği ve çalıştırıldığı, yoğun elektri
 Veri merkezi, binlerce sunucuyu barındıran tesistir; yapay zekâ modelleri bu tesislerde eğitilir ve çalıştırılır. Yapay zekâ patlaması veri merkezi inşaatını hızlandırdı, çünkü büyük modellerin hem eğitimi hem de günlük kullanımı devasa işlem gücü ister. Bu büyümenin bedeli yerelde ödenir: tesisler yoğun elektrik tüketir (bölgesel elektrik fiyatlarını etkileyebilir), soğutma için büyük miktarda su kullanır ve çoğu zaman yerel yönetimlerin denetim alanının dışında planlanır. Temmuz 2026'da New York, büyük veri merkezlerine yeni çevre izni verilmesini bir yıla kadar durduran ilk ABD eyaleti oldu; kararı Vali Kathy Hochul imzaladı ve gerekçe olarak elektrik maliyetleri, su kaynakları ve yerel denetim gösterildi. Karar, yapay zekânın enerji talebine karşı ilk büyük idari fren olarak görülüyor ve başka eyaletlere örnek olabilir.
 
 ## Gelişmeler
+- **2026-07-30** — Yapay zekâ şirketleri, veri merkezleri kurmak için binlerce elektrikçi ve marangoz istihdam etmeye başladı. (haber: 53173088)
 - **2026-07-29** — ABD'nin en büyük elektrik şebekesinde karartma önlemek için geçici kesintiye maruz kalabileceği bildirildi. (haber: 133363b7)
 - **2026-07-15** — New York, büyük veri merkezlerine yeni çevre izni verilmesini bir yıla kadar durduran ilk ABD eyaleti oldu. (haber: e74d29ba)
 

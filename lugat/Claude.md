@@ -5,7 +5,7 @@ tanim: "Anthropic'in geliştirdiği büyük dil modeli ailesi ve aynı adlı asi
 esanlamlilar: []
 etiketler: [Anthropic, modeller]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-29
+son_guncelleme: 2026-07-30
 ---
 
 Claude, [[Anthropic]]'in geliştirdiği büyük dil modeli ailesidir; aynı ad, bu modellerle çalışan sohbet asistanı için de kullanılır. Asistanın, kullanıcıya dair bilgileri oturumlar arasında saklayan bir hafıza özelliği vardır. Temmuz 2026'da Claude iki ayrı başlıkta gündeme geldi. Anthropic'in yayımladığı bir araştırma, modelin kullanıcıyla kurduğu iletişimin seçilen modele ve kullanılan dile bağlı olarak değişebildiğini doğruladı; bu, Türkçe kullananların İngilizce kullananlardan farklı bir deneyim yaşıyor olabileceği anlamına geliyor. Aynı günlerde bir güvenlik araştırmacısı, hafıza özelliğini kandırarak kullanıcı bilgilerini sızdırtabildiğini iddia etti; yazı Hacker News'te günün en çok konuşulanlarından oldu. İki başlık da aynı soruya çıkıyor: modelin davranışı ne kadar öngörülebilir ve verisi ne kadar güvende?
@@ -13,8 +13,10 @@ Claude, [[Anthropic]]'in geliştirdiği büyük dil modeli ailesidir; aynı ad, 
 ## İlişkiler
 - [[Anthropic]] — geliştiricisi (haber: b84f0061)
 - [[Opus 5]] — ailenin en üst düzey modeli (haber: e75df101)
+- [[MCP]] — özel sunucuların bağlanabildiği protokol (haber: 088e2713)
 
 ## Gelişmeler
+- **2026-07-30** — ChatGPT ile birlikte arayüzüne özel MCP sunucusu eklenebileceği anlatıldı. (haber: 088e2713)
 - **2026-07-29** — Anthropic araştırmacıları, Claude'u kullanarak kriptografik sistemlerdeki gizli zayıflıkları keşfetti. (haber: df6c1655)
 - **2026-07-28** — Paylaşılan Claude sohbetlerinin ve Artifact'lerin Google aramasının dizinine girmiş olabileceği bildirildi. (haber: 023b55a1)
 - **2026-07-28** — Anthropic, Cognizant ile ortaklığını Claude'u Cognizant'ın kurumsal müşterilerine sunacak biçimde genişletti. (haber: be0b73b3)

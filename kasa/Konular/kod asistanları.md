@@ -4,8 +4,9 @@ tur: konu
 
 # kod asistanları
 
-17 haber
+18 haber
 
+- [[2026-07-30 Microsoft bu yıl Copilot'u 'süper uygulama' yapıyor]] — 2026-07-30, Gündem
 - [[2026-07-29 İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına]] — 2026-07-29, Türkiye'den
 - [[2026-07-29 PDF teknik kitapları Claude Code yetkinliğine dönüştürün]] — 2026-07-29, Araç Çantası
 - [[2026-07-27 Ajanlar için tarayıcı ego-lite, oturumlarını Codex ve Claude]] — 2026-07-27, Araç Çantası

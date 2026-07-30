@@ -5,7 +5,7 @@ tanim: "Claude modellerini geliştiren, güvenlik odaklı ABD'li yapay zekâ şi
 esanlamlilar: []
 etiketler: [Anthropic]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-29
+son_guncelleme: 2026-07-30
 ---
 
 Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir; kendini yapay zekâ güvenliği odaklı bir laboratuvar olarak konumlandırır ve modellerinin davranışları üzerine düzenli araştırma yayımlar. Temmuz 2026'da yayımladığı bir çalışma, Claude'un kullanıcıyla kurduğu iletişimin seçilen modele ve kullanılan dile bağlı olarak değişebildiğini doğruladı; buna göre Claude'u Türkçe kullananlar, İngilizce kullananlardan farklı bir deneyim yaşıyor olabilir. Bu tür bulguların şirket tarafından açıkça yayımlanması, model davranışının şeffaflığı tartışmasında Anthropic'i öne çıkaran unsurlardan biri. Aynı dönemde bir güvenlik araştırmacısının Claude'un hafıza özelliğine yönelik sızdırma iddiası, şirketin ürün güvenliğini de gündeme taşıdı.
@@ -16,8 +16,13 @@ Anthropic, [[Claude]] model ailesini geliştiren ABD'li yapay zekâ şirketidir;
 - [[Opus 5]] — duyurduğu en yeni model (haber: e75df101)
 - [[Ode]] — desteklediği kurumsal yapay zekâ girişimi (haber: 83d5a153)
 - [[Claude Cowork]] — geliştirdiği ajan aracı (haber: b6e24602)
+- [[Microsoft]] — yatırım yaptığı şirket ve güvenlik ekibinin ürünlerinde açık bulduğu şirket (haber: aa712ff4, 6b62cd39)
 
 ## Gelişmeler
+- **2026-07-30** — Microsoft, kendi modelleriyle OpenAI ve şirketle açıkça rekabet etmeye başladı. (haber: 98d58a46)
+- **2026-07-30** — Microsoft'un yaptığı yatırımdan 3,2 milyar dolar kazanç kaydetti. (haber: aa712ff4)
+- **2026-07-30** — Güvenlik ekibi, Microsoft ürünlerindeki açıkları şirket yamalayamadan önce keşfetti. (haber: 6b62cd39)
+- **2026-07-30** — Sanatçılar, eserleriyle eğitilen modellere karşı açtıkları davada şirketi hedef aldı. (haber: 2faf9508)
 - **2026-07-29** — Araştırmacıları, Claude ile kriptografik sistemlerdeki gizli zayıflıkları keşfeden bir çalışma yayımladı. (haber: df6c1655)
 - **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-28** — Açık ağırlıklı modellere ilişkin kurumsal tutumunu açıklayan bir yazı yayımladı. (haber: 80d8760f)

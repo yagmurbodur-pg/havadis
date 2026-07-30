@@ -5,15 +5,19 @@ tanim: "Arama ve bulut hizmetleriyle bilinen, DeepMind laboratuvarıyla yapay ze
 esanlamlilar: []
 etiketler: [Google]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-29
+son_guncelleme: 2026-07-30
 ---
 
-Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026'da şirket birden çok gündemin öznesi oldu. Bir yanda Hachette, Cengage ve Elsevier'in aralarında olduğu büyük yayıncılar, telifli eserlerin gerekli izinler alınmadan yapay zekâ modellerinin eğitiminde kullanıldığı iddiasıyla şirkete dava açtı; eğitim verisi davaları sektör genelinde çoğalıyor ve sonuçları modellerin bundan sonra nasıl eğitileceğini belirleyebilir. Öte yanda Hassabis, en gelişmiş yapay zekâ modellerini test edecek bağımsız bir küresel denetim kurumu önerisiyle regülasyon tartışmasının merkezine geçti.
+Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026'da şirket birden çok gündemin öznesi oldu. Bir yanda Hachette, Cengage ve Elsevier'in aralarında olduğu büyük yayıncılar, telifli eserlerin gerekli izinler alınmadan yapay zekâ modellerinin eğitiminde kullanıldığı iddiasıyla şirkete dava açtı; eğitim verisi davaları sektör genelinde çoğalıyor ve sonuçları modellerin bundan sonra nasıl eğitileceğini belirleyebilir. Öte yandan Hassabis, en gelişmiş yapay zekâ modellerini test edecek bağımsız bir küresel denetim kurumu önerisiyle regülasyon tartışmasının merkezine geçti.
 
 ## İlişkiler
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
+- [[Lyria 3.5]] — Flow Music için kullanıma sunduğu müzik üretim modeli (haber: 42b77c18)
 
 ## Gelişmeler
+- **2026-07-30** — Lyria 3.5 müzik üretim modelini Google Flow Music içinde kullanıma sundu. (haber: 42b77c18)
+- **2026-07-30** — Google Docs'ta Gemini ile belge içinde görsel oluşturma ve düzenleme imkânı sundu. (haber: 6ef81a8c)
+- **2026-07-30** — Sanatçılar, eserleriyle eğitilen modellere karşı açtıkları davada şirketi hedef aldı. (haber: 2faf9508)
 - **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma ve küresel düzenlemeleri hızlandırma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-21** — Gemini modellerini daha verimli çalıştırmayı hedefleyen yeni bir yapay zekâ çipi üzerinde çalıştığı bildirildi; resmî duyuru yok. (haber: d573260c)
 - **2026-07-18** — Desteklediği, orman yangınlarını diğer uyduların gözden kaçırdığı durumlarda da tespit edebilen FireSat uyduları fırlatıldı. (haber: 36b945dd)

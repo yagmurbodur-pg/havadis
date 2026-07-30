@@ -4,8 +4,9 @@ tur: konu
 
 # araçlar
 
-22 haber
+23 haber
 
+- [[2026-07-30 Claude ve ChatGPT'ye özel MCP sunucusu eklemek]] — 2026-07-30, Araç Çantası
 - [[2026-07-29 PDF teknik kitapları Claude Code yetkinliğine dönüştürün]] — 2026-07-29, Araç Çantası
 - [[2026-07-29 Yerel ses ajanları kurmak için açık kaynak toolkit]] — 2026-07-29, Araç Çantası
 - [[2026-07-28 Hangi iş için hangi yapay zekâ Mollick'in güncel rehberi]] — 2026-07-28, Araç Çantası

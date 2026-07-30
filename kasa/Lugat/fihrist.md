@@ -6,8 +6,10 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 - [[Anthropic]]
 - [[Apple]]
+- [[Cyera]]
 - [[Databricks]]
 - [[DeepSeek]]
+- [[ebebek]]
 - [[Fish Audio]]
 - [[Google]]
 - [[Hugging Face]]
@@ -15,9 +17,12 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[kayIQ]]
 - [[Meta]]
 - [[microagi]]
+- [[Microsoft]]
 - [[Moonshot AI]]
+- [[Oasis Security]]
 - [[Ode]]
 - [[OpenAI]]
+- [[Pangram]]
 - [[Patreon]]
 - [[Perplexity]]
 - [[Recursive Superintelligence]]
@@ -32,16 +37,20 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[GPT-Red]]
 - [[Inkling]]
 - [[Kimi K3]]
+- [[Lyria 3.5]]
 - [[Opus 5]]
 - [[Qwen]]
 - [[Soofi S]]
+- [[TurboVLA]]
 
 ## Ürünler
 
+- [[AILin]]
 - [[book-to-skill]]
 - [[Buzz]]
 - [[ChatGPT]]
 - [[Claude Cowork]]
+- [[Copilot]]
 - [[Dependabot]]
 - [[ego-lite]]
 - [[Grok Build]]
@@ -60,6 +69,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 ## Kavramlar
 
 - [[Kod asistanı]]
+- [[MCP]]
 - [[Üstbiliş]]
 - [[Veri merkezi]]
 

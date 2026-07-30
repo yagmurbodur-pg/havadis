@@ -4,8 +4,9 @@ tur: konu
 
 # araştırma
 
-17 haber
+18 haber
 
+- [[2026-07-30 TurboVLA RTX 4090'da saniyede 32 kare çalışan robot modeli]] — 2026-07-30, Araştırma Masası
 - [[2026-07-29 Claude kriptografik zayıflıkları keşfetti]] — 2026-07-29, Araştırma Masası
 - [[2026-07-28 OpenAI araştırması Yapay zekâ çalışanların yaptığı işi geniş]] — 2026-07-28, Gündem
 - [[2026-07-28 Tıbbi görüntüleri bütün olarak anlayan yapay zekâ ClinFusion]] — 2026-07-28, Araştırma Masası

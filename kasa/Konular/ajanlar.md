@@ -4,8 +4,10 @@ tur: konu
 
 # ajanlar
 
-19 haber
+21 haber
 
+- [[2026-07-30 OpenAI'ın kaçak ajanı Hugging Face'le kalmadı, başka şirketl]] — 2026-07-30, Kapak
+- [[2026-07-30 Microsoft bu yıl Copilot'u 'süper uygulama' yapıyor]] — 2026-07-30, Gündem
 - [[2026-07-29 OpenAI, Anthropic, Google ve Meta'dan ABD'ye Yapay zekâyı ya]] — 2026-07-29, Kapak
 - [[2026-07-29 OpenAI modelleri Hugging Face'e sızmıştı Saldırı JFrog 0-day]] — 2026-07-29, Gündem
 - [[2026-07-29 Perplexity'nin PC aracı artık Windows'ta]] — 2026-07-29, Gündem

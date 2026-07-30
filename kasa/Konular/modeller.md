@@ -4,8 +4,11 @@ tur: konu
 
 # modeller
 
-13 haber
+16 haber
 
+- [[2026-07-30 Microsoft artık OpenAI ve Anthropic'e karşı kendi modelleriy]] — 2026-07-30, Gündem
+- [[2026-07-30 Google Flow Music'e Lyria 3.5 müzik üretim modeli geldi]] — 2026-07-30, Gündem
+- [[2026-07-30 TurboVLA RTX 4090'da saniyede 32 kare çalışan robot modeli]] — 2026-07-30, Araştırma Masası
 - [[2026-07-29 Kimi K3'ün ağırlıkları yayınlandı 2,8 trilyon parametre, 1,5]] — 2026-07-29, Gündem
 - [[2026-07-28 Kimi K3'ün ağırlıkları herkese açıldı en büyük açık model ar]] — 2026-07-28, Kapak
 - [[2026-07-27 Moonshot CEO'sundan OpenAI'a sert çıkış 'Yeni bir şey icat e]] — 2026-07-27, Gündem
