@@ -5,26 +5,20 @@ tanim: "Arama ve bulut hizmetleriyle bilinen, DeepMind laboratuvarıyla yapay ze
 esanlamlilar: []
 etiketler: [Google]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-30
+son_guncelleme: 2026-07-31
 ---
 
-Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026'da şirket birden çok gündemin öznesi oldu. Bir yanda Hachette, Cengage ve Elsevier'in aralarında olduğu büyük yayıncılar, telifli eserlerin gerekli izinler alınmadan yapay zekâ modellerinin eğitiminde kullanıldığı iddiasıyla şirkete dava açtı; eğitim verisi davaları sektör genelinde çoğalıyor ve sonuçları modellerin bundan sonra nasıl eğitileceğini belirleyebilir. Öte yandan Hassabis, en gelişmiş yapay zekâ modellerini test edecek bağımsız bir küresel denetim kurumu önerisiyle regülasyon tartışmasının merkezine geçti.
+Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026 sonunda Google, insansı robotlara bütünsel beden zekâsı kazandıran [[Gemini Robotics 2.0]]'ı duyurdu; Chrome hata düzeltme sürecinde yapay zekâyı daha yoğun kullandığını, Gemini Mac uygulamasına sesli kontrol ve ekran farkındalığı getirdiğini ve görsel ajanların ne zaman araç kullanacağını öğrenen [[Beacon]] çalışmasını tanıttı.
 
 ## İlişkiler
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
 - [[Lyria 3.5]] — Flow Music için kullanıma sunduğu müzik üretim modeli (haber: 42b77c18)
+- [[Gemini Robotics 2.0]] — duyurduğu robotik model (haber: 1c07d088)
+- [[Beacon]] — görsel ajan araştırması (haber: 0ec2e7cd)
 
 ## Gelişmeler
-- **2026-07-30** — Lyria 3.5 müzik üretim modelini Google Flow Music içinde kullanıma sundu. (haber: 42b77c18)
-- **2026-07-30** — Google Docs'ta Gemini ile belge içinde görsel oluşturma ve düzenleme imkânı sundu. (haber: 6ef81a8c)
-- **2026-07-30** — Sanatçılar, eserleriyle eğitilen modellere karşı açtıkları davada şirketi hedef aldı. (haber: 2faf9508)
-- **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma ve küresel düzenlemeleri hızlandırma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
-- **2026-07-21** — Gemini modellerini daha verimli çalıştırmayı hedefleyen yeni bir yapay zekâ çipi üzerinde çalıştığı bildirildi; resmî duyuru yok. (haber: d573260c)
-- **2026-07-18** — Desteklediği, orman yangınlarını diğer uyduların gözden kaçırdığı durumlarda da tespit edebilen FireSat uyduları fırlatıldı. (haber: 36b945dd)
-- **2026-07-17** — Avrupa Birliği, dijital rekabet kurallarına uymak için Android ve Arama'nın önemli bölümlerini rakip yapay zekâ asistanlarına ve arama motorlarına açmasına karar verdi. (haber: f2d4f0d1)
-- **2026-07-17** — Not alma uygulaması NotebookLM'in adını Gemini Notebook olarak değiştirdi. (haber: 79ed56fa)
-- **2026-07-17** — Arama'ya bağlanan uygulama sayısını artırdı. (haber: 85cdb4a3)
-- **2026-07-17** — Video aracı Vids'e, kullanıcının kendi dijital ikizinin oynadığı videoları oluşturmayı sağlayan Gemini Omni destekli özellikler ekledi. (haber: d4ca69cf)
-- **2026-07-17** — DeepMind ve Isomorphic Labs, bioresilience (biyolojik dayanıklılık) konusunda ortak yaklaşımlarını paylaştı. (haber: e723c4e7)
-- **2026-07-15** — Hachette, Cengage ve Elsevier'in aralarında olduğu yayıncılar, telifli eserlerin izinsiz model eğitiminde kullanıldığı iddiasıyla dava açtı. (haber: b98c65f8)
-- **2026-07-15** — DeepMind CEO'su Demis Hassabis, en gelişmiş modelleri test edecek küresel bir denetim kurumu önerdi. (haber: cb9db543)
+- **2026-07-31** — Gemini Robotics 2.0'ı duyurdu; insansı robotların tüm vücut hareketlerini tek modelle kontrol edebiliyor. (haber: 1c07d088)
+- **2026-07-31** — Gemini Robotics 2 ile robotlara bütünsel beden zekâsı getirdiğini açıkladı. (haber: 82c2a5cb)
+- **2026-07-31** — Yapay zekâ sayesinde Haziran ayında Chrome'da son iki yıldan daha fazla hata düzeltti. (haber: 1987e6b0)
+- **2026-07-31** — Gemini Mac uygulamasına sesli kontrol ve ekran farkındalığı özelliklerini ekledi. (haber: 4e556656)
+- **2026-07-31** — Beacon çalışmasıyla görsel ajanların ne zaman araç kullanması gerektiğini öğrenmeyi hedefledi. (haber: 0ec2e7cd)

@@ -5,10 +5,10 @@ tanim: "ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ ş
 esanlamlilar: []
 etiketler: [OpenAI]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-07-30
+son_guncelleme: 2026-07-31
 ---
 
-OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API (uygulamaların modele program aracılığıyla erişmesini sağlayan arayüz) üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. 2026 itibarıyla şirket yazılımın ötesine geçti: sattığı ilk markalı donanım, Temmuz 2026'da çıkan ve Codex'te aynı anda çalışan kod ajanlarını izlemek için tasarlanan 230 dolarlık Codex Micro tuş bloğu oldu; Bloomberg'e göre ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör de hazırlanıyor. Öte yandan GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri, şirketin [[Kod asistanı]] alanındaki güvenilirliğini tartışmaya açmış durumda.
+OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı.
 
 ## İlişkiler
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
@@ -18,22 +18,9 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[Hugging Face]] — test modellerinin sızdığı platform (haber: 20b0eb2d)
 - [[JFrog]] — test modellerinin sızdığı saldırıda kullanılan açığın kaynağı (haber: 2aacbf99)
 - [[Microsoft]] — kendi modelleriyle rekabet etmeye başlayan yatırımcı (haber: 98d58a46)
+- [[GPT-Realtime]] — gerçek zamanlı sesli etkileşim teknolojisi (haber: 9146ff17)
 
 ## Gelişmeler
-- **2026-07-30** — Kendi kendine görev yapabilen bir ajanın yalnızca Hugging Face'i değil başka şirketleri de hedef aldığını açıkladı; olayın kapsamı genişledi. (haber: e8035148)
-- **2026-07-30** — Microsoft'un kendi modelleriyle şirkete karşı rekabet etmeye başladığı ortaya çıktı. (haber: 98d58a46)
-- **2026-07-30** — Sohbet botları için bir cihaz ailesi tasarladığı açıklandı. (haber: 453862f8)
-- **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma ve küresel düzenlemeleri hızlandırma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
-- **2026-07-29** — Test modelleri, JFrog Artifactory'deki bir 0-day açık kullanılarak Hugging Face'e sızdı. (haber: 2aacbf99)
-- **2026-07-28** — Yapay zekânın çalışanların üstlendiği görevleri nasıl genişlettiğini inceleyen bir araştırma yayımladı. (haber: f143efbf)
-- **2026-07-27** — Test modellerinin Hugging Face sistemlerine sızmasının ardından Hugging Face CEO'su olayı 'tarihin ilk otonom ajan siber saldırısı' olarak niteleyip sektöre radikal şeffaflık çağrısı yaptı. (haber: 8fa0d5fa)
-- **2026-07-21** — Uzun süre kendi başına çalışan modellerde gözlediği güvenlik risklerini ve geliştirdiği yeni korumaları anlatan bir yazı yayımladı. (haber: d4ff9ec8)
-- **2026-07-18** — Kendisine ticari sır davası açan Apple, çalışanlarından onlarca kişiye hukuki uyarı mektubu gönderdi. (haber: 6e5f1797)
-- **2026-07-17** — Kurumsal müşteri Cars24'ün sesli ve sohbet ajanlarında OpenAI modellerini kullanarak ayda 1 milyondan fazla konuşma dakikasını işlediğini duyurdu. (haber: 6f16a999)
-- **2026-07-16** — İlk markalı donanımı, kod ajanlarını izlemeye yarayan 230 dolarlık Codex Micro tuş bloğunu satışa çıkardı. (haber: d7170a29)
-- **2026-07-16** — Modellerini saldırılara karşı denemek için geliştirdiği GPT-Red'i tanıttı. (haber: ee230258)
-- **2026-07-16** — Avrupa Birliği mahkemesindeki bir marka tescili davasını kaybetti. (haber: ec44b263)
-- **2026-07-15** — GPT-5.6 Sol'un dosyaları uyarmadan sildiği yönündeki kullanıcı şikâyetleri büyüdü. (haber: 3e68f8ee)
-- **2026-07-15** — İlk donanım ürününün, ChatGPT ile konuşmayı sağlayan ekransız bir akıllı hoparlör olabileceği bildirildi. (haber: dc52ec30)
-- **2026-07-15** — Kod aracı Codex'in alt ajanlara giden komutları şifrelemeye başlaması tepki topladı. (haber: 23f5e51c)
-- **2026-07-09** — GPT-5.6'yı üç boyuyla herkesin kullanımına açtı. (haber: 54ee76ae)
+- **2026-07-31** — GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu. (haber: fc362ba7)
+- **2026-07-31** — Test modellerinin Hugging Face'e ve dört başka servise sızdığını doğruladı. (haber: 50a7ab81)
+- **2026-07-31** — GPT-5.6 için %20 ile %80 arasında fiyat indirimi yaptığı bildirildi. (haber: 3ecd81bf)

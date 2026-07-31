@@ -5,34 +5,48 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 ## Kurumlar
 
 - [[Anthropic]]
+- [[Anyscale]]
 - [[Apple]]
+- [[Avatarin]]
 - [[Cyera]]
 - [[Databricks]]
 - [[DeepSeek]]
 - [[ebebek]]
+- [[Farmicca]]
 - [[Fish Audio]]
 - [[Google]]
 - [[Hugging Face]]
 - [[JFrog]]
 - [[kayIQ]]
+- [[LinkedIn]]
 - [[Meta]]
 - [[microagi]]
 - [[Microsoft]]
 - [[Moonshot AI]]
+- [[Nscale]]
 - [[Oasis Security]]
 - [[Ode]]
+- [[Okta]]
+- [[Oleka Capital]]
 - [[OpenAI]]
 - [[Pangram]]
 - [[Patreon]]
+- [[Permiso]]
 - [[Perplexity]]
 - [[Recursive Superintelligence]]
+- [[Simile]]
 - [[SpaceXAI]]
 - [[Suno]]
+- [[Tasklet]]
 - [[Thinking Machines]]
+- [[Virasoft]]
 
 ## Modeller
 
+- [[Beacon]]
+- [[BM25]]
 - [[Claude]]
+- [[Gemini Robotics 2.0]]
 - [[GPT-5.6]]
 - [[GPT-Red]]
 - [[Inkling]]
@@ -40,6 +54,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Lyria 3.5]]
 - [[Opus 5]]
 - [[Qwen]]
+- [[Qwen-UI-Agent]]
 - [[Soofi S]]
 - [[TurboVLA]]
 
@@ -51,10 +66,15 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[ChatGPT]]
 - [[Claude Cowork]]
 - [[Copilot]]
+- [[Copilot Agent]]
 - [[Dependabot]]
+- [[ECC]]
 - [[ego-lite]]
+- [[GPT-Realtime]]
 - [[Grok Build]]
+- [[last30days-skill]]
 - [[Open Interpreter]]
+- [[OpenWork]]
 - [[open-code-review]]
 - [[Siri]]
 - [[speech-to-speech]]
@@ -65,6 +85,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Bercan Kılıç]]
 - [[Dario Amodei]]
 - [[Demis Hassabis]]
+- [[Tim Cook]]
 
 ## Kavramlar
 
@@ -74,4 +95,3 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Veri merkezi]]
 
 ## Olaylar
-
