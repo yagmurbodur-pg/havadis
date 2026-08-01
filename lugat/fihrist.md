@@ -34,6 +34,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Permiso]]
 - [[Perplexity]]
 - [[Recursive Superintelligence]]
+- [[Reddit]]
 - [[Simile]]
 - [[SpaceXAI]]
 - [[Suno]]
@@ -46,6 +47,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Beacon]]
 - [[BM25]]
 - [[Claude]]
+- [[DeepSeek V4-Flash]]
 - [[Gemini Robotics 2.0]]
 - [[GPT-5.6]]
 - [[GPT-Red]]
@@ -70,6 +72,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Dependabot]]
 - [[ECC]]
 - [[ego-lite]]
+- [[Google Earth]]
 - [[GPT-Realtime]]
 - [[Grok Build]]
 - [[last30days-skill]]
@@ -95,3 +98,4 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Veri merkezi]]
 
 ## Olaylar
+
