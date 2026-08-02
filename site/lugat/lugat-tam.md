@@ -1,6 +1,16 @@
 # Havadis Lugatı — tam derleme
 
 
+## AI slop
+
+_Yapay zekâyla üretilen, düşük kaliteli veya özensiz içerik._
+
+AI slop, büyük dil modelleri veya görsel üretim araçları tarafından çok sayıda ve genellikle düşük kalitede üretilen içeriği tanımlayan terimdir. Sosyal medya, müzik ve haber platformlarında bu tür içeriklerin artması, üreticilerin ve kullanıcıların ayırt edici işaretler aramasına yol açıyor. Ağustos 2026'da Billboard Hot 100 listesindeki bir şarkının yapay zekâ üretimi olup olmadığına dair tartışma, terimin popüler müzik endüstrisinde de kullanılmaya başlandığını gösterdi.
+
+## Gelişmeler
+- **2026-08-02** — Billboard Hot 100'deki bir şarkının yapay zekâ üretimi olup olmadığı tartışıldı. (haber: 4a897541)
+
+
 ## AILin
 
 _ebebek'in çağrı merkezinde bebeveynlere sesli yardım sunan yapay zekâ asistanı._
@@ -145,6 +155,7 @@ ChatGPT, [[OpenAI]]'ın sohbet tabanlı yapay zekâ asistanıdır: kullanıcı d
 - [[MCP]] — özel sunucuların bağlanabildiği protokol (haber: 088e2713)
 
 ## Gelişmeler
+- **2026-08-02** — Sam Altman, ebeveynliğin ChatGPT ile desteklenebileceği yönündeki savını sürdürdü. (haber: ba0eb602)
 - **2026-08-01** — Yatırım, romantik dolandırıcılık, kumar ve kimlik taklidi şemalarında kullanıldığı Kamboçya merkezli bir dolandırıcılık operasyonunun engellenmesinde rol aldı. (haber: c5ad624a)
 - **2026-07-30** — Claude ile birlikte arayüzüne özel MCP sunucusu eklenebileceği anlatıldı. (haber: 088e2713)
 - **2026-07-30** — Kullanıcıların modellerle etkileşimi için şirketin bir cihaz ailesi tasarladığı açıklandı. (haber: 453862f8)
@@ -301,6 +312,16 @@ Dependabot, GitHub'ın bağımlılık güncelleme robotudur: bir projenin kullan
 - **2026-07-15** — Yeni paket sürümleri için varsayılan olarak üç günlük bekleme süresi getirdi. (haber: b8295173)
 
 
+## Diátaxis
+
+_Teknik dokümantasyonu öğretme, nasıl yapılır, referans ve açıklama türlerine ayıran çerçeve._
+
+Diátaxis, teknik dokümantasyonu dört işleve göre sınıflandıran bir çerçevedir: öğretici, nasıl yapılır kılavuzu, referans ve açıklama. Her belge türünün farklı bir kullanıcı ihtiyacına ve okuma bağlamına hitap etmesi gerektiği ilkesine dayanır; amacı, dokümanların hem yazarları hem okuyucuları için daha öngörülebilir hale gelmesini sağlamaktır. Ağustos 2026'da Hacker News gündemine taşınarak yazılım ekiplerinin dokümantasyon pratiği tartışmalarında yeniden öne çıktı.
+
+## Gelişmeler
+- **2026-08-02** — Hacker News gündeminde öne çıkarak teknik dokümantasyon çerçevesi olarak gündeme geldi. (haber: b117854c)
+
+
 ## ebebek
 
 _Türkiye merkezli bebek ve çocuk ürünleri perakende zinciri._
@@ -402,6 +423,7 @@ Google Earth, [[Google]]'ın uydu görüntüleri, arazi verileri ve üç boyutlu
 - [[Google]] — geliştiricisi (haber: 5c88eea8)
 
 ## Gelişmeler
+- **2026-08-02** — Yapay zekâ özelliği güvenlik nedeniyle kaldırıldı. (haber: 8bd705dd)
 - **2026-08-01** — Sahte uydu görüntüsü üreten yapay zekâ özelliği bir gün sonra geri çekildi. (haber: 5c88eea8)
 
 
@@ -460,6 +482,16 @@ Grok Build, [[SpaceXAI]]'ın yazılımcılara yönelik kod aracıdır; şirketin
 ## Gelişmeler
 - **2026-07-16** — SpaceXAI, veri skandalının ardından aracın kaynak kodunu GitHub'da herkese açtı. (haber: f42bd958)
 - **2026-07-15** — Cereblab, aracın kullanıcı projelerini açmaması söylenen dosyalar dahil Google Cloud'a yüklediğini ortaya çıkardı; özellik kapatıldı. (haber: 2cc0275f)
+
+
+## Hank Green
+
+_Bilim iletişimcisi ve YouTuber; aşırı yapay zekâ kullanımına karşı uyaran isimlerden biri._
+
+Hank Green, bilim iletişimcisi ve YouTuber'dır; eğitim içerikleriyle geniş bir kitleye ulaşmıştır. Ağustos 2026'da yapay zekâ asistanlarıyla etkileşimden aldığı dopamin seviyesinin kendisi ve dünya için sağlıklı olmadığı yönünde bir açıklama yaptı. Sözleri, büyük dil modelleriyle sürekli etkileşimin kişisel refah ve toplumsal etkileri üzerine tartışmaları besledi.
+
+## Gelişmeler
+- **2026-08-02** — Yapay zekâ asistanlarıyla etkileşimden aldığı dopamin seviyesinin sağlıklı olmadığını söyleyerek açıklama yaptı. (haber: faffeeac)
 
 
 ## Hugging Face
@@ -562,7 +594,7 @@ last30days-skill, Claude Code, Kiro, Cursor ve Cline gibi kod asistanlarına tak
 
 _Profesyonel ağ ve kariyer odaklı sosyal medya platformu._
 
-LinkedIn, profesyonel ilişkiler ve kariyer gelişimi odaklı sosyal medya platformudur. Temmuz 2026 sonunda düşük kaliteli yapay zekâ içeriğini azaltmak amacıyla kullanıcıların bir gönderiyi 'Seems like AI slop' olarak işaretleyebileceği yeni raporlama seçeneklerini sundu; şirket aynı zamanda kendi yapay zekâ yazı yardımcısını yalnızca yazım denetimine dönüştürdü.
+LinkedIn, profesyonel ilişkiler ve kariyer gelişimi odaklı sosyal medya platformudur. Temmuz 2026 sonunda düşük kaliteli yapay zekâ içeriğini azaltmak amacıyla kullanıcıların bir gönderiyi 'Seems like [[AI slop]]' olarak işaretleyebileceği yeni raporlama seçeneklerini sundu; şirket aynı zamanda kendi yapay zekâ yazı yardımcısını yalnızca yazım denetimine dönüştürdü.
 
 ## Gelişmeler
 - **2026-07-31** — Düşük kaliteli yapay zekâ içeriklerini bildirmek için 'slop' butonu ekledi. (haber: 208aa591)
@@ -760,6 +792,7 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[GPT-Realtime]] — gerçek zamanlı sesli etkileşim teknolojisi (haber: 9146ff17)
 
 ## Gelişmeler
+- **2026-08-02** — Matematik ve teorik bilgisayar bilimindeki uzun süreli açık sorularda yeni sonuçlar paylaştı. (haber: 6d58997b)
 - **2026-08-01** — Avrupa'da güvenlik, şeffaflık ve köken bilgisi uygulamalarıyla sorumlu yapay zekâ yönetişimini desteklediğini açıkladı. (haber: b86dc435)
 - **2026-08-01** — Gelişmiş yapay zekâyı daha yetenekli, uygun fiyatlı ve yaygın kullanışlı hale getirmek için tam yığın yaklaşımını anlattı. (haber: 6e145b01)
 - **2026-08-01** — ChatGPT'nin yatırım, romantik dolandırıcılık, kumar ve kimlik taklidi şemalarında kullanıldığı Kamboçya merkezli bir dolandırıcılık operasyonunu engelledi. (haber: c5ad624a)
@@ -894,6 +927,30 @@ Reddit, kullanıcıların ilgi alanlarına göre topluluklar oluşturup tartış
 - **2026-08-01** — Perplexity AI'nin web kazıyıcısıyla iş birliği yaparak Google arama sonuçlarındaki içeriğini izinsiz kullandığı iddiasıyla DMCA davasını sürdürdü. (haber: 8d990961)
 
 
+## Sam Altman
+
+_OpenAI'ın CEO'su ve ChatGPT'nin arkasındaki isim._
+
+Sam Altman, yapay zekâ şirketi OpenAI'ın CEO'sudur; şirketin sohbet asistanı ChatGPT'nin gelişiminde ve yaygınlaşmasında öne çıkan isimlerden biridir. Ağustos 2026'da ebeveynliğin ChatGPT gibi yapay zekâ araçlarıyla desteklenebileceği yönündeki savını sürdürdü; bu yaklaşım, çocuk yetiştirmede yapay zekâ kullanımının sınırları ve etiği üzerine tartışmalara katkıda bulundu.
+
+## İlişkiler
+- [[OpenAI]] — CEO'su
+- [[ChatGPT]] — ebeveynlikte kullanımını savunduğu asistan (haber: ba0eb602)
+
+## Gelişmeler
+- **2026-08-02** — Ebeveynliğin ChatGPT ile desteklenebileceği yönündeki savını sürdürdü. (haber: ba0eb602)
+
+
+## Seedance 2.5
+
+_ByteDance'ın metin ve görüntüden video üreten yapay zekâ video modeli._
+
+Seedance 2.5, ByteDance'ın metin istemi ve kaynak görüntülerden video üreten yapay zekâ video modelidir. Ağustos 2026'da duyurulan 2.5 sürümü, tek çekimde uzun video oluşturma ve esnek referans gibi yetenekler vaat ediyor. Tarayıcı üzerinden erişilebilen güncelleme, yapay zekâyla profesyonel video üretimi alanındaki rekabeti sürdürüyor.
+
+## Gelişmeler
+- **2026-08-02** — 2.5 sürümü duyuruldu; tek çekimde uzun video oluşturma ve esnek referans yetenekleri tanıtıldı. (haber: 9abc53d7)
+
+
 ## Simile
 
 _İnsan davranışlarını öngören yapay zekâ şirketi._
@@ -937,6 +994,7 @@ SpaceXAI, Elon Musk'ın SpaceX çatısına taşınan yapay zekâ şirketidir; ö
 - [[Grok Build]] — kod aracı (haber: 2cc0275f)
 
 ## Gelişmeler
+- **2026-08-02** — Minnesota'nın çıplaklaştırma uygulamalarına getirdiği yasağı engellemeye yönelik talebi reddedildi. (haber: 9bb4cc8e)
 - **2026-07-31** — Minnesota'nın çıplaklaştırma uygulamalarını hedefleyen yasasına karşı dava açtı ve Grok Imagine özelliklerini kısıtladı. (haber: 5fe08d38)
 
 

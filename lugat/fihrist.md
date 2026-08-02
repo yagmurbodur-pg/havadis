@@ -57,6 +57,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Opus 5]]
 - [[Qwen]]
 - [[Qwen-UI-Agent]]
+- [[Seedance 2.5]]
 - [[Soofi S]]
 - [[TurboVLA]]
 
@@ -88,10 +89,14 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Bercan Kılıç]]
 - [[Dario Amodei]]
 - [[Demis Hassabis]]
+- [[Hank Green]]
+- [[Sam Altman]]
 - [[Tim Cook]]
 
 ## Kavramlar
 
+- [[AI slop]]
+- [[Diátaxis]]
 - [[Kod asistanı]]
 - [[MCP]]
 - [[Üstbiliş]]

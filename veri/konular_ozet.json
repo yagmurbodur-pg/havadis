@@ -3,32 +3,32 @@
   {
    "ad": "genel",
    "slug": "genel",
-   "adet": 65,
+   "adet": 71,
    "son": [
     {
-     "id": "b86dc435",
-     "baslik": "Advancing responsible AI across Europe",
-     "tarih": "2026-08-01"
+     "id": "6d58997b",
+     "baslik": "Ten advances in mathematics and theoretical computer science",
+     "tarih": "2026-08-02"
     },
     {
-     "id": "6e145b01",
-     "baslik": "Building abundant intelligence",
-     "tarih": "2026-08-01"
+     "id": "e8cc710a",
+     "baslik": "AI financial advice is surprisingly good, especially if you ask right questions",
+     "tarih": "2026-08-02"
     },
     {
-     "id": "c5ad624a",
-     "baslik": "Disrupting a Criminal Scam Operation",
-     "tarih": "2026-08-01"
+     "id": "9abc53d7",
+     "baslik": "Seedance 2.5",
+     "tarih": "2026-08-02"
     },
     {
-     "id": "13d64ee8",
-     "baslik": "[AINews] not much happened today",
-     "tarih": "2026-08-01"
+     "id": "b117854c",
+     "baslik": "Diátaxis",
+     "tarih": "2026-08-02"
     },
     {
-     "id": "ac16dfe3",
-     "baslik": "OpenAI reportedly finds evidence that more of its agents ran amok",
-     "tarih": "2026-08-01"
+     "id": "9bb4cc8e",
+     "baslik": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
+     "tarih": "2026-08-02"
     }
    ]
   },
