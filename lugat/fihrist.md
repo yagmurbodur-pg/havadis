@@ -44,6 +44,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 ## Modeller
 
+- [[Astra]]
 - [[Beacon]]
 - [[BM25]]
 - [[Claude]]
@@ -57,12 +58,14 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Opus 5]]
 - [[Qwen]]
 - [[Qwen-UI-Agent]]
+- [[Qwen3.8-Max]]
 - [[Seedance 2.5]]
 - [[Soofi S]]
 - [[TurboVLA]]
 
 ## Ürünler
 
+- [[Agent-Reach]]
 - [[AILin]]
 - [[book-to-skill]]
 - [[Buzz]]
@@ -70,6 +73,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Claude Cowork]]
 - [[Copilot]]
 - [[Copilot Agent]]
+- [[DeepSeek-Reasonix]]
 - [[Dependabot]]
 - [[ECC]]
 - [[ego-lite]]
@@ -82,6 +86,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[open-code-review]]
 - [[Siri]]
 - [[speech-to-speech]]
+- [[TencentDB Agent Memory]]
 - [[tmark.ai]]
 
 ## Kişiler
@@ -96,6 +101,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 ## Kavramlar
 
 - [[AI slop]]
+- [[DELETE Yasası]]
 - [[Diátaxis]]
 - [[Kod asistanı]]
 - [[MCP]]

@@ -35,8 +35,23 @@
   {
    "ad": "ajanlar",
    "slug": "ajanlar",
-   "adet": 33,
+   "adet": 36,
    "son": [
+    {
+     "id": "f1afe257",
+     "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "d00d272b",
+     "baslik": "Agent-Reach: ajanınıza tüm interneti tek CLI ile taratın",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "d046e10f",
+     "baslik": "TencentDB Agent Memory: ajanlar için takım bazlı hafıza merkezi",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "d382e1db",
      "baslik": "Anthropic: Kendi modellerimiz üç şirketin sistemine izinsiz girdi",
@@ -46,29 +61,24 @@
      "id": "1c07d088",
      "baslik": "Google, Gemini Robotics 2.0 ile robotların tüm vücut kontrolünü hedefliyor",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "c7024dd7",
-     "baslik": "Okta, yapay zekâ güvenlik şirketi Permiso'yu 200 milyon dolara satın alıyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "0ec2e7cd",
-     "baslik": "Beacon: Görsel ajanlar ne zaman araç kullanmalı öğreniyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "a7aeb4c8",
-     "baslik": "OpenWork: Açık kaynak Claude Cowork alternatifi",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 26,
+   "adet": 28,
    "son": [
+    {
+     "id": "d00d272b",
+     "baslik": "Agent-Reach: ajanınıza tüm interneti tek CLI ile taratın",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "d046e10f",
+     "baslik": "TencentDB Agent Memory: ajanlar için takım bazlı hafıza merkezi",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "0adddc85",
      "baslik": "Yeni MCP spesifikasyonu kurumsal ölçekte benimsemeyi hedefliyor",
@@ -83,24 +93,29 @@
      "id": "01e478ba",
      "baslik": "last30days-skill: Herhangi bir konuda 30 günlük web araştırması yapan ajan",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "088e2713",
-     "baslik": "Claude ve ChatGPT'ye özel MCP sunucusu eklemek",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "a58fde93",
-     "baslik": "PDF teknik kitapları Claude Code yetkinliğine dönüştürün",
-     "tarih": "2026-07-29"
     }
    ]
   },
   {
    "ad": "kod asistanları",
    "slug": "kod-asistanlari",
-   "adet": 23,
+   "adet": 26,
    "son": [
+    {
+     "id": "f1afe257",
+     "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "c68c9a71",
+     "baslik": "Google AI Studio mobil uygulamasını sonlandırıyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "201fe558",
+     "baslik": "DeepSeek-Reasonix: terminal tabanlı açık kaynak kod ajanı",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "d0b1ade3",
      "baslik": "Microsoft, Copilot'u bu yıl 'süper uygulama' haline getirecek",
@@ -110,29 +125,24 @@
      "id": "a7aeb4c8",
      "baslik": "OpenWork: Açık kaynak Claude Cowork alternatifi",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "3429c721",
-     "baslik": "ECC: Kod ajanları için performans kıyafeti",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "25246c2b",
-     "baslik": "GitHub Copilot Agent'i uygulamalarınıza entegre eden resmi SDK yayında",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "01e478ba",
-     "baslik": "last30days-skill: Herhangi bir konuda 30 günlük web araştırması yapan ajan",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "OpenAI",
    "slug": "openai",
-   "adet": 22,
+   "adet": 24,
    "son": [
+    {
+     "id": "38613752",
+     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "80a4db1a",
+     "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "fc362ba7",
      "baslik": "OpenAI, GPT-5.6 için Luna ve Terra fiyatlarını düşürdü",
@@ -147,24 +157,24 @@
      "id": "50a7ab81",
      "baslik": "OpenAI: Hugging Face'e sızan modeller başka dört servise de sızdı",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "e8035148",
-     "baslik": "OpenAI'ın kaçak ajanı Hugging Face'le kalmadı, başka şirketlere de saldırdı",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "98d58a46",
-     "baslik": "Microsoft artık OpenAI ve Anthropic'e karşı kendi modelleriyle yarışıyor",
-     "tarih": "2026-07-30"
     }
    ]
   },
   {
    "ad": "araştırma",
    "slug": "arastirma",
-   "adet": 22,
+   "adet": 24,
    "son": [
+    {
+     "id": "38613752",
+     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "80a4db1a",
+     "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "a3833d33",
      "baslik": "Araştırmacılar: Büyük dil modelleri temelden saldırılara açık",
@@ -179,24 +189,24 @@
      "id": "04b451b2",
      "baslik": "Qwen-UI-Agent: Gerçek dünya arayüz görevleri için temel ajan modeli",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "3a39065c",
-     "baslik": "Büyük ölçekli RAG'de BM25'nin liderliğini gösteren ölçeklendirme çalışması",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "493d9d19",
-     "baslik": "TurboVLA: RTX 4090'da saniyede 32 kare çalışan robot modeli",
-     "tarih": "2026-07-30"
     }
    ]
   },
   {
    "ad": "açık kaynak",
    "slug": "acik-kaynak",
-   "adet": 21,
+   "adet": 23,
    "son": [
+    {
+     "id": "c1de4f1e",
+     "baslik": "235 şirketten açık ağırlıklı modelleri savunan mektup",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "201fe558",
+     "baslik": "DeepSeek-Reasonix: terminal tabanlı açık kaynak kod ajanı",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "a7aeb4c8",
      "baslik": "OpenWork: Açık kaynak Claude Cowork alternatifi",
@@ -211,24 +221,51 @@
      "id": "0adddc85",
      "baslik": "Yeni MCP spesifikasyonu kurumsal ölçekte benimsemeyi hedefliyor",
      "tarih": "2026-07-31"
+    }
+   ]
+  },
+  {
+   "ad": "modeller",
+   "slug": "modeller",
+   "adet": 22,
+   "son": [
+    {
+     "id": "f1afe257",
+     "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
+     "tarih": "2026-08-03"
     },
     {
-     "id": "25246c2b",
-     "baslik": "GitHub Copilot Agent'i uygulamalarınıza entegre eden resmi SDK yayında",
+     "id": "38613752",
+     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "80a4db1a",
+     "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "fc362ba7",
+     "baslik": "OpenAI, GPT-5.6 için Luna ve Terra fiyatlarını düşürdü",
      "tarih": "2026-07-31"
     },
     {
-     "id": "d38c0977",
-     "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
-     "tarih": "2026-07-29"
+     "id": "82c2a5cb",
+     "baslik": "Gemini Robotics 2, insansı robotların tüm vücudunu tek modelle yönetebiliyor",
+     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "kurumsal YZ",
    "slug": "kurumsal-yz",
-   "adet": 19,
+   "adet": 20,
    "son": [
+    {
+     "id": "d046e10f",
+     "baslik": "TencentDB Agent Memory: ajanlar için takım bazlı hafıza merkezi",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "d382e1db",
      "baslik": "Anthropic: Kendi modellerimiz üç şirketin sistemine izinsiz girdi",
@@ -248,43 +285,6 @@
      "id": "b5180026",
      "baslik": "LinkedIn, 'YZ salatası gibi görünüyor' şikâyet butonu ekledi",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "c7024dd7",
-     "baslik": "Okta, yapay zekâ güvenlik şirketi Permiso'yu 200 milyon dolara satın alıyor",
-     "tarih": "2026-07-31"
-    }
-   ]
-  },
-  {
-   "ad": "modeller",
-   "slug": "modeller",
-   "adet": 19,
-   "son": [
-    {
-     "id": "fc362ba7",
-     "baslik": "OpenAI, GPT-5.6 için Luna ve Terra fiyatlarını düşürdü",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "82c2a5cb",
-     "baslik": "Gemini Robotics 2, insansı robotların tüm vücudunu tek modelle yönetebiliyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "04b451b2",
-     "baslik": "Qwen-UI-Agent: Gerçek dünya arayüz görevleri için temel ajan modeli",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "98d58a46",
-     "baslik": "Microsoft artık OpenAI ve Anthropic'e karşı kendi modelleriyle yarışıyor",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "42b77c18",
-     "baslik": "Google Flow Music'e Lyria 3.5 müzik üretim modeli geldi",
-     "tarih": "2026-07-30"
     }
    ]
   },
@@ -353,6 +353,70 @@
    ]
   },
   {
+   "ad": "Çin",
+   "slug": "cin",
+   "adet": 13,
+   "son": [
+    {
+     "id": "f1afe257",
+     "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "201fe558",
+     "baslik": "DeepSeek-Reasonix: terminal tabanlı açık kaynak kod ajanı",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "04b451b2",
+     "baslik": "Qwen-UI-Agent: Gerçek dünya arayüz görevleri için temel ajan modeli",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "d38c0977",
+     "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "dcba2faa",
+     "baslik": "Kimi K3'ün ağırlıkları herkese açıldı: en büyük açık model artık ücretsiz",
+     "tarih": "2026-07-28"
+    }
+   ]
+  },
+  {
+   "ad": "Google",
+   "slug": "google",
+   "adet": 13,
+   "son": [
+    {
+     "id": "c68c9a71",
+     "baslik": "Google AI Studio mobil uygulamasını sonlandırıyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "1c07d088",
+     "baslik": "Google, Gemini Robotics 2.0 ile robotların tüm vücut kontrolünü hedefliyor",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "0ec2e7cd",
+     "baslik": "Beacon: Görsel ajanlar ne zaman araç kullanmalı öğreniyor",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "82c2a5cb",
+     "baslik": "Gemini Robotics 2, insansı robotların tüm vücudunu tek modelle yönetebiliyor",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "42b77c18",
+     "baslik": "Google Flow Music'e Lyria 3.5 müzik üretim modeli geldi",
+     "tarih": "2026-07-30"
+    }
+   ]
+  },
+  {
    "ad": "Türkiye",
    "slug": "turkiye",
    "adet": 13,
@@ -385,74 +449,20 @@
    ]
   },
   {
-   "ad": "Google",
-   "slug": "google",
-   "adet": 12,
-   "son": [
-    {
-     "id": "1c07d088",
-     "baslik": "Google, Gemini Robotics 2.0 ile robotların tüm vücut kontrolünü hedefliyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "0ec2e7cd",
-     "baslik": "Beacon: Görsel ajanlar ne zaman araç kullanmalı öğreniyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "82c2a5cb",
-     "baslik": "Gemini Robotics 2, insansı robotların tüm vücudunu tek modelle yönetebiliyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "42b77c18",
-     "baslik": "Google Flow Music'e Lyria 3.5 müzik üretim modeli geldi",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "6ef81a8c",
-     "baslik": "Google Docs'ta Gemini ile görsel oluşturma başladı",
-     "tarih": "2026-07-30"
-    }
-   ]
-  },
-  {
-   "ad": "Çin",
-   "slug": "cin",
+   "ad": "regülasyon",
+   "slug": "regulasyon",
    "adet": 11,
    "son": [
     {
-     "id": "04b451b2",
-     "baslik": "Qwen-UI-Agent: Gerçek dünya arayüz görevleri için temel ajan modeli",
-     "tarih": "2026-07-31"
+     "id": "c1de4f1e",
+     "baslik": "235 şirketten açık ağırlıklı modelleri savunan mektup",
+     "tarih": "2026-08-03"
     },
     {
-     "id": "d38c0977",
-     "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
-     "tarih": "2026-07-29"
+     "id": "f880e382",
+     "baslik": "Kaliforniya'da veri silme talepleri yaptırım gücü kazandı",
+     "tarih": "2026-08-03"
     },
-    {
-     "id": "dcba2faa",
-     "baslik": "Kimi K3'ün ağırlıkları herkese açıldı: en büyük açık model artık ücretsiz",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "287e1596",
-     "baslik": "Amodei: Açık ağırlıklı modellere karşı değilim, kaygım Çin",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "92132ecc",
-     "baslik": "Moonshot CEO'sundan OpenAI'a sert çıkış: 'Yeni bir şey icat etmediler'",
-     "tarih": "2026-07-27"
-    }
-   ]
-  },
-  {
-   "ad": "regülasyon",
-   "slug": "regulasyon",
-   "adet": 9,
-   "son": [
     {
      "id": "b5180026",
      "baslik": "LinkedIn, 'YZ salatası gibi görünüyor' şikâyet butonu ekledi",
@@ -467,24 +477,19 @@
      "id": "208aa591",
      "baslik": "LinkedIn, düşük kaliteli AI içerikleri bildirmek için 'slop' butonu ekledi",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "af8439b1",
-     "baslik": "OpenAI, Anthropic, Google ve Meta'dan ABD'ye: Yapay zekâyı yavaşlatın",
-     "tarih": "2026-07-29"
-    },
-    {
-     "id": "2a32c5e4",
-     "baslik": "ABD'den yeni hamle: Çinli yapay zekâ modellerine yaptırım tehdidi",
-     "tarih": "2026-07-22"
     }
    ]
   },
   {
    "ad": "asistanlar",
    "slug": "asistanlar",
-   "adet": 8,
+   "adet": 9,
    "son": [
+    {
+     "id": "c68c9a71",
+     "baslik": "Google AI Studio mobil uygulamasını sonlandırıyor",
+     "tarih": "2026-08-03"
+    },
     {
      "id": "d0b1ade3",
      "baslik": "Microsoft, Copilot'u bu yıl 'süper uygulama' haline getirecek",
@@ -504,11 +509,70 @@
      "id": "453862f8",
      "baslik": "OpenAI, sohbet botları için 'cihaz ailesi' geliştiriyor",
      "tarih": "2026-07-30"
+    }
+   ]
+  },
+  {
+   "ad": "Microsoft",
+   "slug": "microsoft",
+   "adet": 5,
+   "son": [
+    {
+     "id": "c1de4f1e",
+     "baslik": "235 şirketten açık ağırlıklı modelleri savunan mektup",
+     "tarih": "2026-08-03"
     },
     {
-     "id": "3de56dca",
-     "baslik": "ebebek, bebeveynlere sesli YZ asistanı AILin sundu",
+     "id": "d0b1ade3",
+     "baslik": "Microsoft, Copilot'u bu yıl 'süper uygulama' haline getirecek",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "98d58a46",
+     "baslik": "Microsoft artık OpenAI ve Anthropic'e karşı kendi modelleriyle yarışıyor",
      "tarih": "2026-07-30"
+    },
+    {
+     "id": "0434773f",
+     "baslik": "Microsoft bu yıl Copilot'u 'süper uygulama' yapıyor",
+     "tarih": "2026-07-30"
+    },
+    {
+     "id": "6b62cd39",
+     "baslik": "Anthropic, Microsoft'un açıklarını düzeltemeden önce buluyor",
+     "tarih": "2026-07-30"
+    }
+   ]
+  },
+  {
+   "ad": "telif davaları",
+   "slug": "telif-davalari",
+   "adet": 5,
+   "son": [
+    {
+     "id": "92beec8f",
+     "baslik": "YZ video araçları sanatçılara telif ödemeyi deniyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "70097351",
+     "baslik": "Anthropic'in 1,5 milyar dolarlık telif uzlaşmasına mahkeme onayı",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "f09cbf6a",
+     "baslik": "Sony'den Udio'ya yeni dava: listede 30 binden fazla şarkı var",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "b98c65f8",
+     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "16830069",
+     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
+     "tarih": "2026-07-09"
     }
    ]
   },
@@ -545,6 +609,60 @@
    ]
   },
   {
+   "ad": "gizlilik",
+   "slug": "gizlilik",
+   "adet": 4,
+   "son": [
+    {
+     "id": "f880e382",
+     "baslik": "Kaliforniya'da veri silme talepleri yaptırım gücü kazandı",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "023b55a1",
+     "baslik": "Claude'da paylaşılan sohbetler Google aramasına düşmüş olabilir",
+     "tarih": "2026-07-28"
+    },
+    {
+     "id": "2cc0275f",
+     "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
+     "tarih": "2026-07-15"
+    },
+    {
+     "id": "fbe93ef8",
+     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "video üretimi",
+   "slug": "video-uretimi",
+   "adet": 4,
+   "son": [
+    {
+     "id": "92beec8f",
+     "baslik": "YZ video araçları sanatçılara telif ödemeyi deniyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "d96c05cf",
+     "baslik": "Yapay zekâ videosu sinema kalitesinde mi? FilmBench ölçüyor",
+     "tarih": "2026-07-28"
+    },
+    {
+     "id": "dbe4c24c",
+     "baslik": "Metinden oyun dünyası: AlayaWorld, içinde gezilebilen sanal dünyalar üretiyor",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "d4ca69cf",
+     "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
+     "tarih": "2026-07-17"
+    }
+   ]
+  },
+  {
    "ad": "robotik",
    "slug": "robotik",
    "adet": 4,
@@ -568,33 +686,6 @@
      "id": "81a7106a",
      "baslik": "Fiziksel yapay zekânın yeni yakıtı beyin dalgaları olabilir",
      "tarih": "2026-07-27"
-    }
-   ]
-  },
-  {
-   "ad": "Microsoft",
-   "slug": "microsoft",
-   "adet": 4,
-   "son": [
-    {
-     "id": "d0b1ade3",
-     "baslik": "Microsoft, Copilot'u bu yıl 'süper uygulama' haline getirecek",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "98d58a46",
-     "baslik": "Microsoft artık OpenAI ve Anthropic'e karşı kendi modelleriyle yarışıyor",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "0434773f",
-     "baslik": "Microsoft bu yıl Copilot'u 'süper uygulama' yapıyor",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "6b62cd39",
-     "baslik": "Anthropic, Microsoft'un açıklarını düzeltemeden önce buluyor",
-     "tarih": "2026-07-30"
     }
    ]
   },
@@ -680,33 +771,6 @@
    ]
   },
   {
-   "ad": "telif davaları",
-   "slug": "telif-davalari",
-   "adet": 4,
-   "son": [
-    {
-     "id": "70097351",
-     "baslik": "Anthropic'in 1,5 milyar dolarlık telif uzlaşmasına mahkeme onayı",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "f09cbf6a",
-     "baslik": "Sony'den Udio'ya yeni dava: listede 30 binden fazla şarkı var",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "b98c65f8",
-     "baslik": "Büyük yayıncılardan Google'a yeni telif davası",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "16830069",
-     "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
    "ad": "müzik üretimi",
    "slug": "muzik-uretimi",
    "adet": 3,
@@ -751,50 +815,6 @@
    ]
   },
   {
-   "ad": "gizlilik",
-   "slug": "gizlilik",
-   "adet": 3,
-   "son": [
-    {
-     "id": "023b55a1",
-     "baslik": "Claude'da paylaşılan sohbetler Google aramasına düşmüş olabilir",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "2cc0275f",
-     "baslik": "Grok'un kod aracı, kullanıcıların tüm kod tabanını buluta yüklüyormuş",
-     "tarih": "2026-07-15"
-    },
-    {
-     "id": "fbe93ef8",
-     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "video üretimi",
-   "slug": "video-uretimi",
-   "adet": 3,
-   "son": [
-    {
-     "id": "d96c05cf",
-     "baslik": "Yapay zekâ videosu sinema kalitesinde mi? FilmBench ölçüyor",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "dbe4c24c",
-     "baslik": "Metinden oyun dünyası: AlayaWorld, içinde gezilebilen sanal dünyalar üretiyor",
-     "tarih": "2026-07-22"
-    },
-    {
-     "id": "d4ca69cf",
-     "baslik": "Google Vids'e kendi dijital ikizinle video: Gemini Omni geldi",
-     "tarih": "2026-07-17"
-    }
-   ]
-  },
-  {
    "ad": "xAI",
    "slug": "xai",
    "adet": 3,
@@ -813,6 +833,23 @@
      "id": "67b034bb",
      "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "veri",
+   "slug": "veri",
+   "adet": 2,
+   "son": [
+    {
+     "id": "f880e382",
+     "baslik": "Kaliforniya'da veri silme talepleri yaptırım gücü kazandı",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "3a39065c",
+     "baslik": "Büyük ölçekli RAG'de BM25'nin liderliğini gösteren ölçeklendirme çalışması",
+     "tarih": "2026-07-31"
     }
    ]
   },
@@ -962,18 +999,6 @@
   {
    "ad": "RAG",
    "slug": "rag",
-   "adet": 1,
-   "son": [
-    {
-     "id": "3a39065c",
-     "baslik": "Büyük ölçekli RAG'de BM25'nin liderliğini gösteren ölçeklendirme çalışması",
-     "tarih": "2026-07-31"
-    }
-   ]
-  },
-  {
-   "ad": "veri",
-   "slug": "veri",
    "adet": 1,
    "son": [
     {

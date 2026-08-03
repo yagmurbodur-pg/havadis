@@ -1,6 +1,16 @@
 # Havadis Lugatı — tam derleme
 
 
+## Agent-Reach
+
+_Yapay ajanlara Twitter, Reddit, YouTube, GitHub ve benzeri platformları tek CLI ile tarama yeteneği kazandıran açık kaynaklı araç._
+
+Agent-Reach, yapay ajanlara Twitter, Reddit, YouTube, GitHub ve benzeri platformları tek bir CLI üzerinden tarama yeteneği kazandıran açık kaynaklı araçtır. Araç, API ücreti ödemeden interneti araştırma ve izleme işlerini ajanlara devretmeyi hedefler. Geliştiriciler, kendi ajanlarına harici veri kaynaklarını entegre ederek güncel bilgiye erişimini genişletebilir. Ajanların ücretli API'lere bağlı kalmadan internetten veri çekebilmesi, maliyetleri düşürmeyi vaat ediyor.
+
+## Gelişmeler
+- **2026-08-03** — Yapay ajanlara tek CLI ile internet platformlarını tarama yeteneği kazandıran araç olarak duyuruldu. (haber: d00d272b)
+
+
 ## AI slop
 
 _Yapay zekâyla üretilen, düşük kaliteli veya özensiz içerik._
@@ -70,6 +80,20 @@ Apple, iPhone'u ve iOS işletim sistemini geliştiren ABD'li teknoloji şirketid
 
 ## Gelişmeler
 - **2026-07-31** — CEO'su Tim Cook, yoğun Apple Intelligence kullanıcıları için ücretli iCloud Plus yükseltmesi geleceğini söyledi. (haber: ee384203)
+
+
+## Astra
+
+_OpenAI'ın zorlu bilimsel ve mantıksal akıl yürütme için duyurduğu model ailesi._
+
+Astra, [[OpenAI]]'ın matematik, kuantum dolanıklığı ve teorik bilgisayar bilimi gibi zorlu problemleri çözmek için duyurduğu model ailesidir. İleri düzey bilimsel ve mantıksal akıl yürütme yetenekleriyle öne çıkar. Dahili bir Astra sürümü, en az on yıldır çözülememiş on matematik ve teorik bilgisayar bilimi probleminde çözümler buldu; deney için iki bin dolardan az harcama yapıldığı bildirildi. Astra, büyük modellerin akademik araştırma ve mühendislik iş akışlarındaki rolünü genişletebileceğini gösteriyor.
+
+## İlişkiler
+- [[OpenAI]] — geliştiricisi (haber: 38613752)
+
+## Gelişmeler
+- **2026-08-03** — Dahili bir sürümü, en az on yıldır çözülememiş on matematik ve teorik bilgisayar bilimi probleminde çözümler buldu. (haber: 80a4db1a)
+- **2026-08-03** — Zorlu bilimsel problemler için yeni model ailesi olarak duyuruldu. (haber: 38613752)
 
 
 ## Avatarin
@@ -265,13 +289,15 @@ Databricks, kurumlara veri işleme ve yapay zekâ platformu sunan ABD'li bir şi
 
 _Düşük maliyetli açık ağırlıklı modelleriyle tanınan, Liang Wenfeng'in kurduğu Çinli yapay zekâ şirketi._
 
-DeepSeek, Liang Wenfeng'in kurduğu Çinli bir yapay zekâ şirketidir; modellerini açık ağırlıklı olarak yayımlar. Şirket, güçlü modellerin ABD'li laboratuvarların harcadığından çok daha düşük maliyetle eğitilebildiğini göstererek tanındı. Temmuz 2026 sonunda [[DeepSeek V4-Flash]] için API güncellemesi yayınlandı.
+DeepSeek, Liang Wenfeng'in kurduğu Çinli bir yapay zekâ şirketidir; modellerini açık ağırlıklı olarak yayımlar. Şirket, güçlü modellerin ABD'li laboratuvarların harcadığından çok daha düşük maliyetle eğitilebildiğini göstererek tanındı. Temmuz 2026 sonunda [[DeepSeek V4-Flash]] için API güncellemesi yayınlandı. Ağustos 2026'da terminal tabanlı açık kaynak kod ajanı [[DeepSeek-Reasonix]]'i ekosistemine kattı.
 
 ## İlişkiler
 - [[Moonshot AI]] — Çin'in açık model dalgasını birlikte sürdürdüğü şirketlerden biri
 - [[DeepSeek V4-Flash]] — güncellenen model (haber: 13d64ee8)
+- [[DeepSeek-Reasonix]] — terminal tabanlı açık kaynak kod ajanı (haber: 201fe558)
 
 ## Gelişmeler
+- **2026-08-03** — Terminal tabanlı açık kaynak kod ajanı DeepSeek-Reasonix duyuruldu. (haber: 201fe558)
 - **2026-08-01** — DeepSeek V4-Flash 0731 sürümü gündeme geldi. (haber: 13d64ee8)
 - **2026-07-31** — DeepSeek-V4-Flash için API güncellemesi yayınlandı. (haber: 0c40ed3c)
 
@@ -287,6 +313,29 @@ DeepSeek V4-Flash, [[DeepSeek]]'in hızlı ve düşük maliyetli açık ağırl�
 
 ## Gelişmeler
 - **2026-08-01** — 0731 sürümü gündeme geldi. (haber: 13d64ee8)
+
+
+## DeepSeek-Reasonix
+
+_DeepSeek modelleriyle bütünleşen terminal tabanlı açık kaynak kod ajanı._
+
+DeepSeek-Reasonix, [[DeepSeek]] modelleriyle bütünleşen terminal tabanlı açık kaynaklı bir kod ajanıdır. Prefix-cache kararlılığı sayesinde uzun süreli görevlerde verimli çalışmayı hedefler. Yerel ve bulut tabanlı geliştirme akışlarına entegre edilebilir. Terminal tabanlı kod asistanı arayan geliştiriciler için esnek bir alternatif sunar.
+
+## İlişkiler
+- [[DeepSeek]] — modellerini sağlayan şirket (haber: 201fe558)
+
+## Gelişmeler
+- **2026-08-03** — Terminal tabanlı açık kaynak kod ajanı olarak duyuruldu. (haber: 201fe558)
+
+
+## DELETE Yasası
+
+_Kaliforniya'da tüketicilerin veri toplayan şirketlerden hesap ve kişisel verilerinin silinmesini talep etme hakkı tanıyan düzenleme._
+
+DELETE Yasası, Kaliforniya'da tüketicilere veri toplayan şirketlerden hesap ve kişisel verilerinin silinmesini talep etme hakkı tanıyan düzenlemedir. DROP mekanizması 1 Ağustos 2026 itibarıyla yaptırım gücü kazandı. Yeni düzenleme, yapay zekâ şirketlerinin eğitim verisi ve kullanıcı verisi yönetiminde ek uyumluluk baskısı oluşturuyor; büyük ölçekli veri kümeleriyle çalışan modeller için operasyonel etkileri olacak.
+
+## Gelişmeler
+- **2026-08-03** — DROP mekanizması yaptırım gücü kazandı. (haber: f880e382)
 
 
 ## Demis Hassabis
@@ -393,7 +442,7 @@ Gemini Robotics 2.0, [[Google]] DeepMind'ın duyurduğu robotik modelidir. Önce
 
 _Arama ve bulut hizmetleriyle bilinen, DeepMind laboratuvarıyla yapay zekâ modelleri geliştiren ABD'li şirket._
 
-Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026 sonunda Google, insansı robotlara bütünsel beden zekâsı kazandıran [[Gemini Robotics 2.0]]'ı duyurdu; Chrome hata düzeltme sürecinde yapay zekâyı daha yoğun kullandığını, Gemini Mac uygulamasına sesli kontrol ve ekran farkındalığı getirdiğini ve görsel ajanların ne zaman araç kullanacağını öğrenen [[Beacon]] çalışmasını tanıttı. Aynı dönemde [[Google Earth]]'e eklenen sahte uydu görüntüsü üreten yapay zekâ özelliği, yayınlandıktan bir gün sonra geri çekildi. Ağustos 2026'da [[Reddit]], Perplexity ve web kazıyıcısına karşı Google arama sonuçlarını konu alan DMCA davasını sürdürdü.
+Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026 sonunda Google, insansı robotlara bütünsel beden zekâsı kazandıran [[Gemini Robotics 2.0]]'ı duyurdu; Chrome hata düzeltme sürecinde yapay zekâyı daha yoğun kullandığını, Gemini Mac uygulamasına sesli kontrol ve ekran farkındalığı getirdiğini ve görsel ajanların ne zaman araç kullanacağını öğrenen [[Beacon]] çalışmasını tanıttı. Aynı dönemde [[Google Earth]]'e eklenen sahte uydu görüntüsü üreten yapay zekâ özelliği, yayınlandıktan bir gün sonra geri çekildi. Ağustos 2026'da [[Reddit]], Perplexity ve web kazıyıcısına karşı Google arama sonuçlarını konu alan DMCA davasını sürdürdü; şirket ayrıca iOS ve Android için geliştirdiği AI Studio mobil uygulamasını sonlandırarak kod yazma ve deney özelliklerini Gemini uygulamasına entegre etti.
 
 ## İlişkiler
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
@@ -404,6 +453,7 @@ Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir
 - [[Reddit]] — arama sonuçları üzerinden dava sürdüren platform (haber: 8d990961)
 
 ## Gelişmeler
+- **2026-08-03** — iOS ve Android için AI Studio mobil uygulamasını sonlandırarak kod yazma ve deney özelliklerini Gemini uygulamasına entegre etti. (haber: c68c9a71)
 - **2026-08-01** — Google Earth'de sahte uydu görüntüsü üreten yapay zekâ özelliği bir gün sonra geri çekildi. (haber: 5c88eea8)
 - **2026-08-01** — Reddit, Perplexity ve web kazıyıcısına karşı arama sonuçlarını konu alan DMCA davasını sürdürdü. (haber: 8d990961)
 - **2026-07-31** — Gemini Robotics 2.0'ı duyurdu; insansı robotların tüm vücut hareketlerini tek modelle kontrol edebiliyor. (haber: 1c07d088)
@@ -566,9 +616,15 @@ Kimi K3, Çinli yapay zekâ şirketi [[Moonshot AI]]'ın Temmuz 2026'da yayımla
 
 _Yazılımcının kodunu yazan, düzenleyen ya da çalıştıran; çoğu zaman dosyalara doğrudan erişen yapay zekâ aracı._
 
-Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran yapay zekâ aracıdır. İlk kuşak araçlar yalnızca kod önerirken, güncel araçlar projenin dosyalarına doğrudan erişir: dosya açar, değiştirir, siler, komut çalıştırır. Bu erişim, aracı güçlü kıldığı ölçüde riskli de kılar; kullanıcı, bilgisayarının bir bölümünü fiilen araca emanet eder. Temmuz 2026'da bu güven sorusu iki olayla somutlaştı: [[OpenAI]]'ın amiral modeli [[GPT-5.6]]'nın Sol boyunu kod yazarken kullananlar, dosyaların uyarılmadan silindiğini bildirdi; SpaceXAI'ın aracı [[Grok Build]]'in ise kullanıcı projelerini olduğu gibi buluta yüklediği ortaya çıktı. İki olayın ortak dersi: kod asistanı kullananın hem yedek alması hem de aracın veriyi nereye gönderdiğini bilmesi gerekiyor.
+Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran yapay zekâ aracıdır. İlk kuşak araçlar yalnızca kod önerirken, güncel araçlar projenin dosyalarına doğrudan erişir: dosya açar, değiştirir, siler, komut çalıştırır. Bu erişim, aracı güçlü kıldığı ölçüde riskli de kılar; kullanıcı, bilgisayarının bir bölümünü fiilen araca emanet eder. Temmuz 2026'da bu güven sorusu iki olayla somutlaştı: [[OpenAI]]'ın amiral modeli [[GPT-5.6]]'nın Sol boyunu kod yazarken kullananlar, dosyaların uyarılmadan silindiğini bildirdi; SpaceXAI'ın aracı [[Grok Build]]'in ise kullanıcı projelerini olduğu gibi buluta yüklediği ortaya çıktı. Ağustos 2026'da [[Qwen3.8-Max]], [[Claude]] ve [[Copilot]] gibi kurumsal kod asistanlarına alternatif oluşturacak şekilde duyurulurken, [[DeepSeek-Reasonix]] terminal tabanlı açık kaynak bir kod ajanı olarak öne çıktı. İki olayın ortak dersi: kod asistanı kullananın hem yedek alması hem de aracın veriyi nereye gönderdiğini bilmesi gerekiyor.
+
+## İlişkiler
+- [[Qwen3.8-Max]] — kurumsal kod asistanlarına alternatif model (haber: f1afe257)
+- [[DeepSeek-Reasonix]] — terminal tabanlı açık kaynak kod ajanı (haber: 201fe558)
 
 ## Gelişmeler
+- **2026-08-03** — DeepSeek-Reasonix, terminal tabanlı açık kaynak kod ajanı olarak duyuruldu. (haber: 201fe558)
+- **2026-08-03** — Qwen3.8-Max, Claude ve Copilot gibi kurumsal kod asistanlarına alternatif olarak duyuruldu. (haber: f1afe257)
 - **2026-07-21** — Kod ajanlarına yerel çalışan, anahtar ve ücret gerektirmeyen web araması ekleyen wigolo aracı açık betaya çıktı. (haber: 9fedc9b4)
 - **2026-07-21** — SWE-Pruner Pro adlı yöntem, kod ajanının kendi iç sinyalini okuyarak bağlamdaki gereksiz metni ayrı bir eleme modeli olmadan ayıkladı. (haber: 05b14f9b)
 - **2026-07-21** — Simon Willison, kod ajanları ucuzlattığı için insanların evdeki cihazların belgesiz arayüzlerini çözüp otomasyona bağladığını gözlemledi. (haber: 8de94208)
@@ -658,7 +714,7 @@ microagi, Türk girişimci [[Bercan Kılıç]]'ın kurucu ortağı ve CEO'su old
 
 _Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji şirketi._
 
-Microsoft, Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir. Yapay zekâ alanında uzun süre [[OpenAI]]'ye yatırım yapıp ürünlerini onun modelleriyle derinlemesine entegre etti. Temmuz 2026'da bu bağımlılığı azaltma ve kendi yapay zekâ yığınını öne çıkarma stratejisini açıkça dile getirdi. Aynı dönemde şirket, [[Copilot]] sohbet, kodlama ve ajan yeteneklerini tek çatı altında toplayan süper uygulamaya dönüştürme planını doğruladı.
+Microsoft, Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir. Yapay zekâ alanında uzun süre [[OpenAI]]'ye yatırım yapıp ürünlerini onun modelleriyle derinlemesine entegre etti. Temmuz 2026'da bu bağımlılığı azaltma ve kendi yapay zekâ yığınını öne çıkarma stratejisini açıkça dile getirdi. Aynı dönemde şirket, [[Copilot]] sohbet, kodlama ve ajan yeteneklerini tek çatı altında toplayan süper uygulamaya dönüştürme planını doğruladı. Ağustos 2026'da ABD yönetiminin güvenlik gerekçesiyle open-weight modelleri kısıtlama ihtimaline karşı 235 şirket adına açık mektubu yönetti.
 
 ## İlişkiler
 - [[OpenAI]] — yatırım yaptığı ve rekabet ettiği yapay zekâ şirketi (haber: 98d58a46)
@@ -666,6 +722,7 @@ Microsoft, Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji
 - [[Copilot]] — sohbet, kodlama ve ajan yeteneklerini birleştiren asistan ürünü (haber: 0434773f)
 
 ## Gelişmeler
+- **2026-08-03** — ABD yönetiminin open-weight modelleri kısıtlama ihtimaline karşı 235 şirket adına açık mektup yönetti. (haber: c1de4f1e)
 - **2026-07-31** — Copilot'u bu yıl süper uygulama haline getireceğini duyurdu. (haber: d0b1ade3)
 
 
@@ -779,7 +836,7 @@ open-code-review, Alibaba'nın şirket içinde kullandığı ve Temmuz 2026'da a
 
 _ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ şirketi._
 
-OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı.
+OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi.
 
 ## İlişkiler
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
@@ -790,8 +847,12 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[JFrog]] — test modellerinin sızdığı saldırıda kullanılan açığın kaynağı (haber: 2aacbf99)
 - [[Microsoft]] — kendi modelleriyle rekabet etmeye başlayan yatırımcı (haber: 98d58a46)
 - [[GPT-Realtime]] — gerçek zamanlı sesli etkileşim teknolojisi (haber: 9146ff17)
+- [[Astra]] — zorlu bilimsel problemler için duyurduğu model ailesi (haber: 38613752)
 
 ## Gelişmeler
+- **2026-08-03** — Açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. (haber: c1de4f1e)
+- **2026-08-03** — Zorlu bilimsel problemler için Astra model ailesini duyurdu. (haber: 38613752)
+- **2026-08-03** — Dahili Astra sürümünün on yıllık bekleyişteki on matematik probleminden bazılarını çözdüğünü bildirdi. (haber: 80a4db1a)
 - **2026-08-02** — Matematik ve teorik bilgisayar bilimindeki uzun süreli açık sorularda yeni sonuçlar paylaştı. (haber: 6d58997b)
 - **2026-08-01** — Avrupa'da güvenlik, şeffaflık ve köken bilgisi uygulamalarıyla sorumlu yapay zekâ yönetişimini desteklediğini açıkladı. (haber: b86dc435)
 - **2026-08-01** — Gelişmiş yapay zekâyı daha yetenekli, uygun fiyatlı ve yaygın kullanışlı hale getirmek için tam yığın yaklaşımını anlattı. (haber: 6e145b01)
@@ -880,13 +941,15 @@ Perplexity, arama tabanlı yapay zekâ asistanı geliştiren ABD'li teknoloji ş
 
 _Alibaba'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesi._
 
-Qwen, Çinli teknoloji şirketi Alibaba'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesidir. [[Moonshot AI]]'ın [[Kimi K3]]'üyle birlikte Qwen, Çin'in açık model dalgasının iki büyük halkasından biri sayılıyor; bu dalga, ABD'nin kapalı ve pahalı modellere dayalı önderliğinin sürüp sürmeyeceği tartışmasını besliyor. Temmuz 2026 sonunda Alibaba'nın araştırma ekibi, gerçek cihazlarda çalışan ve platformlar arası iş akışları yürüten [[Qwen-UI-Agent]]'ı tanıttı.
+Qwen, Çinli teknoloji şirketi Alibaba'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesidir. [[Moonshot AI]]'ın [[Kimi K3]]'üyle birlikte Qwen, Çin'in açık model dalgasının iki büyük halkasından biri sayılıyor; bu dalga, ABD'nin kapalı ve pahalı modellere dayalı önderliğinin sürüp sürmeyeceği tartışmasını besliyor. Temmuz 2026 sonunda Alibaba'nın araştırma ekibi, gerçek cihazlarda çalışan ve platformlar arası iş akışları yürüten [[Qwen-UI-Agent]]'ı tanıttı. Ağustos 2026'da şirket, kodlama ve işbirlikli çalışma senaryoları için yeni amiral gemisi [[Qwen3.8-Max]]'i duyurdu.
 
 ## İlişkiler
 - [[Apple]] — Çin'de Apple Intelligence'ı Qwen'le çalıştırmak için düzenleyici onay aldı (haber: fe6ab2ef)
 - [[Qwen-UI-Agent]] — aileye bağlı arayüz ajanı (haber: 04b451b2)
+- [[Qwen3.8-Max]] — ailenin yeni amiral gemisi modeli (haber: f1afe257)
 
 ## Gelişmeler
+- **2026-08-03** — Alibaba, kodlama ve işbirlikli çalışma senaryoları için yeni amiral gemisi modeli Qwen3.8-Max'i duyurdu. (haber: f1afe257)
 - **2026-07-31** — Alibaba araştırma ekibi, gerçek dünya arayüz görevleri için Qwen-UI-Agent temel ajan modelini tanıttı. (haber: 04b451b2)
 
 
@@ -901,6 +964,19 @@ Qwen-UI-Agent, Alibaba'nın araştırma ekibi tarafından tanıtılan temel ajan
 
 ## Gelişmeler
 - **2026-07-31** — Alibaba araştırma ekibi tarafından gerçek dünya arayüz görevleri için tanıtıldı. (haber: 04b451b2)
+
+
+## Qwen3.8-Max
+
+_Alibaba'nın Qwen ailesindeki yeni amiral gemisi modeli; kodlama ve işbirlikli çalışma senaryolarına odaklanıyor._
+
+Qwen3.8-Max, Alibaba'nın [[Qwen]] ekibi tarafından duyurulan yeni amiral gemisi büyük dil modelidir. Karmaşık programlama görevlerinde ve uzun süreli üretkenlik akışlarında daha tutarlı ve yetkin davranmayı hedefler. Bağımsız geliştiricilerin yanı sıra [[Claude]] ve [[Copilot]] gibi kurumsal kod asistanlarına alternatif arayanlar için konumlanıyor. Teknik rapor ve benchmark detayları qwen.ai üzerinden yayınlandı. Çinli açık modeller ekosistemindeki hızlı ilerleme, küresel kod ajanı ve asistan pazarını daha da rekabetçi hale getiriyor.
+
+## İlişkiler
+- [[Qwen]] — ait olduğu model ailesi (haber: f1afe257)
+
+## Gelişmeler
+- **2026-08-03** — Alibaba'nın Qwen ekibi tarafından kodlama ve işbirlikli çalışma senaryoları için amiral gemisi model olarak duyuruldu. (haber: f1afe257)
 
 
 ## Recursive Superintelligence
@@ -1032,6 +1108,16 @@ Tasklet, San Francisco merkezli bir girişimdir; şirketlerin günlük iş akı�
 
 ## Gelişmeler
 - **2026-07-31** — 13 milyon dolarlık Seri A öncesi köprü turunu tamamladı. (haber: 8bdc3a9e)
+
+
+## TencentDB Agent Memory
+
+_Ajanlar için takım düzeyinde hafıza merkezi sunan açık kaynaklı proje._
+
+TencentDB Agent Memory, ajanlar için takım düzeyinde bir hafıza merkezi sunan açık kaynaklı projedir. Sohbetleri, belgeleri ve kodu dört yeniden kullanılabilir hafıza varlığına dönüştürür. Kurumsal ekiplerin ajanları arasında bilgi paylaşımını ve sürekliliği artırmayı amaçlar. Benzer ajan projelerinde hafıza yönetimi için referans mimarisi olarak kullanılabilir.
+
+## Gelişmeler
+- **2026-08-03** — Ajanlar için takım bazlı hafıza merkezi olarak duyuruldu. (haber: d046e10f)
 
 
 ## Thinking Machines

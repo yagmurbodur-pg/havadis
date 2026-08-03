@@ -5,10 +5,10 @@ tanim: "Arama ve bulut hizmetleriyle bilinen, DeepMind laboratuvarıyla yapay ze
 esanlamlilar: []
 etiketler: [Google]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-08-01
+son_guncelleme: 2026-08-03
 ---
 
-Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026 sonunda Google, insansı robotlara bütünsel beden zekâsı kazandıran [[Gemini Robotics 2.0]]'ı duyurdu; Chrome hata düzeltme sürecinde yapay zekâyı daha yoğun kullandığını, Gemini Mac uygulamasına sesli kontrol ve ekran farkındalığı getirdiğini ve görsel ajanların ne zaman araç kullanacağını öğrenen [[Beacon]] çalışmasını tanıttı. Aynı dönemde [[Google Earth]]'e eklenen sahte uydu görüntüsü üreten yapay zekâ özelliği, yayınlandıktan bir gün sonra geri çekildi. Ağustos 2026'da [[Reddit]], Perplexity ve web kazıyıcısına karşı Google arama sonuçlarını konu alan DMCA davasını sürdürdü.
+Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir; yapay zekâ araştırmalarını büyük ölçüde DeepMind birimi üzerinden yürütür. DeepMind'ın başında [[Demis Hassabis]] bulunur. Temmuz 2026 sonunda Google, insansı robotlara bütünsel beden zekâsı kazandıran [[Gemini Robotics 2.0]]'ı duyurdu; Chrome hata düzeltme sürecinde yapay zekâyı daha yoğun kullandığını, Gemini Mac uygulamasına sesli kontrol ve ekran farkındalığı getirdiğini ve görsel ajanların ne zaman araç kullanacağını öğrenen [[Beacon]] çalışmasını tanıttı. Aynı dönemde [[Google Earth]]'e eklenen sahte uydu görüntüsü üreten yapay zekâ özelliği, yayınlandıktan bir gün sonra geri çekildi. Ağustos 2026'da [[Reddit]], Perplexity ve web kazıyıcısına karşı Google arama sonuçlarını konu alan DMCA davasını sürdürdü; şirket ayrıca iOS ve Android için geliştirdiği AI Studio mobil uygulamasını sonlandırarak kod yazma ve deney özelliklerini Gemini uygulamasına entegre etti.
 
 ## İlişkiler
 - [[Demis Hassabis]] — DeepMind biriminin CEO'su (haber: cb9db543)
@@ -19,6 +19,7 @@ Google, arama motoru ve bulut hizmetleriyle bilinen ABD'li teknoloji şirketidir
 - [[Reddit]] — arama sonuçları üzerinden dava sürdüren platform (haber: 8d990961)
 
 ## Gelişmeler
+- **2026-08-03** — iOS ve Android için AI Studio mobil uygulamasını sonlandırarak kod yazma ve deney özelliklerini Gemini uygulamasına entegre etti. (haber: c68c9a71)
 - **2026-08-01** — Google Earth'de sahte uydu görüntüsü üreten yapay zekâ özelliği bir gün sonra geri çekildi. (haber: 5c88eea8)
 - **2026-08-01** — Reddit, Perplexity ve web kazıyıcısına karşı arama sonuçlarını konu alan DMCA davasını sürdürdü. (haber: 8d990961)
 - **2026-07-31** — Gemini Robotics 2.0'ı duyurdu; insansı robotların tüm vücut hareketlerini tek modelle kontrol edebiliyor. (haber: 1c07d088)

@@ -1,226 +1,269 @@
 {
- "tarih": "2026-08-02",
+ "tarih": "2026-08-03",
  "haberler": [
   {
-   "id": "6d58997b",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
+   "id": "f1afe257",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
    "bolum": "Kapak",
-   "baslik": "Ten advances in mathematics and theoretical computer science",
-   "ozet": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
+   "ozet": "Alibaba'nın Qwen ekibi, yeni amiral gemisi Qwen3.8-Max'i duyurdu. Model, kodlama ve işbirlikli çalışma senaryolarında yeni bir standart hedefliyor. Qwen ekibine göre Qwen3.8-Max, karmaşık programlama görevlerinde ve uzun süreli üretkenlik akışlarında daha tutarlı ve yetkin davranabiliyor. Bu sürüm, bağımsız geliştiricilerin yanı sıra Claude ve GitHub Copilot gibi kurumsal kod asistanlarına alternatif arayanlar için dikkate değer. Teknik rapor ve benchmark detayları qwen.ai üzerinden yayınlandı. Çinli açık modeller ekosistemindeki hızlı ilerleme, küresel kod ajanı ve asistan pazarını daha da rekabetçi hale getirecek. Özellikle ajan tabanlı yazılım geliştirme pratiklerinde güçlü bir seçenek olarak öne çıkıyor.",
+   "neden_onemli": "Kod asistanları ve işbirlikli ajanlar pazarında Çinli bir oyuncunun güçlü alternatifi var.",
    "konular": [
-    "genel"
+    "modeller",
+    "Çin",
+    "kod asistanları",
+    "ajanlar"
    ],
-   "iliskili": [],
-   "kaynak": "OpenAI",
-   "url": "https://openai.com/index/ten-advances-in-mathematics",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
-     "baslik": "Ten advances in mathematics and theoretical computer science"
-    }
-   ]
-  },
-  {
-   "id": "e8cc710a",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Gündem",
-   "baslik": "AI financial advice is surprisingly good, especially if you ask right questions",
-   "ozet": "AI financial advice is surprisingly good, especially if you ask right questions",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
+   "iliskili": [
+    "04b451b2"
    ],
-   "iliskili": [],
    "kaynak": "HN Ana Sayfa",
-   "url": "https://mitsloan.mit.edu/ideas-made-to-matter/ai-financial-advice-surprisingly-good-especially-if-you-ask-right-questions",
+   "url": "https://qwen.ai/blog?id=qwen3.8",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49139102",
+     "url": "https://news.ycombinator.com/item?id=49150470",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "9abc53d7",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
+   "id": "38613752",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
    "bolum": "Gündem",
-   "baslik": "Seedance 2.5",
-   "ozet": "Seedance 2.5",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
+   "ozet": "OpenAI, Astra adlı yeni model ailesini duyurdu. Şirkete göre Astra, matematik ve kuantum dolanıklığı gibi zorlu problemleri çözebiliyor. Model, ileri düzey bilimsel ve mantıksal akıl yürütme yetenekleriyle öne çıkıyor. Astra'nın güçlü performansı, büyük modellerin bilimsel araştırma ve mühendislik iş akışlarındaki rolünü genişletebilir.",
+   "neden_onemli": "Akıl yürütme odaklı yeni modeller, araştırma ve mühendislik ekiplerinin iş yapış biçimini değiştirebilir.",
    "konular": [
-    "genel"
+    "OpenAI",
+    "modeller",
+    "araştırma"
    ],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49138302",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "b117854c",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Gündem",
-   "baslik": "Diátaxis",
-   "ozet": "Diátaxis",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://diataxis.fr/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49138188",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "9bb4cc8e",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Gündem",
-   "baslik": "Judge denies xAI’s request to block Minnesota ban on ‘nudify’ apps",
-   "ozet": "Despite a lawsuit from xAI, a Minnesota ban on apps that allow users to “nudify” images can move forward.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "faffeeac",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Gündem",
-   "baslik": "YouTuber Hank Green says his AI usage is ‘not healthy’",
-   "ozet": "Green offered a remarkable apology, saying that \"the level of dopamine that I've been getting from interacting with LLMs... is not healthy for me or good for the world.\"",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "8bd705dd",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Radar",
-   "baslik": "Google Earth’ün Yapay Zeka Özelliği Güvenlik Nedeniyle Kaldırıldı",
-   "ozet": "Google Earth’ün Yapay Zeka Özelliği Güvenlik Nedeniyle Kaldırıldı",
-   "neden_onemli": "",
-   "konular": [],
    "iliskili": [],
    "kaynak": "ShiftDelete YZ",
-   "url": "https://shiftdelete.net/google-earthun-yapay-zeka-ozelligi-guvenlik-nedeniyle-kaldirildi",
+   "url": "https://shiftdelete.net/openaidan-yeni-model-astra-yapay-zeka-modelleri-geliyor",
    "ek_kaynaklar": []
   },
   {
-   "id": "1fa9961d",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Radar",
-   "baslik": "Postmortem for Kernel Soundness Bug #14576",
-   "ozet": "Postmortem for Kernel Soundness Bug #14576",
-   "neden_onemli": "",
-   "konular": [],
+   "id": "c1de4f1e",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Gündem",
+   "baslik": "235 şirketten açık ağırlıklı modelleri savunan mektup",
+   "ozet": "Microsoft'un yönettiği açık mektup, 235 YZ şirketi tarafından imzalandı. Mektup, ABD yönetiminin güvenlik gerekçesiyle open-weight modelleri kısıtlama ihtimaline karşı çıkıyor. NVIDIA, Amazon, Y Combinator, Linux Foundation ve sonradan OpenAI de destek verdi. Açık ağırlıklı modellerin korunması, bağımsız geliştiriciler ve küçük ekipler için kritik önem taşıyor.",
+   "neden_onemli": "Open-weight modellerin yasal durumu, geliştirici bağımsızlığı ve inovasyon hızını doğrudan etkileyecek.",
+   "konular": [
+    "açık kaynak",
+    "regülasyon",
+    "Microsoft"
+   ],
+   "iliskili": [
+    "af8439b1"
+   ],
+   "kaynak": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "f880e382",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Gündem",
+   "baslik": "Kaliforniya'da veri silme talepleri yaptırım gücü kazandı",
+   "ozet": "Kaliforniya'nın DELETE Yasası kapsamında tüketiciler, veri toplayan şirketlerden hesap ve kişisel verilerinin silinmesini talep edebilecek. DROP mekanizması 1 Ağustos itibarıyla yaptırım gücü kazandı. Yeni düzenleme, YZ şirketlerinin eğitim verisi ve kullanıcı verisi yönetiminde ek uyumluluk baskısı oluşturuyor. Özellikle büyük ölçekli veri kümeleriyle çalışan modeller için operasyonel etkileri olacak.",
+   "neden_onemli": "Veri silme haklarının güçlenmesi, YZ eğitim verisi pratiklerini ve uyumluluk maliyetlerini değiştirecek.",
+   "konular": [
+    "regülasyon",
+    "gizlilik",
+    "veri"
+   ],
    "iliskili": [],
    "kaynak": "HN Ana Sayfa",
-   "url": "https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/",
+   "url": "https://www.nbcsandiego.com/nbc-7-responds-2/californians-data-deletion-requests-drop-become-enforceable-aug-1/4054771/",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49137060",
+     "url": "https://news.ycombinator.com/item?id=49148987",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "4a897541",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
+   "id": "c68c9a71",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Gündem",
+   "baslik": "Google AI Studio mobil uygulamasını sonlandırıyor",
+   "ozet": "Google, iOS ve Android için geliştirdiği AI Studio uygulamasını sonlandırdı. Kod yazma ve deney özellikleri artık doğrudan Gemini uygulamasına entegre edilecek. Hamle, Google'ın geliştirici ve tüketici deneyimlerini tek bir asistan çatısı altında birleştirme stratejisini netleştiriyor. Geliştiriciler için uygulama değişikliği, uzun vadede daha yakın entegrasyon vaat ediyor.",
+   "neden_onemli": "Geliştirici araçlarının Gemini'ye çekilmesi, Google'ın asistan stratejisini tek merkezde topluyor.",
+   "konular": [
+    "Google",
+    "asistanlar",
+    "kod asistanları"
+   ],
+   "iliskili": [],
+   "kaynak": "ShiftDelete YZ",
+   "url": "https://shiftdelete.net/googledan-ai-studio-karari-mobil-uygulama-iptal-edildi",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "92beec8f",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Gündem",
+   "baslik": "YZ video araçları sanatçılara telif ödemeyi deniyor",
+   "ozet": "YZ şirketleri, sanatçıların eserleri üzerinde eğitim yaparken telif ödemek için yeni modeller deniyor. The Verge'in haberine göre Pippa'nın Seedance gibi platformlar, içerik üreticilerine ödeme yaparak yasal ve itibar risklerini azaltmaya çalışıyor. Bu yaklaşım, telif tartışmalarında şirketlerle yaratıcı sektör arasında geçici bir uzlaşma arayışı olarak görülebilir.",
+   "neden_onemli": "Eğitim verisi telif tartışmalarında ödeme modelleri, sektörün uzlaşma yolunu belirleyebilir.",
+   "konular": [
+    "video üretimi",
+    "telif davaları"
+   ],
+   "iliskili": [],
+   "kaynak": "The Verge AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "80a4db1a",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Araştırma Masası",
+   "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
+   "ozet": "OpenAI, dahili bir Astra sürümünü on matematik ve teorik bilgisayar bilimi probleminde test etti. Şirket, en az on yıldır ilerleme kaydedilememiş sorularda çözümler bulduğunu ve bunun için iki bin dolardan az harcama yaptığını iddia ediyor. Sonuçlar, büyük modellerin uzun süredir çözülememiş akademik sorulara yönelik potansiyelini artırıyor.",
+   "neden_onemli": "Büyük modellerin çözülememiş akademik problemlerde ilerleme kaydetmesi, araştırma yöntemlerini dönüştürebilir.",
+   "konular": [
+    "araştırma",
+    "OpenAI",
+    "modeller"
+   ],
+   "iliskili": [],
+   "kaynak": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "d00d272b",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Araç Çantası",
+   "baslik": "Agent-Reach: ajanınıza tüm interneti tek CLI ile taratın",
+   "ozet": "Agent-Reach, yapay ajanlara Twitter, Reddit, YouTube, GitHub ve benzeri platformları tek bir CLI üzerinden tarama yeteneği kazandırıyor. Araç, API ücreti ödemeden interneti araştırma ve izleme işlerini ajanlara devretmeyi hedefliyor. Bugün dene: kendi ajanınıza harici veri kaynaklarını entegre ederek güncel bilgiye erişimini genişletebilirsiniz.",
+   "neden_onemli": "Ajanların ücretli API'ye bağlı kalmadan internetten veri çekebilmesi, maliyetleri düşürüyor.",
+   "konular": [
+    "ajanlar",
+    "araçlar"
+   ],
+   "iliskili": [],
+   "kaynak": "GitHub Trending",
+   "url": "https://github.com/Panniantong/Agent-Reach",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "d046e10f",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Araç Çantası",
+   "baslik": "TencentDB Agent Memory: ajanlar için takım bazlı hafıza merkezi",
+   "ozet": "TencentDB Agent Memory, ajanlar için takım düzeyinde bir hafıza merkezi sunuyor. Sohbetleri, belgeleri ve kodu dört yeniden kullanılabilir hafıza varlığına dönüştürüyor. Kurumsal ekiplerin ajanları arasında bilgi paylaşımını ve sürekliliği artırmayı amaçlıyor. Bugün dene: benzer ajan projelerinde hafıza yönetimi için referans mimarisi olarak inceleyebilirsiniz.",
+   "neden_onemli": "Kurumsal ölçekte ajan hafızası, ajanların bağlamı koruyarak işbirliği yapmasını sağlar.",
+   "konular": [
+    "ajanlar",
+    "araçlar",
+    "kurumsal YZ"
+   ],
+   "iliskili": [],
+   "kaynak": "GitHub Trending",
+   "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "201fe558",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Araç Çantası",
+   "baslik": "DeepSeek-Reasonix: terminal tabanlı açık kaynak kod ajanı",
+   "ozet": "DeepSeek-Reasonix, terminal üzerinde çalışan açık kaynaklı bir kod ajanı. DeepSeek modelleriyle bütünleşen araç, prefix-cache kararlılığı sayesinde uzun süreli görevlerde verimli çalışmayı hedefliyor. Yerel ve bulut tabanlı geliştirme akışlarına entegre edilebilir. Bugün dene: terminal tabanlı kod asistanı arayan geliştiriciler kurulumunu deneyebilir.",
+   "neden_onemli": "Terminal tabanlı açık kaynak kod ajanları, geliştirici iş akışlarına esnek alternatif sunuyor.",
+   "konular": [
+    "açık kaynak",
+    "kod asistanları",
+    "Çin"
+   ],
+   "iliskili": [],
+   "kaynak": "GitHub Trending",
+   "url": "https://github.com/esengine/DeepSeek-Reasonix",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "59a85518",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
    "bolum": "Radar",
-   "baslik": "Is this Billboard Hot 100 hit AI slop?",
-   "ozet": "Is this Billboard Hot 100 hit AI slop?",
+   "baslik": "Fender’s CEO seems to think your bandmates are just analog AI",
+   "ozet": "Fender CEO'su Bud Cole, müzisyenleri 'analog AI' olarak nitelendiren açıklamalarıyla tartışma yarattı.",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/974265/fender-ceo-bud-cole-ai-music",
    "ek_kaynaklar": []
   },
   {
-   "id": "f7ce8c5d",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
+   "id": "d3dbdca2",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
    "bolum": "Radar",
-   "baslik": "How Google helped destroy adoption of RSS feeds (2023)",
-   "ozet": "How Google helped destroy adoption of RSS feeds (2023)",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49136821",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "bc4ec807",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Radar",
-   "baslik": "NetBSD 11.0",
-   "ozet": "NetBSD 11.0",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://blog.netbsd.org/tnf/entry/netbsd_11_0_released",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49136736",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "ba0eb602",
-   "tarih": "2026-08-02",
-   "sayi_no": 23,
-   "bolum": "Radar",
-   "baslik": "Sam Altman is still making the case for parenting via ChatGPT",
-   "ozet": "Sam Altman is still making the case for parenting via ChatGPT",
+   "baslik": "Sam Altman and AI’s decel debate",
+   "ozet": "Sam Altman, sektörün yapay zeka geliştirme hızını kontrol altına alması çağrısında bulundu.",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/",
+   "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "d732e1c2",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Radar",
+   "baslik": "Microsoft Word’de Güvenlik Açığı: Copilot Tehlikede",
+   "ozet": "Microsoft Word belgelerine gizlenen komutlar Copilot'ın dosyaları sessizce değiştirmesine olanak tanıyabilecek bir güvenlik açığı ortaya çıktı.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "ShiftDelete YZ",
+   "url": "https://shiftdelete.net/microsoft-wordde-guvenlik-acigi-copilot-tehlikede",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "3eaaeb0e",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Radar",
+   "baslik": "Yapay Zeka Firmaları Nadir Kitapların Peşinde: Milyonlarca Eser Tehlike Altında",
+   "ozet": "YZ şirketleri eğitim verisi için milyonlarca nadir kitabı dijitalleştirirken orijinal eserleri yok etme riski taşıyor.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "ShiftDelete YZ",
+   "url": "https://shiftdelete.net/yapay-zeka-firmalari-nadir-kitaplarin-pesinde-milyonlarca-eser-tehlike-altinda",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "270f796f",
+   "tarih": "2026-08-03",
+   "sayi_no": 24,
+   "bolum": "Radar",
+   "baslik": "Quoting Greg Brockman",
+   "ozet": "OpenAI Başkanı Greg Brockman, insanların iş arkadaşlarının ChatGPT'sinden yardım istenmesini hoş karşılamadığını söyledi.",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "Simon Willison",
+   "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
    "ek_kaynaklar": []
   }
  ]
