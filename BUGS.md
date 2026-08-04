@@ -46,6 +46,21 @@ Tarama yöntemi: Playwright ile tüm sayfalar (dergi flip+akış, arşiv+örnek 
 - **Önem:** Düşük
 - **Gerekçe:** ntfy.sh anonim e-posta iletimini kaldırdı; ücretsiz ntfy hesabı + `NTFY_TOKEN` gerektiriyor (kod hazır). Kullanıcı kararı bekliyor; push bildirimleri sorunsuz.
 
+## B8 — Wiki Safari'de bomboş açılıyor (service worker boş yanıt döndürüyor) ✅ FIXLENDİ
+- **Önem:** Kritik
+- **Repro:** SW kayıtlıyken ağ kopukken (ya da Pages yayını anlık cevap veremezken) /wiki/'ye git; sayfanın önbellekte kopyası yoksa.
+- **Beklenen:** Ya son kopya ya da dürüst bir "çevrimdışı" sayfası.
+- **Gerçekleşen:** Bomboş beyaz sekme. Safari, SW `respondWith(undefined)` durumunda hata sayfası bile göstermiyor.
+- **Kök neden:** `sw.js` gezinme dalında `.catch(() => caches.match(istek))` — önbellekte kayıt yoksa `caches.match` `undefined` döndürüyor ve `respondWith(undefined)` "yanıt yok" demek oluyor. Varlık dalındaki `.catch(() => eski)` de aynı tuzağı taşıyordu.
+- **Fix:** `cevrimdisiYanit()` eklendi; ağ da önbellek de yoksa gezinmelerde 503 + "Yeniden dene" düğmeli çevrimdışı sayfası, `dizin.json` için boş ama geçerli JSON, diğer varlıklar için boş 503 dönüyor. SW asla `undefined` döndürmüyor. (Doğrulama: Playwright ile çevrimdışı gezinme — eski kod `net::ERR_FAILED`, yeni kod çevrimdışı sayfası.)
+
+## B9 — Wiki'de tek bir fetch reddi ağı hiç çizdirmiyordu ✅ FIXLENDİ
+- **Önem:** Yüksek
+- **Repro:** `wiki-veri.json` veya `../kulliyat/dizin.json` isteği düşsün.
+- **Beklenen:** Ağ çizilsin (dizin yoksa haber bağları olmadan) ya da kullanıcı ne olduğunu görsün.
+- **Gerçekleşen:** `Promise.all([...])` zincirinde `.catch` yoktu; tek reddedilen istek bütün çizimi sessizce iptal ediyor, ekranda boş kanvas kalıyordu. (Külliyat'ta aynı desen zaten korumalıydı — wiki tek istisnaydı.)
+- **Fix:** Her istek `veriAl()` içinde ayrı yakalanıyor; dizin düşerse ağ yine çiziliyor, ağ verisi gerçekten yoksa `.ag-hata` kutusu "Yeniden dene" düğmesiyle görünüyor. (Doğrulama: iki arıza senaryosu da Playwright'ta koşuldu.)
+
 ---
 
 # Jüri Turu (17 Tem, canlı kullanıcı deneyimi)
@@ -75,4 +90,4 @@ Tarama yöntemi: Playwright ile tüm sayfalar (dergi flip+akış, arşiv+örnek 
 ## J6 — Kuşe hissi bayat CSS yüzünden hiç ulaşmamıştı ✅ FIXLENDİ + GÜÇLENDİ
 - **Fix:** J1 çözümüyle ulaşıyor; ayrıca parlaklık belirginleştirildi: daha aydınlık degrade taban, güçlü köşegen ışık süpürmesi, sayfa kenarlarında ince sırt gölgeleri.
 
-**Genel özet:** 13 kayıt · 11 fixlendi ve doğrulandı · 2 gerekçeli ertelendi.
+**Genel özet:** 15 kayıt · 13 fixlendi ve doğrulandı · 2 gerekçeli ertelendi.

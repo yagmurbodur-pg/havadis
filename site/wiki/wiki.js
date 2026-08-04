@@ -115,12 +115,36 @@
     return true;
   }
 
-  /* ————— veri ————— */
+  /* ————— veri —————
+     Sessiz ölüm engeli: tek bir fetch reddi bütün ağı çizilmeden bırakırdı
+     (sayfa bomboş kalırdı). Her istek kendi içinde yakalanır, veri gerçekten
+     yoksa kullanıcıya görünür bir uyarı düşer. */
+  function veriAl(yol, bosluk) {
+    return fetch(yol)
+      .then(function (r) { return r.ok ? r.json() : bosluk; })
+      .catch(function () { return bosluk; });
+  }
+
+  function agHatasi(mesaj) {
+    var kutu = document.querySelector(".ag-hata") || el("div", "ag-hata");
+    kutu.textContent = "";
+    kutu.appendChild(el("p", null, mesaj));
+    var d = el("button", null, "Yeniden dene");
+    d.type = "button";
+    d.addEventListener("click", function () { location.reload(); });
+    kutu.appendChild(d);
+    if (!kutu.parentNode) document.body.appendChild(kutu);
+  }
+
   Promise.all([
-    fetch("wiki-veri.json").then(function (r) { return r.ok ? r.json() : { maddeler: [], baglar: [] }; }),
-    fetch("../kulliyat/dizin.json").then(function (r) { return r.ok ? r.json() : { haberler: [] }; })
+    veriAl("wiki-veri.json", null),
+    veriAl("../kulliyat/dizin.json", { haberler: [] })
   ]).then(function (v) {
-    haberler = v[1].haberler || [];
+    if (!v[0] || !(v[0].maddeler || []).length) {
+      agHatasi("Bağ haritası yüklenemedi — ağ verisine ulaşılamadı.");
+      return;
+    }
+    haberler = (v[1] && v[1].haberler) || [];
     baglar = v[0].baglar || [];
     maddeler = (v[0].maddeler || []).map(function (m) {
       m.haberler = eslesenHaberler(m);
@@ -139,6 +163,8 @@
     lejantKur();
     grafikBaslat();
     hashOku();
+  }).catch(function (e) {
+    agHatasi("Bağ haritası çizilemedi: " + (e && e.message ? e.message : e));
   });
 
   function eslesenHaberler(m) {

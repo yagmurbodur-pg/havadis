@@ -195,6 +195,34 @@ body:has(.detay.acik) .sag-alt { right: calc(min(410px, 100vw) + 14px); }
 .lejant span { display: inline-flex; align-items: center; gap: .3rem; font: 600 .6rem/1.7 "SF Mono", Menlo, monospace; letter-spacing: .12em; text-transform: uppercase; color: var(--murekkep-soluk); }
 .lejant i { width: 8px; height: 8px; border-radius: 50%; }
 
+/* ————— ağ yüklenemedi uyarısı (sessiz boş sayfa yerine) ————— */
+.ag-hata {
+  position: fixed;
+  left: 50%; top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 45;
+  max-width: min(420px, calc(100vw - 32px));
+  text-align: center;
+  background: var(--kagit);
+  border: 1px solid var(--cizgi);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.14);
+  padding: 1.2rem 1.4rem 1.3rem;
+}
+.ag-hata p { margin: 0 0 .9rem; font-size: .95rem; }
+.ag-hata button {
+  font: 600 .72rem/1 system-ui, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  padding: .6rem 1rem;
+  border: 1px solid var(--murekkep);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--murekkep);
+  cursor: pointer;
+}
+.ag-hata button:hover { color: var(--damga); border-color: var(--damga); }
+
 /* ————— ipucu (hover) ————— */
 .ipucu {
   position: fixed;
