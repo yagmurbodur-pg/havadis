@@ -35,40 +35,45 @@
   {
    "ad": "ajanlar",
    "slug": "ajanlar",
-   "adet": 36,
+   "adet": 40,
    "son": [
+    {
+     "id": "7ca5f59d",
+     "baslik": "SWE-Touch: Kod ajanları, kullanıcı müdahale ettiğinde ne yapıyor?",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "105105cd",
+     "baslik": "SKT: Ajan becerilerini doğrulanmış sentetik veriyle ölçekli eğitim",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "6f120fb6",
+     "baslik": "XRack: Kurumsal yapay zeka ajanlarını denetlenebilir kılma platformu",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "1a00e618",
+     "baslik": "LiveKit Agents: Gerçek zamanlı sesli AI ajan framework'ü",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "f1afe257",
      "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
      "tarih": "2026-08-03"
-    },
-    {
-     "id": "d00d272b",
-     "baslik": "Agent-Reach: ajanınıza tüm interneti tek CLI ile taratın",
-     "tarih": "2026-08-03"
-    },
-    {
-     "id": "d046e10f",
-     "baslik": "TencentDB Agent Memory: ajanlar için takım bazlı hafıza merkezi",
-     "tarih": "2026-08-03"
-    },
-    {
-     "id": "d382e1db",
-     "baslik": "Anthropic: Kendi modellerimiz üç şirketin sistemine izinsiz girdi",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "1c07d088",
-     "baslik": "Google, Gemini Robotics 2.0 ile robotların tüm vücut kontrolünü hedefliyor",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "araçlar",
    "slug": "araclar",
-   "adet": 28,
+   "adet": 29,
    "son": [
+    {
+     "id": "1b5d0fc8",
+     "baslik": "Firecrawl PDF inspector: Rust ile hızlı PDF analizi ve sınıflandırma",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "d00d272b",
      "baslik": "Agent-Reach: ajanınıza tüm interneti tek CLI ile taratın",
@@ -88,19 +93,51 @@
      "id": "25246c2b",
      "baslik": "GitHub Copilot Agent'i uygulamalarınıza entegre eden resmi SDK yayında",
      "tarih": "2026-07-31"
+    }
+   ]
+  },
+  {
+   "ad": "araştırma",
+   "slug": "arastirma",
+   "adet": 27,
+   "son": [
+    {
+     "id": "7d2c9a8f",
+     "baslik": "OpenAI: Astra, çözülemeyen 10 matematik problemini çözdü",
+     "tarih": "2026-08-04"
     },
     {
-     "id": "01e478ba",
-     "baslik": "last30days-skill: Herhangi bir konuda 30 günlük web araştırması yapan ajan",
-     "tarih": "2026-07-31"
+     "id": "7ca5f59d",
+     "baslik": "SWE-Touch: Kod ajanları, kullanıcı müdahale ettiğinde ne yapıyor?",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "105105cd",
+     "baslik": "SKT: Ajan becerilerini doğrulanmış sentetik veriyle ölçekli eğitim",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "38613752",
+     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "80a4db1a",
+     "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
+     "tarih": "2026-08-03"
     }
    ]
   },
   {
    "ad": "kod asistanları",
    "slug": "kod-asistanlari",
-   "adet": 26,
+   "adet": 27,
    "son": [
+    {
+     "id": "7ca5f59d",
+     "baslik": "SWE-Touch: Kod ajanları, kullanıcı müdahale ettiğinde ne yapıyor?",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "f1afe257",
      "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
@@ -120,83 +157,29 @@
      "id": "d0b1ade3",
      "baslik": "Microsoft, Copilot'u bu yıl 'süper uygulama' haline getirecek",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "a7aeb4c8",
-     "baslik": "OpenWork: Açık kaynak Claude Cowork alternatifi",
-     "tarih": "2026-07-31"
-    }
-   ]
-  },
-  {
-   "ad": "OpenAI",
-   "slug": "openai",
-   "adet": 24,
-   "son": [
-    {
-     "id": "38613752",
-     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
-     "tarih": "2026-08-03"
-    },
-    {
-     "id": "80a4db1a",
-     "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
-     "tarih": "2026-08-03"
-    },
-    {
-     "id": "fc362ba7",
-     "baslik": "OpenAI, GPT-5.6 için Luna ve Terra fiyatlarını düşürdü",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "a3833d33",
-     "baslik": "Araştırmacılar: Büyük dil modelleri temelden saldırılara açık",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "50a7ab81",
-     "baslik": "OpenAI: Hugging Face'e sızan modeller başka dört servise de sızdı",
-     "tarih": "2026-07-31"
-    }
-   ]
-  },
-  {
-   "ad": "araştırma",
-   "slug": "arastirma",
-   "adet": 24,
-   "son": [
-    {
-     "id": "38613752",
-     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
-     "tarih": "2026-08-03"
-    },
-    {
-     "id": "80a4db1a",
-     "baslik": "Astra, on yıllık bekleyişteki on matematik problemini çözdü",
-     "tarih": "2026-08-03"
-    },
-    {
-     "id": "a3833d33",
-     "baslik": "Araştırmacılar: Büyük dil modelleri temelden saldırılara açık",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "0ec2e7cd",
-     "baslik": "Beacon: Görsel ajanlar ne zaman araç kullanmalı öğreniyor",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "04b451b2",
-     "baslik": "Qwen-UI-Agent: Gerçek dünya arayüz görevleri için temel ajan modeli",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "açık kaynak",
    "slug": "acik-kaynak",
-   "adet": 23,
+   "adet": 26,
    "son": [
+    {
+     "id": "92f8a546",
+     "baslik": "Alibaba, Qwen3.8-Max'i duyurdu: 2,4 trilyon parametreli açık ağırlıklı model",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "03a21bad",
+     "baslik": "Türk hukukuna özel yerli model Mizan-27B açık kaynak yayınlandı",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "1a00e618",
+     "baslik": "LiveKit Agents: Gerçek zamanlı sesli AI ajan framework'ü",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "c1de4f1e",
      "baslik": "235 şirketten açık ağırlıklı modelleri savunan mektup",
@@ -206,33 +189,23 @@
      "id": "201fe558",
      "baslik": "DeepSeek-Reasonix: terminal tabanlı açık kaynak kod ajanı",
      "tarih": "2026-08-03"
-    },
-    {
-     "id": "a7aeb4c8",
-     "baslik": "OpenWork: Açık kaynak Claude Cowork alternatifi",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "3429c721",
-     "baslik": "ECC: Kod ajanları için performans kıyafeti",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "0adddc85",
-     "baslik": "Yeni MCP spesifikasyonu kurumsal ölçekte benimsemeyi hedefliyor",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
-   "ad": "modeller",
-   "slug": "modeller",
-   "adet": 22,
+   "ad": "OpenAI",
+   "slug": "openai",
+   "adet": 26,
    "son": [
     {
-     "id": "f1afe257",
-     "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
-     "tarih": "2026-08-03"
+     "id": "7d2c9a8f",
+     "baslik": "OpenAI: Astra, çözülemeyen 10 matematik problemini çözdü",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "d04cc35b",
+     "baslik": "OpenAI, GPT-Live ile sürekli ses etkileşimini yaygınlaştırıyor",
+     "tarih": "2026-08-04"
     },
     {
      "id": "38613752",
@@ -248,19 +221,56 @@
      "id": "fc362ba7",
      "baslik": "OpenAI, GPT-5.6 için Luna ve Terra fiyatlarını düşürdü",
      "tarih": "2026-07-31"
+    }
+   ]
+  },
+  {
+   "ad": "modeller",
+   "slug": "modeller",
+   "adet": 25,
+   "son": [
+    {
+     "id": "92f8a546",
+     "baslik": "Alibaba, Qwen3.8-Max'i duyurdu: 2,4 trilyon parametreli açık ağırlıklı model",
+     "tarih": "2026-08-04"
     },
     {
-     "id": "82c2a5cb",
-     "baslik": "Gemini Robotics 2, insansı robotların tüm vücudunu tek modelle yönetebiliyor",
-     "tarih": "2026-07-31"
+     "id": "7d2c9a8f",
+     "baslik": "OpenAI: Astra, çözülemeyen 10 matematik problemini çözdü",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "03a21bad",
+     "baslik": "Türk hukukuna özel yerli model Mizan-27B açık kaynak yayınlandı",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "f1afe257",
+     "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
+     "tarih": "2026-08-03"
+    },
+    {
+     "id": "38613752",
+     "baslik": "OpenAI'den Astra: zorlu bilimsel problemler için yeni model ailesi",
+     "tarih": "2026-08-03"
     }
    ]
   },
   {
    "ad": "kurumsal YZ",
    "slug": "kurumsal-yz",
-   "adet": 20,
+   "adet": 22,
    "son": [
+    {
+     "id": "bff0c57b",
+     "baslik": "Meta, reklam öneri modelinin eğitim verimliliğini iki katına çıkardı",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "6f120fb6",
+     "baslik": "XRack: Kurumsal yapay zeka ajanlarını denetlenebilir kılma platformu",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "d046e10f",
      "baslik": "TencentDB Agent Memory: ajanlar için takım bazlı hafıza merkezi",
@@ -275,24 +285,24 @@
      "id": "fc362ba7",
      "baslik": "OpenAI, GPT-5.6 için Luna ve Terra fiyatlarını düşürdü",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "d0b1ade3",
-     "baslik": "Microsoft, Copilot'u bu yıl 'süper uygulama' haline getirecek",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "b5180026",
-     "baslik": "LinkedIn, 'YZ salatası gibi görünüyor' şikâyet butonu ekledi",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "güvenlik",
    "slug": "guvenlik",
-   "adet": 18,
+   "adet": 20,
    "son": [
+    {
+     "id": "153c499b",
+     "baslik": "AB'nin YZ etiketleme ve şeffaflık kuralları yürürlüğe girdi",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "1bfc98e7",
+     "baslik": "YZ denetimli uzaktan sınavda 58 bin öğrenci yeniden sınava girecek",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "d382e1db",
      "baslik": "Anthropic: Kendi modellerimiz üç şirketin sistemine izinsiz girdi",
@@ -306,16 +316,6 @@
     {
      "id": "a3833d33",
      "baslik": "Araştırmacılar: Büyük dil modelleri temelden saldırılara açık",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "32ac40c4",
-     "baslik": "Anthropic: Kendi modellerimiz güvenlik testinde üç şirketin sistemine girdi",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "50a7ab81",
-     "baslik": "OpenAI: Hugging Face'e sızan modeller başka dört servise de sızdı",
      "tarih": "2026-07-31"
     }
    ]
@@ -353,10 +353,47 @@
    ]
   },
   {
+   "ad": "Türkiye",
+   "slug": "turkiye",
+   "adet": 15,
+   "son": [
+    {
+     "id": "03a21bad",
+     "baslik": "Türk hukukuna özel yerli model Mizan-27B açık kaynak yayınlandı",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "6f120fb6",
+     "baslik": "XRack: Kurumsal yapay zeka ajanlarını denetlenebilir kılma platformu",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "705ded5d",
+     "baslik": "Virasoft'un dijital patoloji yazılımı FDA onayı aldı",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "0fd7dd7d",
+     "baslik": "Farmicca'ya 11. Verimlilik Proje Ödülleri'nde yapay zekâ ödülü",
+     "tarih": "2026-07-31"
+    },
+    {
+     "id": "8bdc3a9e",
+     "baslik": "Oleka Capital, AI ajan şirketi Tasklet'ın 13 milyon dolarlık turuna katıldı",
+     "tarih": "2026-07-31"
+    }
+   ]
+  },
+  {
    "ad": "Çin",
    "slug": "cin",
-   "adet": 13,
+   "adet": 14,
    "son": [
+    {
+     "id": "92f8a546",
+     "baslik": "Alibaba, Qwen3.8-Max'i duyurdu: 2,4 trilyon parametreli açık ağırlıklı model",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "f1afe257",
      "baslik": "Qwen3.8-Max kod ve işbirliği için yeni çıta kuruyor",
@@ -376,11 +413,6 @@
      "id": "d38c0977",
      "baslik": "Kimi K3'ün ağırlıkları yayınlandı: 2,8 trilyon parametre, 1,56 terabayt",
      "tarih": "2026-07-29"
-    },
-    {
-     "id": "dcba2faa",
-     "baslik": "Kimi K3'ün ağırlıkları herkese açıldı: en büyük açık model artık ücretsiz",
-     "tarih": "2026-07-28"
     }
    ]
   },
@@ -417,42 +449,15 @@
    ]
   },
   {
-   "ad": "Türkiye",
-   "slug": "turkiye",
-   "adet": 13,
-   "son": [
-    {
-     "id": "705ded5d",
-     "baslik": "Virasoft'un dijital patoloji yazılımı FDA onayı aldı",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "0fd7dd7d",
-     "baslik": "Farmicca'ya 11. Verimlilik Proje Ödülleri'nde yapay zekâ ödülü",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "8bdc3a9e",
-     "baslik": "Oleka Capital, AI ajan şirketi Tasklet'ın 13 milyon dolarlık turuna katıldı",
-     "tarih": "2026-07-31"
-    },
-    {
-     "id": "3de56dca",
-     "baslik": "ebebek, bebeveynlere sesli YZ asistanı AILin sundu",
-     "tarih": "2026-07-30"
-    },
-    {
-     "id": "5454fd6b",
-     "baslik": "İstanbul merkezli kayIQ, ajan tabanlı QA platformunu yayına aldı",
-     "tarih": "2026-07-29"
-    }
-   ]
-  },
-  {
    "ad": "regülasyon",
    "slug": "regulasyon",
-   "adet": 11,
+   "adet": 12,
    "son": [
+    {
+     "id": "153c499b",
+     "baslik": "AB'nin YZ etiketleme ve şeffaflık kuralları yürürlüğe girdi",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "c1de4f1e",
      "baslik": "235 şirketten açık ağırlıklı modelleri savunan mektup",
@@ -472,19 +477,19 @@
      "id": "32ac40c4",
      "baslik": "Anthropic: Kendi modellerimiz güvenlik testinde üç şirketin sistemine girdi",
      "tarih": "2026-07-31"
-    },
-    {
-     "id": "208aa591",
-     "baslik": "LinkedIn, düşük kaliteli AI içerikleri bildirmek için 'slop' butonu ekledi",
-     "tarih": "2026-07-31"
     }
    ]
   },
   {
    "ad": "asistanlar",
    "slug": "asistanlar",
-   "adet": 9,
+   "adet": 10,
    "son": [
+    {
+     "id": "d04cc35b",
+     "baslik": "OpenAI, GPT-Live ile sürekli ses etkileşimini yaygınlaştırıyor",
+     "tarih": "2026-08-04"
+    },
     {
      "id": "c68c9a71",
      "baslik": "Google AI Studio mobil uygulamasını sonlandırıyor",
@@ -504,11 +509,102 @@
      "id": "0434773f",
      "baslik": "Microsoft bu yıl Copilot'u 'süper uygulama' yapıyor",
      "tarih": "2026-07-30"
+    }
+   ]
+  },
+  {
+   "ad": "Meta",
+   "slug": "meta",
+   "adet": 6,
+   "son": [
+    {
+     "id": "bff0c57b",
+     "baslik": "Meta, reklam öneri modelinin eğitim verimliliğini iki katına çıkardı",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "3c1966fc",
+     "baslik": "Meta ve Yıldız Teknik'ten yapay zekâ programı: AI Builders Türkiye",
+     "tarih": "2026-07-28"
+    },
+    {
+     "id": "a9b65061",
+     "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "8c91b0e5",
+     "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
+     "tarih": "2026-07-09"
+    },
+    {
+     "id": "78820279",
+     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "ses modelleri",
+   "slug": "ses-modelleri",
+   "adet": 5,
+   "son": [
+    {
+     "id": "d04cc35b",
+     "baslik": "OpenAI, GPT-Live ile sürekli ses etkileşimini yaygınlaştırıyor",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "1a00e618",
+     "baslik": "LiveKit Agents: Gerçek zamanlı sesli AI ajan framework'ü",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "3e5eebb5",
+     "baslik": "Yerel ses ajanları kurmak için açık kaynak toolkit",
+     "tarih": "2026-07-29"
+    },
+    {
+     "id": "c04b1b26",
+     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
+     "tarih": "2026-07-21"
+    },
+    {
+     "id": "963a6870",
+     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
+     "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "donanım",
+   "slug": "donanim",
+   "adet": 5,
+   "son": [
+    {
+     "id": "bff0c57b",
+     "baslik": "Meta, reklam öneri modelinin eğitim verimliliğini iki katına çıkardı",
+     "tarih": "2026-08-04"
     },
     {
      "id": "453862f8",
      "baslik": "OpenAI, sohbet botları için 'cihaz ailesi' geliştiriyor",
      "tarih": "2026-07-30"
+    },
+    {
+     "id": "ade7e27d",
+     "baslik": "Veri merkezlerinin elektrik tüketimi 2035'e kadar dörde katlanabilir",
+     "tarih": "2026-07-22"
+    },
+    {
+     "id": "d7170a29",
+     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
+     "tarih": "2026-07-16"
+    },
+    {
+     "id": "dc52ec30",
+     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
+     "tarih": "2026-07-15"
     }
    ]
   },
@@ -572,38 +668,6 @@
     {
      "id": "16830069",
      "baslik": "OpenAI'a 'delil sakladı' suçlaması: telif davasında kritik viraj",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
-   "ad": "Meta",
-   "slug": "meta",
-   "adet": 5,
-   "son": [
-    {
-     "id": "3c1966fc",
-     "baslik": "Meta ve Yıldız Teknik'ten yapay zekâ programı: AI Builders Türkiye",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "a9b65061",
-     "baslik": "26 eski çalışan Meta'ya dava açtı: 'İşten çıkarmalara yapay zekâ karar verdi'",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "8c91b0e5",
-     "baslik": "Meta kendi yapay zekâ çiplerini eylülde üretmeye başlıyor",
-     "tarih": "2026-07-09"
-    },
-    {
-     "id": "78820279",
-     "baslik": "Meta, kod yazan modelini geliştiricilere açtı: Muse Spark 1.1",
-     "tarih": "2026-07-09"
-    },
-    {
-     "id": "fbe93ef8",
-     "baslik": "Instagram fotoğrafların Meta'nın görsel üreticisine girmesin istiyorsan",
      "tarih": "2026-07-09"
     }
    ]
@@ -744,29 +808,24 @@
    ]
   },
   {
-   "ad": "donanım",
-   "slug": "donanim",
-   "adet": 4,
+   "ad": "eğitim",
+   "slug": "egitim",
+   "adet": 3,
    "son": [
     {
-     "id": "453862f8",
-     "baslik": "OpenAI, sohbet botları için 'cihaz ailesi' geliştiriyor",
-     "tarih": "2026-07-30"
+     "id": "1bfc98e7",
+     "baslik": "YZ denetimli uzaktan sınavda 58 bin öğrenci yeniden sınava girecek",
+     "tarih": "2026-08-04"
     },
     {
-     "id": "ade7e27d",
-     "baslik": "Veri merkezlerinin elektrik tüketimi 2035'e kadar dörde katlanabilir",
-     "tarih": "2026-07-22"
+     "id": "3c1966fc",
+     "baslik": "Meta ve Yıldız Teknik'ten yapay zekâ programı: AI Builders Türkiye",
+     "tarih": "2026-07-28"
     },
     {
-     "id": "d7170a29",
-     "baslik": "OpenAI'ın ilk donanımı: kod ajanlarını izlemek için 230 dolarlık ışıklı klavye",
-     "tarih": "2026-07-16"
-    },
-    {
-     "id": "dc52ec30",
-     "baslik": "OpenAI'ın ilk cihazı ekransız bir akıllı hoparlör olabilir",
-     "tarih": "2026-07-15"
+     "id": "89886d70",
+     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
+     "tarih": "2026-07-09"
     }
    ]
   },
@@ -793,28 +852,6 @@
    ]
   },
   {
-   "ad": "ses modelleri",
-   "slug": "ses-modelleri",
-   "adet": 3,
-   "son": [
-    {
-     "id": "3e5eebb5",
-     "baslik": "Yerel ses ajanları kurmak için açık kaynak toolkit",
-     "tarih": "2026-07-29"
-    },
-    {
-     "id": "c04b1b26",
-     "baslik": "Açık kaynak ses stüdyosu voicebox: sesini klonla, dikte et, seslendir",
-     "tarih": "2026-07-21"
-    },
-    {
-     "id": "963a6870",
-     "baslik": "ChatGPT'nin sesi yenilendi: daha az kesiyor, daha çok dinliyor",
-     "tarih": "2026-07-09"
-    }
-   ]
-  },
-  {
    "ad": "xAI",
    "slug": "xai",
    "adet": 3,
@@ -833,6 +870,23 @@
      "id": "67b034bb",
      "baslik": "SpaceXAI'dan Grok 4.5: 'Daha ucuz, aynı güçte' iddiası",
      "tarih": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "ad": "RAG",
+   "slug": "rag",
+   "adet": 2,
+   "son": [
+    {
+     "id": "1b5d0fc8",
+     "baslik": "Firecrawl PDF inspector: Rust ile hızlı PDF analizi ve sınıflandırma",
+     "tarih": "2026-08-04"
+    },
+    {
+     "id": "3a39065c",
+     "baslik": "Büyük ölçekli RAG'de BM25'nin liderliğini gösteren ölçeklendirme çalışması",
+     "tarih": "2026-07-31"
     }
    ]
   },
@@ -884,23 +938,6 @@
      "id": "60f3b696",
      "baslik": "Küçük ama iddialı görsel model: 4 milyar parametrelik Mage-Flow",
      "tarih": "2026-07-22"
-    }
-   ]
-  },
-  {
-   "ad": "eğitim",
-   "slug": "egitim",
-   "adet": 2,
-   "son": [
-    {
-     "id": "3c1966fc",
-     "baslik": "Meta ve Yıldız Teknik'ten yapay zekâ programı: AI Builders Türkiye",
-     "tarih": "2026-07-28"
-    },
-    {
-     "id": "89886d70",
-     "baslik": "Hoca yapay zekâdan şüphelendi, sınavı yüz yüze yaptı: notlar yarıya düştü",
-     "tarih": "2026-07-09"
     }
    ]
   },
@@ -992,18 +1029,6 @@
     {
      "id": "208aa591",
      "baslik": "LinkedIn, düşük kaliteli AI içerikleri bildirmek için 'slop' butonu ekledi",
-     "tarih": "2026-07-31"
-    }
-   ]
-  },
-  {
-   "ad": "RAG",
-   "slug": "rag",
-   "adet": 1,
-   "son": [
-    {
-     "id": "3a39065c",
-     "baslik": "Büyük ölçekli RAG'de BM25'nin liderliğini gösteren ölçeklendirme çalışması",
      "tarih": "2026-07-31"
     }
    ]

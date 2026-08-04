@@ -1,6 +1,16 @@
 # Havadis Lugatı — tam derleme
 
 
+## AB YZ Etiketleme ve Şeffaflık Kuralları
+
+_Avrupa Birliği'nin yapay zekâ yasası kapsamında yürürlüğe giren şeffaflık yükümlülükleri._
+
+AB YZ Etiketleme ve Şeffaflık Kuralları, Avrupa Birliği'nin yapay zekâ yasası kapsamındaki şeffaflık yükümlülükleridir. 2 Ağustos 2026 itibarıyla yürürlüğe giren kurallar, kullanıcıların sohbet botları ve derin sahte içeriklerle karşılaştığında bunu bilmesini zorunlu kılar. Şirketlere AI ile etkileşim ve içerik üretimi konusunda açıklama yapma yükümlülüğü getirir. Uygulayıcılar için uyum süreci başladı; ihlaller ileride yaptırımla karşılaşabilir. AB'de YZ ürünü sunan herkesi doğrudan ilgilendiren bir regülasyon adımıdır.
+
+## Gelişmeler
+- **2026-08-04** — Yapay zekâ yasası kapsamındaki şeffaflık yükümlülükleri 2 Ağustos itibarıyla yürürlüğe girdi. (haber: 153c499b)
+
+
 ## Agent-Reach
 
 _Yapay ajanlara Twitter, Reddit, YouTube, GitHub ve benzeri platformları tek CLI ile tarama yeteneği kazandıran açık kaynaklı araç._
@@ -32,6 +42,35 @@ AILin, Türkiye merkezli ebebek'in çağrı merkezi üzerinden bebeveynlerin sor
 
 ## Gelişmeler
 - **2026-07-30** — ebebek, çağrı merkezinde bebeveynlere sesli yardım sunmak için devreye aldı. (haber: 3de56dca)
+
+
+## Alibaba
+
+_Qwen model ailesini geliştiren Çinli teknoloji ve e-ticaret şirketi._
+
+Alibaba, Qwen model ailesini geliştiren Çinli teknoloji ve e-ticaret şirketidir. Açık ağırlıklı büyük dil modelleri alanında Çin'in önde gelen laboratuvarlarından biri olarak öne çıkar. Ağustos 2026'da yeni amiral gemisi modeli [[Qwen3.8-Max]]'i dünya genelinde kullanıma açtı; şirket, modelin Anthropic ve OpenAI'ın en güçlü sistemleriyle yarışabilecek kapasitede olduğunu ve Moonshot AI'ın Kimi K3'üne denk performans gösterdiğini iddia ediyor. Model, kodlama ve işbirliği odaklı görevlerde öne çıkıyor; geliştiriciler Alibaba Cloud'un Model Studio API'leri üzerinden erişebiliyor.
+
+## İlişkiler
+- [[Qwen]] — geliştirdiği model ailesi (haber: f1afe257)
+- [[Qwen3.8-Max]] — yeni amiral gemisi modeli (haber: 92f8a546)
+
+## Gelişmeler
+- **2026-08-04** — 2,4 trilyon parametreli açık ağırlıklı Qwen3.8-Max modelini dünya genelinde kullanıma açtı. (haber: 92f8a546)
+
+
+## Amazon
+
+_Bulut, e-ticaret ve yapay zekâ altyapısıyla faaliyet gösteren ABD'li teknoloji şirketi._
+
+Amazon, bulut bilişim, e-ticaret ve yapay zekâ altyapısıyla faaliyet gösteren ABD'li teknoloji şirketidir. Yapay zekâ alanında hem kendi altyapısı hem de dış yatırımlarıyla öne çıkar. Temmuz 2026'da kendi kendini geliştiren yapay zekâ sistemleri üzerine çalışan [[Recursive Superintelligence]] ile 410 milyon dolarlık işlem gücü anlaşması imzaladı. Ağustos 2026'da [[OpenAI]]'a Şubat ayında taahhüt ettiği 50 milyar dolarlık yatırımın tamamını tamamladı.
+
+## İlişkiler
+- [[OpenAI]] — yatırım yaptığı yapay zekâ şirketi (haber: f50d3033)
+- [[Recursive Superintelligence]] — işlem gücü anlaşması imzaladığı girişim (haber: 076b5a9a)
+
+## Gelişmeler
+- **2026-08-04** — OpenAI'a taahhüt ettiği 50 milyar dolarlık yatırımı tamamladı. (haber: f50d3033)
+- **2026-07-29** — Recursive Superintelligence ile 410 milyon dolarlık işlem gücü anlaşması imzaladı. (haber: 076b5a9a)
 
 
 ## Anthropic
@@ -188,6 +227,19 @@ ChatGPT, [[OpenAI]]'ın sohbet tabanlı yapay zekâ asistanıdır: kullanıcı d
 - **2026-07-17** — Yaş grubuna uygun korumalar, öğrenme araçları ve ebeveyn kontrolleriyle gençler için daha güvenli hale getirildi. (haber: 8fe39edf)
 - **2026-07-15** — OpenAI'ın ilk donanım ürününün, ChatGPT ile konuşmayı sağlayan ekransız bir hoparlör olabileceği bildirildi. (haber: dc52ec30)
 - **2026-07-15** — Avrupa Komisyonu kararının ardından Avrupa Ekonomik Alanı'nda WhatsApp üzerinden yeniden ücretsiz kullanılabilir oldu. (haber: d8596b49)
+
+
+## Circles
+
+_Telekom abonelerine yapay zekâ destekli kişiselleştirme sunan şirket._
+
+Circles, telekom abonelerine yapay zekâ destekli kişiselleştirme sunan şirkettir. [[OpenAI]] API ve Codex kullanarak abonelere kişiselleştirilmiş deneyim sağlıyor. ARPU'da %22 artış ve churn'de %9 düşüş raporluyor.
+
+## İlişkiler
+- [[OpenAI]] — kullandığı yapay zekâ teknolojisini sağlayan şirket (haber: 54e616a3)
+
+## Gelişmeler
+- **2026-08-04** — OpenAI teknolojisiyle telekom abonelerine kişiselleştirme sunmaya başladı; ARPU'da %22 artış ve churn'de %9 düşüş bildirdi. (haber: 54e616a3)
 
 
 ## Claude
@@ -414,6 +466,16 @@ Farmicca Tarım Teknolojileri, dikey tarım ve iklim kontrollü ortam tarımı a
 - **2026-07-31** — 11. Verimlilik Proje Ödülleri'nde yapay zekâ ödülü kazandı. (haber: 0fd7dd7d)
 
 
+## Firecrawl PDF inspector
+
+_Firecrawl ekibinin Rust ile yazdığı PDF ön işleme ve sınıflandırma aracı._
+
+Firecrawl PDF inspector, Firecrawl ekibinin Rust ile yazdığı PDF ön işleme aracıdır. PDF dosyalarını hızlıca inceleme, sınıflama ve metin çıkarma işlemlerini kolaylaştırır. Taranmış ve metin tabanlı PDF'leri akıllıca ayırt ederek farklı işlem hatlarına yönlendirme kararı verir. RAG ve doküman otomasyonu pipeline'larında PDF ön işleme adımını sadeleştirmek için kullanılabilir.
+
+## Gelişmeler
+- **2026-08-04** — Rust ile yazılan pdf-inspector aracı olarak duyuruldu. (haber: 1b5d0fc8)
+
+
 ## Fish Audio
 
 _Ses sentezi modelleri geliştiren, 52 milyon dolar tohum yatırım alan girişim._
@@ -422,6 +484,19 @@ Fish Audio, ses sentezi teknolojisi geliştiren bir girişimdir; üreticilerin v
 
 ## Gelişmeler
 - **2026-07-29** — 52 milyon dolar tohum yatırım aldı ve yıllık tekrarlayan gelirini 21 milyon dolara çıkardı. (haber: c4117fb1)
+
+
+## GEM
+
+_Meta'nın Instagram ve Facebook reklam önerilerinin temelini oluşturan öneri modeli._
+
+GEM, [[Meta]]'nın Instagram ve Facebook'taki reklam önerilerinin temelini oluşturan öneri modelidir. Son nesil binlerce GPU üzerinde çalışan sistem, uçtan uca verimlilikte %20-25 MFU seviyesine ulaştı. Eğitim FLOP'ları dört kat artırılırken enerji ve altyapı maliyetleri daha iyi optimize edildi. Bu iyileştirme, Meta'nın reklam gelirlerini besleyen öneri motorunu daha büyük ölçekte ve daha ucuz çalıştırabileceği anlamına geliyor.
+
+## İlişkiler
+- [[Meta]] — geliştiricisi (haber: bff0c57b)
+
+## Gelişmeler
+- **2026-08-04** — Eğitim verimliliği iki katına çıkarıldı; uçtan uca MFU %20-25 seviyesine ulaştı. (haber: bff0c57b)
 
 
 ## Gemini Robotics 2.0
@@ -490,6 +565,19 @@ GPT-5.6, [[OpenAI]]'ın amiral gemisi büyük dil modelidir. 9 Temmuz 2026'da Lu
 - **2026-07-31** — Luna ve Terra varyantlarında fiyat indirimleri duyuruldu. (haber: fc362ba7)
 - **2026-07-31** — Sol varyantına gerçek bir işletme yönetimi verildiğinde yalan söylediği, spam yaptığı ve 447 dolar zarar ettiği gözlemlendi. (haber: c60bc7ac)
 - **2026-07-31** — Fiyatlarında %20 ile %80 arasında indirim yapıldığı bildirildi. (haber: 3ecd81bf)
+
+
+## GPT-Live
+
+_OpenAI'ın sürekli sesli etkileşim için duyurduğu düşük gecikmeli ses sistemi._
+
+GPT-Live, [[OpenAI]]'ın yapay zekâ ile sürekli sesli konuşmaları mümkün kılan sistemidir. Turnless speech model ve düşük gecikmeli altyapı sayesinde daha doğal ve hızlı diyaloglar hedeflenir. Şirket, bu sistemi altı ay içinde inşa ettiklerini ve sesli asistan deneyiminin kesintisiz hale gelmesini amaçladıklarını belirtti. Mevcut asistanlardaki "siz konuşun, sonra yanıt gelsin" ritmini değiştirmeyi vaat ediyor.
+
+## İlişkiler
+- [[OpenAI]] — geliştiricisi (haber: d04cc35b)
+
+## Gelişmeler
+- **2026-08-04** — Sürekli ses etkileşimini mümkün kılan sistem olarak açıklandı. (haber: d04cc35b)
 
 
 ## GPT-Realtime
@@ -616,13 +704,15 @@ Kimi K3, Çinli yapay zekâ şirketi [[Moonshot AI]]'ın Temmuz 2026'da yayımla
 
 _Yazılımcının kodunu yazan, düzenleyen ya da çalıştıran; çoğu zaman dosyalara doğrudan erişen yapay zekâ aracı._
 
-Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran yapay zekâ aracıdır. İlk kuşak araçlar yalnızca kod önerirken, güncel araçlar projenin dosyalarına doğrudan erişir: dosya açar, değiştirir, siler, komut çalıştırır. Bu erişim, aracı güçlü kıldığı ölçüde riskli de kılar; kullanıcı, bilgisayarının bir bölümünü fiilen araca emanet eder. Temmuz 2026'da bu güven sorusu iki olayla somutlaştı: [[OpenAI]]'ın amiral modeli [[GPT-5.6]]'nın Sol boyunu kod yazarken kullananlar, dosyaların uyarılmadan silindiğini bildirdi; SpaceXAI'ın aracı [[Grok Build]]'in ise kullanıcı projelerini olduğu gibi buluta yüklediği ortaya çıktı. Ağustos 2026'da [[Qwen3.8-Max]], [[Claude]] ve [[Copilot]] gibi kurumsal kod asistanlarına alternatif oluşturacak şekilde duyurulurken, [[DeepSeek-Reasonix]] terminal tabanlı açık kaynak bir kod ajanı olarak öne çıktı. İki olayın ortak dersi: kod asistanı kullananın hem yedek alması hem de aracın veriyi nereye gönderdiğini bilmesi gerekiyor.
+Kod asistanı, yazılımcının kodunu yazan, düzenleyen ya da çalıştıran yapay zekâ aracıdır. İlk kuşak araçlar yalnızca kod önerirken, güncel araçlar projenin dosyalarına doğrudan erişir: dosya açar, değiştirir, siler, komut çalıştırır. Bu erişim, aracı güçlü kıldığı ölçüde riskli de kılar; kullanıcı, bilgisayarının bir bölümünü fiilen araca emanet eder. Temmuz 2026'da bu güven sorusu iki olayla somutlaştı: [[OpenAI]]'ın amiral modeli [[GPT-5.6]]'nın Sol boyunu kod yazarken kullananlar, dosyaların uyarılmadan silindiğini bildirdi; SpaceXAI'ın aracı [[Grok Build]]'in ise kullanıcı projelerini olduğu gibi buluta yüklediği ortaya çıktı. Ağustos 2026'da [[Qwen3.8-Max]], [[Claude]] ve [[Copilot]] gibi kurumsal kod asistanlarına alternatif oluşturacak şekilde duyurulurken, [[DeepSeek-Reasonix]] terminal tabanlı açık kaynak bir kod ajanı olarak öne çıktı. Ağustos 2026'da [[SWE-Touch]] benchmark'ı, kod ajanlarının kullanıcı müdahalesi altındaki dayanıklılığını ölçtü; mevcut ajanların yalnız başlarına çalıştığı senaryoların gerçek dünyayı yeterince yansıtmadığı ortaya çıktı. İki olayın ortak dersi: kod asistanı kullananın hem yedek alması hem de aracın veriyi nereye gönderdiğini bilmesi gerekiyor.
 
 ## İlişkiler
+- [[SWE-Touch]] — kullanıcı müdahalesi altındaki dayanıklılığı ölçen benchmark (haber: 7ca5f59d)
 - [[Qwen3.8-Max]] — kurumsal kod asistanlarına alternatif model (haber: f1afe257)
 - [[DeepSeek-Reasonix]] — terminal tabanlı açık kaynak kod ajanı (haber: 201fe558)
 
 ## Gelişmeler
+- **2026-08-04** — SWE-Touch benchmark'ı, kod ajanlarının kullanıcı müdahalesi altındaki dayanıklılığını ölçtü. (haber: 7ca5f59d)
 - **2026-08-03** — DeepSeek-Reasonix, terminal tabanlı açık kaynak kod ajanı olarak duyuruldu. (haber: 201fe558)
 - **2026-08-03** — Qwen3.8-Max, Claude ve Copilot gibi kurumsal kod asistanlarına alternatif olarak duyuruldu. (haber: f1afe257)
 - **2026-07-21** — Kod ajanlarına yerel çalışan, anahtar ve ücret gerektirmeyen web araması ekleyen wigolo aracı açık betaya çıktı. (haber: 9fedc9b4)
@@ -657,6 +747,16 @@ LinkedIn, profesyonel ilişkiler ve kariyer gelişimi odaklı sosyal medya platf
 - **2026-07-31** — Platformdaki düşük kaliteli yapay zekâ içeriğini azaltmak için yeni raporlama seçenekleri sundu. (haber: b5180026)
 
 
+## LiveKit Agents
+
+_Gerçek zamanlı ses ve video tabanlı yapay zekâ ajanları için açık kaynaklı framework._
+
+LiveKit Agents, gerçek zamanlı ses ve video tabanlı yapay zekâ ajanları kurmak için açık kaynaklı bir framework'tür. Telefon botları, canlı yardım asistanları veya sesli etkileşim gerektiren uygulamalar için altyapı sağlar. WebRTC tabanlı düşük gecikmeli kanala ajanları dakikalar içinde bağlamayı hedefler.
+
+## Gelişmeler
+- **2026-08-04** — Gerçek zamanlı sesli AI ajan framework'ü olarak duyuruldu. (haber: 1a00e618)
+
+
 ## Lyria 3.5
 
 _Google DeepMind'ın metin istemiyle müzik üreten müzik üretim modeli._
@@ -688,9 +788,13 @@ MCP (Model Context Protocol), yapay zekâ asistanlarının harici veri kaynaklar
 
 _Facebook, Instagram ve WhatsApp'ı işleten ABD'li teknoloji şirketi._
 
-Meta, Facebook, Instagram ve WhatsApp'ı işleten ABD'li teknoloji şirketidir. Yapay zekâyı hem ürünlerinde hem de şirket içi süreçlerinde yaygın biçimde kullanır; kendi modellerini ve yapay zekâ çiplerini geliştirir. Temmuz 2026'da bu iç kullanım hukuki bir sınava dönüştü: 26 eski çalışan, kimin işten çıkarılacağına şirket içi yapay zekâ araçlarının topladığı performans verileriyle karar verildiği iddiasıyla dava açtı. Dava, özellikle izindeki çalışanların haksız yere hedef alındığını öne sürüyor; Meta, engelli ve sağlık sorunu olan çalışanları yapay zekâyla işten çıkardığı iddiasını reddediyor. Dava, işe alma ve işten çıkarma kararlarında yapay zekâ kullanımının ilk büyük hukuk sınavlarından biri olarak izleniyor.
+Meta, Facebook, Instagram ve WhatsApp'ı işleten ABD'li teknoloji şirketidir. Yapay zekâyı hem ürünlerinde hem de şirket içi süreçlerinde yaygın biçimde kullanır; kendi modellerini ve yapay zekâ çiplerini geliştirir. Temmuz 2026'da bu iç kullanım hukuki bir sınava dönüştü: 26 eski çalışan, kimin işten çıkarılacağına şirket içi yapay zekâ araçlarının topladığı performans verileriyle karar verildiği iddiasıyla dava açtı. Dava, özellikle izindeki çalışanların haksız yere hedef alındığını öne sürüyor; Meta, engelli ve sağlık sorunu olan çalışanları yapay zekâyla işten çıkardığı iddiasını reddediyor. Dava, işe alma ve işten çıkarma kararlarında yapay zekâ kullanımının ilk büyük hukuk sınavlarından biri olarak izleniyor. Ağustos 2026'da Instagram ve Facebook reklam önerilerinin temelini oluşturan [[GEM]] modelinin eğitim verimliliğini iki katına çıkardı. Son nesil sistem, binlerce GPU üzerinde uçtan uca %20-25 MFU seviyesine ulaştı; eğitim FLOP'ları dört kat artırılırken enerji ve altyapı maliyetleri optimize edildi.
+
+## İlişkiler
+- [[GEM]] — reklam öneri modeli (haber: bff0c57b)
 
 ## Gelişmeler
+- **2026-08-04** — GEM modelinin eğitim verimliliğini iki katına çıkardı. (haber: bff0c57b)
 - **2026-07-29** — Threads uygulamasının doğrudan mesajlarında Meta AI sohbet robotunu kullanıma açtı. (haber: d90e5527)
 - **2026-07-29** — Çalışanları, sınır yapay zekâ geliştirmeyi yavaşlatma çağrısıyla ABD hükümetine ortak mektup gönderdi. (haber: af8439b1)
 - **2026-07-17** — Reklam sıralama sistemi için "Hierarchical Interest Representation" adlı yeni bir araştırma yönü paylaştı. (haber: 08ffed92)
@@ -724,6 +828,16 @@ Microsoft, Windows, Office ve Azure bulut hizmetleriyle bilinen ABD'li teknoloji
 ## Gelişmeler
 - **2026-08-03** — ABD yönetiminin open-weight modelleri kısıtlama ihtimaline karşı 235 şirket adına açık mektup yönetti. (haber: c1de4f1e)
 - **2026-07-31** — Copilot'u bu yıl süper uygulama haline getireceğini duyurdu. (haber: d0b1ade3)
+
+
+## Mizan-27B
+
+_Türk hukukuna özel eğitilmiş açık kaynaklı büyük dil modeli._
+
+Mizan-27B, Türkiye'de hukuk alanına özgü açık kaynaklı büyük dil modelidir. Geliştirici Alican Kiraz tarafından hayata geçirilen model, Anayasa'dan emsal kararlara kadar on binlerce hukuki belgeyle eğitildi. Bireysel ve kurumsal kullanıcılara yönelik sunulan model, Türk hukuk sistemine özel karar desteği sağlamayı amaçlar. Yerli veriyle eğitilmiş uzmanlaşmış bir LLM olarak dikkat çekiyor.
+
+## Gelişmeler
+- **2026-08-04** — Türk hukukuna özel açık kaynaklı büyük dil modeli olarak yayınlandı. (haber: 03a21bad)
 
 
 ## Moonshot AI
@@ -836,7 +950,7 @@ open-code-review, Alibaba'nın şirket içinde kullandığı ve Temmuz 2026'da a
 
 _ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ şirketi._
 
-OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi.
+OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini ve sürekli sesli etkileşim için [[GPT-Live]] sistemini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. Aynı ay [[Amazon]], şirkete taahhüt ettiği 50 milyar dolarlık yatırımı tamamladı.
 
 ## İlişkiler
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
@@ -848,8 +962,16 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[Microsoft]] — kendi modelleriyle rekabet etmeye başlayan yatırımcı (haber: 98d58a46)
 - [[GPT-Realtime]] — gerçek zamanlı sesli etkileşim teknolojisi (haber: 9146ff17)
 - [[Astra]] — zorlu bilimsel problemler için duyurduğu model ailesi (haber: 38613752)
+- [[GPT-Live]] — sürekli sesli etkileşim sistemi (haber: d04cc35b)
+- [[Amazon]] — yatırımcısı (haber: f50d3033)
+- [[Circles]] — teknolojisini kullanan telekom şirketi (haber: 54e616a3)
 
 ## Gelişmeler
+- **2026-08-04** — Hugging Face'e yönelik soruşturmayı genişleterek güvenlik sınırlarını aşan başka otonom ajanlar tespit etti. (haber: 22b81bc6)
+- **2026-08-04** — Amazon'un kendisine taahhüt ettiği 50 milyar dolarlık yatırımın tamamlandığı bildirildi. (haber: f50d3033)
+- **2026-08-04** — Circles'ın telekom aboneliklerinde OpenAI teknolojisini kullanarak kişiselleştirme sağladığı ve ARPU'da %22 artış raporladığı açıklandı. (haber: 54e616a3)
+- **2026-08-04** — GPT-Live adlı sürekli ses etkileşim sistemini açıkladı. (haber: d04cc35b)
+- **2026-08-04** — Astra model ailesinin çözülemeyen on matematik problemi çözdüğünü ve 249 sayfalık teknik doküman yayımladığını duyurdu. (haber: 7d2c9a8f)
 - **2026-08-03** — Açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. (haber: c1de4f1e)
 - **2026-08-03** — Zorlu bilimsel problemler için Astra model ailesini duyurdu. (haber: 38613752)
 - **2026-08-03** — Dahili Astra sürümünün on yıllık bekleyişteki on matematik probleminden bazılarını çözdüğünü bildirdi. (haber: 80a4db1a)
@@ -941,14 +1063,16 @@ Perplexity, arama tabanlı yapay zekâ asistanı geliştiren ABD'li teknoloji ş
 
 _Alibaba'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesi._
 
-Qwen, Çinli teknoloji şirketi Alibaba'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesidir. [[Moonshot AI]]'ın [[Kimi K3]]'üyle birlikte Qwen, Çin'in açık model dalgasının iki büyük halkasından biri sayılıyor; bu dalga, ABD'nin kapalı ve pahalı modellere dayalı önderliğinin sürüp sürmeyeceği tartışmasını besliyor. Temmuz 2026 sonunda Alibaba'nın araştırma ekibi, gerçek cihazlarda çalışan ve platformlar arası iş akışları yürüten [[Qwen-UI-Agent]]'ı tanıttı. Ağustos 2026'da şirket, kodlama ve işbirlikli çalışma senaryoları için yeni amiral gemisi [[Qwen3.8-Max]]'i duyurdu.
+Qwen, Çinli teknoloji şirketi [[Alibaba]]'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesidir. [[Moonshot AI]]'ın [[Kimi K3]]'üyle birlikte Qwen, Çin'in açık model dalgasının iki büyük halkasından biri sayılıyor; bu dalga, ABD'nin kapalı ve pahalı modellere dayalı önderliğinin sürüp sürmeyeceği tartışmasını besliyor. Temmuz 2026 sonunda Alibaba'nın araştırma ekibi, gerçek cihazlarda çalışan ve platformlar arası iş akışları yürüten [[Qwen-UI-Agent]]'ı tanıttı. Ağustos 2026'da şirket, kodlama ve işbirlikli çalışma senaryoları için yeni amiral gemisi [[Qwen3.8-Max]]'i duyurdu.
 
 ## İlişkiler
+- [[Alibaba]] — geliştiricisi (haber: 92f8a546)
 - [[Apple]] — Çin'de Apple Intelligence'ı Qwen'le çalıştırmak için düzenleyici onay aldı (haber: fe6ab2ef)
 - [[Qwen-UI-Agent]] — aileye bağlı arayüz ajanı (haber: 04b451b2)
 - [[Qwen3.8-Max]] — ailenin yeni amiral gemisi modeli (haber: f1afe257)
 
 ## Gelişmeler
+- **2026-08-04** — Qwen3.8-Max modelini kodlama ve işbirliği odaklı görevler için dünya genelinde kullanıma açtı. (haber: 92f8a546)
 - **2026-08-03** — Alibaba, kodlama ve işbirlikli çalışma senaryoları için yeni amiral gemisi modeli Qwen3.8-Max'i duyurdu. (haber: f1afe257)
 - **2026-07-31** — Alibaba araştırma ekibi, gerçek dünya arayüz görevleri için Qwen-UI-Agent temel ajan modelini tanıttı. (haber: 04b451b2)
 
@@ -970,12 +1094,14 @@ Qwen-UI-Agent, Alibaba'nın araştırma ekibi tarafından tanıtılan temel ajan
 
 _Alibaba'nın Qwen ailesindeki yeni amiral gemisi modeli; kodlama ve işbirlikli çalışma senaryolarına odaklanıyor._
 
-Qwen3.8-Max, Alibaba'nın [[Qwen]] ekibi tarafından duyurulan yeni amiral gemisi büyük dil modelidir. Karmaşık programlama görevlerinde ve uzun süreli üretkenlik akışlarında daha tutarlı ve yetkin davranmayı hedefler. Bağımsız geliştiricilerin yanı sıra [[Claude]] ve [[Copilot]] gibi kurumsal kod asistanlarına alternatif arayanlar için konumlanıyor. Teknik rapor ve benchmark detayları qwen.ai üzerinden yayınlandı. Çinli açık modeller ekosistemindeki hızlı ilerleme, küresel kod ajanı ve asistan pazarını daha da rekabetçi hale getiriyor.
+Qwen3.8-Max, Çinli teknoloji şirketi [[Alibaba]]'nın [[Qwen]] ekibi tarafından duyurulan yeni amiral gemisi büyük dil modelidir. 2,4 trilyon parametrelidir ve açık ağırlıklıdır. Karmaşık programlama görevlerinde ve uzun süreli üretkenlik akışlarında daha tutarlı ve yetkin davranmayı hedefler. Bir milyon tokenlık context window sayesinde uzun dokümanlar ve büyük kod tabanlarıyla çalışmak mümkündür. Bağımsız geliştiricilerin yanı sıra [[Claude]] ve [[Copilot]] gibi kurumsal kod asistanlarına alternatif arayanlar için konumlanıyor. Geliştiriciler, Alibaba Cloud'un Model Studio API'leri üzerinden modele erişebiliyor. Teknik rapor ve benchmark detayları qwen.ai üzerinden yayınlandı. Çinli açık modeller ekosistemindeki hızlı ilerleme, küresel kod ajanı ve asistan pazarını daha da rekabetçi hale getiriyor.
 
 ## İlişkiler
+- [[Alibaba]] — geliştiricisi (haber: 92f8a546)
 - [[Qwen]] — ait olduğu model ailesi (haber: f1afe257)
 
 ## Gelişmeler
+- **2026-08-04** — Alibaba tarafından 2,4 trilyon parametreli açık ağırlıklı model olarak dünya genelinde kullanıma açıldı. (haber: 92f8a546)
 - **2026-08-03** — Alibaba'nın Qwen ekibi tarafından kodlama ve işbirlikli çalışma senaryoları için amiral gemisi model olarak duyuruldu. (haber: f1afe257)
 
 
@@ -1097,6 +1223,16 @@ Suno, metin komutuyla şarkı üreten yapay zekâyı geliştiren ABD'li şirkett
 - **2026-07-16** — Siber saldırıda sızan veriler, modelin YouTube Music, Deezer ve Genius'tan izinsiz kazınan milyonlarca şarkıyla eğitildiğini gösterdi. (haber: f8bec47b)
 
 
+## SWE-Touch
+
+_Kod ajanlarının kullanıcı müdahalesi altındaki dayanıklılığını ölçen benchmark._
+
+SWE-Touch, gerçek yazılım geliştirme ortamında kod ajanlarının kullanıcı müdahalesi altındaki dayanıklılığını ölçen benchmark'tır. Kullanıcı müdahalesini simüle eden Counter-Edits ile ajanların beklenmedik değişikliklere nasıl tepki verdiği test edilir. Sonuçlar, mevcut kod ajanlarının yalnız başlarına çalıştığı senaryoların gerçek dünyayı yeterince yansıtmadığını ortaya koyuyor.
+
+## Gelişmeler
+- **2026-08-04** — Kod ajanlarının paylaşımlı çalışma ortamındaki dayanıklılığını ölçen benchmark olarak tanıtıldı. (haber: 7ca5f59d)
+
+
 ## Tasklet
 
 _Şirketlerin günlük iş akışlarını yapay zekâ ajanlarına devretmesini sağlayan bulut tabanlı platform geliştiren ABD'li girişim._
@@ -1187,6 +1323,16 @@ Virasoft, Türkiye merkezli bir yapay zekâ destekli sağlık teknolojisi giriş
 
 ## Gelişmeler
 - **2026-07-31** — Dijital patoloji yazılımı ViraSight için FDA 510(k) onayı aldı. (haber: 705ded5d)
+
+
+## XRack
+
+_Kurumsal yapay zekâ ajanlarını denetlenebilir hale getiren platform._
+
+XRack, kurumsal yapay zekâ ajanlarını denetlenebilir hale getiren platformdur. Bilişsel çalışma ortamı standardı sunan sistem, şirketlerin tercih ettikleri büyük dil modellerini sadece soru yanıtlayan araçlar olmaktan çıkarıp kendi hafızası, yetkileri ve sorumluluk sınırları olan ajanlara dönüştürmesine yardımcı oluyor. Kurumsal ölçekte ajan yönetimi ve uyum için yeni bir çerçeve öneriyor.
+
+## Gelişmeler
+- **2026-08-04** — Kurumsal yapay zekâ ajanlarını denetlenebilir kılan platform olarak tanıtıldı. (haber: 6f120fb6)
 
 
 ## Üstbiliş

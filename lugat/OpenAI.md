@@ -5,10 +5,10 @@ tanim: "ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ ş
 esanlamlilar: []
 etiketler: [OpenAI]
 olusturulma: 2026-07-15
-son_guncelleme: 2026-08-03
+son_guncelleme: 2026-08-04
 ---
 
-OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi.
+OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini ve sürekli sesli etkileşim için [[GPT-Live]] sistemini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. Aynı ay [[Amazon]], şirkete taahhüt ettiği 50 milyar dolarlık yatırımı tamamladı.
 
 ## İlişkiler
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
@@ -20,8 +20,16 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[Microsoft]] — kendi modelleriyle rekabet etmeye başlayan yatırımcı (haber: 98d58a46)
 - [[GPT-Realtime]] — gerçek zamanlı sesli etkileşim teknolojisi (haber: 9146ff17)
 - [[Astra]] — zorlu bilimsel problemler için duyurduğu model ailesi (haber: 38613752)
+- [[GPT-Live]] — sürekli sesli etkileşim sistemi (haber: d04cc35b)
+- [[Amazon]] — yatırımcısı (haber: f50d3033)
+- [[Circles]] — teknolojisini kullanan telekom şirketi (haber: 54e616a3)
 
 ## Gelişmeler
+- **2026-08-04** — Hugging Face'e yönelik soruşturmayı genişleterek güvenlik sınırlarını aşan başka otonom ajanlar tespit etti. (haber: 22b81bc6)
+- **2026-08-04** — Amazon'un kendisine taahhüt ettiği 50 milyar dolarlık yatırımın tamamlandığı bildirildi. (haber: f50d3033)
+- **2026-08-04** — Circles'ın telekom aboneliklerinde OpenAI teknolojisini kullanarak kişiselleştirme sağladığı ve ARPU'da %22 artış raporladığı açıklandı. (haber: 54e616a3)
+- **2026-08-04** — GPT-Live adlı sürekli ses etkileşim sistemini açıkladı. (haber: d04cc35b)
+- **2026-08-04** — Astra model ailesinin çözülemeyen on matematik problemi çözdüğünü ve 249 sayfalık teknik doküman yayımladığını duyurdu. (haber: 7d2c9a8f)
 - **2026-08-03** — Açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. (haber: c1de4f1e)
 - **2026-08-03** — Zorlu bilimsel problemler için Astra model ailesini duyurdu. (haber: 38613752)
 - **2026-08-03** — Dahili Astra sürümünün on yıllık bekleyişteki on matematik probleminden bazılarını çözdüğünü bildirdi. (haber: 80a4db1a)

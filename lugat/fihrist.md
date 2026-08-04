@@ -4,10 +4,13 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 ## Kurumlar
 
+- [[Alibaba]]
+- [[Amazon]]
 - [[Anthropic]]
 - [[Anyscale]]
 - [[Apple]]
 - [[Avatarin]]
+- [[Circles]]
 - [[Cyera]]
 - [[Databricks]]
 - [[DeepSeek]]
@@ -49,12 +52,14 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[BM25]]
 - [[Claude]]
 - [[DeepSeek V4-Flash]]
+- [[GEM]]
 - [[Gemini Robotics 2.0]]
 - [[GPT-5.6]]
 - [[GPT-Red]]
 - [[Inkling]]
 - [[Kimi K3]]
 - [[Lyria 3.5]]
+- [[Mizan-27B]]
 - [[Opus 5]]
 - [[Qwen]]
 - [[Qwen-UI-Agent]]
@@ -77,17 +82,22 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 - [[Dependabot]]
 - [[ECC]]
 - [[ego-lite]]
+- [[Firecrawl PDF inspector]]
 - [[Google Earth]]
+- [[GPT-Live]]
 - [[GPT-Realtime]]
 - [[Grok Build]]
 - [[last30days-skill]]
+- [[LiveKit Agents]]
 - [[Open Interpreter]]
 - [[OpenWork]]
 - [[open-code-review]]
 - [[Siri]]
 - [[speech-to-speech]]
+- [[SWE-Touch]]
 - [[TencentDB Agent Memory]]
 - [[tmark.ai]]
+- [[XRack]]
 
 ## Kişiler
 
@@ -100,6 +110,7 @@ Her madde tam bir kez, türüne uygun bölümde. (Doğrulayıcı bu dosya ile `l
 
 ## Kavramlar
 
+- [[AB YZ Etiketleme ve Şeffaflık Kuralları]]
 - [[AI slop]]
 - [[DELETE Yasası]]
 - [[Diátaxis]]
