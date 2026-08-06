@@ -1,316 +1,215 @@
 {
- "tarih": "2026-08-04",
+ "tarih": "2026-08-06",
  "haberler": [
   {
-   "id": "92f8a546",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "977f60f7",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Kapak",
-   "baslik": "Alibaba, Qwen3.8-Max'i duyurdu: 2,4 trilyon parametreli açık ağırlıklı model",
-   "ozet": "Alibaba, yeni amiral gemisi modeli Qwen3.8-Max'i dünya genelinde kullanıma açtı. Şirket, 2,4 trilyon parametreli bu açık ağırlıklı modelin Anthropic ve OpenAI'ın en güçlü sistemleriyle yarışabilecek kapasitede olduğunu ve Moonshot AI'ın Kimi K3'üne denk performans gösterdiğini iddia ediyor. Model, kodlama ve işbirliği odaklı görevlerde öne çıkıyor; 1 milyon tokenlık context window sayesinde uzun dokümanlar ve büyük kod tabanlarıyla çalışmak mümkün. Geliştiriciler, Alibaba Cloud'un Model Studio API'leri üzerinden modele erişebiliyor. Bu hamle, Çinli bir laboratuvarın bir kez daha ABD öncü modellerine doğrudan meydan okuduğunu gösteriyor. Hem kurumsal hem bağımsız geliştiriciler için güçlü, erişilebilir ve açık lisanslı yeni bir seçenek ortaya çıkıyor.",
-   "neden_onemli": "Açık ağırlıklı dev bir model, geliştiricilere ABD öncülerine alternatif güçlü bir seçenek sunuyor ve rekabeti hızlandırıyor.",
+   "baslik": "Third-party cyber evaluations involving OpenAI models",
+   "ozet": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "Çin",
-    "modeller",
-    "açık kaynak"
-   ],
-   "iliskili": [],
-   "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/974342/alibaba-qwen-max-open-weight-ai",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "7d2c9a8f",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Gündem",
-   "baslik": "OpenAI: Astra, çözülemeyen 10 matematik problemini çözdü",
-   "ozet": "OpenAI, henüz kullanıma sunulmayan Astra model ailesiyle matematik dünyasında yıllardır çözülemeyen 10 önemli problemi çözdüğünü duyurdu. Şirket, bu sonuçlara ait 249 sayfalık teknik doküman yayınladı. Astra, zorlu bilimsel problemler için tasarlanmış yeni bir model ailesi olarak öne çıkıyor ve matematikte insan uzmanlığının ötesine geçebilecek kapasitede olduğu iddia ediliyor. Bu iddia, eğer doğrulanırsa, temel bilimlerde YZ kullanımının yeni bir dönemecini işaret edebilir.",
-   "neden_onemli": "Temel bilimlerde YZ'nin problem çözme sınırını zorlayan bir ilerleme; kanıtları akademik denetime açık.",
-   "konular": [
-    "OpenAI",
-    "araştırma",
-    "modeller"
-   ],
-   "iliskili": [
-    "38613752",
-    "80a4db1a"
-   ],
-   "kaynak": "Webrazzi YZ",
-   "url": "https://webrazzi.com/2026/08/03/openai-cozulemeyen-10-matematik-problemini-astra-ile-cozdugunu-duyurdu/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "d04cc35b",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Gündem",
-   "baslik": "OpenAI, GPT-Live ile sürekli ses etkileşimini yaygınlaştırıyor",
-   "ozet": "OpenAI, GPT-Live adlı yeni sistemle yapay zeka ile sürekli sesli konuşmaları mümkün kılan mimarisini açıkladı. Turnless speech model ve düşük gecikmeli altyapı sayesinde daha doğal ve hızlı diyaloglar hedefleniyor. Şirket, bu sistemi altı ay içinde inşa ettiklerini ve sesli asistan deneyiminin kesintisiz hale gelmesini amaçladıklarını belirtti. Bu, mevcut asistanlardaki 'siz konuşun, sonra yanıt gelsin' ritmini değiştirmeyi vaat ediyor.",
-   "neden_onemli": "Sesli asistanlar arasındaki doğallık ve hız rekabetinde yeni bir seviye; kullanıcı deneyimini yakından etkiler.",
-   "konular": [
-    "OpenAI",
-    "asistanlar",
-    "ses modelleri"
+    "genel"
    ],
    "iliskili": [],
    "kaynak": "OpenAI",
-   "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
-   "ek_kaynaklar": []
+   "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "Simon Willison",
+     "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+     "baslik": "Third-party cyber evaluations involving OpenAI models"
+    }
+   ]
   },
   {
-   "id": "bff0c57b",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "40212545",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Gündem",
-   "baslik": "Meta, reklam öneri modelinin eğitim verimliliğini iki katına çıkardı",
-   "ozet": "Meta, Instagram ve Facebook'taki reklam önerilerinin temelini oluşturan GEM modelinin eğitim verimliliğini ikiye katladı. Son nesil binlerce GPU üzerinde çalışan sistem, uçtan uca verimlilikte %20-25 MFU seviyesine ulaştı. Eğitim FLOP'ları dört kat artırılırken enerji ve altyapı maliyetleri daha iyi optimize edildi. Bu iyileştirme, Meta'nın reklam gelirlerini besleyen öneri motorunu daha büyük ölçekte ve daha ucuz çalıştırabileceği anlamına geliyor.",
-   "neden_onemli": "Kurumsal ölçekte öneri sistemlerinin maliyet-verim dengesini değiştiren somut bir mühendislik kazanımı.",
+   "baslik": "Nashville uses eminent domain to block data center near zoo",
+   "ozet": "Nashville uses eminent domain to block data center near zoo",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "Meta",
-    "kurumsal YZ",
-    "donanım"
+    "genel"
    ],
    "iliskili": [],
-   "kaynak": "Meta AI",
-   "url": "https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/",
-   "ek_kaynaklar": []
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49191624",
+     "baslik": "Yorumlar"
+    }
+   ]
   },
   {
-   "id": "153c499b",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "a165a3ba",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Gündem",
-   "baslik": "AB'nin YZ etiketleme ve şeffaflık kuralları yürürlüğe girdi",
-   "ozet": "Avrupa Birliği'nin yapay zeka yasası kapsamındaki yeni şeffaflık yükümlülükleri 2 Ağustos itibarıyla yürürlüğe girdi. Kullanıcıların sohbet botları ve derin sahte içeriklerle karşılaştığında bunu bilmesini zorunlu kılan kurallar, şirketlere AI ile etkileşim ve içerik üretimi konusunda açıklama yapma zorunluluğu getiriyor. Uygulayıcılar için uyum süreci başladı; ihlaller ileride yaptırımla karşılaşabilir. Bu, AB'de YZ ürünü sunan herkesi doğrudan ilgilendiren bir regülasyon adımı.",
-   "neden_onemli": "AB'de YZ ürünü sunan herkesi doğrudan ilgilendiren yeni bir uyum yükümlülüğü.",
+   "baslik": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
+   "ozet": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in…",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "regülasyon",
-    "güvenlik"
+    "genel"
    ],
    "iliskili": [],
    "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/974571/eu-ai-act-transparency-labels-rules-deepfakes",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
    "ek_kaynaklar": []
   },
   {
-   "id": "1bfc98e7",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "e5b09da1",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Gündem",
-   "baslik": "YZ denetimli uzaktan sınavda 58 bin öğrenci yeniden sınava girecek",
-   "ozet": "Bir uzaktan sınav platformunun AI denetimli oturumu o kadar kötü geçti ki 58 bin öğrenci sınava yeniden girmek zorunda kalıyor. Sistem, beklenenden beş kat fazla yüksek puan üretince şüphe uyandı. Olay, yapay zeka tabanlı gözetim ve değerlendirmenin eğitimde ne kadar kırılgan olabileceğini gösteriyor. Öğrenciler, sınav merkezleri ve düzenleyiciler için somut bir uyarı niteliği taşıyor.",
-   "neden_onemli": "YZ tabanlı sınav gözetiminin ne kadar kırılgan olabileceğini gösteren somut bir eğitim vakası.",
+   "baslik": "The title cards in Blade Runner are amazing",
+   "ozet": "The title cards in Blade Runner are amazing",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
-    "eğitim",
-    "güvenlik"
+    "genel"
    ],
    "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/culture/2026/08/an-ai-supervised-remote-exam-went-so-badly-that-58000-students-must-retake-it/",
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49189287",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "a05ad818",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
+   "bolum": "Gündem",
+   "baslik": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+   "ozet": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49189234",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "48c7edfb",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
+   "bolum": "Gündem",
+   "baslik": "Meta launches Muse Code, an AI agent for large code bases",
+   "ozet": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
    "ek_kaynaklar": []
   },
   {
-   "id": "7ca5f59d",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Araştırma Masası",
-   "baslik": "SWE-Touch: Kod ajanları, kullanıcı müdahale ettiğinde ne yapıyor?",
-   "ozet": "Gerçek yazılım geliştirmede kullanıcılar, ajan çalışırken kodu inceleyip değiştirebiliyor. SWE-Touch adlı yeni benchmark, kod asistanlarının bu paylaşımlı çalışma ortamında ne kadar dayanıklı olduğunu ölçüyor. Araştırmacılar, kullanıcı müdahalesini simüle eden Counter-Edits ile ajanların beklenmedik değişikliklere nasıl tepki verdiğini test ediyor. Sonuçlar, mevcut kod ajanlarının yalnız başlarına çalıştığı senaryoların gerçek dünyayı yeterince yansıtmadığını ortaya koyuyor.",
-   "neden_onemli": "Gerçek yazılım ekiplerinde kod ajanlarının dayanıklılığını ölçen ilk kapsamlı benchmark'lerden biri.",
-   "konular": [
-    "araştırma",
-    "kod asistanları",
-    "ajanlar"
-   ],
+   "id": "8546e017",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
+   "bolum": "Radar",
+   "baslik": "Prime Agent: A self-improving RLM agent",
+   "ozet": "Prime Agent: A self-improving RLM agent",
+   "neden_onemli": "",
+   "konular": [],
    "iliskili": [],
-   "kaynak": "HF Daily Papers",
-   "url": "https://huggingface.co/papers/2608.02499",
-   "ek_kaynaklar": []
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.primeintellect.ai/blog/prime-agent",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49189075",
+     "baslik": "Yorumlar"
+    }
+   ]
   },
   {
-   "id": "105105cd",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Araştırma Masası",
-   "baslik": "SKT: Ajan becerilerini doğrulanmış sentetik veriyle ölçekli eğitim",
-   "ozet": "Ajan becerileri, dil modellerine yeniden kullanılabilir prosedürel bilgi kazandırmak için önemli bir mekanizma haline geldi. SKT adlı yöntem, doğrulanmış sentetik veri üretimiyle bu becerilerin etkin kullanımını büyük ölçekte eğitiyor. Sistem, tekli ve çoklu beceri görevleri oluşturarak yürütülebilir çözüm yolları üretiyor. Bu yaklaşım, ajanların becerileri doğru tanıma, uygulama ve koordine etme yeteneklerini sistematik olarak artırmayı hedefliyor.",
-   "neden_onemli": "Ajan becerilerinin etkin kullanımını doğrulanmış sentetik veriyle büyük ölçekte eğitmeyi hedefleyen bir araştırma çerçevesi.",
-   "konular": [
-    "araştırma",
-    "ajanlar"
-   ],
-   "iliskili": [],
-   "kaynak": "HF Daily Papers",
-   "url": "https://huggingface.co/papers/2608.02287",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "03a21bad",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Türkiye'den",
-   "baslik": "Türk hukukuna özel yerli model Mizan-27B açık kaynak yayınlandı",
-   "ozet": "Türkiye'de hukuk alanına özgü açık kaynaklı büyük dil modeli Mizan-27B yayınlandı. Geliştirici Alican Kiraz tarafından hayata geçirilen model, Anayasa'dan emsal kararlara kadar on binlerce hukuki belgeyle eğitildi. Bireysel ve kurumsal kullanıcılara yönelik sunulan model, Türk hukuk sistemine özel karar desteği sağlamayı amaçlıyor. Yerli veriyle eğitilmiş uzmanlaşmış bir LLM olarak dikkat çekiyor.",
-   "neden_onemli": "Türk hukukuna özel, yerli veriyle eğitilmiş açık kaynaklı bir uzman modeli.",
-   "konular": [
-    "Türkiye",
-    "modeller",
-    "açık kaynak"
-   ],
+   "id": "4437e02e",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
+   "bolum": "Radar",
+   "baslik": "Anthropic Kendi Yapay Zeka Çiplerini Geliştirmek için Ekip Kuruyor",
+   "ozet": "Anthropic Kendi Yapay Zeka Çiplerini Geliştirmek için Ekip Kuruyor",
+   "neden_onemli": "",
+   "konular": [],
    "iliskili": [],
    "kaynak": "ShiftDelete YZ",
-   "url": "https://shiftdelete.net/turk-hukukuna-ozel-yerli-yapay-zeka-mizan-27b-acik-kaynak-olarak-yayinlandi",
+   "url": "https://shiftdelete.net/anthropic-kendi-yapay-zeka-ciplerini-gelistirmek-icin-ekip-kuruyor",
    "ek_kaynaklar": []
   },
   {
-   "id": "6f120fb6",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Türkiye'den",
-   "baslik": "XRack: Kurumsal yapay zeka ajanlarını denetlenebilir kılma platformu",
-   "ozet": "Kurumsal yapay zeka ajanlarını denetlenebilir hale getiren XRack platformu tanıtıldı. Bilişsel çalışma ortamı standardı sunan sistem, şirketlerin tercih ettikleri büyük dil modellerini sadece soru yanıtlayan araçlar olmaktan çıkarıp kendi hafızası, yetkileri ve sorumluluk sınırları olan ajanlara dönüştürmesine yardımcı oluyor. Kurumsal ölçekte ajan yönetimi ve uyum için yeni bir çerçeve öneriyor.",
-   "neden_onemli": "Kurumsal ajanların yetki, hafıza ve sorumluluk sınırlarını yönetmeyi vaat eden yeni bir platform.",
-   "konular": [
-    "Türkiye",
-    "ajanlar",
-    "kurumsal YZ"
-   ],
-   "iliskili": [],
-   "kaynak": "Webrazzi YZ",
-   "url": "https://webrazzi.com/2026/08/03/kurumsal-yapay-zek-ajanlarini-denetlenebilir-hale-getiren-platform-xrack/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "1b5d0fc8",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Araç Çantası",
-   "baslik": "Firecrawl PDF inspector: Rust ile hızlı PDF analizi ve sınıflandırma",
-   "ozet": "Firecrawl ekibinin Rust ile yazdığı pdf-inspector, PDF dosyalarını hızlıca inceleme, sınıflama ve metin çıkarma işlemlerini kolaylaştırıyor. Araç, taranmış ve metin tabanlı PDF'leri akıllıca ayırt ederek farklı işlem hatlarına yönlendirme kararı veriyor. Bugün dene: RAG veya doküman otomasyonu pipeline'ınızda PDF ön işleme adımını bu kütüphane ile sadeleştirebilirsiniz.",
-   "neden_onemli": "PDF ön işleme hattınızı hızlandırabilen, Rust tabanlı pratik bir kütüphane.",
-   "konular": [
-    "araçlar",
-    "RAG"
-   ],
-   "iliskili": [],
-   "kaynak": "GitHub Trending",
-   "url": "https://github.com/firecrawl/pdf-inspector",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "1a00e618",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Araç Çantası",
-   "baslik": "LiveKit Agents: Gerçek zamanlı sesli AI ajan framework'ü",
-   "ozet": "LiveKit Agents, gerçek zamanlı ses ve video tabanlı AI ajanları kurmak için açık kaynaklı bir framework sunuyor. Telefon botları, canlı yardım asistanları veya sesli etkileşim gerektiren uygulamalar için altyapı sağlıyor. Bugün dene: Prototip ajanınızı WebRTC tabanlı düşük gecikmeli kanala dakikalar içinde bağlayabilirsiniz.",
-   "neden_onemli": "Gerçek zamanlı sesli ajan prototipleri için hazır altyapı sunan framework.",
-   "konular": [
-    "ajanlar",
-    "ses modelleri",
-    "açık kaynak"
-   ],
-   "iliskili": [],
-   "kaynak": "GitHub Trending",
-   "url": "https://github.com/livekit/agents",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "54e616a3",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "bc744f45",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Radar",
-   "baslik": "Circles powers telco personalization with OpenAI technology",
-   "ozet": "Circles, OpenAI API ve Codex kullanarak telekom abonelerine kişiselleştirilmiş deneyim sunuyor ve ARPU'da %22 artış, churn'de %9 düşüş raporluyor.",
+   "baslik": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+   "ozet": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "OpenAI",
-   "url": "https://openai.com/index/circles",
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
    "ek_kaynaklar": []
   },
   {
-   "id": "f50d3033",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "f8b2b7a3",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Radar",
-   "baslik": "Amazon, OpenAI'a taahhüt ettiği 50 milyar dolarlık yatırımı tamamladı",
-   "ozet": "Amazon, Şubat'ta taahhüt ettiği OpenAI yatırımının tamamını, toplam 50 milyar doları tamamlayarak gerçekleştirdi.",
+   "baslik": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+   "ozet": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "Webrazzi YZ",
-   "url": "https://webrazzi.com/2026/08/03/amazon-openai-a-taahhut-ettigi-50-milyar-dolarlik-yatirimi-tamamladi/",
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
    "ek_kaynaklar": []
   },
   {
-   "id": "82e177f4",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "ac81e117",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Radar",
-   "baslik": "Here’s why AI agents lie and cheat to reach their goals",
-   "ozet": "MIT Technology Review, ajanların hedeflerine ulaşmak için neden yalan söylediğini ve hile yaptığını açıklıyor.",
+   "baslik": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
+   "ozet": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "MIT Tech Review AI",
-   "url": "https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/",
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/",
    "ek_kaynaklar": []
   },
   {
-   "id": "22b81bc6",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
+   "id": "0c71a855",
+   "tarih": "2026-08-06",
+   "sayi_no": 26,
    "bolum": "Radar",
-   "baslik": "OpenAI, güvenlik sınırlarını aşan başka yapay zeka ajanları tespit etti",
-   "ozet": "OpenAI, Hugging Face'e yönelik siber saldırı soruşturmasını genişleterek başka otonom ajanların güvenlik sınırlarını aştığını tespit etti.",
+   "baslik": "Hank Green found the AI problem that YouTube labels can’t catch",
+   "ozet": "Hank Green found the AI problem that YouTube labels can’t catch",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "Webrazzi YZ",
-   "url": "https://webrazzi.com/2026/08/03/openai-guvenlik-sinirlarini-asan-baska-yapay-zeka-ajanlari-tespit-etti/",
+   "kaynak": "Ars Technica AI",
+   "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
    "ek_kaynaklar": []
-  },
-  {
-   "id": "8f51a03d",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Radar",
-   "baslik": "Prevent cognitive debt by manually retyping LLM-generated code",
-   "ozet": "Ankur Sethi, LLM ürettiği kodu elle yeniden yazarak 'bilişsel borç' oluşmasını önlemenin yollarını anlatıyor.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://ankursethi.com/blog/prevent-cognitive-debt-by-manually-retyping-llm-generated-code/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49153374",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "ab356a10",
-   "tarih": "2026-08-04",
-   "sayi_no": 25,
-   "bolum": "Radar",
-   "baslik": "LLMs reward expertise",
-   "ozet": "Sean Goedecke'e göre LLM'ler, uzmanlığınız arttıkça size daha fazla verimlilik kazandırıyor.",
-   "neden_onemli": "",
-   "konular": [],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://www.seangoedecke.com/llms-reward-expertise/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49161518",
-     "baslik": "Yorumlar"
-    }
-   ]
   }
  ]
 }
