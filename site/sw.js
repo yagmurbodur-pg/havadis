@@ -2,7 +2,7 @@
    HTML ve dizin: önce ağ (çevrimdışıysa son kopya).
    Varlıklar: önbellekten hızlı servis + arka planda tazeleme (stale-while-revalidate).
    SURUM her basımda damgalanır → yeni sürüm eski önbelleği tamamen süpürür. */
-const SURUM = "havadis-202608061013";
+const SURUM = "havadis-202608070956";
 const VARLIK = /(\/varliklar\/|minisearch|ikon|manifest|apple-touch|sayfa-sesi)/;
 
 /* respondWith(undefined) tarayıcıya "yanıt yok" der: Safari hata sayfası bile

@@ -1,215 +1,209 @@
 {
- "tarih": "2026-08-06",
+ "tarih": "2026-08-07",
  "haberler": [
   {
-   "id": "977f60f7",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
+   "id": "7fee6508",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
    "bolum": "Kapak",
-   "baslik": "Third-party cyber evaluations involving OpenAI models",
-   "ozet": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+   "baslik": "Improving Fable 5's biology safeguards",
+   "ozet": "Improving Fable 5's biology safeguards",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "Anthropic",
+   "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "f5f908b6",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
+   "bolum": "Gündem",
+   "baslik": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "ozet": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "Google DeepMind",
+   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "0f0c1961",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
+   "bolum": "Gündem",
+   "baslik": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+   "ozet": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
    "iliskili": [],
    "kaynak": "OpenAI",
-   "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "Simon Willison",
-     "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
-     "baslik": "Third-party cyber evaluations involving OpenAI models"
-    }
-   ]
-  },
-  {
-   "id": "40212545",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
-   "bolum": "Gündem",
-   "baslik": "Nashville uses eminent domain to block data center near zoo",
-   "ozet": "Nashville uses eminent domain to block data center near zoo",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://www.costar.com/article/970809918/nashville-council-approves-eminent-domain-action-to-halt-data-center-project",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49191624",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "a165a3ba",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
-   "bolum": "Gündem",
-   "baslik": "Elon Musk&#8217;s attempt at an AI Wikipedia hasn&#8217;t been updated in months",
-   "ozet": "xAI's Grokipedia, an online encyclopedia with AI-generated articles that Elon Musk once promised would be a \"massive improvement\" over Wikipedia, apparently hasn't been updated since April 24th, according to a report from Lawfare. \"As far as we can tell, no entry has changed in more than three months,\" Lawfare said. Grokipedia launched in v0.1 in…",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/976004/elon-musk-grokipedia-ai-wikipedia-not-updating-dead",
+   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
    "ek_kaynaklar": []
   },
   {
-   "id": "e5b09da1",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
+   "id": "6da5f2d2",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
    "bolum": "Gündem",
-   "baslik": "The title cards in Blade Runner are amazing",
-   "ozet": "The title cards in Blade Runner are amazing",
+   "baslik": "Working with the American Psychological Association on youth mental health and AI",
+   "ozet": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
    "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://randsinrepose.com/archives/blade-runner-title-cards/",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49189287",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "a05ad818",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
-   "bolum": "Gündem",
-   "baslik": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
-   "ozet": "NVIDIA’s Vera Whitepaper Has a Thread Loose",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://chipsandcheese.com/p/nvidias-vera-whitepaper-has-a-thread",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49189234",
-     "baslik": "Yorumlar"
-    }
-   ]
-  },
-  {
-   "id": "48c7edfb",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
-   "bolum": "Gündem",
-   "baslik": "Meta launches Muse Code, an AI agent for large code bases",
-   "ozet": "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/05/meta-launches-muse-code-an-ai-agent-for-large-code-bases/",
+   "kaynak": "OpenAI",
+   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
    "ek_kaynaklar": []
   },
   {
-   "id": "8546e017",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
-   "bolum": "Radar",
-   "baslik": "Prime Agent: A self-improving RLM agent",
-   "ozet": "Prime Agent: A self-improving RLM agent",
-   "neden_onemli": "",
-   "konular": [],
+   "id": "fea9ae47",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
+   "bolum": "Gündem",
+   "baslik": "From asking to doing: How the world is putting ChatGPT to work",
+   "ozet": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
    "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://www.primeintellect.ai/blog/prime-agent",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49189075",
-     "baslik": "Yorumlar"
-    }
-   ]
+   "kaynak": "OpenAI",
+   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+   "ek_kaynaklar": []
   },
   {
-   "id": "4437e02e",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
-   "bolum": "Radar",
-   "baslik": "Anthropic Kendi Yapay Zeka Çiplerini Geliştirmek için Ekip Kuruyor",
-   "ozet": "Anthropic Kendi Yapay Zeka Çiplerini Geliştirmek için Ekip Kuruyor",
-   "neden_onemli": "",
-   "konular": [],
+   "id": "3c8e2684",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
+   "bolum": "Gündem",
+   "baslik": "Tarayıcıda Yapay Zeka: Android Chrome’a Gemini Geldi",
+   "ozet": "Google, Android için Chrome tarayıcısına Gemini sohbet robotuna hızlı erişim sağlayan yeni bir araç çubuğu ekliyor. İşte detaylar.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
    "iliskili": [],
    "kaynak": "ShiftDelete YZ",
-   "url": "https://shiftdelete.net/anthropic-kendi-yapay-zeka-ciplerini-gelistirmek-icin-ekip-kuruyor",
+   "url": "https://shiftdelete.net/tarayicida-yapay-zeka-android-chromea-gemini-geldi",
    "ek_kaynaklar": []
   },
   {
-   "id": "bc744f45",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
+   "id": "b5e35d97",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
    "bolum": "Radar",
-   "baslik": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
-   "ozet": "Anthropic’s AI used fake identities, malware in rogue attack on GitHub project",
+   "baslik": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
+   "ozet": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/",
-   "ek_kaynaklar": []
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49204352",
+     "baslik": "Yorumlar"
+    }
+   ]
   },
   {
-   "id": "f8b2b7a3",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
+   "id": "a64b9794",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
    "bolum": "Radar",
-   "baslik": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
-   "ozet": "Klaviyo acquires Elias Torres’ Agency in full-circle reunion for tech founders",
+   "baslik": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+   "ozet": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/05/klaviyo-acquires-elias-torres-agency-in-full-circle-reunion-for-tech-founders/",
+   "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
    "ek_kaynaklar": []
   },
   {
-   "id": "ac81e117",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
+   "id": "97a4bef3",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
    "bolum": "Radar",
-   "baslik": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
-   "ozet": "Reddit signals ominous upcoming \"changes” for old.reddit.com",
+   "baslik": "Welcoming the Nepalese Government to Have I Been Pwned",
+   "ozet": "Welcoming the Nepalese Government to Have I Been Pwned",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/gadgets/2026/08/reddit-signals-ominous-upcoming-changes-for-old-reddit-com/",
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49203105",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "ca643a57",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
+   "bolum": "Radar",
+   "baslik": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+   "ozet": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "The Verge AI",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
    "ek_kaynaklar": []
   },
   {
-   "id": "0c71a855",
-   "tarih": "2026-08-06",
-   "sayi_no": 26,
+   "id": "9a54045d",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
    "bolum": "Radar",
-   "baslik": "Hank Green found the AI problem that YouTube labels can’t catch",
-   "ozet": "Hank Green found the AI problem that YouTube labels can’t catch",
+   "baslik": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+   "ozet": "AMD acquires Taalas to boost inference performance by etching models in silicon",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "Ars Technica AI",
-   "url": "https://arstechnica.com/ai/2026/08/hank-green-found-the-ai-problem-that-youtube-labels-cant-catch/",
-   "ek_kaynaklar": []
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49201970",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "1e6dbd5a",
+   "tarih": "2026-08-07",
+   "sayi_no": 27,
+   "bolum": "Radar",
+   "baslik": "Quake – 30th Anniversary Update",
+   "ozet": "Quake – 30th Anniversary Update",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49201930",
+     "baslik": "Yorumlar"
+    }
+   ]
   }
  ]
 }
