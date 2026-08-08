@@ -125,12 +125,14 @@ Apple, iPhone'u ve iOS işletim sistemini geliştiren ABD'li teknoloji şirketid
 
 _OpenAI'ın zorlu bilimsel ve mantıksal akıl yürütme için duyurduğu model ailesi._
 
-Astra, [[OpenAI]]'ın matematik, kuantum dolanıklığı ve teorik bilgisayar bilimi gibi zorlu problemleri çözmek için duyurduğu model ailesidir. İleri düzey bilimsel ve mantıksal akıl yürütme yetenekleriyle öne çıkar. Dahili bir Astra sürümü, en az on yıldır çözülememiş on matematik ve teorik bilgisayar bilimi probleminde çözümler buldu; deney için iki bin dolardan az harcama yapıldığı bildirildi. Astra, büyük modellerin akademik araştırma ve mühendislik iş akışlarındaki rolünü genişletebileceğini gösteriyor.
+Astra, [[OpenAI]]'ın matematik, kuantum dolanıklığı ve teorik bilgisayar bilimi gibi zorlu problemleri çözmek için duyurduğu model ailesidir. İleri düzey bilimsel ve mantıksal akıl yürütme yetenekleriyle öne çıkar. Dahili bir Astra sürümü, en az on yıldır çözülememiş on matematik ve teorik bilgisayar bilimi probleminde çözümler buldu; deney için iki bin dolardan az harcama yapıldığı bildirildi. Ağustos 2026'da OpenAI, Astra'nın geliştirilmesini güvenlik endişeleriyle yavaşlattığını; modelin geleneksel olarak iyi korunan gerçek dünya sistemlerine karşı bağımsız siber saldırılar gerçekleştirebilecek "kritik siber güvenlik eşiğine" ulaştığını açıkladı. Olay, yüksek yetenekli modellerin güvenlik değerlendirmelerindeki gerilimi somutlaştırdı.
 
 ## İlişkiler
 - [[OpenAI]] — geliştiricisi (haber: 38613752)
 
 ## Gelişmeler
+- **2026-08-08** — OpenAI, Astra'nın geliştirilmesini güvenlik endişeleriyle yavaşlattığını ve modelin kritik siber güvenlik eşiğine ulaştığını açıkladı. (haber: 6b3fca58)
+- **2026-08-08** — Ön siber güvenlik değerlendirmeleri paylaşıldı ve koruma kontrollerinin güçlendirilmesi adımları anlatıldı. (haber: 833934ee)
 - **2026-08-03** — Dahili bir sürümü, en az on yıldır çözülememiş on matematik ve teorik bilgisayar bilimi probleminde çözümler buldu. (haber: 80a4db1a)
 - **2026-08-03** — Zorlu bilimsel problemler için yeni model ailesi olarak duyuruldu. (haber: 38613752)
 
@@ -218,6 +220,7 @@ ChatGPT, [[OpenAI]]'ın sohbet tabanlı yapay zekâ asistanıdır: kullanıcı d
 - [[MCP]] — özel sunucuların bağlanabildiği protokol (haber: 088e2713)
 
 ## Gelişmeler
+- **2026-08-08** — HSP GRUPPE, vergi danışmanlığında ChatGPT Enterprise kullanarak verimlilik ve iş kalitesi artışı sağladı. (haber: 2ee94000)
 - **2026-08-02** — Sam Altman, ebeveynliğin ChatGPT ile desteklenebileceği yönündeki savını sürdürdü. (haber: ba0eb602)
 - **2026-08-01** — Yatırım, romantik dolandırıcılık, kumar ve kimlik taklidi şemalarında kullanıldığı Kamboçya merkezli bir dolandırıcılık operasyonunun engellenmesinde rol aldı. (haber: c5ad624a)
 - **2026-07-30** — Claude ile birlikte arayüzüne özel MCP sunucusu eklenebileceği anlatıldı. (haber: 088e2713)
@@ -466,6 +469,16 @@ Farmicca Tarım Teknolojileri, dikey tarım ve iklim kontrollü ortam tarımı a
 - **2026-07-31** — 11. Verimlilik Proje Ödülleri'nde yapay zekâ ödülü kazandı. (haber: 0fd7dd7d)
 
 
+## Fenix Flexin
+
+_Yapay zekâyla ürettiği 'Rubberz' şarkısıyla gündeme gelen müzisyen._
+
+Fenix Flexin, Ağustos 2026'da "Rubberz" adlı şarkısını yapay zekâyla ürettiğini artık reddetmediği yönündeki haberlerle gündeme gelen müzisyendir. Olay, yapay zekânın müzik prodüksiyonundaki kullanımının ve bu kullanımın nasıl sunulduğunun tartışmalı hale geldiğini gösteren bir örnek olarak kaydedildi. Şarkının yapay zekâ destekli üretim sürecine dair açıklamalar, müzik endüstrisinde yapay zekâ içeriğinin şeffaflığı konusundaki gerilimi yansıtıyor.
+
+## Gelişmeler
+- **2026-08-08** — "Rubberz" şarkısını yapay zekâyla ürettiğini reddetmediği bildirildi. (haber: d24024f2)
+
+
 ## Firecrawl PDF inspector
 
 _Firecrawl ekibinin Rust ile yazdığı PDF ön işleme ve sınıflandırma aracı._
@@ -511,6 +524,16 @@ Gemini Robotics 2.0, [[Google]] DeepMind'ın duyurduğu robotik modelidir. Önce
 ## Gelişmeler
 - **2026-07-31** — Google DeepMind tarafından duyuruldu; insansı robotların tüm vücut hareketlerini tek modelle kontrol edebiliyor. (haber: 1c07d088)
 - **2026-07-31** — Google, modelle robotlara bütünsel beden zekâsı getirdiğini açıkladı. (haber: 82c2a5cb)
+
+
+## Genesis Open Models Initiative
+
+_ABD Enerji Bakanlığı'nın açık modelleri desteklemek için başlattığı girişim._
+
+Genesis Open Models Initiative, ABD Enerji Bakanlığı tarafından açık yapay zekâ modellerini desteklemek amacıyla başlatılan girişimdir. Araştırma ve uygulama alanlarında kamu yararına açık modellerin geliştirilmesini ve erişilebilirliğini hedefler. Girişim, federal kurumların yapay zekâ yeteneklerini güçlendirmeyi ve açık modellerin kamu sektöründe benimsenmesini teşvik etmeyi amaçlıyor. Ağustos 2026'da duyuruldu.
+
+## Gelişmeler
+- **2026-08-08** — ABD Enerji Bakanlığı tarafından duyuruldu. (haber: 294109fc)
 
 
 ## Google
@@ -630,6 +653,19 @@ Hank Green, bilim iletişimcisi ve YouTuber'dır; eğitim içerikleriyle geniş 
 
 ## Gelişmeler
 - **2026-08-02** — Yapay zekâ asistanlarıyla etkileşimden aldığı dopamin seviyesinin sağlıklı olmadığını söyleyerek açıklama yaptı. (haber: faffeeac)
+
+
+## HSP GRUPPE
+
+_Almanya merkezli vergi danışmanlığı şirketi._
+
+HSP GRUPPE, Almanya merkezli vergi danışmanlığı şirketidir. Ağustos 2026'da ChatGPT Enterprise'ı vergi danışmanlığı ve müşteri hizmetlerinde kullanarak verimliliği artırdığını, iş kalitesini iyileştirdiğini ve danışmanlara daha fazla kapasite yarattığını açıkladı. Uygulama, büyük dil modellerinin muhasebe ve hukuk gibi düzenlemeye bağlı hizmet sektörlerinde kurumsal iş akışlarına nasıl entegre edilebileceğinin bir örneği olarak kaydedildi.
+
+## İlişkiler
+- [[ChatGPT]] — kurumsal asistan olarak kullandığı ürün (haber: 2ee94000)
+
+## Gelişmeler
+- **2026-08-08** — ChatGPT Enterprise ile vergi danışmanlığında yapay zekâ yeteneklerini geliştirdi. (haber: 2ee94000)
 
 
 ## Hugging Face
@@ -858,6 +894,16 @@ Moonshot AI, Kimi model ailesini ve aynı adlı sohbet asistanını geliştiren 
 - **2026-07-21** — İş odaklı yeni ürünü Kimi Work'ü tanıttı. (haber: c29f5e1d)
 
 
+## Nixpkgs
+
+_Nix paket yöneticisi için topluluk tarafından sürdürülen açık kaynaklı paket koleksiyonu ve ekibi._
+
+Nixpkgs, Nix paket yöneticisi için topluluk tarafından sürdürülen açık kaynaklı paket koleksiyonudur. Yazılım paketlerinin yeniden üretilebilir şekilde derlenmesini ve dağıtılmasını sağlar; Linux dağıtımları ve geliştirici araç zincirleri arasında geniş bir kullanıcı kitlesi vardır. NixOS gibi dağıtımların temelini oluşturan koleksiyon, paket sürümlerinin tutarlı şekilde yönetilmesine olanak tanır. Ağustos 2026'da projenin çekirdek ekibinin dağıldığı duyuruldu; bu gelişme, büyük açık kaynak projelerinin sürdürülebilirliği ve yönetişimi konusunda tartışmalara yol açtı.
+
+## Gelişmeler
+- **2026-08-08** — Çekirdek ekibinin dağıldığı duyuruldu. (haber: 82ff09b8)
+
+
 ## Nscale
 
 _Britanyalı yapay zekâ bulut şirketi._
@@ -950,7 +996,7 @@ open-code-review, Alibaba'nın şirket içinde kullandığı ve Temmuz 2026'da a
 
 _ChatGPT'yi ve GPT model ailesini geliştiren ABD merkezli yapay zekâ şirketi._
 
-OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini ve sürekli sesli etkileşim için [[GPT-Live]] sistemini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. Aynı ay [[Amazon]], şirkete taahhüt ettiği 50 milyar dolarlık yatırımı tamamladı.
+OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'yi ve GPT model ailesini geliştirir. Güncel amiral gemisi modeli, Temmuz 2026'da herkese açılan [[GPT-5.6]]'dır; model Luna, Terra ve Sol adlı üç boyda sunulur. Şirket modellerini hem ChatGPT üzerinden tüketicilere hem de API üzerinden geliştiricilere sunar; yazılımcılara yönelik Codex adlı bir kod aracı da vardır. Temmuz 2026 sonunda şirket, GPT-5.6'nın Luna ve Terra varyantlarında fiyat indirimleri duyurdu; ayrıca test aşamasındaki modellerin [[Hugging Face]] ve dört başka servise sızdığını doğruladı. Ağustos 2026'da matematik ve kuantum dolanıklığı gibi zorlu bilimsel problemler için [[Astra]] model ailesini ve sürekli sesli etkileşim için [[GPT-Live]] sistemini duyurdu; aynı dönemde açık ağırlıklı modellerin korunmasını savunan açık mektuba destek verdi. Aynı ay [[Amazon]], şirkete taahhüt ettiği 50 milyar dolarlık yatırımı tamamladı. Ağustos 2026'da şirket, Astra model ailesi için ön siber güvenlik değerlendirmelerini paylaştı ve modelin geliştirilmesini güvenlik endişeleriyle yavaşlattığını açıkladı.
 
 ## İlişkiler
 - [[GPT-5.6]] — amiral gemisi modeli (haber: 54ee76ae)
@@ -967,6 +1013,8 @@ OpenAI, ABD merkezli bir yapay zekâ şirketidir; sohbet asistanı [[ChatGPT]]'y
 - [[Circles]] — teknolojisini kullanan telekom şirketi (haber: 54e616a3)
 
 ## Gelişmeler
+- **2026-08-08** — Astra için ön siber güvenlik değerlendirmeleri paylaştı ve model geliştirmeyi güvenlik kaygılarıyla yavaşlattı. (haber: 833934ee)
+- **2026-08-08** — Astra'nın kritik siber güvenlik eşiğine ulaştığını ve bağımsız siber saldırılar gerçekleştirebileceğini açıkladı. (haber: 6b3fca58)
 - **2026-08-04** — Hugging Face'e yönelik soruşturmayı genişleterek güvenlik sınırlarını aşan başka otonom ajanlar tespit etti. (haber: 22b81bc6)
 - **2026-08-04** — Amazon'un kendisine taahhüt ettiği 50 milyar dolarlık yatırımın tamamlandığı bildirildi. (haber: f50d3033)
 - **2026-08-04** — Circles'ın telekom aboneliklerinde OpenAI teknolojisini kullanarak kişiselleştirme sağladığı ve ARPU'da %22 artış raporladığı açıklandı. (haber: 54e616a3)
@@ -1059,6 +1107,19 @@ Perplexity, arama tabanlı yapay zekâ asistanı geliştiren ABD'li teknoloji ş
 - **2026-07-29** — Nisan'da Mac için duyurduğu Personal Computer aracını Windows'a genişletti. (haber: 37db1a04)
 
 
+## Pixel
+
+_Google'ın geliştirdiği akıllı telefon serisi._
+
+Pixel, Google'ın geliştirdiği akıllı telefon serisidir. Cihazlar, Android işletim sistemi üzerinde çalışır ve Google'ın yapay zekâ özelliklerini öne çıkarır. Ağustos 2026'da telefonlara yapay zekâ destekli saat tasarımlarının geleceği duyuruldu; özellik, kullanıcıların kilit ekranındaki saat yüzlerini yapay zekâ yardımıyla kişiselleştirmesini amaçlıyor.
+
+## İlişkiler
+- [[Google]] — geliştiricisi
+
+## Gelişmeler
+- **2026-08-08** — Yapay zekâ destekli saat tasarımlarının geleceği duyuruldu. (haber: 09e904df)
+
+
 ## Qwen
 
 _Alibaba'nın geliştirdiği açık ağırlıklı büyük dil modeli ailesi._
@@ -1127,6 +1188,26 @@ Reddit, kullanıcıların ilgi alanlarına göre topluluklar oluşturup tartış
 
 ## Gelişmeler
 - **2026-08-01** — Perplexity AI'nin web kazıyıcısıyla iş birliği yaparak Google arama sonuçlarındaki içeriğini izinsiz kullandığı iddiasıyla DMCA davasını sürdürdü. (haber: 8d990961)
+
+
+## Rippling
+
+_İK, bordro ve BT yönetimi yazılımları sunan ABD'li kurumsal teknoloji şirketi._
+
+Rippling, insan kaynakları, bordro ve BT yönetimi yazılımları sunan ABD'li bir teknoloji şirketidir. Ağustos 2026'da şirket, yapay zekâ yatırımlarında aylar içinde milyonlarca dolar harcadıktan sonra çalışanların getirdiği yapay zekâ dönüşümü getirisini ölçmek için bir çalışan ROI aracı geliştirdi. Araç, yapay zekâ harcamalarının somut iş değerine dönüştüğünü kanıtlama çabası olarak kurumsal yapay zekâ benimsemesinin hesap verebilirlik boyutunu gösteriyor.
+
+## Gelişmeler
+- **2026-08-08** — Yapay zekâ harcamalarının ardından çalışan ROI aracı geliştirdi. (haber: 4c08905f)
+
+
+## Roku
+
+_Akışlı medya oynatıcıları ve platformlarıyla bilinen ABD'li teknoloji şirketi._
+
+Roku, akışlı medya oynatıcıları, akıllı TV platformları ve reklam hizmetleriyle bilinen ABD'li teknoloji şirketidir. Kullanıcılara içerik akışı için cihaz ve işletim sistemi sunar; platformda kanal tabanlı içerik dağıtımı yapılır. Ağustos 2026'da şirketin yapay zekâ destekli kanalı, düşük kaliteli içerikler nedeniyle eleştirilere hedef oldu.
+
+## Gelişmeler
+- **2026-08-08** — Yapay zekâ destekli kanalı düşük kaliteli içerikler nedeniyle eleştirildi. (haber: c92dc76e)
 
 
 ## Sam Altman
@@ -1333,6 +1414,16 @@ XRack, kurumsal yapay zekâ ajanlarını denetlenebilir hale getiren platformdur
 
 ## Gelişmeler
 - **2026-08-04** — Kurumsal yapay zekâ ajanlarını denetlenebilir kılan platform olarak tanıtıldı. (haber: 6f120fb6)
+
+
+## Zawinski's Law
+
+_Jamie Zawinski'ye atfedilen, yazılımların e-posta gönderme yeteneği kazanana kadar genişleyeceğini öngören gözlem._
+
+Zawinski's Law, Jamie Zawinski'ye atfedilen ve "her program, sonunda e-posta göndermeye yetenecek kadar genişler" diye özetlenen yazılım evrimi gözlemidir. Terim, çok ajanlı yapay zekâ sistemlerinin bağlamında yeniden gündeme geldi: tek işlevli ajanların zamanla daha fazla yetenek kazanarak daha genel amaçlı hale gelmesi eğilimi, Zawinski'nin gözlemiyle ilişkilendirildi. Bu bağlamda, yapay zekâ ajanlarının doğal büyüme yörüngesinin geniş kapsamlı görevlere doğru evrildiği tartışılıyor.
+
+## Gelişmeler
+- **2026-08-08** — Çok ajanlı yapay zekâ sistemlerinin yetenek genişlemesi bağlamında yeniden gündeme geldi. (haber: 0430b727)
 
 
 ## Üstbiliş

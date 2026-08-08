@@ -1,209 +1,203 @@
 {
- "tarih": "2026-08-07",
+ "tarih": "2026-08-08",
  "haberler": [
   {
-   "id": "7fee6508",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "833934ee",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Kapak",
-   "baslik": "Improving Fable 5's biology safeguards",
-   "ozet": "Improving Fable 5's biology safeguards",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Anthropic",
-   "url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "f5f908b6",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
-   "bolum": "Gündem",
-   "baslik": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-   "ozet": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "Google DeepMind",
-   "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "0f0c1961",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
-   "bolum": "Gündem",
-   "baslik": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
-   "ozet": "ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna.",
+   "baslik": "Responding to the next frontier of critical cyber capabilities",
+   "ozet": "OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls.",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
    "iliskili": [],
    "kaynak": "OpenAI",
-   "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+   "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
    "ek_kaynaklar": []
   },
   {
-   "id": "6da5f2d2",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "2ee94000",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Gündem",
-   "baslik": "Working with the American Psychological Association on youth mental health and AI",
-   "ozet": "OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health.",
+   "baslik": "How HSP GRUPPE builds AI capabilities for tax advisory",
+   "ozet": "Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service.",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
    "iliskili": [],
    "kaynak": "OpenAI",
-   "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+   "url": "https://openai.com/index/hsp-gruppe",
    "ek_kaynaklar": []
   },
   {
-   "id": "fea9ae47",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "82ff09b8",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Gündem",
-   "baslik": "From asking to doing: How the world is putting ChatGPT to work",
-   "ozet": "New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior.",
+   "baslik": "The Nixpkgs core team has disbanded",
+   "ozet": "The Nixpkgs core team has disbanded",
    "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
    "konular": [
     "genel"
    ],
-   "iliskili": [],
-   "kaynak": "OpenAI",
-   "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "3c8e2684",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
-   "bolum": "Gündem",
-   "baslik": "Tarayıcıda Yapay Zeka: Android Chrome’a Gemini Geldi",
-   "ozet": "Google, Android için Chrome tarayıcısına Gemini sohbet robotuna hızlı erişim sağlayan yeni bir araç çubuğu ekliyor. İşte detaylar.",
-   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
-   "konular": [
-    "genel"
-   ],
-   "iliskili": [],
-   "kaynak": "ShiftDelete YZ",
-   "url": "https://shiftdelete.net/tarayicida-yapay-zeka-android-chromea-gemini-geldi",
-   "ek_kaynaklar": []
-  },
-  {
-   "id": "b5e35d97",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
-   "bolum": "Radar",
-   "baslik": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
-   "ozet": "Meta Ordered to Pay $942M to Address Harm to Kids from Social Media",
-   "neden_onemli": "",
-   "konular": [],
    "iliskili": [],
    "kaynak": "HN Ana Sayfa",
-   "url": "https://www.wsj.com/tech/meta-ordered-to-pay-942-million-to-address-harm-to-kids-from-social-media-8ba5aab7",
+   "url": "https://discourse.nixos.org/t/the-nixpkgs-core-team-has-disbanded/79413",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49204352",
+     "url": "https://news.ycombinator.com/item?id=49217993",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "a64b9794",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "0430b727",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
+   "bolum": "Gündem",
+   "baslik": "[AINews] Zawinski's Law of MultiAgents",
+   "ozet": "a quiet day lets us find some connections among recent themes",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "AI News (Latent.Space)",
+   "url": "https://www.latent.space/p/ainews-zawinskis-law-of-multiagents",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "6b3fca58",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
+   "bolum": "Gündem",
+   "baslik": "OpenAI says it slowed Astra model development over security concerns",
+   "ozet": "OpenAI said this model, which is still in development, reached its \"critical cybersecurity threshold,\" meaning it could independently identify and carry out cyberattacks against traditionally well-protected real-world systems.",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "TechCrunch AI",
+   "url": "https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "294109fc",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
+   "bolum": "Gündem",
+   "baslik": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+   "ozet": "U.S. Department of Energy Launches the Genesis Open Models Initiative",
+   "neden_onemli": "Editör bugün ulaşılamadı; ayrıntı kaynakta.",
+   "konular": [
+    "genel"
+   ],
+   "iliskili": [],
+   "kaynak": "HN Ana Sayfa",
+   "url": "https://genesisopenmodels.anl.gov/",
+   "ek_kaynaklar": [
+    {
+     "kaynak": "HN tartışması",
+     "url": "https://news.ycombinator.com/item?id=49216946",
+     "baslik": "Yorumlar"
+    }
+   ]
+  },
+  {
+   "id": "4c08905f",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Radar",
-   "baslik": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
-   "ozet": "OpenAI’s new AI smart speaker will reportedly sell for between $300 and $400",
+   "baslik": "After Rippling blew millions on AI in months, it built an employee ROI tool",
+   "ozet": "After Rippling blew millions on AI in months, it built an employee ROI tool",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "TechCrunch AI",
-   "url": "https://techcrunch.com/2026/08/06/openais-new-ai-smart-speaker-will-reportedly-sell-for-between-300-and-400/",
+   "url": "https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/",
    "ek_kaynaklar": []
   },
   {
-   "id": "97a4bef3",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "efb641fe",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Radar",
-   "baslik": "Welcoming the Nepalese Government to Have I Been Pwned",
-   "ozet": "Welcoming the Nepalese Government to Have I Been Pwned",
+   "baslik": "Water system controllers don't belong on the internet, says ex-NSA chief",
+   "ozet": "Water system controllers don't belong on the internet, says ex-NSA chief",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "HN Ana Sayfa",
-   "url": "https://www.troyhunt.com/welcoming-the-nepalese-government-to-have-i-been-pwned/",
+   "url": "https://www.theregister.com/security/2026/08/07/water-system-controllers-dont-belong-on-the-internet-says-ex-nsa-chief-after-suspected-iran-attacks/5285070",
    "ek_kaynaklar": [
     {
      "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49203105",
+     "url": "https://news.ycombinator.com/item?id=49216362",
      "baslik": "Yorumlar"
     }
    ]
   },
   {
-   "id": "ca643a57",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "d24024f2",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Radar",
-   "baslik": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
-   "ozet": "Jony Ive&#8217;s first OpenAI gadget is reportedly a hockey puck-sized smart speaker",
+   "baslik": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
+   "ozet": "Fenix Flexin isn’t even denying using AI to make ‘Rubberz’ anymore",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
    "kaynak": "The Verge AI",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/976431/openai-chatgpt-battery-smart-speaker-rumor",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/976801/fenix-flexin-rubberz-ai-song-treblo",
    "ek_kaynaklar": []
   },
   {
-   "id": "9a54045d",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "09e904df",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Radar",
-   "baslik": "AMD acquires Taalas to boost inference performance by etching models in silicon",
-   "ozet": "AMD acquires Taalas to boost inference performance by etching models in silicon",
+   "baslik": "Pixel Telefonlara Yapay Zeka Destekli Saat Tasarımları Geliyor",
+   "ozet": "Pixel Telefonlara Yapay Zeka Destekli Saat Tasarımları Geliyor",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49201970",
-     "baslik": "Yorumlar"
-    }
-   ]
+   "kaynak": "ShiftDelete YZ",
+   "url": "https://shiftdelete.net/pixel-telefonlara-yapay-zeka-destekli-saat-tasarimlari-geliyor",
+   "ek_kaynaklar": []
   },
   {
-   "id": "1e6dbd5a",
-   "tarih": "2026-08-07",
-   "sayi_no": 27,
+   "id": "ab3e9a04",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
    "bolum": "Radar",
-   "baslik": "Quake – 30th Anniversary Update",
-   "ozet": "Quake – 30th Anniversary Update",
+   "baslik": "Zihin Okuyan Yapay Zeka Firması: Beynini Okutana 50 Dolar",
+   "ozet": "Zihin Okuyan Yapay Zeka Firması: Beynini Okutana 50 Dolar",
    "neden_onemli": "",
    "konular": [],
    "iliskili": [],
-   "kaynak": "HN Ana Sayfa",
-   "url": "https://slayersclub.bethesda.net/en-US/news/quake-30th-anniversary-update",
-   "ek_kaynaklar": [
-    {
-     "kaynak": "HN tartışması",
-     "url": "https://news.ycombinator.com/item?id=49201930",
-     "baslik": "Yorumlar"
-    }
-   ]
+   "kaynak": "ShiftDelete YZ",
+   "url": "https://shiftdelete.net/zihin-okuyan-yapay-zeka-firmasi-beynini-okutana-50-dolar",
+   "ek_kaynaklar": []
+  },
+  {
+   "id": "c92dc76e",
+   "tarih": "2026-08-08",
+   "sayi_no": 28,
+   "bolum": "Radar",
+   "baslik": "Watching Roku’s AI channel is like eating from a trough",
+   "ozet": "Watching Roku’s AI channel is like eating from a trough",
+   "neden_onemli": "",
+   "konular": [],
+   "iliskili": [],
+   "kaynak": "The Verge AI",
+   "url": "https://www.theverge.com/entertainment/976939/roku-fairground-ai-fast-channel",
+   "ek_kaynaklar": []
   }
  ]
 }
